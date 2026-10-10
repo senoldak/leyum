@@ -23,4 +23,6 @@ Lamba ısınmadan berrak beyaz bir ışık yaymaya başlar.
 
 Lambanın arkasındaki kavisli parlak ayna ise ışığı toplayıp ileriye doğru fırlatır.
 
+Böylece cebine sığan minicik bir alet, karanlık bir ormanda bile sana yol gösterir.
+
 > **Gölge Oyunu:** Feneri duvara doğru tut; elinle duvarda tavşan kulağı yaparak ışığı yakala.

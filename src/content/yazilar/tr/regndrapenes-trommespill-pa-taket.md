@@ -21,4 +21,6 @@ Rüzgar estikçe yağmurun şarkısı bazen hızlanır, bazen de usulca yavaşla
 
 Sıcak odanda battaniyene sarılıp pencereyi dinlerken bu doğal ninni insanı huzurla doldurur.
 
+Yağmur toprağı besler, çiçekleri sular ve doğanın taptaze kokusunu penceremize kadar getirir.
+
 > **Tıkırtı Oyunu:** Parmak uçlarını masaya yağmur gibi hafifçe vur; kendi yağmur ritmini kendin yarat.

@@ -26,7 +26,8 @@ export function beregnLix(tekst = '') {
 }
 
 export function sjekkSetningslengde(tekst = '', alder = '7-9') {
-  const ramme = PEDAGOGISK_RAMMEVERK[alder] ?? PEDAGOGISK_RAMMEVERK['7-9'];
+  const normAlder = String(alder ?? '').replace(/\s*(år|yaş)/gi, '').trim();
+  const ramme = PEDAGOGISK_RAMMEVERK[normAlder] ?? PEDAGOGISK_RAMMEVERK['7-9'];
   const maksOrd = ramme.maksOrdPerSetning;
   const feil = [];
   const setninger = tekst.split(/(?<=[.!?;])\s+|\n+/).map((s) => s.trim()).filter(Boolean);
@@ -34,7 +35,7 @@ export function sjekkSetningslengde(tekst = '', alder = '7-9') {
   for (const s of setninger) {
     const ord = (s.match(/[\p{L}\p{N}]+/gu) ?? []);
     if (ord.length > maksOrd) {
-      feil.push(`Setningen er for lang for ${alder} år (${ord.length} ord, maks ${maksOrd}): «${s.slice(0, 70)}…»`);
+      feil.push(`Setningen er for lang for ${normAlder} år (${ord.length} ord, maks ${maksOrd}): «${s.slice(0, 70)}…»`);
     }
   }
   return feil;

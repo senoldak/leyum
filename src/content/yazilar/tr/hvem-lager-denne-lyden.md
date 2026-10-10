@@ -17,6 +17,8 @@ Ağaç dallarının arasından ıslık çalarak geçen, fakat ne görülebilen n
 
 Güneş battığında göl kenarındaki sazlıkların arasından derin bir sesle koroya başlayan kimdir? Gece kurbağası!
 
+Kuru yaprakların altında pıtır pıtır yürüyüp sırtında minik iğneler taşıyan sevimli canlı kimdir? Kirpi!
+
 Kulaklarımız çevremizdeki doğanın fısıldadığı yüzlerce küçük işareti yakalayan olağanüstü alıcılardır.
 
 > **Dinleme İstasyonu:** Gözlerini bir dakika kapat; bulunduğun mekanda duyabildiğin en kısık ve derindeki ses hangisi?

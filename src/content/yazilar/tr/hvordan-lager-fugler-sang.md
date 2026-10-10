@@ -21,4 +21,6 @@ Akciğerlerinden gelen hava bu minik zarları titreştirir; böylece berrak nağ
 
 Kuşlar bu seslerle komşularına selam verir ve yuvalarını koruduklarını anlatır.
 
+Farklı kuşlar farklı şarkılar söyler; kimi flüt gibi öter, kimi neşeyle cıvıldar.
+
 > **Sabah Konseri:** Sabah pencereyi aç ve gözlerini kapat; ormandaki cıvıltıların ritmine kulak ver.

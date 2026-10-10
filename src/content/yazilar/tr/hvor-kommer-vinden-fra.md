@@ -21,4 +21,6 @@ Onun boşalttığı yere daha serin ve ağır hava kütleleri hızla akın eder.
 
 Havanın yeryüzündeki bu kesintisiz akışına rüzgar adını veririz.
 
+Rüzgar bazen ılık bir meltem gibi eser, bazen de yelkenleri şişirip gemileri okyanuslara taşır.
+
 > **Rüzgar İşareti:** Çam ağaçlarının tepelerine bak; biz yerde dursak bile dalların eğilişi havanın hangi yöne aktığını fısıldar.

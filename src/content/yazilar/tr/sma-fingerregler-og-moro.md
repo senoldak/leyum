@@ -21,4 +21,6 @@ Yüzük parmağı ve serçe parmak elin dengesini korur, su bardağını düşü
 
 Birbirinden farklı boydaki bu beş parmak, birlikte hareket ettiklerinde harika sanat eserleri üretir.
 
+Tek başına hiçbir parmak yeterli değildir; fakat el ele verdiklerinde koca dünyayı inşa edebilirler.
+
 > **Koordinasyon:** Başparmağını sırasıyla diğer dört parmağının ucuna tek tek değdir; hareketi hızlandırmayı dene!

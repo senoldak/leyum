@@ -17,6 +17,8 @@ Yüzümde gün boyu daireler çizen iki ibrem var, fakat ne kollarım ne de baca
 
 Birbirine dikilmiş onlarca sayfadan oluşurum; tek bir ses çıkarmadan sana bambaşka dünyalar anlatırım. Kitap!
 
+Ağzımı açtığında sıcak bir yuva olurum, anahtarımı çevirdiğinde evi güvenle kilitlerim. Kapı!
+
 Evimizde her gün kullandığımız sıradan eşyalar, aslında hayatı kolaylaştıran harika mühendislik buluşlarıdır.
 
 > **Mucit Gözü:** Sence evinde bulunan eşyalar arasında insanların tasarladığı en dahiyane icat hangisi?
