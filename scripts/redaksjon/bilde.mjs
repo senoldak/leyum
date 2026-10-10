@@ -2,11 +2,17 @@ import sharp from 'sharp';
 import { writeFile, mkdir } from 'node:fs/promises';
 import path from 'node:path';
 
-const KATEGORI_FARGER = {
-  'merakli-kasif': { surface: '#EBF5FB', ink: '#004578', labelNo: 'Meraklı Kaşif', labelTr: 'Meraklı Kaşif' },
-  'masal-hikaye': { surface: '#F6EEFD', ink: '#4E138A', labelNo: 'Eventyr & Historier', labelTr: 'Masal & Hikaye' },
-  'etkinlik-sanat': { surface: '#FFF0E6', ink: '#9C2E00', labelNo: 'Aktiviteter & Kunst', labelTr: 'Etkinlik & Sanat' },
-  'zeka-bilmece': { surface: '#E6FCF5', ink: '#086B4D', labelNo: 'Gåter & Grublerier', labelTr: 'Zeka & Bilmece' },
+export const KATEGORI_FARGER = {
+  oppdager: { surface: '#E0F2FE', ink: '#0284C7', labelNo: 'Nysgjerrig Oppdager', labelTr: 'Meraklı Kaşif' },
+  natur: { surface: '#DCFCE7', ink: '#16A34A', labelNo: 'Natur & Dyr', labelTr: 'Doğa & Hayvanlar' },
+  eventyr: { surface: '#F3E8FF', ink: '#7C3AED', labelNo: 'Eventyr & Fortellinger', labelTr: 'Masal & Hikaye' },
+  gater: { surface: '#D1FAE5', ink: '#059669', labelNo: 'Gåter & Moro', labelTr: 'Zeka & Bilmece' },
+  aktiviteter: { surface: '#FFEDD5', ink: '#EA580C', labelNo: 'Aktiviteter & Kunst', labelTr: 'Etkinlik & Sanat' },
+  // Geriye dönük uyumluluk
+  'merakli-kasif': { surface: '#E0F2FE', ink: '#0284C7', labelNo: 'Nysgjerrig Oppdager', labelTr: 'Meraklı Kaşif' },
+  'masal-hikaye': { surface: '#F3E8FF', ink: '#7C3AED', labelNo: 'Eventyr & Fortellinger', labelTr: 'Masal & Hikaye' },
+  'etkinlik-sanat': { surface: '#FFEDD5', ink: '#EA580C', labelNo: 'Aktiviteter & Kunst', labelTr: 'Etkinlik & Sanat' },
+  'zeka-bilmece': { surface: '#D1FAE5', ink: '#059669', labelNo: 'Gåter & Moro', labelTr: 'Zeka & Bilmece' },
   'doga-hayvanlar': { surface: '#EBFBEE', ink: '#1B5E20', labelNo: 'Natur & Dyr', labelTr: 'Doğa & Hayvanlar' },
 };
 

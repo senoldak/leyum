@@ -1,0 +1,907 @@
+[
+  {
+    "id": 1,
+    "category": "oppdager",
+    "ageRange": "4-6",
+    "slug": "hvorfor-er-skyene-hvite",
+    "slugTr": "bulutlar-neden-beyazdir",
+    "titleNo": "Hvorfor er skyene hvite?",
+    "titleTr": "Bulutlar Neden Beyazdır?",
+    "featured": true
+  },
+  {
+    "id": 2,
+    "category": "oppdager",
+    "ageRange": "4-6",
+    "slug": "hvordan-viser-speil-oss",
+    "slugTr": "aynalar-bizi-nasil-gosterir",
+    "titleNo": "Hvordan viser speil oss?",
+    "titleTr": "Aynalar Bizi Nasıl Gösterir?"
+  },
+  {
+    "id": 3,
+    "category": "oppdager",
+    "ageRange": "4-6",
+    "slug": "hvor-kommer-vinden-fra",
+    "slugTr": "ruzgar-nereden-gelir",
+    "titleNo": "Hvor kommer vinden fra?",
+    "titleTr": "Rüzgar Nereden Gelir?"
+  },
+  {
+    "id": 4,
+    "category": "oppdager",
+    "ageRange": "4-6",
+    "slug": "hvorfor-fester-magneter-seg",
+    "slugTr": "miknatislar-nasil-yapisir",
+    "titleNo": "Hvorfor fester magneter seg?",
+    "titleTr": "Mıknatıslar Nasıl Yapışır?"
+  },
+  {
+    "id": 5,
+    "category": "oppdager",
+    "ageRange": "4-6",
+    "slug": "hvor-blir-solen-av-om-natten",
+    "slugTr": "gece-olunca-gunes-nereye-gider",
+    "titleNo": "Hvor blir solen av om natten?",
+    "titleTr": "Gece Olunca Güneş Nereye Gider?"
+  },
+  {
+    "id": 6,
+    "category": "oppdager",
+    "ageRange": "4-6",
+    "slug": "hvorfor-er-sapebobler-runde",
+    "slugTr": "sabun-kopukleri-neden-yuvarlaktir",
+    "titleNo": "Hvorfor er såpebobler runde?",
+    "titleTr": "Sabun Köpükleri Neden Yuvarlaktır?"
+  },
+  {
+    "id": 7,
+    "category": "oppdager",
+    "ageRange": "7-9",
+    "slug": "hvordan-sover-astronauter-i-rommet",
+    "slugTr": "astronotlar-uzayda-nasil-uyur",
+    "titleNo": "Hvordan sover astronauter i rommet?",
+    "titleTr": "Astronotlar Uzay İstasyonunda Nasıl Uyur?"
+  },
+  {
+    "id": 8,
+    "category": "oppdager",
+    "ageRange": "7-9",
+    "slug": "hvordan-kan-fly-flyve",
+    "slugTr": "ucaklar-gokyuzunde-nasil-kalir",
+    "titleNo": "Hvordan kan store fly fly i luften?",
+    "titleTr": "Dev Uçaklar Gökyüzünde Nasıl Uçar?"
+  },
+  {
+    "id": 9,
+    "category": "oppdager",
+    "ageRange": "7-9",
+    "slug": "nar-viser-regnbuen-seg",
+    "slugTr": "gokkusagi-ne-zaman-ortaya-cikar",
+    "titleNo": "Når viser regnbuen seg?",
+    "titleTr": "Gökkuşağı Ne Zaman Ortaya Çıkar?"
+  },
+  {
+    "id": 10,
+    "category": "oppdager",
+    "ageRange": "7-9",
+    "slug": "vokser-sjokolade-pa-trær",
+    "slugTr": "cikolata-agacta-mi-yetisir",
+    "titleNo": "Vokser sjokolade på trær?",
+    "titleTr": "Çikolata Ağaçta mı Yetişir?"
+  },
+  {
+    "id": 11,
+    "category": "oppdager",
+    "ageRange": "7-9",
+    "slug": "hvordan-reiser-lyden-i-luften",
+    "slugTr": "ses-havada-nasil-yol-alir",
+    "titleNo": "Hvordan reiser lyden i luften?",
+    "titleTr": "Ses Havada Nasıl Yol Alır?"
+  },
+  {
+    "id": 12,
+    "category": "oppdager",
+    "ageRange": "7-9",
+    "slug": "hvordan-dukker-ubater",
+    "slugTr": "denizaltilar-nasil-batip-cikar",
+    "titleNo": "Hvordan dukker ubåter under vannet?",
+    "titleTr": "Denizaltılar Su Altında Nasıl Dalar?"
+  },
+  {
+    "id": 13,
+    "category": "oppdager",
+    "ageRange": "7-9",
+    "slug": "hvordan-finner-kompasset-nord",
+    "slugTr": "pusula-kutuplari-nasil-bulur",
+    "titleNo": "Hvordan finner kompasset nord?",
+    "titleTr": "Pusula Kuzeyi Nasıl Bulur?"
+  },
+  {
+    "id": 14,
+    "category": "oppdager",
+    "ageRange": "7-9",
+    "slug": "hvorfor-har-snoflak-seks-kanter",
+    "slugTr": "kar-taneleri-neden-alti-koselidir",
+    "titleNo": "Hvorfor har snøflak seks kanter?",
+    "titleTr": "Kar Taneleri Neden Altı Köşelidir?"
+  },
+  {
+    "id": 15,
+    "category": "oppdager",
+    "ageRange": "10-12",
+    "slug": "hvorfor-har-jorden-tidssoner",
+    "slugTr": "dunyanin-zaman-dilimleri-ve-donusu",
+    "titleNo": "Hvorfor har Jorden ulike tidssoner?",
+    "titleTr": "Zaman Dilimleri ve Dünyanın Dönüşü"
+  },
+  {
+    "id": 16,
+    "category": "oppdager",
+    "ageRange": "10-12",
+    "slug": "hva-er-et-sort-hull",
+    "slugTr": "karadelikler-nedir",
+    "titleNo": "Hva er egentlig et sort hull?",
+    "titleTr": "Karadelikler Nedir?"
+  },
+  {
+    "id": 17,
+    "category": "oppdager",
+    "ageRange": "10-12",
+    "slug": "hvordan-strommer-elektrisitet",
+    "slugTr": "elektrik-kablolarda-nasil-akar",
+    "titleNo": "Hvordan strømmer elektrisitet i ledninger?",
+    "titleTr": "Elektrik Kablolarda Nasıl Akar?"
+  },
+  {
+    "id": 18,
+    "category": "oppdager",
+    "ageRange": "10-12",
+    "slug": "hvordan-ser-teleskoper-fortiden",
+    "slugTr": "teleskoplar-gecmise-nasil-bakar",
+    "titleNo": "Hvordan ser store teleskoper inn i fortiden?",
+    "titleTr": "Teleskoplar Geçmişe Nasıl Bakar?"
+  },
+  {
+    "id": 19,
+    "category": "oppdager",
+    "ageRange": "10-12",
+    "slug": "hvordan-tenker-en-robot",
+    "slugTr": "robotlar-nasil-dusunur-ve-kodlanir",
+    "titleNo": "Hvordan tenker og lærer en robot?",
+    "titleTr": "Robotlar Nasıl Düşünür ve Kodlanır?"
+  },
+  {
+    "id": 20,
+    "category": "oppdager",
+    "ageRange": "10-12",
+    "slug": "fornybar-energi-for-fremtiden",
+    "slugTr": "temiz-ve-yenilenebilir-enerji",
+    "titleNo": "Fornybar energi for en grønn fremtid",
+    "titleTr": "Temiz ve Yenilenebilir Enerji"
+  },
+  {
+    "id": 21,
+    "category": "natur",
+    "ageRange": "4-6",
+    "slug": "hva-gjor-bjornen-om-vinteren",
+    "slugTr": "ayilar-kis-uykusunda-ne-yapar",
+    "titleNo": "Hva gjør bjørnen i hi om vinteren?",
+    "titleTr": "Ayılar Kış Uykusunda Ne Yapar?",
+    "featured": true
+  },
+  {
+    "id": 22,
+    "category": "natur",
+    "ageRange": "4-6",
+    "slug": "hvordan-finner-mauren-hjem",
+    "slugTr": "karincalar-yuvalarini-nasil-bulur",
+    "titleNo": "Hvordan finner mauren hjem til tuen?",
+    "titleTr": "Karıncalar Yuvalarını Nasıl Bulur?"
+  },
+  {
+    "id": 23,
+    "category": "natur",
+    "ageRange": "4-6",
+    "slug": "hvorfor-fryser-ikke-isbjornen",
+    "slugTr": "kutup-ayilari-neden-usumez",
+    "titleNo": "Hvorfor fryser ikke isbjørnen i snøen?",
+    "titleTr": "Kutup Ayıları Neden Üşümez?"
+  },
+  {
+    "id": 24,
+    "category": "natur",
+    "ageRange": "4-6",
+    "slug": "hvordan-blir-larven-til-sommerfugl",
+    "slugTr": "tirtil-nasil-kelebek-olur",
+    "titleNo": "Hvordan blir den lille larven til en sommerfugl?",
+    "titleTr": "Küçük Tırtıl Nasıl Kelebek Olur?"
+  },
+  {
+    "id": 25,
+    "category": "natur",
+    "ageRange": "4-6",
+    "slug": "hvorfor-vifter-hunder-med-halen",
+    "slugTr": "kopekler-neden-kuyruk-sallar",
+    "titleNo": "Hvorfor vifter hunder så glad med halen?",
+    "titleTr": "Köpekler Neden Kuyruk Sallar?"
+  },
+  {
+    "id": 26,
+    "category": "natur",
+    "ageRange": "4-6",
+    "slug": "sover-ugler-om-dagen",
+    "slugTr": "baykuslar-gunduz-uyur-mu",
+    "titleNo": "Sover de kloke uglene om dagen?",
+    "titleTr": "Sevimli Baykuşlar Gündüz Uyur mu?"
+  },
+  {
+    "id": 27,
+    "category": "natur",
+    "ageRange": "7-9",
+    "slug": "hvordan-skifter-kameleonen-farge",
+    "slugTr": "bukalemunlar-renklerini-nasil-degistirir",
+    "titleNo": "Hvordan skifter kameleonen farge?",
+    "titleTr": "Bukalemunlar Renklerini Nasıl Değiştirir?"
+  },
+  {
+    "id": 28,
+    "category": "natur",
+    "ageRange": "7-9",
+    "slug": "hvordan-snakker-delfiner-sammen",
+    "slugTr": "yunuslar-birbirleriyle-nasil-konusur",
+    "titleNo": "Hvordan snakker delfiner med hverandre?",
+    "titleTr": "Yunuslar Birbirleriyle Nasıl Konuşur?"
+  },
+  {
+    "id": 29,
+    "category": "natur",
+    "ageRange": "7-9",
+    "slug": "hvordan-bygger-beveren-dam",
+    "slugTr": "kunduzlar-nehirlerde-nasil-baraj-yapar",
+    "titleNo": "Hvordan bygger den flinke beveren dam?",
+    "titleTr": "Usta Kunduzlar Nehirde Nasıl Baraj Yapar?"
+  },
+  {
+    "id": 30,
+    "category": "natur",
+    "ageRange": "7-9",
+    "slug": "hvisker-trærne-under-jorden",
+    "slugTr": "agaclar-yeraltinda-konusur-mu",
+    "titleNo": "Hvisker trærne hemmeligheter under jorden?",
+    "titleTr": "Ağaçlar Yeraltında Birbirine Fısıldar mı?"
+  },
+  {
+    "id": 31,
+    "category": "natur",
+    "ageRange": "7-9",
+    "slug": "bienes-hemmelige-densesprak",
+    "slugTr": "arilarin-dans-dili",
+    "titleNo": "Bienes hemmelige dansespråk",
+    "titleTr": "Çalışkan Arıların Gizli Dans Dili"
+  },
+  {
+    "id": 32,
+    "category": "natur",
+    "ageRange": "7-9",
+    "slug": "hvordan-lyser-ildfluer",
+    "slugTr": "atesbocekleri-nasil-isik-sacar",
+    "titleNo": "Hvordan kan ildfluer lyse i natten?",
+    "titleTr": "Ateşböcekleri Karanlıkta Nasıl Işık Saçar?"
+  },
+  {
+    "id": 33,
+    "category": "natur",
+    "ageRange": "7-9",
+    "slug": "blekksprutens-tre-hjerter",
+    "slugTr": "ahtapotlarin-uc-kalbi-ve-sekiz-kolu",
+    "titleNo": "Blekkspruten med tre hjerter og åtte armer",
+    "titleTr": "Ahtapotların Üç Kalbi ve Sekiz Kolu"
+  },
+  {
+    "id": 34,
+    "category": "natur",
+    "ageRange": "7-9",
+    "slug": "hvordan-finner-trekkfugler-veien",
+    "slugTr": "gocmen-kuslar-yollarini-nasil-bulur",
+    "titleNo": "Hvordan finner trekkfugler den lange veien?",
+    "titleTr": "Göçmen Kuşlar Yollarını Nasıl Şaşırmaz?"
+  },
+  {
+    "id": 35,
+    "category": "natur",
+    "ageRange": "10-12",
+    "slug": "havdypets-lysende-skapninger",
+    "slugTr": "derin-okyanusun-parildayan-canlilari",
+    "titleNo": "De lysende skapningene på det dype havdypet",
+    "titleTr": "Derin Okyanusun Parıldayan Canlıları"
+  },
+  {
+    "id": 36,
+    "category": "natur",
+    "ageRange": "10-12",
+    "slug": "korallrevenes-usynlige-byer",
+    "slugTr": "mercan-resiflerinin-gizli-ekosistemi",
+    "titleNo": "Korallrevenes fargerike og travle undervannsbyer",
+    "titleTr": "Mercan Resiflerinin Gizli Ekosistemi"
+  },
+  {
+    "id": 37,
+    "category": "natur",
+    "ageRange": "10-12",
+    "slug": "soppens-underjordiske-internett",
+    "slugTr": "mantarlarin-yeralti-agi-miselyum",
+    "titleNo": "Soppens underjordiske internett: Mycel",
+    "titleTr": "Mantarların Yeraltı Ağı: Miselyum"
+  },
+  {
+    "id": 38,
+    "category": "natur",
+    "ageRange": "10-12",
+    "slug": "biomimikry-oppfinnelser-fra-naturen",
+    "slugTr": "biyomimikri-dogadan-ilham-alan-icatlar",
+    "titleNo": "Biomimikry: Smarte oppfinnelser inspirert av naturen",
+    "titleTr": "Biyomimikri: Doğadan İlham Alan Büyük İcatlar"
+  },
+  {
+    "id": 39,
+    "category": "natur",
+    "ageRange": "10-12",
+    "slug": "verdens-eldste-levende-trær",
+    "slugTr": "dunyanin-en-yasli-agaclari",
+    "titleNo": "Verdens eldste levende trær og deres hemmeligheter",
+    "titleTr": "Dünyanın En Yaşlı Ağaçları ve Sırları"
+  },
+  {
+    "id": 40,
+    "category": "natur",
+    "ageRange": "10-12",
+    "slug": "ulvens-rolle-i-naturens-balanse",
+    "slugTr": "kurtlarin-dogadaki-ekolojik-dengesi",
+    "titleNo": "Hvordan ulven gjenoppretter balansen i naturen",
+    "titleTr": "Kurtların Doğadaki Ekolojik Dengesi"
+  },
+  {
+    "id": 41,
+    "category": "eventyr",
+    "ageRange": "4-6",
+    "slug": "den-lille-stjernen-og-morket",
+    "slugTr": "karanliktan-korkan-minik-yildiz",
+    "titleNo": "Den lille stjernen som lærte å skinne",
+    "titleTr": "Karanlıktan Korkan Minik Yıldız",
+    "featured": true
+  },
+  {
+    "id": 42,
+    "category": "eventyr",
+    "ageRange": "4-6",
+    "slug": "det-glade-ekornet-som-delte",
+    "slugTr": "paylasmayi-ogrenen-neseli-sincap",
+    "titleNo": "Det glade ekornet som elsket å dele eikenøtter",
+    "titleTr": "Paylaşmayı Öğrenen Neşeli Sincap"
+  },
+  {
+    "id": 43,
+    "category": "eventyr",
+    "ageRange": "4-6",
+    "slug": "den-myke-skyens-regnsang",
+    "slugTr": "pofuduk-bulutun-yagmur-sarkisi",
+    "titleNo": "Den myke skyens lille regnsang",
+    "titleTr": "Pofuduk Bulutun Yağmur Şarkısı"
+  },
+  {
+    "id": 44,
+    "category": "eventyr",
+    "ageRange": "4-6",
+    "slug": "elefanten-som-ikke-fikk-sove",
+    "slugTr": "uykusu-gelmeyen-yavru-fil",
+    "titleNo": "Den lille elefanten som telte sommerfugler",
+    "titleTr": "Uykusu Gelmeyen Yavru Fil"
+  },
+  {
+    "id": 45,
+    "category": "eventyr",
+    "ageRange": "4-6",
+    "slug": "den-bortkomne-sokkens-reise",
+    "slugTr": "kayip-corabin-buyuk-macerasi",
+    "titleNo": "Den bortkomne sokkens modige reise",
+    "titleTr": "Kayıp Çorabın Neşeli Macerası"
+  },
+  {
+    "id": 46,
+    "category": "eventyr",
+    "ageRange": "4-6",
+    "slug": "den-lille-maleren-og-fargene",
+    "slugTr": "renklerini-arayan-kucuk-ressam",
+    "titleNo": "Den lille maleren og de glade fargene",
+    "titleTr": "Renklerini Arayan Küçük Ressam"
+  },
+  {
+    "id": 47,
+    "category": "eventyr",
+    "ageRange": "7-9",
+    "slug": "det-hviskende-biblioteket-i-skogen",
+    "slugTr": "ormandaki-fisildayan-kutuphane",
+    "titleNo": "Det hviskende biblioteket i den dype skogen",
+    "titleTr": "Ormanın Kalbindeki Fısıldayan Kütüphane"
+  },
+  {
+    "id": 48,
+    "category": "eventyr",
+    "ageRange": "7-9",
+    "slug": "trebaten-som-fanget-vinden",
+    "slugTr": "ruzgari-yakalayan-tahta-yelkenli",
+    "titleNo": "Trebåten som lærte å fange den milde vinden",
+    "titleTr": "Rüzgarı Yakalayan Tahta Yelkenli"
+  },
+  {
+    "id": 49,
+    "category": "eventyr",
+    "ageRange": "7-9",
+    "slug": "urmakeren-som-stoppet-tiden",
+    "slugTr": "saati-durduran-dost-canlisi-saatci",
+    "titleNo": "Den vennlige urmakeren og det gylne lommeuret",
+    "titleTr": "Dost Canlısı Saatçi ve Altın Köstekli Saat"
+  },
+  {
+    "id": 50,
+    "category": "eventyr",
+    "ageRange": "7-9",
+    "slug": "dragen-som-elsket-a-lope",
+    "slugTr": "ucamayan-ama-cok-hizli-kosan-ejderha",
+    "titleNo": "Den snille dragen som heller ville løpe fort",
+    "titleTr": "Uçamayan Ama Çok Hızlı Koşan Ejderha"
+  },
+  {
+    "id": 51,
+    "category": "eventyr",
+    "ageRange": "7-9",
+    "slug": "stjernefroet-fra-himmelen",
+    "slugTr": "gokyuzunden-dusen-yildiz-tohumu",
+    "titleNo": "Det glitrende stjernefrøet som falt i hagen",
+    "titleTr": "Gökyüzünden Bahçeye Düşen Yıldız Tohumu"
+  },
+  {
+    "id": 52,
+    "category": "eventyr",
+    "ageRange": "7-9",
+    "slug": "gutten-som-ble-venn-med-skyggen",
+    "slugTr": "golgesiyle-arkadas-olan-cocuk",
+    "titleNo": "Gutten som ble bestevenn med skyggen sin",
+    "titleTr": "Gölgesiyle Arkadaş Olan Meraklı Çocuk"
+  },
+  {
+    "id": 53,
+    "category": "eventyr",
+    "ageRange": "7-9",
+    "slug": "det-snakkende-kompasset-i-kisten",
+    "slugTr": "eski-sandiktaki-konusan-pusula",
+    "titleNo": "Det kloke kompasset på det gamle loftet",
+    "titleTr": "Eski Sandıktaki Konuşan Pusula"
+  },
+  {
+    "id": 54,
+    "category": "eventyr",
+    "ageRange": "7-9",
+    "slug": "maneblomsten-som-apnet-om-natten",
+    "slugTr": "ay-isiginda-acan-gece-cicegi",
+    "titleNo": "Måneblomsten som våknet under sølvlyset",
+    "titleTr": "Ay Işığında Açan Gizemli Gece Çiçeği"
+  },
+  {
+    "id": 55,
+    "category": "eventyr",
+    "ageRange": "10-12",
+    "slug": "dalen-med-de-glemte-kartene",
+    "slugTr": "unutulmus-haritalar-vadisi",
+    "titleNo": "Dalen med de glemte karttegnerne",
+    "titleTr": "Unutulmuş Haritalar Vadisi"
+  },
+  {
+    "id": 56,
+    "category": "eventyr",
+    "ageRange": "10-12",
+    "slug": "fyrvokternes-stille-vennskap",
+    "slugTr": "iki-dostun-sessiz-fener-bekciligi",
+    "titleNo": "Fyrvokterens stille lys over havet",
+    "titleTr": "İki Dostun Sessiz Deniz Feneri Bekçiliği"
+  },
+  {
+    "id": 57,
+    "category": "eventyr",
+    "ageRange": "10-12",
+    "slug": "byen-hvor-tiden-sto-stille",
+    "slugTr": "zamanda-asili-kalan-kasaba",
+    "titleNo": "Byen hvor alle klokkene tok en pause",
+    "titleTr": "Zamanda Asılı Kalan Eski Kasaba"
+  },
+  {
+    "id": 58,
+    "category": "eventyr",
+    "ageRange": "10-12",
+    "slug": "fjellekkoets-mester",
+    "slugTr": "daglarin-ardindaki-yanki-ustasi",
+    "titleNo": "Fjellekkoets hemmelighet i de høye tindene",
+    "titleTr": "Dağların Ardındaki Yankı Ustası"
+  },
+  {
+    "id": 59,
+    "category": "eventyr",
+    "ageRange": "10-12",
+    "slug": "oppdageren-med-papirvinger",
+    "slugTr": "kagittan-kanatlarla-ucan-kasif",
+    "titleNo": "Oppdageren som bygde vinger av drømmer",
+    "titleTr": "Kağıttan Kanatlarla Uçan Genç Kaşif"
+  },
+  {
+    "id": 60,
+    "category": "eventyr",
+    "ageRange": "10-12",
+    "slug": "havfruens-antikke-melodi",
+    "slugTr": "denizkizinin-sakladigi-antik-melodi",
+    "titleNo": "Den glemte melodien fra dypets kilde",
+    "titleTr": "Denizkızının Sakladığı Antik Melodi"
+  },
+  {
+    "id": 61,
+    "category": "gater",
+    "ageRange": "4-6",
+    "slug": "morsomme-dyregater-for-sma",
+    "slugTr": "sevimli-hayvan-bilmeceleri",
+    "titleNo": "Morsomme dyregåter for nysgjerrige små",
+    "titleTr": "Sevimli Hayvan Bilmeceleri",
+    "featured": true
+  },
+  {
+    "id": 62,
+    "category": "gater",
+    "ageRange": "4-6",
+    "slug": "farger-og-former-i-hverdagen",
+    "slugTr": "renkler-ve-sekiller-bilmecesi",
+    "titleNo": "Gjett fargen og formen rundt deg!",
+    "titleTr": "Renkler ve Şekiller Bilmecesi"
+  },
+  {
+    "id": 63,
+    "category": "gater",
+    "ageRange": "4-6",
+    "slug": "hva-gjemmer-seg-i-huset",
+    "slugTr": "evimizdeki-gizli-esyalar",
+    "titleNo": "Hva gjemmer seg i lekekassen?",
+    "titleTr": "Evimizdeki Gizli Eşyalar"
+  },
+  {
+    "id": 64,
+    "category": "gater",
+    "ageRange": "4-6",
+    "slug": "sma-fingerregler-og-moro",
+    "slugTr": "minik-parmak-tekerlemeleri",
+    "titleNo": "Morsomme rim og fingerregler for små hender",
+    "titleTr": "Minik Parmak Tekerlemeleri ve Oyunları"
+  },
+  {
+    "id": 65,
+    "category": "gater",
+    "ageRange": "4-6",
+    "slug": "hvem-lager-denne-lyden",
+    "slugTr": "ses-taklidi-bilmeceleri",
+    "titleNo": "Hvem lager denne rare lyden?",
+    "titleTr": "Ses Taklidi Bilmeceleri: Bu Ses Kimin?"
+  },
+  {
+    "id": 66,
+    "category": "gater",
+    "ageRange": "4-6",
+    "slug": "frukt-og-gronnsakskurven",
+    "slugTr": "meyve-ve-sebze-sandigi-bilmeceleri",
+    "titleNo": "Gåter fra den fargerike fruktkurven",
+    "titleTr": "Meyve ve Sebze Sandığı Bilmeceleri"
+  },
+  {
+    "id": 67,
+    "category": "gater",
+    "ageRange": "7-9",
+    "slug": "naturens-lure-gater",
+    "slugTr": "sasirtici-doga-ve-cevre-bilmeceleri",
+    "titleNo": "Naturens lure og grønne gåter",
+    "titleTr": "Şaşırtıcı Doğa ve Çevre Bilmeceleri"
+  },
+  {
+    "id": 68,
+    "category": "gater",
+    "ageRange": "7-9",
+    "slug": "brovokterens-logiske-gaate",
+    "slugTr": "kopruden-gecis-mantik-dedektifi",
+    "titleNo": "Brovokterens hemmelige tankenøtt",
+    "titleTr": "Adım Adım Mantık Dedektifi: Köprü Geçişi"
+  },
+  {
+    "id": 69,
+    "category": "gater",
+    "ageRange": "7-9",
+    "slug": "ordjakt-og-akrostikon",
+    "slugTr": "kelime-avi-ve-akrostis-oyunlari",
+    "titleNo": "Morsom ordjakt og hemmelige akrostikon",
+    "titleTr": "Eğlenceli Kelime Avı ve Akrostiş Oyunları"
+  },
+  {
+    "id": 70,
+    "category": "gater",
+    "ageRange": "7-9",
+    "slug": "morsomme-optiske-illusjoner",
+    "slugTr": "eglenceli-optik-illuzyonlar",
+    "titleNo": "Optiske illusjoner som lurer øyet",
+    "titleTr": "Gözleri Yanıltan Eğlenceli Optik İllüzyonlar"
+  },
+  {
+    "id": 71,
+    "category": "gater",
+    "ageRange": "7-9",
+    "slug": "tankespill-som-lurer-hjernen",
+    "slugTr": "ters-kose-zeka-sorulari",
+    "titleNo": "Lure spørsmål som får hjernen til å smile",
+    "titleTr": "Ters Köşe Zeka Soruları ve Şaşırtmacalar"
+  },
+  {
+    "id": 72,
+    "category": "gater",
+    "ageRange": "7-9",
+    "slug": "arstidenes-og-tidens-gater",
+    "slugTr": "zaman-ve-mevsim-bilmeceleri",
+    "titleNo": "Gåter om årstider, sol og måneder",
+    "titleTr": "Zaman ve Mevsim Bilmeceleri"
+  },
+  {
+    "id": 73,
+    "category": "gater",
+    "ageRange": "7-9",
+    "slug": "morsomme-ordkjeder",
+    "slugTr": "neseli-sozcuk-turetmece",
+    "titleNo": "Bygg lange og morsomme ordkjeder sammen!",
+    "titleTr": "Neşeli Sözcük Türetmece ve Kelime Treni"
+  },
+  {
+    "id": 74,
+    "category": "gater",
+    "ageRange": "7-9",
+    "slug": "tungekrollere-som-far-deg-til-a-le",
+    "slugTr": "kahkahali-dil-bukucu-tekerlemeler",
+    "titleNo": "Sprø tungekrøllere som får alle til å le",
+    "titleTr": "Kahkahalı Dil Bükücü Tekerlemeler"
+  },
+  {
+    "id": 75,
+    "category": "gater",
+    "ageRange": "10-12",
+    "slug": "cæsarchiffer-og-hemmelige-koder",
+    "slugTr": "sifreli-mesajlar-ve-sezar-kriptolojisi",
+    "titleNo": "Hvordan knekke hemmelige koder med Cæsarchiffer?",
+    "titleTr": "Şifreli Mesajlar ve Sezar Kriptolojisi"
+  },
+  {
+    "id": 76,
+    "category": "gater",
+    "ageRange": "10-12",
+    "slug": "elvekryssingens-klassiske-gaate",
+    "slugTr": "nehir-gecme-mantik-paradokslari",
+    "titleNo": "Den klassiske gåten om båten over elven",
+    "titleTr": "Nehir Geçme Mantık Paradoksları"
+  },
+  {
+    "id": 77,
+    "category": "gater",
+    "ageRange": "10-12",
+    "slug": "sudoku-og-tallmonstre-for-mestere",
+    "slugTr": "sudoku-ve-sayi-kaliplari-rehberi",
+    "titleNo": "Sudoku og magiske tallmønstre for mestere",
+    "titleTr": "Sudoku ve Sayı Kalıpları Rehberi"
+  },
+  {
+    "id": 78,
+    "category": "gater",
+    "ageRange": "10-12",
+    "slug": "fyrstikkgater-og-geometri",
+    "slugTr": "kibrit-copleriyle-geometri-oyunlari",
+    "titleNo": "Fyrstikkgåter og geometriske tankeleker",
+    "titleTr": "Kibrit Çöpleriyle Geometri Akıl Oyunları"
+  },
+  {
+    "id": 79,
+    "category": "gater",
+    "ageRange": "10-12",
+    "slug": "ridderne-og-sannhetens-oy",
+    "slugTr": "yalan-soylemeyen-adalilar-bilmecesi",
+    "titleNo": "Gåten om Ridderne og Sannhetens øy",
+    "titleTr": "Yalan Söylemeyen Adalılar Mantık Bilmecesi"
+  },
+  {
+    "id": 80,
+    "category": "gater",
+    "ageRange": "10-12",
+    "slug": "detektiv-sherlocks-tankerekker",
+    "slugTr": "dedektif-akil-yurutme-gizemleri",
+    "titleNo": "Tren tankene dine som en ekte mesterdetektiv",
+    "titleTr": "Usta Bir Dedektif Gibi Akıl Yürütme Rehberi"
+  },
+  {
+    "id": 81,
+    "category": "aktiviteter",
+    "ageRange": "4-6",
+    "slug": "fingermaling-og-arstidenes-tre",
+    "slugTr": "parmak-boyasiyla-agac-ve-mevsimler",
+    "titleNo": "Moro med fingermaling: Årstidenes fargerike tre",
+    "titleTr": "Parmak Boyasıyla Ağaç ve Mevsimler",
+    "featured": true
+  },
+  {
+    "id": 82,
+    "category": "aktiviteter",
+    "ageRange": "4-6",
+    "slug": "sot-ugle-av-dorull",
+    "slugTr": "tuvalet-kagidi-rulosundan-sevimli-baykus",
+    "titleNo": "Lag en søt liten ugle av dorull og papir",
+    "titleTr": "Rulodan Sevimli Baykuş Yapımı"
+  },
+  {
+    "id": 83,
+    "category": "aktiviteter",
+    "ageRange": "4-6",
+    "slug": "enkle-skulpturer-av-modelleire",
+    "slugTr": "basit-oyun-hamuru-heykelleri",
+    "titleNo": "Enkle og morsomme figurer av fargerik leire",
+    "titleTr": "Basit Oyun Hamuru Heykelleri"
+  },
+  {
+    "id": 84,
+    "category": "aktiviteter",
+    "ageRange": "4-6",
+    "slug": "lett-origami-hund-og-katt",
+    "slugTr": "kolay-origami-kedi-ve-kopek-yuzu",
+    "titleNo": "Enkel bretting: Katt og hund med papir",
+    "titleTr": "Kolay Origami: Kedi ve Köpek Yüzü Katlama"
+  },
+  {
+    "id": 85,
+    "category": "aktiviteter",
+    "ageRange": "4-6",
+    "slug": "moro-med-bladtrykk",
+    "slugTr": "yaprak-baskisi-sanati",
+    "titleNo": "Lag vakker kunst med blader fra skogen",
+    "titleTr": "Doğadan Sanat: Yaprak Baskısı Yapımı"
+  },
+  {
+    "id": 86,
+    "category": "aktiviteter",
+    "ageRange": "4-6",
+    "slug": "regnbuearmband-med-perler",
+    "slugTr": "ip-ve-boncukla-gokkusagi-bilekligi",
+    "titleNo": "Fargerike vennskapsbånd med tråd og perler",
+    "titleTr": "İp ve Boncukla Gökkuşağı Bilekliği"
+  },
+  {
+    "id": 87,
+    "category": "aktiviteter",
+    "ageRange": "7-9",
+    "slug": "lag-en-regnbue-med-et-vannglass",
+    "slugTr": "bir-bardak-suyla-odada-gokkusagi",
+    "titleNo": "Hvordan fange en regnbue med et vannglass og sollys?",
+    "titleTr": "Bir Bardak Su ve Aynayla Gökkuşağı Yakalama"
+  },
+  {
+    "id": 88,
+    "category": "aktiviteter",
+    "ageRange": "7-9",
+    "slug": "steg-for-steg-tegn-et-sott-ekorn",
+    "slugTr": "adim-adim-sevimli-sincap-cizimi",
+    "titleNo": "Steg for steg: Lær å tegne et kjempesøtt ekorn",
+    "titleTr": "Adım Adım Sevimli Sincap Çizimi"
+  },
+  {
+    "id": 89,
+    "category": "aktiviteter",
+    "ageRange": "7-9",
+    "slug": "origami-fly-og-glidekonkurranse",
+    "slugTr": "origami-ucak-ve-suzulme-yarismasi",
+    "titleNo": "Bygg de beste papirflyene som glir lengst!",
+    "titleTr": "En Uzağa Uçan Origami Uçak Katlama"
+  },
+  {
+    "id": 90,
+    "category": "aktiviteter",
+    "ageRange": "7-9",
+    "slug": "kjokkenvulkan-med-natron-og-eddik",
+    "slugTr": "mutfakta-yanardag-deneyi",
+    "titleNo": "Morsomt kjøkkeneksperiment: Den boblende vulkanen",
+    "titleTr": "Mutfakta Güvenli Deney: Köpüren Yanardağ"
+  },
+  {
+    "id": 91,
+    "category": "aktiviteter",
+    "ageRange": "7-9",
+    "slug": "lag-ditt-eget-minidrivhus",
+    "slugTr": "kendi-mini-serani-kur-fasulye",
+    "titleNo": "Bygg et lite minidrivhus i en plastkopp",
+    "titleTr": "Kendi Mini Seranı Kur: Fasulye Çimlendirme"
+  },
+  {
+    "id": 92,
+    "category": "aktiviteter",
+    "ageRange": "7-9",
+    "slug": "pappdukketeater-hjemme",
+    "slugTr": "kartondan-kukla-tiyatrosu-yapimi",
+    "titleNo": "Lag ditt eget dukketeater av en skoeske",
+    "titleTr": "Karton Kutudan Mini Kukla Tiyatrosu Yapımı"
+  },
+  {
+    "id": 93,
+    "category": "aktiviteter",
+    "ageRange": "7-9",
+    "slug": "lag-et-solur-med-kritt",
+    "slugTr": "renkli-tebesirle-gunes-saati",
+    "titleNo": "Lag et ekte solur med farget kritt i skolegården",
+    "titleTr": "Renkli Tebeşirle Güneş Saati Yapımı"
+  },
+  {
+    "id": 94,
+    "category": "aktiviteter",
+    "ageRange": "7-9",
+    "slug": "bokmerke-med-torkede-blomster",
+    "slugTr": "kuru-ciceklerle-kitap-ayraci",
+    "titleNo": "Lag koselige bokmerker med tørkede blomster",
+    "titleTr": "Kuru Çiçeklerle Doğal Kitap Ayracı Yapımı"
+  },
+  {
+    "id": 95,
+    "category": "aktiviteter",
+    "ageRange": "10-12",
+    "slug": "bygg-et-enkelt-periskop",
+    "slugTr": "evde-basit-periskop-yapimi",
+    "titleNo": "Bygg et fungerende periskop med to små speil",
+    "titleTr": "Evde Basit Periskop Yapımı (İki Aynayla)"
+  },
+  {
+    "id": 96,
+    "category": "aktiviteter",
+    "ageRange": "10-12",
+    "slug": "perspektiv-og-skyggetegning",
+    "slugTr": "adim-adim-perspektif-ve-golgelendirme",
+    "titleNo": "Tegnetips for mestere: Lær perspektiv og skygger",
+    "titleTr": "Usta Çizim İpuçları: Perspektif ve Gölgelendirme"
+  },
+  {
+    "id": 97,
+    "category": "aktiviteter",
+    "ageRange": "10-12",
+    "slug": "lag-din-egen-stop-motion-film",
+    "slugTr": "kendi-stop-motion-animasyonunu-cek",
+    "titleNo": "Lag din egen stop-motion-film med leirfigurer",
+    "titleTr": "Kendi Stop-Motion Animasyon Filmini Çek"
+  },
+  {
+    "id": 98,
+    "category": "aktiviteter",
+    "ageRange": "10-12",
+    "slug": "bygg-en-solovn-av-en-pappeske",
+    "slugTr": "karton-kutudan-gunes-firini",
+    "titleNo": "Bygg en enkel solovn av en pizzaboks",
+    "titleTr": "Karton Kutudan Güneş Fırını Yapımı"
+  },
+  {
+    "id": 99,
+    "category": "aktiviteter",
+    "ageRange": "10-12",
+    "slug": "mandala-og-geometrisk-tegning",
+    "slugTr": "mandala-ve-desen-geometrisi",
+    "titleNo": "Tegn beroligende mandalaer med passer og linjal",
+    "titleTr": "Pergel ve Cetvelle Mandala Geometrisi Çizimi"
+  },
+  {
+    "id": 100,
+    "category": "aktiviteter",
+    "ageRange": "10-12",
+    "slug": "bygg-et-lite-flaskeokosystem",
+    "slugTr": "minyatur-ekosistem-teraryumu-yapimi",
+    "titleNo": "Bygg ditt eget lukkede økosystem i et glass",
+    "titleTr": "Kavanozda Kendi Kapalı Ekosistemini (Teraryum) Kur"
+  }
+]
