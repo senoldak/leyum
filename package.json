@@ -9,7 +9,10 @@
     "dev": "astro dev",
     "build": "astro build",
     "preview": "astro preview",
-    "astro": "astro"
+    "astro": "astro",
+    "test": "node --test tests/redaksjon/*.test.mjs",
+    "redaksjon:uret": "node scripts/redaksjon/uret.mjs",
+    "redaksjon:denetle": "node scripts/redaksjon/denetle.mjs"
   },
   "dependencies": {
     "@astrojs/rss": "^4.0.19",
