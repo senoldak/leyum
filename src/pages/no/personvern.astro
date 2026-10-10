@@ -1,0 +1,23 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import { SITE } from '../../lib/site';
+
+const locale = 'no';
+const loc = SITE.locales[locale];
+---
+
+<BaseLayout locale={locale} title={loc.privacyTitle}>
+  <article class="article-wrap" style="text-align: left;">
+    <h1 style="text-align: center; margin-bottom: 1.5rem;">🔒 {loc.privacyTitle}</h1>
+    <div class="prose">
+      <p>
+        På <strong>leyum</strong> tar vi barns og familiers personvern på største alvor.
+      </p>
+      <ul>
+        <li>Vi sporer deg ikke med markedsføringscookies eller sporingsskript.</li>
+        <li>Vi samler ikke inn personopplysninger fra barn.</li>
+        <li>Siden leveres direkte som statiske filer over Cloudflare uten unødvendig lagring.</li>
+      </ul>
+    </div>
+  </article>
+</BaseLayout>

@@ -1,0 +1,25 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import { SITE } from '../../lib/site';
+
+const locale = 'tr';
+const loc = SITE.locales[locale];
+---
+
+<BaseLayout locale={locale} title={loc.aboutTitle}>
+  <article class="article-wrap" style="text-align: left;">
+    <h1 style="text-align: center; margin-bottom: 1.5rem;">🌟 {loc.aboutTitle}</h1>
+    <div class="prose">
+      <p>
+        <strong>leyum</strong>, meraklı çocuklar ve aileler için hazırlanmış, rengarenk, eğlenceli ve güvenli bir dijital çocuk dergisidir.
+      </p>
+      <h2>Çocuklara ve Ailelere Sözümüz</h2>
+      <ul>
+        <li><strong>%100 Reklamsız:</strong> Hiçbir ticari reklam, sponsorlu yönlendirme veya satın alma baskısı barındırmaz.</li>
+        <li><strong>Güvenli İçerik:</strong> Çocukların gelişimine ve merak duygusuna uygun, özenle hazırlanmış masallar, deneyler ve bilmeceler.</li>
+        <li><strong>İki Dilli (Norveççe & Türkçe):</strong> Çok dilli aileler ve yeni kültürler keşfetmek isteyen minikler için iki dilde zengin içerik.</li>
+        <li><strong>Işık Hızında & Güvenli:</strong> Modern statik web mimarisi sayesinde her ekranda anında açılır.</li>
+      </ul>
+    </div>
+  </article>
+</BaseLayout>

@@ -1,0 +1,86 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import StoryCard from '../../components/StoryCard.astro';
+import Icon from '../../components/Icon.astro';
+import { SITE, CATEGORIES } from '../../lib/site';
+import { getPosts, postUrl } from '../../lib/posts';
+
+const locale = 'no';
+const loc = SITE.locales[locale];
+const posts = await getPosts(locale);
+const featured = posts.find((p) => p.data.featured) ?? posts[0];
+const otherPosts = posts.filter((p) => p !== featured);
+const featuredUrl = featured ? postUrl(featured, locale) : '#';
+---
+
+<BaseLayout locale={locale}>
+  {
+    featured && (
+      <section class="hero-folio" aria-label="Månedens utvalgte historie">
+        <div class="hero-folio-grid">
+          <div>
+            <span class="hero-header-badge">
+              <Icon name="sparkle" size={14} />
+              <span>{loc.featuredTitle}</span>
+            </span>
+            <h1>{featured.data.title}</h1>
+            <p class="hero-lead">{featured.data.description}</p>
+            <div class="hero-meta-strip">
+              <a href={featuredUrl} class="btn-primary">
+                <span>{loc.readMore}</span>
+                <Icon name="arrow-right" size={18} />
+              </a>
+              <span class="badge-age">🎯 {featured.data.ageRange}</span>
+            </div>
+          </div>
+
+          <div class="hero-book-showcase" aria-hidden="true">
+            <div class="book-spine-accent">
+              <Icon name="star" size={36} />
+            </div>
+            <p class="hero-book-quote">
+              «Himmelen er full av hemmeligheter som venter på å bli oppdaget av nysgjerrige øyne.»
+            </p>
+          </div>
+        </div>
+      </section>
+    )
+  }
+
+  <section class="section-folio" aria-label="Utforsk etter emne">
+    <div class="section-head">
+      <h2 class="section-title">
+        <Icon name="leaf" size={26} />
+        <span>{loc.categoriesTitle}</span>
+      </h2>
+    </div>
+
+    <div style="display: flex; gap: 0.85rem; flex-wrap: wrap; margin-bottom: 3.5rem;">
+      {
+        CATEGORIES.map((cat) => (
+          <a
+            href={`/${locale}/kategori/${cat.slug}/`}
+            class="category-nav-link"
+            style={`color: var(--cat-${cat.slug}-ink); background-color: var(--cat-${cat.slug}-surface); padding: 0.75rem 1.4rem; font-size: 1.05rem;`}
+          >
+            <Icon name={cat.slug} size={20} />
+            <span>{cat.title[locale]}</span>
+          </a>
+        ))
+      }
+    </div>
+  </section>
+
+  <section class="section-folio" aria-label="Siste fortellinger">
+    <div class="section-head">
+      <h2 class="section-title">
+        <Icon name="sparkle" size={24} />
+        <span>{loc.latestStories}</span>
+      </h2>
+    </div>
+
+    <div class="cards-grid">
+      {otherPosts.map((post) => <StoryCard post={post} locale={locale} />)}
+    </div>
+  </section>
+</BaseLayout>

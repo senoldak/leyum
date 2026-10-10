@@ -1,0 +1,115 @@
+# Sveltia CMS ayarları: https://sveltiacms.app/en/docs
+backend:
+  name: github
+  repo: senoldak/leyum
+  branch: main
+
+site_url: https://leyum.com
+display_url: https://leyum.com
+locale: tr
+
+media_folder: /public/uploads
+public_folder: /uploads
+
+media_libraries:
+  default:
+    config:
+      slugify_filename: true
+      transformations:
+        raster_image:
+          format: webp
+          quality: 85
+          width: 2000
+          height: 2000
+
+slug:
+  encoding: ascii
+  clean_accents: true
+
+output:
+  omit_empty_optional_fields: true
+
+collections:
+  - name: yazilar_no
+    label: "Norveççe İçerikler (Norsk)"
+    label_singular: "İçerik (NO)"
+    folder: src/content/yazilar/no
+    path: '{{slug}}/index'
+    media_folder: ''
+    public_folder: ''
+    create: true
+    slug: '{{title}}'
+    summary: '{{title}} · {{date | date("DD.MM.YYYY")}}'
+    sortable_fields:
+      fields: [date, title, category]
+      default:
+        field: date
+        direction: descending
+    view_groups:
+      - { label: Kategori, field: category }
+    fields:
+      - { name: lang, label: Dil, widget: hidden, default: no }
+      - { name: title, label: Başlık, widget: string }
+      - name: description
+        label: Spot / Kısa Tanıtım
+        widget: text
+        hint: Kapakta ve listelerde görünen kısa açıklama.
+      - name: category
+        label: Kategori
+        widget: select
+        default: oppdager
+        options:
+          - { label: '🚀 Meraklı Kaşif (Nysgjerrig Oppdager)', value: oppdager }
+          - { label: '📖 Masal & Hikaye (Eventyr & Fortellinger)', value: eventyr }
+          - { label: '🎨 Etkinlik & Sanat (Aktiviteter & Kunst)', value: aktiviteter }
+          - { label: '🧩 Zeka & Bilmece (Gåter & Moro)', value: gater }
+          - { label: '🌍 Doğa & Hayvanlar (Natur & Dyr)', value: natur }
+      - { name: date, label: Yayın tarihi, widget: datetime, default: '{{now}}', input_timezone: Europe/Oslo }
+      - { name: cover, label: Kapak resmi, widget: image, required: false }
+      - { name: coverAlt, label: Resim açıklaması, widget: string, required: false }
+      - { name: ageRange, label: Yaş Grubu, widget: string, default: '6-10 år', hint: 'Ör. 4-6 år, 7-10 år' }
+      - { name: featured, label: Öne Çıkarılan (Kapak Yıldızı), widget: boolean, default: false }
+      - { name: draft, label: Taslak, widget: boolean, default: false }
+      - { name: body, label: İçerik / Hikaye, widget: markdown }
+
+  - name: yazilar_tr
+    label: "Türkçe İçerikler (Türkçe)"
+    label_singular: "İçerik (TR)"
+    folder: src/content/yazilar/tr
+    path: '{{slug}}/index'
+    media_folder: ''
+    public_folder: ''
+    create: true
+    slug: '{{title}}'
+    summary: '{{title}} · {{date | date("DD.MM.YYYY")}}'
+    sortable_fields:
+      fields: [date, title, category]
+      default:
+        field: date
+        direction: descending
+    view_groups:
+      - { label: Kategori, field: category }
+    fields:
+      - { name: lang, label: Dil, widget: hidden, default: tr }
+      - { name: title, label: Başlık, widget: string }
+      - name: description
+        label: Spot / Kısa Tanıtım
+        widget: text
+        hint: Kapakta ve listelerde görünen kısa açıklama.
+      - name: category
+        label: Kategori
+        widget: select
+        default: oppdager
+        options:
+          - { label: '🚀 Meraklı Kaşif', value: oppdager }
+          - { label: '📖 Masal & Hikaye', value: eventyr }
+          - { label: '🎨 Etkinlik & Sanat', value: aktiviteter }
+          - { label: '🧩 Zeka & Bilmece', value: gater }
+          - { label: '🌍 Doğa & Hayvanlar', value: natur }
+      - { name: date, label: Yayın tarihi, widget: datetime, default: '{{now}}', input_timezone: Europe/Istanbul }
+      - { name: cover, label: Kapak resmi, widget: image, required: false }
+      - { name: coverAlt, label: Resim açıklaması, widget: string, required: false }
+      - { name: ageRange, label: Yaş Grubu, widget: string, default: '6-10 Yaş', hint: 'Ör. 4-6 Yaş, 7-10 Yaş' }
+      - { name: featured, label: Öne Çıkarılan (Kapak Yıldızı), widget: boolean, default: false }
+      - { name: draft, label: Taslak, widget: boolean, default: false }
+      - { name: body, label: İçerik / Hikaye, widget: markdown }

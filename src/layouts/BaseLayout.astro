@@ -1,0 +1,147 @@
+---
+import { SITE, type Locale, CATEGORIES } from '../lib/site';
+import Icon from '../components/Icon.astro';
+import '../styles/global.css';
+
+interface Props {
+  title?: string;
+  description?: string;
+  locale: Locale;
+  image?: string;
+}
+
+const { title, description, locale, image } = Astro.props;
+const loc = SITE.locales[locale];
+const pageTitle = title ? `${title} · ${SITE.name}` : `${SITE.name} · ${loc.tagline}`;
+const metaDesc = description ?? loc.description;
+const canonical = new URL(Astro.url.pathname, Astro.site);
+const currentPath = Astro.url.pathname;
+const otherLocale: Locale = locale === 'no' ? 'tr' : 'no';
+const switchPath = currentPath.replace(`/${locale}`, `/${otherLocale}`);
+---
+
+<!doctype html>
+<html lang={loc.code}>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>{pageTitle}</title>
+    <meta name="description" content={metaDesc} />
+    <meta name="theme-color" content="#FAF6ED" />
+    <link rel="canonical" href={canonical} />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="sitemap" href="/sitemap-index.xml" />
+    <meta property="og:site_name" content={SITE.name} />
+    <meta property="og:title" content={pageTitle} />
+    <meta property="og:description" content={metaDesc} />
+    <meta property="og:url" content={canonical} />
+    <meta property="og:locale" content={loc.localeTag} />
+    {image && <meta property="og:image" content={new URL(image, Astro.site).href} />}
+    <slot name="head" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="ribbon-bar">
+        <div class="container ribbon-inner">
+          <span style="display: flex; align-items: center; gap: 0.4rem;">
+            <Icon name="sparkle" size={14} class="sym-sparkle" />
+            <span>{locale === 'no' ? 'Et trygt, reklamefritt digitalt barnemagasin' : 'Güvenli, reklamsız dijital çocuk dergisi'}</span>
+          </span>
+          <span style="display: flex; align-items: center; gap: 1rem;">
+            <span>{locale === 'no' ? 'Norsk & Tyrkisk' : 'Türkçe & Norveççe'}</span>
+          </span>
+        </div>
+      </div>
+
+      <div class="container header-main">
+        <a href={`/${locale}/`} class="brand-anchor" aria-label={`${SITE.name} ${loc.backToHome}`}>
+          <div class="brand-talisman" aria-hidden="true">
+            <Icon name="star" size={24} />
+          </div>
+          <span class="brand-title">{SITE.name}<span class="dot">.</span></span>
+        </a>
+
+        <nav class="category-nav" aria-label={loc.categoriesTitle}>
+          {
+            CATEGORIES.map((cat) => (
+              <a
+                href={`/${locale}/kategori/${cat.slug}/`}
+                class="category-nav-link"
+                style={`color: var(--cat-${cat.slug}-ink); background-color: var(--cat-${cat.slug}-surface);`}
+                aria-current={currentPath.includes(`/kategori/${cat.slug}`) ? 'page' : undefined}
+              >
+                <Icon name={cat.slug} size={18} />
+                <span>{cat.title[locale]}</span>
+              </a>
+            ))
+          }
+
+          <div class="lang-toggle" role="group" aria-label="Language selection">
+            <a
+              href={locale === 'no' ? currentPath : switchPath}
+              class={`lang-option ${locale === 'no' ? 'active' : ''}`}
+              title="Norsk utgave"
+            >
+              NO
+            </a>
+            <a
+              href={locale === 'tr' ? currentPath : switchPath}
+              class={`lang-option ${locale === 'tr' ? 'active' : ''}`}
+              title="Türkçe baskı"
+            >
+              TR
+            </a>
+          </div>
+        </nav>
+      </div>
+    </header>
+
+    <main class="container">
+      <slot />
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-grid-folio">
+        <div class="footer-brand">
+          <div style="display: flex; align-items: center; gap: 0.75rem; margin-bottom: 0.75rem;">
+            <div class="brand-talisman" style="width: 36px; height: 36px;" aria-hidden="true">
+              <Icon name="star" size={20} />
+            </div>
+            <h3>{SITE.name}</h3>
+          </div>
+          <p>{loc.tagline}</p>
+          <p style="color: #4ADE80; font-weight: 700; font-size: 0.95rem;">{loc.nonCommercial}</p>
+        </div>
+
+        <div class="footer-col">
+          <h4>{loc.categoriesTitle}</h4>
+          <ul>
+            {
+              CATEGORIES.map((cat) => (
+                <li>
+                  <a href={`/${locale}/kategori/${cat.slug}/`}>
+                    <Icon name={cat.slug} size={16} />
+                    <span>{cat.title[locale]}</span>
+                  </a>
+                </li>
+              ))
+            }
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h4>{SITE.name}</h4>
+          <ul>
+            <li><a href={`/${locale}/om-oss/`}>{loc.aboutTitle}</a></li>
+            <li><a href={`/${locale}/personvern/`}>{loc.privacyTitle}</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="container footer-bottom-bar">
+        <span>© {new Date().getFullYear()} {SITE.name}. {loc.tagline}</span>
+        <span>{locale === 'no' ? 'Redaksjonelt innhold for nysgjerrige barn' : 'Meraklı çocuklar için editoryal dergi'}</span>
+      </div>
+    </footer>
+  </body>
+</html>

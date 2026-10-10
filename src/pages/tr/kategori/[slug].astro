@@ -1,0 +1,50 @@
+---
+import BaseLayout from '../../../layouts/BaseLayout.astro';
+import StoryCard from '../../../components/StoryCard.astro';
+import Icon from '../../../components/Icon.astro';
+import { CATEGORIES, getCategory } from '../../../lib/site';
+import { getPosts } from '../../../lib/posts';
+
+export async function getStaticPaths() {
+  return CATEGORIES.map((cat) => ({
+    params: { slug: cat.slug },
+  }));
+}
+
+const { slug } = Astro.params;
+const locale = 'tr';
+const cat = getCategory(slug!);
+const allPosts = await getPosts(locale);
+const filtered = allPosts.filter((p) => p.data.category === slug);
+---
+
+<BaseLayout
+  locale={locale}
+  title={cat?.title[locale]}
+  description={cat?.desc[locale]}
+>
+  <div style="text-align: center; margin: 3rem 0 3.5rem 0;">
+    <div
+      class="brand-talisman"
+      style={`margin: 0 auto 1.25rem auto; width: 64px; height: 64px; color: var(--cat-${slug}-ink); background: var(--cat-${slug}-surface); border-color: var(--cat-${slug}-ink);`}
+    >
+      <Icon name={slug!} size={32} />
+    </div>
+    <h1 style="font-size: 2.8rem; margin-bottom: 0.75rem;">{cat?.title[locale]}</h1>
+    <p style="color: var(--ink-muted); font-size: 1.25rem; max-width: 600px; margin: 0 auto;">{cat?.desc[locale]}</p>
+  </div>
+
+  {
+    filtered.length > 0 ? (
+      <div class="cards-grid" style="margin-bottom: 4rem;">
+        {filtered.map((post) => (
+          <StoryCard post={post} locale={locale} />
+        ))}
+      </div>
+    ) : (
+      <div style="text-align: center; padding: 4rem 1rem; background: var(--bg-paper); border-radius: var(--radius-lg); border: 2px dashed #EADBCC; margin-bottom: 4rem;">
+        <p style="font-size: 1.25rem; color: var(--ink-muted);">Bu bölüme çok yakında harika hikayeler ve içerikler eklenecek!</p>
+      </div>
+    )
+  }
+</BaseLayout>

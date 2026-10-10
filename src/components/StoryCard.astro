@@ -1,0 +1,46 @@
+---
+import { getCategory, formatDate, type Locale } from '../lib/site';
+import { postUrl, type PostEntry } from '../lib/posts';
+import Icon from './Icon.astro';
+
+interface Props {
+  post: PostEntry;
+  locale: Locale;
+}
+
+const { post, locale } = Astro.props;
+const cat = getCategory(post.data.category);
+const url = postUrl(post, locale);
+---
+
+<article class="story-card-folio">
+  <div class="card-top-bar">
+    {
+      cat && (
+        <a
+          href={`/${locale}/kategori/${cat.slug}/`}
+          class="card-cat-badge"
+          style={`color: var(--cat-${cat.slug}-ink); background-color: var(--cat-${cat.slug}-surface);`}
+        >
+          <Icon name={cat.slug} size={15} />
+          <span>{cat.title[locale]}</span>
+        </a>
+      )
+    }
+    <span class="badge-age" style="padding: 0.25rem 0.65rem; font-size: 0.8rem;">🎯 {post.data.ageRange}</span>
+  </div>
+
+  <h3>
+    <a href={url}>{post.data.title}</a>
+  </h3>
+
+  <p class="card-excerpt">{post.data.description}</p>
+
+  <div class="card-foot">
+    <a href={url} class="card-action">
+      <span>{locale === 'no' ? 'Les fortellingen' : 'Hikayeyi Oku'}</span>
+      <Icon name="arrow-right" size={16} />
+    </a>
+    <time datetime={post.data.date.toISOString()}>{formatDate(post.data.date, locale)}</time>
+  </div>
+</article>

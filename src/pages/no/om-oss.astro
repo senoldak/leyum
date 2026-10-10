@@ -1,0 +1,25 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import { SITE } from '../../lib/site';
+
+const locale = 'no';
+const loc = SITE.locales[locale];
+---
+
+<BaseLayout locale={locale} title={loc.aboutTitle}>
+  <article class="article-wrap" style="text-align: left;">
+    <h1 style="text-align: center; margin-bottom: 1.5rem;">🌟 {loc.aboutTitle}</h1>
+    <div class="prose">
+      <p>
+        <strong>leyum</strong> er et fargerikt, trygt og inspirerende digitalt barnemagasin laget for nysgjerrige barn og barnefamilier.
+      </p>
+      <h2>Vårt løfte til barna og foreldrene</h2>
+      <ul>
+        <li><strong>100% Reklamefritt:</strong> Ingen kommersielle annonser, sponsede lenker eller kjøpepress.</li>
+        <li><strong>Trygt innhold:</strong> Nøye utvalgte historier, eksperimenter og gåter tilpasset barn.</li>
+        <li><strong>To språk:</strong> Tilgjengelig på både norsk og tyrkisk for flerspråklige familier og nysgjerrige lesere.</li>
+        <li><strong>Raskt og lett:</strong> Bygget med moderne nettteknologi som laster lynraskt på alle skjermer.</li>
+      </ul>
+    </div>
+  </article>
+</BaseLayout>

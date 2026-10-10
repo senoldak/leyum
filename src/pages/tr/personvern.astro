@@ -1,0 +1,23 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import { SITE } from '../../lib/site';
+
+const locale = 'tr';
+const loc = SITE.locales[locale];
+---
+
+<BaseLayout locale={locale} title={loc.privacyTitle}>
+  <article class="article-wrap" style="text-align: left;">
+    <h1 style="text-align: center; margin-bottom: 1.5rem;">🔒 {loc.privacyTitle}</h1>
+    <div class="prose">
+      <p>
+        <strong>leyum</strong>'da çocukların ve ailelerin dijital gizliliği bizim için en önemli önceliktir.
+      </p>
+      <ul>
+        <li>Hiçbir reklam izleyicisi, pazarlama çerezi veya üçüncü taraf takip kodu barındırmayız.</li>
+        <li>Çocuklardan herhangi bir kişisel veri toplamayız veya saklamayız.</li>
+        <li>Sitemiz doğrudan Cloudflare Pages üzerinde statik dosyalar olarak güvenle sunulur.</li>
+      </ul>
+    </div>
+  </article>
+</BaseLayout>
