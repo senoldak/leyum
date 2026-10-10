@@ -1,22 +1,22 @@
 ---
 lang: tr
-title: "Meyve ve Sebze Sandığı Bilmeceleri"
-description: "Kıpkırmızı elmalar, sapsarı muzlar ve toprağın altındaki lezzetli havuçlar!"
+title: "Toprağın ve Güneşin Lezzet Bilmeceleri"
+description: "Toprağın altında gizlenen turuncu kökler ve ağaç dallarında olgunlaşan yıldızlı meyveler!"
 date: 2026-10-10
 category: gater
 cover: /images/yazilar/frukt-og-gronnsakskurven.png
-coverAlt: "Meyve ve Sebze Sandığı Bilmeceleri"
+coverAlt: "Toprağın ve Güneşin Lezzet Bilmeceleri"
 ageRange: "4-6 Yaş"
 featured: false
 draft: false
 ---
 
-Sapsarı bir kabuğum var ve maymunlar bana bayılır. Muz!
+Nemli toprağın derinliklerinde büyürüm; turuncu, çıtır ve gözlere kuvvet veren lezzetli bir köküm. Havuç!
 
-Kıpkırmızı yuvarlak bir meyveyim, çıtır çıtır yenirim. Elma!
+Bütün yaz dalda güneşi içerim; sonbaharda kabuğum kızarır, kalbimde ise beş minik tohum gizlenir. Elma!
 
-Toprağın altında yetişen turuncu bir köküm. Çıtır havuç!
+Dışımda tahta gibi sert bir zırh taşırım; içimdeki besleyici lezzete ulaşmak için kabuğumu kırman gerekir. Ceviz!
 
-Meyve ve sebzeler vücudumuza sağlık ve neşeli güç katar.
+Toprak, su ve güneş el ele vererek sofralarımızı rengarenk vitaminlerle ve tatlarla donatır.
 
-> **Lezzet oyunu:** Çıtır bir elma dilimi ye ve tadını hisset!
+> **Meyve Yıldızı:** Bir elmayı enine ikiye böldüğünde, çekirdek yuvalarının beş köşeli bir yıldız oluşturduğunu hiç fark ettin mi?

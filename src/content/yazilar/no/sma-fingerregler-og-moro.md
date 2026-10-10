@@ -1,22 +1,24 @@
 ---
 lang: no
-title: "Morsomme rim og fingerregler for små hender"
-description: "Tommeltott, slikkepott og alle de andre fingrene på eventyr!"
+title: "Rytmiske regler for kvikke fingre"
+description: "Fem gode venner på hver hånd samarbeider om å bygge tårn, knyte lisser og spille melodier."
 date: 2026-10-10
 category: gater
 cover: /images/yazilar/sma-fingerregler-og-moro.png
-coverAlt: "Morsomme rim og fingerregler for små hender"
+coverAlt: "Rytmiske regler for kvikke fingre"
 ageRange: "4-6 år"
 featured: false
 draft: false
 ---
 
-Tommeltott falt i vannet. Slikkepott dro ham opp.
+Tommelen er sterk og står støtt for seg selv når hånden griper om en trekloss.
 
-Langemann bar ham hjem til et varmt hus.
+Pekefingeren viser retningen mot fjerne stjerner og blar forsiktig i boksidene.
 
-Gullebrann la ham i den myke sengen.
+Langemann rager høyest opp mot himmelen og hjelper til med å bære tunge ting.
 
-Og vesle Petter Spillemann spiste opp all maten!
+Ringfingeren og vesle lillefinger sørger for balanse og holder godt fast i vannglasset.
 
-> **Fingerlek:** Rør ved hver finger mens du sier reglen høyt!
+Fem ulike fingre på samme hånd kan gjøre fantastiske ting når de lærer å samarbeide.
+
+> **Fingerlek:** Rør tommelen borti tuppen av hver eneste finger på hånden etter tur, én etter én!

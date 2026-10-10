@@ -1,22 +1,26 @@
 ---
 lang: no
-title: "Den lille elefanten som telte sommerfugler"
-description: "Elefanten Timmy rullet seg fra side til side i det myke gresset."
+title: "Savannens nattevakt og de gylne stjernene"
+description: "Under den vidstrakte afrikanske stjernehimmelen lytter en ung elefant til nattens dype klang."
 date: 2026-10-10
 category: eventyr
 cover: /images/yazilar/elefanten-som-ikke-fikk-sove.png
-coverAlt: "Den lille elefanten som telte sommerfugler"
+coverAlt: "Savannens nattevakt og de gylne stjernene"
 ageRange: "4-6 år"
 featured: false
 draft: false
 ---
 
-Månen lyste gult over den store og varme savannen.
+Når den brennende solen synker bak baobabtrærne, senker en kjølig bris seg over den vidstrakte savannen.
 
-Lille Timmy Elefant klarte ikke å sovne i det høye gresset.
+Elefantflokken danner en tett sirkel; de voksne står skulder ved skulder for å beskytte de unge.
 
-Mamma strøk ham med snabelen: «Tell fargerike sommerfugler i hodet ditt, venn.»
+En ung elefantunge klarer ikke å lukke øynene, men lytter med sine store ører til nattens lyder.
 
-Timmy telte én, to og tre glade sommerfugler, og sovnet trygt.
+I det fjerne klukker en flodhest i elven, mens sirissene synger en uendelig sang i det tørre gresset.
 
-> **Pust rolig:** Lukk øynene dine og tenk på en vakker sommerfugl.
+Moren legger snabelen varsomt over ungens rygg; et trygt tegn på at hele flokken passer på.
+
+Beroliget av flokkens jevne pust senker elefanten hodet og glir inn i dype drømmer under stjernene.
+
+> **Lyttestund:** Ligg helt stille i sengen din i to minutter. Hvilke fjerne lyder klarer du å fange opp i huset?

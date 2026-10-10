@@ -1,26 +1,26 @@
 ---
 lang: no
-title: "Den klassiske gåten om båten over elven"
-description: "En bonde, en ulv, en geit og et kålhode skal krysse elven i en bitteliten robåt. Hvordan løser du floken?"
+title: "Elvekryssing og tilstandsrommets algoritmer"
+description: "Bonden, ulven, geiten og kålhodet: Hvordan en klassisk tankenøtt fra middelalderen modellerer moderne datalogisk problemløsning."
 date: 2026-10-10
 category: gater
 cover: /images/yazilar/elvekryssingens-klassiske-gaate.png
-coverAlt: "Den klassiske gåten om båten over elven"
+coverAlt: "Elvekryssing og tilstandsrommets algoritmer"
 ageRange: "10-12 år"
 featured: false
 draft: false
 ---
 
-Elvekryssingsgåten er en av verdens mest berømte logiske utfordringer og har fascinert tenkere i over tusen år.
+Elvekryssingsgåten ble først nedtegnet av den lærde Alcuin av York på åttehundretallet og utgjør en hjørnestein innen algoritmisk tenkning.
 
-En bonde må frakte en ulv, en geit og et kålhode over en elv. Båten har bare plass til ham og én gjenstand.
+En bonde må frakte en ulv, en geit og et kålhode over en stri elv i en robåt som bare har plass til ham selv og én passasjer om gangen.
 
-Hvis bonden forlater geiten og ulven alene, vil ulven spise geiten uten å nøle.
+Dersom bonden forlater geiten og kålhodet alene på elvebredden, spiser geiten kålet; dersom ulven og geiten forlates alene, spiser ulven geiten.
 
-Hvis bonden forlater geiten og kålhodet alene, vil geiten spise kålhodet til lunsj.
+Den geniale løsningen krever et kontraintuitivt grep: bonden må først ro geiten over, deretter ro kålhodet over, men ta med seg geiten tilbake på returen.
 
-Nøkkelen til å løse gåten ligger i å frakte geiten over først, og deretter ta geiten med tilbake når ulven settes i land.
+I moderne informatikk representerer denne oppgaven et tilstandsrom med grafer der hver gyldig kombinasjon utgjør en node, og ulovlige tilstander filtreres vekk.
 
-Denne typen logiske nøtter kalles tilstandsoverganger i informatikk og lærer oss å tenke metodisk på rekkefølge og konsekvenser.
+Problemet lærer oss at den raskeste veien til målet noen ganger krever at man tar et midlertidig skritt bakover for å bevare systemets likevekt.
 
-> **Logisk utfordring:** Tegn elven på et ark med fire små brikker og beveg dem systematisk til alle er trygt over!
+> **Algoritmisk kartlegging:** Tegn alle de mulige tilstandene som sirkler på et ark, og trekk piler mellom dem for å visualisere løsningsstien!

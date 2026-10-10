@@ -1,22 +1,22 @@
 ---
 lang: no
-title: "Hva gjemmer seg i lekekassen?"
-description: "Noen ting triller, andre kan stables høyt. Gjett lekene!"
+title: "Husets hemmelige hjelpere og oppfinnelser"
+description: "Hva slipper sollyset inn i stuen uten å slippe inn kald vind? Løs hjemmets egne gåter!"
 date: 2026-10-10
 category: gater
 cover: /images/yazilar/hva-gjemmer-seg-i-huset.png
-coverAlt: "Hva gjemmer seg i lekekassen?"
+coverAlt: "Husets hemmelige hjelpere og oppfinnelser"
 ageRange: "4-6 år"
 featured: false
 draft: false
 ---
 
-Jeg er rund og spretter høyt mot taket. Hva er jeg? Ballen!
+Jeg er helt gjennomsiktig; jeg slipper lyset inn i stuen, men holder vinterkulden og stormen ute. Vinduets glass!
 
-Vi er mange fargerike klosser som bygger tårn. Byggeklosser!
+Jeg har to hender som beveger seg i sirkel hele dagen, men jeg har ingen armer eller føtter. Klokken på veggen!
 
-Jeg har fire hjul og ruller raskt bortover gulvet. Lekebilen!
+Jeg er laget av mange papirark bundet sammen; jeg forteller spennende historier uten å si et ord. Boken!
 
-Alle lekene våre har sin egen morsomme form.
+De vanlige tingene rundt oss i huset er smarte oppfinnelser som gjør hverdagen vår trygg og spennende.
 
-> **Ryddetid:** Hvor høyt tårn klarer du å bygge av klosser?
+> **Oppfinnerblikk:** Hvilken gjenstand i huset ditt synes du er den allersmarteste oppfinnelsen menneskene har laget?

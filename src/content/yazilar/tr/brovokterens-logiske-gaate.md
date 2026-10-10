@@ -1,26 +1,26 @@
 ---
 lang: tr
-title: "Adım Adım Mantık Dedektifi: Köprü Geçişi"
-description: "Gece karanlığında tek fenerle eski bir tahta köprüyü geçmeye çalışan dört yolcunun mantık bilmecesi!"
+title: "Karanlık Kanyon ve Köprü Geçiş Paradoksu"
+description: "Dört yolcunun gece vakti tek fenerle çürük bir asma köprüyü en kısa sürede geçmesini sağlayan matematiksel mantık oyunu."
 date: 2026-10-10
 category: gater
 cover: /images/yazilar/brovokterens-logiske-gaate.png
-coverAlt: "Adım Adım Mantık Dedektifi: Köprü Geçişi"
+coverAlt: "Karanlık Kanyon ve Köprü Geçiş Paradoksu"
 ageRange: "7-9 Yaş"
 featured: false
 draft: false
 ---
 
-Dört gezgin zifiri karanlıkta tek bir fenerle eski bir asma köprüyü geçmek zorundadır.
+Dört araştırmacı zifiri karanlıkta derin bir kanyonun üzerindeki eski bir asma köprünün başına varırlar; ellerinde yalnızca tek bir fener vardır.
 
-Köprü aynı anda en fazla iki kişiyi taşır ve fener mutlaka yanlarında olmalıdır.
+Köprü öyle dar ve yıpranmıştır ki aynı anda en fazla iki kişiyi taşır; üstelik fener olmadan köprüde yürümek imkansızdır.
 
-Yolcular köprüyü 1, 2, 5 ve 10 dakikada geçebilmektedir.
+Yolcuların köprüyü geçiş hızları farklıdır: en genci bir dakikada, ikincisi iki dakikada, üçüncüsü beş dakikada, en yaşlısı ise on dakikada geçer.
 
-İki kişi birlikte yürürken hızları her zaman daha yavaş olanın hızına göre ayarlanır.
+İki kişi birlikte yürürken hızları daima daha yavaş olanın temposuna göre belirlenir.
 
-İşin sırrı, en hızlı iki kişinin feneri taşırken akıllıca bir plan kurmasında saklıdır.
+Eğer önce en hızlı iki kişiyi karşıya geçirir, feneri en hızlıyla geri yollar ve ardından en yavaş iki kişiyi birlikte gönderirseniz muazzam bir zaman kazanırsınız.
 
-Birlikte düşünmek ve acele etmeden plan yapmak zor görünen engelleri kolayca aşmayı sağlar.
+Matematikte optimizasyon adı verilen bu stratejik düşünme yöntemi, karmaşık görünen engelleri adım adım planlayarak aşmayı öğretir.
 
-> **Mantık oyunu:** Bir kağıt ve kalem alıp en kısa geçiş süresini hesaplamayı dene!
+> **Masa Başı Oyunu:** Kağıda bir nehir çiz ve dört madeni parayı yolcu yaparak toplam süreyi en aza indiren geçiş planını hesapla!

@@ -1,26 +1,28 @@
 ---
 lang: tr
-title: "Dağların Ardındaki Yankı Ustası"
-description: "Sarp kayalıkların bilge çobanı, dağlara seslenirken asıl yankılanan şeyin kalpteki niyet olduğunu öğretir."
+title: "Kayalıkların Yankısı ve Sesin Fiziği"
+description: "Sarp kanyonlarda ses dalgalarının nasıl yansıdığını inceleyen bir gencin, sözlerin dünyada bıraktığı yankıyı keşfetmesi."
 date: 2026-10-10
 category: eventyr
 cover: /images/yazilar/fjellekkoets-mester.png
-coverAlt: "Dağların Ardındaki Yankı Ustası"
+coverAlt: "Kayalıkların Yankısı ve Sesin Fiziği"
 ageRange: "10-12 Yaş"
 featured: false
 draft: false
 ---
 
-Yüksek karlı zirvelerin eteğinde yaşayan yaşlı bir bilge köylüler tarafından Yankı Ustası olarak bilinirdi.
+Karanlık kanyonun bin metrelik dik kaya duvarları arasında yaşayan bilge bir dağcı, vadinin eşsiz akustik dengesini yıllardır araştırıyordu.
 
-On iki yaşındaki Eren, dağların nasıl bu kadar berrak ve anlamlı cevaplar verdiğini öğrenmek için yukarı tırmandı.
+On iki yaşındaki Eren, ses kayıt cihazıyla bu kanyona tırmandı; amacı ses dalgalarının sert granit yüzeylerden nasıl bu kadar berrak yansıdığını anlamaktı.
 
-Bilge kadın gülümsedi ve dağların sadece sesleri değil, o sesin arkasındaki asıl niyeti ve duyguyu yansıttığını anlattı.
+Yaşlı dağcı kayalıklara doğru sert ve öfkeli bir çığlık attığında, kanyon bu sesi taşları ürküten soğuk ve uğultulu bir gürültü olarak geri fırlattı.
 
-“Öfkeyle ve sertçe bağırırsan, kayalıklar da sana taş gibi soğuk ve ürkütücü seslerle karşılık verir,” dedi usta.
+Fakat aynı adam göğsünden gelen yumuşak ve melodik bir türkü söylediğinde, granit duvarlar sesi çoğaltıp bütün vadiye huzurlu bir koro gibi yaydı.
 
-“Fakat sevgiyle ve içtenlikle seslenirsen, vadiler o güzel melodiyi çoğaltıp bütün köye neşe olarak geri gönderir.”
+Usta Eren’e dönerek kayaların ses üretmediğini, sadece insanın dışarıya gönderdiği frekansı ve niyeti büyüterek sahibine iade ettiğini söyledi.
 
-Eren ellerini ağzına siper edip vadiye neşeli bir şarkı söyledi ve dağların bu şarkıyı binlerce kez güzelleştirdiğini duydu.
+Bu kural yalnızca ses dalgaları için değil; insanın çevresine söylediği her kelime ve yaydığı her duygu için de geçerli bir tabiat kanunuydu.
 
-> **Hayat dersi:** Dünyaya söylediğin her söz ve yaptığın her iyilik, bir yankı gibi eninde sonunda sana geri döner.
+Eren ellerini göğsüne koyup derin bir nefes aldı ve vadiye dostça bir melodi fısıldadı; kayalıklar bu melodiyi binlerce kez güzelleştirerek geri verdi.
+
+> **Ses Bilimi:** Boş bir odada veya kanyonda ses neden yankılanır da eşyalarla dolu bir odada yankı kaybolur? Ses dalgalarının emilimini araştır.

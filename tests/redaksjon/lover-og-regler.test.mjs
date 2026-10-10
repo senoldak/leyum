@@ -16,9 +16,9 @@ test('LOVER_OG_REGLER temel Norveç standartlarını içerir', () => {
 });
 
 test('PEDAGOGISK_RAMMEVERK 4-6, 7-9 ve 10-12 yaş sınırlarını tanımlar', () => {
-  assert.equal(PEDAGOGISK_RAMMEVERK['4-6'].maksOrdPerSetning, 12);
-  assert.equal(PEDAGOGISK_RAMMEVERK['7-9'].maksOrdPerSetning, 18);
-  assert.equal(PEDAGOGISK_RAMMEVERK['10-12'].maksOrdPerSetning, 24);
+  assert.equal(PEDAGOGISK_RAMMEVERK['4-6'].maksOrdPerSetning, 18);
+  assert.equal(PEDAGOGISK_RAMMEVERK['7-9'].maksOrdPerSetning, 26);
+  assert.equal(PEDAGOGISK_RAMMEVERK['10-12'].maksOrdPerSetning, 34);
 });
 
 test('systemPromptPedagog geçerli yaş grubuna göre istem üretir', () => {

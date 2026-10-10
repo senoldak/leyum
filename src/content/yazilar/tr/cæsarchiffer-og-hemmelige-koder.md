@@ -1,26 +1,26 @@
 ---
 lang: tr
-title: "Şifreli Mesajlar ve Sezar Kriptolojisi"
-description: "Julius Sezar’ın iki bin yıl önce gizli askeri emirleri korumak için icat ettiği harf kaydırma şifreleme yöntemini keşfet!"
+title: "Sezar Kriptolojisi ve Şifreleme Matematiği"
+description: "Harf kaydırma algoritmaları, frekans analizi ve modern siber güvenliğin iki bin yıllık köklerini keşfet."
 date: 2026-10-10
 category: gater
 cover: /images/yazilar/cæsarchiffer-og-hemmelige-koder.png
-coverAlt: "Şifreli Mesajlar ve Sezar Kriptolojisi"
+coverAlt: "Sezar Kriptolojisi ve Şifreleme Matematiği"
 ageRange: "10-12 Yaş"
 featured: false
 draft: false
 ---
 
-Kriptoloji, gizli bilgileri yalnızca alıcının çözebileceği matematiksel kurallarla koruma bilimidir.
+Kriptoloji, yani gizli mesajları matematiksel kurallarla koruma bilimi, iki bin yıldır tarihin ve askeri stratejilerin kaderini belirlemiştir.
 
-İki bin yıl önce Romalı komutan Julius Sezar, mektuplarını düşmanların eline geçse bile anlaşılamayacak şekilde şifrelemeyi başarmıştı.
+Romalı komutan Julius Sezar, ulaklarına güvenmediği için alfabedeki her harfi belirli bir adım ileri kaydıran bir şifreleme düzeni geliştirdi.
 
-Bu yöntemde alfabedeki her harf belirli bir sayıda ileri kaydırılır; örneğin üç basamak kaydırmada A harfi Ç, B harfi D olur.
+Üç basamaklı bir kaydırmada A harfi Ç, B harfi D olur; alfabenin sonundaki harfler ise başa sararak döngüyü tamamlar.
 
-Mesajı alan kişi gizli anahtarı bilerek harfleri tam üç basamak geri aldığında orijinal metin kolayca ortaya çıkar.
+Mesajı alan komutan gizli anahtarı bilerek harfleri üç adım geri aldığında orijinal askeri emirler kolayca ortaya çıkardı.
 
-Günümüzde bankacılık işlemleri ve internet siteleri devasa asal sayılara dayanan çok güçlü algoritmalarla korunur.
+Fakat bu yöntemin zayıflığını dokuzuncu yüzyılda İslam alimi El-Kindi frekans analiziyle çözdü; çünkü her dilde bazı harfler diğerlerinden çok daha sık kullanılır.
 
-Fakat modern siber güvenliğin temeli Sezar’ın geliştirdiği bu harika mantıksal şifreleme düzenine dayanmaktadır.
+Modern internet bankacılığı devasa asal sayılara dayanan karmaşık algoritmalar kullansa da, temeli Sezar’ın attığı bu simetrik mantığa dayanır.
 
-> **Şifre kırıcı:** İki harf ileri kaydırarak arkadaşına gizli bir mesaj yaz ve şifreyi çözmesini iste!
+> **Şifre Avcısı:** Bir kağıda iki harf ileri kaydırarak beş kelimelik gizli bir mesaj yaz; arkadaşına verip frekans analiziyle çözmesini iste!

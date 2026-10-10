@@ -1,26 +1,26 @@
 ---
 lang: tr
-title: "Nehir Geçme Mantık Paradoksları"
-description: "Kurt, kuzu ve lahana ile nehri tek bir sandalla geçmeye çalışan çiftçinin bin yıllık klasik mantık bilmecesi!"
+title: "Nehir Geçiş Paradoksu ve Durum Algoritmaları"
+description: "Kurt, kuzu ve lahana paradoksu: Ortaçağ mantık bilmecesinin modern bilgisayar algoritmalarını nasıl modellediğini incele."
 date: 2026-10-10
 category: gater
 cover: /images/yazilar/elvekryssingens-klassiske-gaate.png
-coverAlt: "Nehir Geçme Mantık Paradoksları"
+coverAlt: "Nehir Geçiş Paradoksu ve Durum Algoritmaları"
 ageRange: "10-12 Yaş"
 featured: false
 draft: false
 ---
 
-Nehir geçme paradoksu, matematikçilerin ve düşünürlerin binyıllardır çözmekten keyif aldığı klasik bir mantık bilmecesidir.
+Nehir geçiş paradoksu, dokuzuncu yüzyılda Alcuin tarafından kayda geçirilmiş klasik bir mantık ve durum uzayı problemidir.
 
-Bir çiftçi yanındaki kurt, kuzu ve lahana sepetiyle karşı kıyıya geçmek zorundadır; fakat sandala sadece biri sığabilir.
+Bir çiftçi yanındaki kurt, kuzu ve lahana sepetiyle nehrin karşısına geçmelidir; fakat elindeki küçük sandal sadece kendisini ve bir nesneyi taşır.
 
-Çiftçi yanlarında yokken kurt kuzuyu tek başına yer, kuzu ise lahanayı afiyetle mideye indirir.
+Çiftçi yanlarında yokken kuzu lahanayı yer, kurt ise kuzuyu tek lokmada mideye indirir.
 
-İşin zekice çözümü kuzuyu ilk seferde karşıya geçirmekte ve daha sonra kurdu götürürken kuzuyu geri getirmekte yatar.
+Çözümün pürek noktası şaşırtıcı bir geri adımda saklıdır: çiftçi önce kuzuyu geçirir, sonra lahanayı götürür fakat dönerken kuzuyu tekrar sandala alıp geri getirir.
 
-Bilgisayar biliminde durum geçişleri olarak bilinen bu mantık kuralı, karmaşık algoritmaların sırayla nasıl çalışacağını modeller.
+Bilgisayar biliminde bu mantık durum grafiği olarak adlandırılır; geçerli adımlar birbirine bağlanırken tehlikeli düğümler elenir.
 
-Adım adım düşünmek ve riskleri doğru analiz etmek, en çözümsüz gibi görünen düğümleri bile kolayca çözer.
+Bu problem bize, karmaşık bir hedefe ulaşırken bazen geriye doğru geçici bir hamle yapmanın en doğru strateji olabileceğini kanıtlar.
 
-> **Adım adım çöz:** Kağıda bir nehir çiz ve dört küçük madeni parayla adımları canlandırarak çözümü göster!
+> **Grafik Çizimi:** Olası tüm durumları kağıda daireler halinde çiz ve aralarına oklar koyarak güvenli geçiş yolunu bir algoritma gibi modelle!

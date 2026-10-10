@@ -1,26 +1,28 @@
 ---
 lang: tr
-title: "Eski Sandıktaki Konuşan Pusula"
-description: "Ozan tavan arasındaki sandıkta sadece kuzeyi değil, iyiliğin yolunu gösteren bir pusula bulur."
+title: "Eski Sandıktaki Pusulanın Yolu"
+description: "Denizci sandığından çıkan asırlık bir pusulanın, manyetik kuzeyin ötesinde dostluğun ve dikkatin yönünü göstermesi."
 date: 2026-10-10
 category: eventyr
 cover: /images/yazilar/det-snakkende-kompasset-i-kisten.png
-coverAlt: "Eski Sandıktaki Konuşan Pusula"
+coverAlt: "Eski Sandıktaki Pusulanın Yolu"
 ageRange: "7-9 Yaş"
 featured: false
 draft: false
 ---
 
-Dedemin tavan arasındaki ahşap sandığında eski haritalar ve pirinç bir pusula vardı.
+Büyük dedesinin tavan arasındaki ahşap denizci sandığında paslı demir kilitler ve sararmış seyir defterleri vardı.
 
-Ozan pusulayı eline aldığında yeşil iğnesinin fısıltıyla yön gösterdiğini fark etti.
+On yaşındaki Ozan sandığın dibinde maun kutusunda korunan ağır pirinç bir gemici pusulası buldu.
 
-Pusula sadece kuzeyi değil, kalbin ve iyiliğin gitmesi gereken doğru yönü işaret ediyordu.
+Pusulanın yeşil safir yataklı ibresi, Dünya’nın görünmez manyetik çizgilerini hissederek kuzeye doğru dengeli bir şekilde salınıyordu.
 
-İbre okul bahçesinde yapayalnız duran yeni bir öğrenciyi gösterdi.
+Ozan pusulayı cebine koyup mahalleye çıktığında, aletin ona çevresine daha dikkatli bakmayı öğrettiğini fark etti.
 
-Ozan pusulanın gösterdiği yöne yürüdü ve çocuğu neşeyle oyunlarına davet etti.
+Pusulayı takip ederken bahçede kedisi kaybolmuş komşu teyzeyi gördü ve ağacın dallarındaki kediyi bulmasına yardım etti.
 
-Pusula cebinde ılık bir ışıkla parıldadı; çünkü en doğru yol her zaman nezakettir.
+Parkta ise ödev defterini düşürmüş küçük bir çocuğun eşyalarını toplayıp ona teslim etti.
 
-> **Günün iyiliği:** Okulda etrafına dikkatle bak; belki bir arkadaşının senin gülümsemene ihtiyacı vardır.
+Pusula yalnızca denizcilere rota çizmiyordu; Ozan’a hayatta en doğru yönün etrafındaki dünyaya duyarlı olmak olduğunu hatırlatıyordu.
+
+> **Manyetik Keşif:** Bir dikiş iğnesini mıknatısa sürtüp su dolu bir kaptaki yaprağın üzerine koyarsan, iğnenin kuzeyi gösterdiğini görebilirsin!

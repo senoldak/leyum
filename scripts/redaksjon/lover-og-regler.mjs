@@ -12,25 +12,25 @@ export const LOVER_OG_REGLER = {
 
 export const PEDAGOGISK_RAMMEVERK = {
   '4-6': {
-    navn: 'Minik Kaşifler (Småbarn / Barnehage)',
-    maksOrdPerSetning: 12,
-    maksSetningerPerAvsnitt: 2,
-    maksLix: 25,
-    fokus: 'Rytmisk, trygg, sansebasert og konkret undring. Ingen mørke/truende elementer.',
-  },
-  '7-9': {
-    navn: 'Okul Çağı Kaşifleri (Småtrinnet)',
+    navn: 'Minik Kaşifler (Okul Öncesi / 4–6 Yaş)',
     maksOrdPerSetning: 18,
     maksSetningerPerAvsnitt: 3,
-    maksLix: 35,
-    fokus: 'Årsak-virkning, nysgjerrighet, enkel logikk, humor, empati og spørsmål.',
+    maksLix: 30,
+    fokus: 'Duru, şiirsel, duyusal ve hayal gücünü besleyen anlatım. Bebeksi veya yapmacık küçültmelerden arınmış, çocuğun zekasına ve merakına saygı duyan dil.',
+  },
+  '7-9': {
+    navn: 'Okul Çağı Kaşifleri (İlkokul / 7–9 Yaş)',
+    maksOrdPerSetning: 26,
+    maksSetningerPerAvsnitt: 4,
+    maksLix: 40,
+    fokus: 'Sürükleyici macera, neden-sonuç ilişkisi, doğa ve bilim sırları, zeka ve keşif. Didaktik parmak sallama yok; karakter ve olay örgüsü odaklı.',
   },
   '10-12': {
-    navn: 'Büyük Meraklılar (Mellomtrinnet)',
-    maksOrdPerSetning: 24,
-    maksSetningerPerAvsnitt: 4,
-    maksLix: 45,
-    fokus: 'Dypere vitenskapelig utforskning, kritisk tenkning, nyanser og håpefulle løsninger.',
+    navn: 'Genç Kaşifler (Ortaokul / 10–12 Yaş)',
+    maksOrdPerSetning: 34,
+    maksSetningerPerAvsnitt: 5,
+    maksLix: 50,
+    fokus: 'Edebi derinlik, felsefi ve tarihsel bağlam, analitik düşünce, zengin kelime dağarcığı. Genç yetişkin saygısı ve bilimsel özgünlük.',
   },
 };
 

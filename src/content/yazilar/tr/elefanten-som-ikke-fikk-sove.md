@@ -1,22 +1,26 @@
 ---
 lang: tr
-title: "Uykusu Gelmeyen Yavru Fil"
-description: "Kocaman kulaklarıyla uyku arayan yavru filin tatlı ninni masalı."
+title: "Savanın Gece Nöbetçisi ve Yıldızlar"
+description: "Afrika bozkırında hilal ay yükselirken, ulu fil sürüsünün güvenli kanatları altında geceyi dinleyen yavrunun hikayesi."
 date: 2026-10-10
 category: eventyr
 cover: /images/yazilar/elefanten-som-ikke-fikk-sove.png
-coverAlt: "Uykusu Gelmeyen Yavru Fil"
+coverAlt: "Savanın Gece Nöbetçisi ve Yıldızlar"
 ageRange: "4-6 Yaş"
 featured: false
 draft: false
 ---
 
-Geniş ovada sarı ay ışığı huzurla parıldıyordu.
+Kızıl güneş dev baobap ağaçlarının ardında kaybolurken, sonsuz savana üzerine serin ve tatlı bir esinti yayılır.
 
-Minik fil Memo yumuşacık çimenlerin üzerinde bir türlü uyuyamıyordu.
+Ulu filler geniş bir halka oluşturur; yetişkinler omuz omuza durarak sürünün kalbinde huzur dolu bir sığınak kurar.
 
-Anne fil hortumuyla Memo’yu okşadı: “Gözlerini kapat ve kelebekleri say yavrum.”
+Yavru fil geniş kulaklarını hafifçe aralayarak bozkırın gece seslerini dikkatle dinler.
 
-Memo bir, iki, üç kelebek saydı ve mışıl mışıl daldı.
+Uzak nehirde su aygırlarının serin dalgalanışı duyulur, kuru çimenlerin arasında cırcır böcekleri büyüleyici bir koro kurar.
 
-> **Huzurlu an:** Gözlerini kapat ve rengarenk uçuşan bir kelebek hayal et.
+Anne fil hortumunu şefkatle yavrusunun sırtına dokundurur; bu, sürünün daima nöbette olduğunun güvenli fısıltısıdır.
+
+Bozkırın sakin nefesini hisseden yavru fil, gökyüzündeki binlerce yıldızın altında huzurla uykuya dalar.
+
+> **Sessizlik Oyunu:** Yatağına uzandığında iki dakika gözlerini kapat; evdeki ve sokaktaki en uzak sesleri ayırt etmeye çalış.

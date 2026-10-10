@@ -1,22 +1,24 @@
 ---
 lang: no
-title: "Den lille stjernen som lærte å skinne"
-description: "Høyt oppe på himmelen bodde en stjerne som gjemte seg."
+title: "Den tause stjernen og nattens dype himmel"
+description: "Hvorfor venter stjernene tålmodig på at skumringen skal svinne før de tenner sine krystallklare lykter?"
 date: 2026-10-10
 category: eventyr
 cover: /images/yazilar/den-lille-stjernen-og-morket.png
-coverAlt: "Den lille stjernen som lærte å skinne"
+coverAlt: "Den tause stjernen og nattens dype himmel"
 ageRange: "4-6 år"
 featured: true
 draft: false
 ---
 
-Høyt oppe på nattehimmelen bodde en bitteliten stjerne. Den var så sjenert.
+Bak de høye fjellryggene senker kveldssolen seg sakte ned i den mørkeblå fjorden.
 
-Hver kveld gjemte den seg bak en myk, blå kveldssky.
+På himmelen våkner en enslig kveldsstjerne, klar og ren som dugg på myk skogsmose.
 
-Månen smilte mildt og sa: «Verden trenger ditt fine lys, lille venn.»
+Den skinner ikke for å rope, men for å vise vei for uglen som letter fra furutoppen.
 
-Da stakk stjernen hodet frem og blinket forsiktig. Hele himmelen lyste opp.
+Når kvelden blir helt stille, speiler stjernen sitt hvite lys i det dype fjellvannet.
 
-> **Sov godt:** Se ut av vinduet og send et smil til stjernene.
+Himmelen er aldri tom når vi løfter blikket mot de uendelige lyspunktene over hustakene.
+
+> **Kveldsundring:** Trekk gardinen til side og la øynene venne seg til nattemørket. Hvor mange glitrende stjerner klarer du å telle på himmelen?

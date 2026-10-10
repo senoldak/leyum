@@ -1,22 +1,26 @@
 ---
 lang: tr
-title: "Pofuduk Bulutun Yağmur Şarkısı"
-description: "Gökyüzünde dans eden minik bulut, susamış kır çiçeklerine neşeyle şarkı söyler."
+title: "Sisli Dağların Yağmur Türküsü"
+description: "Denizden yükselen bereketli bir bulutun dağları aşıp susamış vadilere hayat taşıyan büyüleyici serüveni."
 date: 2026-10-10
 category: eventyr
 cover: /images/yazilar/den-myke-skyens-regnsang.png
-coverAlt: "Pofuduk Bulutun Yağmur Şarkısı"
+coverAlt: "Sisli Dağların Yağmur Türküsü"
 ageRange: "4-6 Yaş"
 featured: false
 draft: false
 ---
 
-Pofuduk adında sevimli bir bulut yemyeşil tepelerin üzerinde süzülüyordu.
+Uzak denizlerin üzerinde yükselen serin buhar, sabah güneşiyle birleşip heybetli bir bulut kütlesine dönüşür.
 
-Aşağıdaki papatyalar başlarını kaldırıp seslendi: “Çok susadık, bize biraz su verir misin?”
+Rüzgar onu karaya, çatlamış yayla topraklarının ve susamış ulu çamların üzerine doğru usulca taşır.
 
-Pofuduk gökyüzünde dönerek tatlı bir yağmur şarkısı mırıldanmaya başladı.
+Bulut sarp dağ yamaçlarına değdiğinde, içindeki mikroskobik damlacıklar ağırlaşıp berrak yağmur taneleri olarak süzülür.
 
-Şıpır şıpır inen ılık damlalarla bütün çiçekler sevinçle yapraklarını açtı.
+Toprağa vuran her damla çıtırdayan yaprakları ıslatır ve etrafa taze çam kokuları yayar.
 
-> **Minik oyun:** Parmak uçlarını masaya vurup yağmur damlası sesleri çıkar!
+Vadinin dibindeki dere gürül gürül çağıldar, kurbağalar serin suyun kıyısında neşeyle seslenir.
+
+Gökten inen her damla, okyanusların gücünü ormanın en kuytu köklerine ulaştıran sessiz bir mucizedir.
+
+> **Koku Keşfi:** Yağmur dindikten hemen sonra bahçeye çık ve derin bir nefes al; topraktan yükselen eşsiz kokuyu hissettin mi?

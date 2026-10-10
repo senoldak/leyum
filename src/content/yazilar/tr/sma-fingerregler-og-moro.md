@@ -1,22 +1,24 @@
 ---
 lang: tr
-title: "Minik Parmak Tekerlemeleri ve Oyunları"
-description: "Başparmak, işaret parmağı ve beş kardeşin sıcacık tekerleme oyunu!"
+title: "Beş Kardeşin Akıl ve Ritim Oyunu"
+description: "Kuleler yapan, düğüm atan ve resim çizen beş parmağın iş birliğini anlatan ritmik tekerleme."
 date: 2026-10-10
 category: gater
 cover: /images/yazilar/sma-fingerregler-og-moro.png
-coverAlt: "Minik Parmak Tekerlemeleri ve Oyunları"
+coverAlt: "Beş Kardeşin Akıl ve Ritim Oyunu"
 ageRange: "4-6 Yaş"
 featured: false
 draft: false
 ---
 
-Başparmağım kapıyı çaldı, tak tak tak!
+Başparmak güçlüdür; elin bir nesneyi kavramak istediğinde sağlam bir dayanak oluşturur.
 
-İşaret parmağım pencereden baktı, kim o dedi?
+İşaret parmağı gökyüzündeki takımyıldızları gösterir ve kitap sayfalarını nazikçe çevirir.
 
-Orta parmağım anahtarı çevirdi ve kapıyı açtı.
+Orta parmak kardeşlerin en uzunudur; ağır eşyaları kaldırırken gücü eşit dağıtır.
 
-Yüzük parmağım sofrayı kurdu, serçe parmağım hepsini afiyetle yedi!
+Yüzük parmağı ve serçe parmak elin dengesini korur, su bardağını düşürmeden tutar.
 
-> **Parmak oyunu:** Tekerlemeyi söylerken her parmağını sırayla kıpırdat!
+Birbirinden farklı boydaki bu beş parmak, birlikte hareket ettiklerinde harika sanat eserleri üretir.
+
+> **Koordinasyon:** Başparmağını sırasıyla diğer dört parmağının ucuna tek tek değdir; hareketi hızlandırmayı dene!

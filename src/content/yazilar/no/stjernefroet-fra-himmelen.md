@@ -1,26 +1,28 @@
 ---
 lang: no
-title: "Det glitrende stjernefrøet som falt i hagen"
-description: "En natt falt et stjerneskudd ned i blomsterbedet til Sara og begynte å spire."
+title: "Meteorfrøet i den gamle hagen"
+description: "Et glødende himmellegeme daler ned i hagejorden og krever en helt spesiell type tålmodighet for å slå rot."
 date: 2026-10-10
 category: eventyr
 cover: /images/yazilar/stjernefroet-fra-himmelen.png
-coverAlt: "Det glitrende stjernefrøet som falt i hagen"
+coverAlt: "Meteorfrøet i den gamle hagen"
 ageRange: "7-9 år"
 featured: false
 draft: false
 ---
 
-En stjerneklar natt så Sara et gyllent stjerneskudd dale sakte ned bak epletreet.
+Under Perseidene i august sto ti år gamle Sara ute ved kompostbingen og så stjerneskuddene krysse himmelrommet som gylne nålestikk.
 
-Da hun løp ut neste morgen, fant hun et lite frø som glødet med et sølvfarget lys.
+Ett av lyspunktene sluknet ikke, men dalte sakte ned med en lav suselyd og landet med et dempet smell i den fuktige molden under plommetreet.
 
-Sara plantet frøet i den fuktige jorden og vannet det kjærlig hver ettermiddag.
+Da hun grov i jorden med hagespaden neste morgen, fant hun ikke en vanlig stein, men en porøs, metallisk kule som kjentes kjølig og vibrerte svakt.
 
-Etter noen uker vokste det opp en nydelig plante med stjerneformede, glitrende blader.
+I stedet for å legge den på hyllen, plantet hun den i en dyp krukke med skogsjord og vannet den trofast med friskt regnvann hver kveld.
 
-Om natten lyste planten opp hele hagen som en trygg lykt for sovende fugler og humler.
+I tre uker skjedde ingenting, men da høstjevndøgn kom, brøt to sølvglinsende spirer gjennom overflaten med blader som skimret i mørket.
 
-Sara forsto at stjerner kan vokse på jorden så lenge de får kjærlighet og omsorg.
+Planten vokste til en meterhøy busk som om natten tiltrakk seg sjeldne nattsvermere og lyste opp hele hagen med et behagelig, mykt skjær.
 
-> **Naturvenn:** Ta vare på plantene i vinduskarmen din, så gir de deg glede tilbake!
+Sara forsto at universets hemmeligheter ikke alltid forblir fjerne stjerner; noen ganger lander de midt i hverdagen vår hvis vi gir dem tid til å gro.
+
+> **Botanisk tålmodighet:** Hvorfor tror du noen planter bruker måneder på å spire, mens ugress dukker opp på bare noen dager?

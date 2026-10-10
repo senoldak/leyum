@@ -1,22 +1,26 @@
 ---
 lang: no
-title: "Den myke skyens lille regnsang"
-description: "Lille Plysj fløy over engen og sang for tørste blomster."
+title: "Vandreskyens ferd over fjelltoppene"
+description: "En fuktig tåkesky samler krefter over havet og bringer livgivende dråper til de tørre heiene."
 date: 2026-10-10
 category: eventyr
 cover: /images/yazilar/den-myke-skyens-regnsang.png
-coverAlt: "Den myke skyens lille regnsang"
+coverAlt: "Vandreskyens ferd over fjelltoppene"
 ageRange: "4-6 år"
 featured: false
 draft: false
 ---
 
-Lille sky Plysj svevet lett og glad over de grønne bakkene.
+Ute i havgapet stiger havets fuktighet opp mot den kjølige morgenluften og samler seg i en mektig sky.
 
-Blomstene nede på bakken ropte: «Vi er så tørste nå!»
+Vinden bærer den innover land, over forrevne klipper og tørre lyngheier som lengter etter fuktighet.
 
-Plysj begynte å nynne en liten, koselig melodi av lette dråper.
+Når skyen møter den kalde fjellveggen, samler de usynlige vanndråpene seg til tunge, klare regndråper.
 
-Pitter, patter falt dråpene, og alle blomstene åpnet sine fargerike blader.
+Regnet faller rytmisk mot granbaret, vasker støvet av steinene og vekker duften av krekling og einer.
 
-> **Liten dans:** Tramp lett med tærne som små regndråper på gulvet!
+Bekken i dalbunnen fylles med nytt vann, og froskene kvekker fornøyd i det friske sivet.
+
+Hver regndråpe bærer med seg havets reise inn til skogens innerste hemmeligheter.
+
+> **Sanseopplevelse:** Gå ut rett etter et regnvær og trekk pusten dypt; kjenner du den friske lukten av fuktig skogbunn?

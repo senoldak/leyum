@@ -1,22 +1,26 @@
 ---
 lang: tr
-title: "Paylaşmayı Öğrenen Neşeli Sincap"
-description: "Kocaman fındıklar toplayan neşeli sincabın ormandaki sıcacık dostluk masalı."
+title: "Meşe Ormanının Kızıl Muhafızı"
+description: "Sonbahar rüzgarları yaprakları savururken kızıl sincap kış hazırlığı yapar ve ulu ağaçların cömert sırrını keşfeder."
 date: 2026-10-10
 category: eventyr
 cover: /images/yazilar/det-glade-ekornet-som-delte.png
-coverAlt: "Paylaşmayı Öğrenen Neşeli Sincap"
+coverAlt: "Meşe Ormanının Kızıl Muhafızı"
 ageRange: "4-6 Yaş"
 featured: false
 draft: false
 ---
 
-Fındık adında kıpır kıpır, kuyruğu püsküllü küçük bir sincap vardı.
+Sonbahar ormanı nemli toprak, çıtırdayan yapraklar ve serin dağ rüzgarıyla kokar.
 
-Bir gün meşe ağacının altında altın gibi parıldayan kocaman bir palamut buldu.
+Ulu bir meşe ağacının dallarında çevik adımlarla ilerleyen kızıl sincap, kış günleri için kiler hazırlar.
 
-O sırada aç bir serçe dalın ucuna konup hüzünle baktı.
+Yosunlu köklerin arasında kabuğu parıldayan sert ve dolgun bir meşe palamudu bulur.
 
-Fındık palamudu ikiye böldü ve serçeye uzattı. Birlikte neşeyle yediler.
+O sırada rüzgardan korunmak için aynı dala sığınan küçük bir sıvacı kuşu kanatlarını toparlar.
 
-> **Dostluk kuralı:** Paylaştığımız her lezzet iki kat daha tatlı olur!
+Sincap palamudu kuru yaprakların arasına bırakır; çünkü ulu meşe ormanı soğuk kış günlerinde herkese yetecek kadar cömerttir.
+
+İki orman yolcusu ağacın korunaklı kovuğunda yan yana durup yapraklara vuran yağmurun sesini dinler.
+
+> **Orman İzi:** Bir sonraki doğa yürüyüşünde meşe ağaçlarının diplerini incele; minik diş izleri taşıyan palamut kabuklarını fark edebilirsin.

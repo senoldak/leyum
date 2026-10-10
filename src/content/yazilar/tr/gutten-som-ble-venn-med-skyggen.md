@@ -1,26 +1,28 @@
 ---
 lang: tr
-title: "Gölgesiyle Arkadaş Olan Meraklı Çocuk"
-description: "Gölgesini sıkıcı bulan Kerem, bir gün onunla dans edip kuklalar yapmayı keşfeder."
+title: "Işığın Peşindeki Gölge Tiyatrosu"
+description: "Gölgesinin açılarla nasıl değiştiğini inceleyen bir çocuğun optik fiziğini büyüleyici bir sahne oyununa dönüştürmesi."
 date: 2026-10-10
 category: eventyr
 cover: /images/yazilar/gutten-som-ble-venn-med-skyggen.png
-coverAlt: "Gölgesiyle Arkadaş Olan Meraklı Çocuk"
+coverAlt: "Işığın Peşindeki Gölge Tiyatrosu"
 ageRange: "7-9 Yaş"
 featured: false
 draft: false
 ---
 
-Kerem nereye giderse gitsin gölgesinin peşinden geldiğini fark etti.
+Kerem eskiden gölgesini yalnızca peşinden gelen sıradan ve sessiz bir karartı olarak görürdü.
 
-Bazen bir kavak ağacı gibi uzuyor, bazen de ayaklarının dibinde küçücük kalıyordu.
+Fakat güneşin alçaldığı bir ikindi vakti, ambarın beyaz duvarında gölgesinin boyunun neredeyse üç kat uzadığını fark etti.
 
-Güneşli bir ikindi vakti Kerem tek ayağı üzerinde zıplayıp komik hareketler yaptı.
+Merakla hareket etmeye başladı; parmaklarını birleştirip bileklerini büktüğünde duvarda kanat çırpan kartallar ve koşan kurt figürleri belirdi.
 
-Gölgesi de onunla aynı anda zıpladı ve birlikte harika bir dans başlattılar.
+Gölge aslında bir yokluk değildi; ışığın engellerle karşılaşınca arkasında bıraktığı büyüleyici bir çizim alanıydı.
 
-Elleriyle duvara tavşan kulakları ve uçan kuş figürleri çizerek kahkahalar attılar.
+Hava kararıp güneş battığında Kerem bir el feneri alarak odasında kendi gölge tiyatrosunu kurdu.
 
-Kerem güneş ışığı oldukça yanında hep neşeli bir oyun arkadaşı olduğunu anladı.
+Işık kaynağını yaklaştırdıkça gölgenin büyüdüğünü, uzaklaştırdıkça keskinleştiğini keşfederek optik biliminin ilk sırlarını çözdü.
 
-> **Işık oyunu:** Odanı karartıp bir el feneriyle duvara parmaklarınla gölge hayvanlar yap!
+O günden sonra gölgesi onun için sıkıcı bir siluet değil, ışığın ve hayal gücünün en sadık oyun arkadaşı oldu.
+
+> **Gölge Oyunu:** Odanı karartıp tek bir ışık kaynağıyla duvara el figürleri yap; ışığı ellerine yaklaştırdığında gölgen nasıl değişiyor?

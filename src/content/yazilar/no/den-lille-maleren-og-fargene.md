@@ -1,22 +1,26 @@
 ---
 lang: no
-title: "Den lille maleren og de glade fargene"
-description: "Hva skjer når gult og blått klemmer hverandre på papiret?"
+title: "Rennende farger og det tomme arket"
+description: "Når gult møter blått på et vått akvarellark, oppstår en helt ny verden av grønne nyanser."
 date: 2026-10-10
 category: eventyr
 cover: /images/yazilar/den-lille-maleren-og-fargene.png
-coverAlt: "Den lille maleren og de glade fargene"
+coverAlt: "Rennende farger og det tomme arket"
 ageRange: "4-6 år"
 featured: false
 draft: false
 ---
 
-Lille Leo hadde en pensel og en krukke med vann.
+På det store trebordet lå et tykt ark akvarellpapir, fuktet med rent kildevann fra glasset.
 
-Han malte en stor og varm sol med gul maling på arket.
+En pensel dyppet i solgul oker malte en bred bue over den øverste halvdelen av arket.
 
-Så tok han litt blå maling og strøk over kanten.
+Rett ved siden av la en annen pensel en dyp koboltblå stripe som minnet om en stormfull kveldshimmel.
 
-Plutselig ble fargen magisk grønn som gresset i hagen om våren!
+Da vannet på papiret trakk fargene mot hverandre, møttes det gule og blå i en virvlende elv.
 
-> **Fargelek:** Bland gult og blått på et ark og se magien selv!
+Der fargene møttes, ble det verken gult eller blått, men en frodig, dyp skogsgrønn fargetone.
+
+Det tomme arket hadde plutselig fått liv og viste hvordan motsetninger kan skape noe helt nytt sammen.
+
+> **Fargeeksperiment:** Prøv å blande gul og blå maling på en tallerken. Hvor mange forskjellige grønnfarger klarer du å lage?

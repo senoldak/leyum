@@ -1,24 +1,26 @@
 ---
 lang: tr
-title: "Eğlenceli Kelime Avı ve Akrostiş Oyunları"
-description: "Harflerin mısra başlarında gizli kelimeler oluşturduğu büyüleyici akrostiş ve kelime oyunları rehberi!"
+title: "Harflerin Gizli Dünyası: Akrostiş ve Anagram"
+description: "Mısra başlarındaki gizli harfler ve yer değiştiren sözcüklerle şifreli mesajlar kurma sanatını keşfet!"
 date: 2026-10-10
 category: gater
 cover: /images/yazilar/ordjakt-og-akrostikon.png
-coverAlt: "Eğlenceli Kelime Avı ve Akrostiş Oyunları"
+coverAlt: "Harflerin Gizli Dünyası: Akrostiş ve Anagram"
 ageRange: "7-9 Yaş"
 featured: false
 draft: false
 ---
 
-Akrostiş, şiirin ilk harflerinin yukarıdan aşağıya okunduğunda anlamlı bir kelime oluşturduğu eğlenceli bir oyundur.
+Akrostiş, şiirin her dizesindeki ilk harfin yukarıdan aşağıya okunduğunda gizli bir kelimeyi ortaya çıkardığı kadim bir edebiyat oyunudur.
 
-Örneğin BAL kelimesini alt alta yazıp her harfle başlayan tatlı cümleler kurabilirsin.
+Örneğin “GÖK” kelimesini kağıdın sol kenarına alt alta yazıp her mısrayı bu harflerle başlatabilirsin:
 
-“B” petekten süzülen sarı damla, “A” arıların kanat çırpışı, “L” lezzetli bir şifa kaynağıdır.
+“G” güneşin batışıyla moraran ufuk, “Ö” örtüsünü seren serin rüzgar, “K” karanlıkta parıldayan ilk yıldız.
 
-Kelime avı oynamak zihnimizi çevikleştirir ve yeni sözcüklerle tanışmamızı sağlar.
+Anagram ise bir kelimedeki harflerin yerini değiştirerek yepyeni anlamlı bir sözcük üretmektir; tıpkı “kitap” sözcüğünden “patik” türetmek gibi.
 
-Kendi adını veya sevdiğin bir hayvanın ismini kağıda yazarak gizli şiirler üretebilirsin.
+Bu zeka oyunları zihnimizin kelime hazinesini genişletir, harfleri birer yapı taşı gibi esnek kullanmamızı sağlar.
 
-> **Kendi akrostişini yaz:** İsminin baş harflerini alt alta yazıp ailene özel bir şiir hediye et!
+Tarih boyunca yazarlar ve gizli haberciler, önemli sırları sıradan metinlerin içine gizlemek için akrostiş sanatından yararlanmışlardır.
+
+> **Kendi Şiirin:** Kendi isminin harflerini alt alta yazarak ailene veya arkadaşına gizli mesaj taşıyan özel bir şiir hediye et!

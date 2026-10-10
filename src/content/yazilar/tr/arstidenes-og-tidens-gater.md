@@ -1,26 +1,26 @@
 ---
 lang: tr
-title: "Zaman ve Mevsim Bilmeceleri"
-description: "Birbirini kovalayan on iki kardeş ve doğanın döngüsünü anlatan bilge mevsim bilmeceleri!"
+title: "Dünya’nın Eğik Ekseni ve Mevsimler Bilmecesi"
+description: "Kuzey yarımkürede yaz yaşanırken güneyde neden kış hüküm sürer? Gezegenimizin eğik duruşunun astronomik sırrı."
 date: 2026-10-10
 category: gater
 cover: /images/yazilar/arstidenes-og-tidens-gater.png
-coverAlt: "Zaman ve Mevsim Bilmeceleri"
+coverAlt: "Dünya’nın Eğik Ekseni ve Mevsimler Bilmecesi"
 ageRange: "7-9 Yaş"
 featured: false
 draft: false
 ---
 
-Zaman dört harika mevsimle süslenmiş büyük ve kesintisiz bir tekerlek gibi döner.
+Pek çok insan mevsimlerin Dünya’nın Güneş’e yaklaşıp uzaklaşmasıyla oluştuğunu zanneder; oysa gezegenimiz ocak ayında Güneş’e aslında daha yakındır.
 
-Pencerelere buzdan danteller ören ve burnumuzu üşüten beyaz mevsim hangisidir? Kış mevsimi!
+Mevsimlerin asıl sebebi, Dünya’mızın dönme ekseninin yörünge düzlemine göre tam yirmi üç buçuk derece eğik durmasıdır.
 
-Karları eritip papatyaları uyandıran ve kuşları neşeyle öttüren kimdir? Bahar!
+Kuzey yarımküre Güneş’e doğru eğildiğinde, ışınlar dik açıyla gelir; günler uzar ve toprak sıcacık bir yaz mevsimine uyanır.
 
-Yaprakları sarıya ve kızıla boyayıp rüzgarla dans ettiren mevsim hangisidir? Sonbahar!
+Aynı anda güney yarımküre Güneş’ten uzak kaldığı için orada dondurucu kış fırtınaları ve kısa günler yaşanır.
 
-Peş peşe yürüyen on iki kardeş ise takvimdeki on iki aydır.
+Yılda iki kez, ilkbahar ve sonbahar ekinokslarında ise gece ile gündüz yeryüzünün her köşesinde birbirine tam eşit olur.
 
-Mevsimlerin bu güzel dengesi dünyamıza her zaman yeni renkler ve taze umutlar taşır.
+Mevsimlerin bu muazzam döngüsü, evrendeki minik bir açı farkının koca bir gezegenin yaşam ritmini nasıl belirlediğini kanıtlar.
 
-> **Mevsim sohbeti:** En sevdiğin mevsim hangisi ve o mevsimde doğada ne yapmayı çok seversin?
+> **Fener Deneyi:** Bir portakala el feneri tutarken portakalı hafifçe eğik tut; fener ışığının hangi yarımküreye daha dik vurduğunu gözlemle!

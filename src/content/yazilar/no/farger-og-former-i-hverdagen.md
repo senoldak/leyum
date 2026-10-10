@@ -1,22 +1,22 @@
 ---
 lang: no
-title: "Gjett fargen og formen rundt deg!"
-description: "Solen er rund og gresset er grønt. Hva ser du?"
+title: "Naturens kamuflasje og gjemte former"
+description: "Hvorfor skifter haren pels når vinteren kommer, og hvilken form har månens gylne skive på himmelen?"
 date: 2026-10-10
 category: gater
 cover: /images/yazilar/farger-og-former-i-hverdagen.png
-coverAlt: "Gjett fargen og formen rundt deg!"
+coverAlt: "Naturens kamuflasje og gjemte former"
 ageRange: "4-6 år"
 featured: false
 draft: false
 ---
 
-Solen er rund som en ball. Den lyser gult på himmelen.
+Hvem er brun som skogbunnen om sommeren, men blir hvit som nysnø når kulden setter inn? Fjellharen!
 
-Gresset er mykt og grønt under føttene våre.
+Hva lyser som en tynn sigd på kveldshimmelen, og vokser til en rund, sølvfarget tallerken? Månen!
 
-Appelsinen er rund og smaker søtt og friskt.
+Hvilket lite kryp har seks tynne bein og ligner en grønn kvist på greinen? Vandrende pinne!
 
-Hvilke farger og former ser du i rommet ditt nå?
+Naturen bruker former og farger for å beskytte dyrene og vekke vår nysgjerrighet.
 
-> **Liten lek:** Finn tre røde ting i lekekassen din!
+> **Formjakt:** Se deg rundt i rommet akkurat nå. Hvor mange ting finner du som har form som en perfekt sirkel?

@@ -1,26 +1,26 @@
 ---
 lang: no
-title: "Gåter om årstider, sol og måneder"
-description: "Tolv brødre følger etter hverandre, men møtes aldri. Løs tidens egne gåter!"
+title: "Jordens skrå akse og årstidenes kretsløp"
+description: "Hvorfor har vi sommer når Australia har vinter? Løs astronomiens store gåte om sollyset og kalenderen."
 date: 2026-10-10
 category: gater
 cover: /images/yazilar/arstidenes-og-tidens-gater.png
-coverAlt: "Gåter om årstider, sol og måneder"
+coverAlt: "Jordens skrå akse og årstidenes kretsløp"
 ageRange: "7-9 år"
 featured: false
 draft: false
 ---
 
-Tiden beveger seg som et uendelig hjul med fire vakre årstider.
+Mange tror feilaktig at jorden har sommer fordi vi er nærmere solen, men i virkeligheten er jorden faktisk litt nærmere solen i januar.
 
-Hvem kommer med hvite tepper, pynter vinduene med rim og biter i nesen? Vinteren!
+Den virkelige årsaken til årstidene er at jordaksen heller med nøyaktig 23,5 grader i forhold til banen rundt solen.
 
-Hvem vekker blomstene, smelter snøen og fyller trærne med lysegrønne knopper? Våren!
+Når den nordlige halvkule heller mot solen, treffer solstrålene bakken mer direkte og dagene blir lange og varme.
 
-Hvem maler skogen i gull og rødt før bladene daler sakte mot bakken? Høsten!
+Samtidig heller den sørlige halvkule bort fra solen, noe som betyr at de har vinter med kalde, korte dager mens vi bader i fjorden.
 
-Tolv brødre vandrer på rekke og rad gjennom året: årets tolv måneder.
+To ganger i året, ved vårjevndøgn og høstjevndøgn, er dag og natt nøyaktig like lange over hele kloden.
 
-Naturens kretsløp gir oss alltid nye farger, smaker og gleder å se frem til.
+Dette kosmiske samspillet minner oss på at tiden og årstidene våre er et direkte resultat av jordens evige dans gjennom verdensrommet.
 
-> **Kalenderlek:** Hvilken årstid er din favoritt, og hva liker du aller best å gjøre da?
+> **Globuseksperiment:** Lys med en lommelykt på en globus eller en appelsin som holdes på skrå. Hvilken halvdel får mest direkte lysstråler?

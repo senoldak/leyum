@@ -1,26 +1,28 @@
 ---
 lang: no
-title: "Den snille dragen som heller ville løpe fort"
-description: "Dragen Balder hadde små vinger, men de raskeste beina i hele det grønne kongeriket!"
+title: "Dragen Balder og stiene under skyene"
+description: "Mens flokken svevde i den tynne fjelluften, oppdaget en ung drage at bakkekontakt og raske ben har sine helt egne fordeler."
 date: 2026-10-10
 category: eventyr
 cover: /images/yazilar/dragen-som-elsket-a-lope.png
-coverAlt: "Den snille dragen som heller ville løpe fort"
+coverAlt: "Dragen Balder og stiene under skyene"
 ageRange: "7-9 år"
 featured: false
 draft: false
 ---
 
-I fjellene bodde dragen Balder sammen med sine store og flygende brødre.
+Oppe på de forblåste Tindene bodde en drakeflokk med enorme læraktige vinger som kunne seile på de kaldeste stormkastene.
 
-De andre dragene svevde høyt i skyene og skrøt av hvor store vingene deres var.
+Alle de eldre dragene var stolte over hvor høyt de kunne sirkle over breene, men den yngste dragen, Balder, hadde uvanlig korte vinger og kraftige bakben.
 
-Men Balder likte aller best å kjenne det myke gresset kile under de grønne potene.
+Hver gang han prøvde å lette, mistet han balansen i kastevindene og tumlet klønete ned i det myke lyngteppet i fjelldalen.
 
-Han trente hver dag og ble den raskeste løperen i hele det vidstrakte kongeriket.
+I stedet for å fortvile begynte Balder å løpe langs dyretråkkene; han lærte seg å lese terrenget, hoppe over dype sprekker og akselerere opp bratte skråninger.
 
-Da en liten geitekilling gikk seg vill i en dyp kløft, kunne ingen flygere lande der.
+Da en voldsom høsttåke la seg som en ugjennomtrengelig mur over fjellene og blindet alle flygere, gikk en gjetergutt seg vill nede i den steinete juvet.
 
-Balder løp som en vind over steinene og bar killingen trygt tilbake til flokken.
+De bevingede dragene kunne ikke se noe fra luften uten å risikere å krasje i fjellveggene, men Balder løp ufortrødent gjennom tåken langs bakken.
 
-> **Vær deg selv:** Du trenger ikke gjøre det samme som andre for å være helt spesiell!
+Han fant gutten ved lyden av elven og bar ham trygt tilbake, og beviste for hele flokken at styrke ikke bare måles i vingespenn.
+
+> **Egenart:** Hva er noe du liker å gjøre på din helt egen måte, selv om andre kanskje velger en annen løsning?

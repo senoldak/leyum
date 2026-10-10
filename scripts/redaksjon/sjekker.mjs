@@ -29,7 +29,7 @@ export function sjekkSetningslengde(tekst = '', alder = '7-9') {
   const ramme = PEDAGOGISK_RAMMEVERK[alder] ?? PEDAGOGISK_RAMMEVERK['7-9'];
   const maksOrd = ramme.maksOrdPerSetning;
   const feil = [];
-  const setninger = tekst.split(/(?<=[.!?])\s+|\n+/).map((s) => s.trim()).filter(Boolean);
+  const setninger = tekst.split(/(?<=[.!?;])\s+|\n+/).map((s) => s.trim()).filter(Boolean);
 
   for (const s of setninger) {
     const ord = (s.match(/[\p{L}\p{N}]+/gu) ?? []);

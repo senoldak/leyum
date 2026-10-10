@@ -1,22 +1,26 @@
 ---
 lang: tr
-title: "Kayıp Çorabın Neşeli Macerası"
-description: "Kırmızı puantiyeli yün çorap koltuğun altına yuvarlanıp yeni arkadaşlar bulur!"
+title: "Kitaplığın Ardındaki Gizli Dünya"
+description: "Odanın unutulmuş köşelerinde eski bir yün çorap, pusula ve cam bilyenin kurduğu keşif kulübü."
 date: 2026-10-10
 category: eventyr
 cover: /images/yazilar/den-bortkomne-sokkens-reise.png
-coverAlt: "Kayıp Çorabın Neşeli Macerası"
+coverAlt: "Kitaplığın Ardındaki Gizli Dünya"
 ageRange: "4-6 Yaş"
 featured: false
 draft: false
 ---
 
-Pıtır adında kırmızı puantiyeli neşeli bir yün çorap vardı.
+Büyük meşe kitaplığın arkasında, evdeki koşuşturmanın hiç ulaşmadığı sakin ve loş bir köşe vardı.
 
-Bir sabah yataktan kayıp kocaman koltuğun altına doğru yuvarlandı.
+Orada, eski bir ahşap kutunun yanında kırmızı yünden örülmüş sıcak bir çorap duruyordu.
 
-Orada sarı bir oyuncak araba ve kayıp bir boya kalemiyle karşılaştı.
+Hemen yanı başında pirinçten eski bir pusula ve deniz yeşili parlak bir cam bilye parıldıyordu.
 
-Üç dost halının altında neşeyle oyunlar oynayıp eğlenceli vakit geçirdiler.
+Döşeme tahtalarının arasından gelen serin esinti, evin yıllar içindeki anılarını bu gizli köşeye taşırdı.
 
-> **Eğlenceli arayış:** Yatağının altına bak, belki orada kaybolmuş eski bir oyuncağını bulursun!
+Onlar kaybolmuş değildi; evin kalbinde kendi sessiz keşif dünyalarını kurmuş kadim eşyalardı.
+
+Geceleri pencereden vuran ay ışığı yeşil bilyeye çarpar ve odanın tavanında büyüleyici gölgeler oluştururdu.
+
+> **Kendi Köşen:** Odanın bir köşesinde doğadan topladığın pürüzsüz taşları veya deniz kabuklarını biriktirdiğin küçük bir kutun var mı?

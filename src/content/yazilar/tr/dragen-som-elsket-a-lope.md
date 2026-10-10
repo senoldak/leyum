@@ -1,26 +1,28 @@
 ---
 lang: tr
-title: "Uçamayan Ama Çok Hızlı Koşan Ejderha"
-description: "Kanatları küçük olsa da ormanın en hızlı koşan dostu olan sevimli ejderha Boncuk!"
+title: "Kanatlarını Yerde Bulan Ejderha"
+description: "Kardeşleri göklerde süzülürken sarp patikalarda koşmayı seçen ve sis çöktüğünde vadinin kahramanı olan cesur ejderha."
 date: 2026-10-10
 category: eventyr
 cover: /images/yazilar/dragen-som-elsket-a-lope.png
-coverAlt: "Uçamayan Ama Çok Hızlı Koşan Ejderha"
+coverAlt: "Kanatlarını Yerde Bulan Ejderha"
 ageRange: "7-9 Yaş"
 featured: false
 draft: false
 ---
 
-Yüksek sisli dağlarda yaşayan Boncuk adında yeşil ve sevimli bir ejderha vardı.
+Dumanlı dağların sarp zirvelerinde yaşayan ejderha sürüsü, fırtınalı havalarda bile bulutların üzerine çıkan kanatlarıyla gurur duyardı.
 
-Kardeşleri gökyüzünde kanat çırpıp bulutların arasında uçmaktan gurur duyarlardı.
+Fakat sürünün en genci olan Boran’ın kanatları diğerlerine göre daha kısa, bacakları ise bir dağ keçisi kadar güçlü ve çevikti.
 
-Boncuk ise ayaklarının altındaki serin çimenleri hissetmeyi ve hızla koşmayı çok severdi.
+Her uçma denemesinde sert rüzgarlara kapılıp çimenlerin üzerine yuvarlanır, havalanmakta zorlanırdı.
 
-Her gün antrenman yaptı ve krallığın en hızlı, en çevik koşucusu oldu.
+Boran üzülmek yerine vadideki kayalık patikalarda koşmayı denedi; zemin dengesini, taşların arasından sıçramayı ve dar geçitleri ustalıkla öğrendi.
 
-Bir gün dik kayalıklarda kaybolan minik bir keçi yavrusunu kurtarmak için uçaklar bile inemedi.
+Günün birinde dağları öyle yoğun bir sis kapladı ki gökyüzündeki ejderhalar yönlerini tamamen kaybedip sığınaklarına çekilmek zorunda kaldı.
 
-Boncuk rüzgar gibi koşarak dar patikalardan geçti ve yavruyu sırtında güvenle taşıdı.
+Tam o sırada vadinin derin kanyonunda bir çoban çocuğunun mahsur kaldığı haberi geldi; uçarak oraya inmek imkansızdı.
 
-> **Kendin ol:** Herkesle aynı olmak zorunda değilsin; senin yeteneğin sana özeldir!
+Boran koku alma duyusunu ve güçlü ayaklarını kullanarak yoğun sisin içinden hızla kanyona koştu ve çocuğu sırtında güvenle köye ulaştırdı.
+
+> **Kendi Gücün:** Arkadaşlarının yaptıklarından farklı olan ama senin çok iyi başardığın özel bir yeteneğin var mı?

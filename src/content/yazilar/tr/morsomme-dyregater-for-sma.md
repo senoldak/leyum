@@ -1,20 +1,22 @@
 ---
 lang: tr
-title: "Sevimli Hayvan Bilmeceleri"
-description: "Miyavlayan kedilerden zıpzıp tavşanlara minik hayvan bilmeceleri ve eğlenceli oyunlar!"
+title: "Ormanın Gizli İzleri ve Hayvan Bilmeceleri"
+description: "Ağaç gövdelerine tırmanıp ceviz saklayanlar ve nehirde bent kuran mimarlar: Doğanın izlerini tahmin et!"
 date: 2026-10-10
 category: gater
 cover: /images/yazilar/morsomme-dyregater-for-sma.png
-coverAlt: "Sevimli Hayvan Bilmeceleri"
+coverAlt: "Ormanın Gizli İzleri ve Hayvan Bilmeceleri"
 ageRange: "4-6 Yaş"
 featured: true
 draft: false
 ---
 
-Yumuşak tüylerim var ve miyav derim. Ben kimim? Sevimli kedi!
+Keskin tırnaklarım ve tüylü bir kuyruğum var; meşe palamutlarını yosunların arasına saklarım. Ben kimim? Çevik sincap!
 
-Uzun kulaklarım var ve havucu çok severim. Ben kimim? Neşeli tavşan!
+Nehirde yüzerim, keskin dişlerimle dalları kesip suyun üzerine sağlam ahşap kaleler kurarım. Ben kimim? Usta kunduz!
 
-Gölde yüzerim ve vak vak derim. Ben kimim? Minik ördek!
+Sırtımda sarmal bir ev taşırım; yağmur dindiğinde nemli taşların üzerinde sessizce ilerlerim. Ben kimim? Sakin salyangoz!
 
-> **Hayvan oyunu:** Gözlerini kapat ve bir arkadaşına hayvan taklidi yap!
+Ormandaki her canlı kendi özel izini bırakır ve doğanın dengesinde önemli bir görev üstlenir.
+
+> **İz Dedektifi:** Orman yürüyüşünde yerdeki çam kozalaklarını incele; kabukları bir sincap tarafından mı kemirilmiş?

@@ -1,22 +1,22 @@
 ---
 lang: no
-title: "Hvem lager denne rare lyden?"
-description: "Tik-takk sier klokken, drypp-drypp sier vannet. Lytt nøye!"
+title: "Hvem lager denne hemmelige lyden i mørket?"
+description: "Vannet risler, vinden synger i granbaret og nattens fugler roper. Tren opp hørselen din!"
 date: 2026-10-10
 category: gater
 cover: /images/yazilar/hvem-lager-denne-lyden.png
-coverAlt: "Hvem lager denne rare lyden?"
+coverAlt: "Hvem lager denne hemmelige lyden i mørket?"
 ageRange: "4-6 år"
 featured: false
 draft: false
 ---
 
-Tik-takk, tik-takk høres fra veggen. Det er klokken som går!
+Hva suser gjennom trekronene som en myk melodi, men kan verken sees eller fanges i hendene? Vinden!
 
-Drypp, drypp faller dråper fra kranen i vasken.
+Hva trommer taktfast mot takrennene og lager små ringer i vannpyttene på asfalten? Regndråpene!
 
-Svisj, svisj suser vinden gjennom de grønne bladene i treet.
+Hvem kvekker med dyp stemme fra sivkanten ved tjernet når solen har gått ned? Skogfrosken!
 
-Lukk øynene dine og lytt til lydene rundt deg.
+Ørene våre fanger opp hundrevis av hemmelige lyder som forteller hva som skjer i naturen rundt oss.
 
-> **Lyttepost:** Hvilken hemmelig lyd hører du aller best akkurat nå?
+> **Lyttepost:** Lukk øynene dine i ett minutt. Hvilken lyd er den svakeste og mest hemmelige du klarer å høre?

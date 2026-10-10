@@ -1,22 +1,26 @@
 ---
 lang: no
-title: "Den bortkomne sokkens modige reise"
-description: "En rød ullsokk med hvite prikker la ut på ekspedisjon under sofaen!"
+title: "Den bortgjemte skatten bak bokhyllen"
+description: "Hva skjer i de hemmelige krokene i stuen når lyset slukkes og kvelden senker seg?"
 date: 2026-10-10
 category: eventyr
 cover: /images/yazilar/den-bortkomne-sokkens-reise.png
-coverAlt: "Den bortkomne sokkens modige reise"
+coverAlt: "Den bortgjemte skatten bak bokhyllen"
 ageRange: "4-6 år"
 featured: false
 draft: false
 ---
 
-Sokken Snelle var rød med hvite, morsomme prikker på hælen.
+Bak den tunge eikebokhyllen fantes en glemt krok der sollyset sjelden slapp helt til.
 
-En dag trillet Snelle under den store sofaen i stuen.
+Der nede, gjemt under en glemt trebåt, lå en tykk ullsokk strikket av rød saueull.
 
-Der møtte hun en gammel lekebil og en støvete fargestift.
+I den samme kroken lå et gammelt lommekompass av messing og en glatt klinkekule av grønt glass.
 
-De kjørte på eventyr sammen til støvsugeren kom og ryddet dem opp.
+Gjennom sprekken i gulvbordene kjente de trekken fra den dype kjelleren som hvisket om gamle tider.
 
-> **Lek:** Se under sengen din. Kanskje finner du en gammel skatt?
+De var ikke mistet; de hadde bare dannet sin egen hemmelige ekspedisjon midt i det store huset.
+
+Når kvelden kom, lyste måneskinnet gjennom vinduet og fikk klinkekulen til å skinne som en ekte smaragd.
+
+> **Krokenes hemmelighet:** Har du en hemmelig boks på rommet der du samler på fine steiner eller skjell?

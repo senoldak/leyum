@@ -1,22 +1,26 @@
 ---
 lang: tr
-title: "Renklerini Arayan Küçük Ressam"
-description: "Sarı ile mavi boya kağıtta birbirine sarılınca ortaya çıkan büyük sihir!"
+title: "Renklerin Buluştuğu Beyaz Sayfa"
+description: "Sarı ile mavinin ıslak bir fırça ucunda buluşup yepyeni zümrüt ormanları doğurduğu renk bilimi masalı."
 date: 2026-10-10
 category: eventyr
 cover: /images/yazilar/den-lille-maleren-og-fargene.png
-coverAlt: "Renklerini Arayan Küçük Ressam"
+coverAlt: "Renklerin Buluştuğu Beyaz Sayfa"
 ageRange: "4-6 Yaş"
 featured: false
 draft: false
 ---
 
-Ali’nin elinde temiz bir fırça ve su bardağı vardı.
+Geniş ahşap masanın üzerinde temiz suyla hafifçe nemlendirilmiş kalın bir resim kağıdı duruyordu.
 
-Kağıdın ortasına sarı boyayla kocaman ve sıcak bir güneş çizdi.
+Sıcak sarı boyaya batırılmış samur bir fırça, kağıdın üst kısmına güneş gibi ışıltılı bir hat çizdi.
 
-Sonra fırçasına biraz mavi boya alıp güneşe dokundurdu.
+Hemen ardından gelen gece mavisi fırça darbesi, derin denizleri andıran serin bir iz bıraktı.
 
-İki renk sarılınca kağıtta yemyeşil taze çimenler açtı!
+Islak kağıdın üzerinde iki renk birbirine doğru ağır ağır sokulmaya başladı.
 
-> **Renk oyunu:** Sarı ile maviyi parmağınla karıştır ve yeşilin doğuşunu izle!
+Sarı ile mavinin karıştığı o sihirli sınırda, ormanların derinliğini andıran zümrüt yeşili yepyeni bir ton doğdu.
+
+Beyaz kağıt artık sessiz değildi; iki farklı rengin el ele verip yepyeni bir güzellik yaratabileceğini anlatıyordu.
+
+> **Renk Atölyesi:** Bir kağıt üzerinde sarı ve mavi boyayı birbirine karıştır; kaç farklı tonda yeşil elde edebileceğini gör!

@@ -1,22 +1,22 @@
 ---
 lang: tr
-title: "Ses Taklidi Bilmeceleri: Bu Ses Kimin?"
-description: "Tik-tak diyen saatler, şıp-şıp damlayan sular ve çevremizdeki gizli sesler!"
+title: "Doğanın Gizli Sesleri Dedektifi"
+description: "Çam yapraklarındaki fısıltı, nehirdeki çağıltı ve gece kuşlarının sesleri: Kulaklarını aç ve tahmin et!"
 date: 2026-10-10
 category: gater
 cover: /images/yazilar/hvem-lager-denne-lyden.png
-coverAlt: "Ses Taklidi Bilmeceleri: Bu Ses Kimin?"
+coverAlt: "Doğanın Gizli Sesleri Dedektifi"
 ageRange: "4-6 Yaş"
 featured: false
 draft: false
 ---
 
-Duvardan tik-tak tik-tak sesleri geliyor. Bu çalışan saattir!
+Ağaç dallarının arasından ıslık çalarak geçen, fakat ne görülebilen ne de avuçta tutulabilen nedir? Rüzgar!
 
-Musluktan şıp-şıp damlalar damlıyor ve serinlik saçıyor.
+Çatılardan ritmik adımlarla inip yerdeki su birikintilerinde halkalar oluşturan nedir? Yağmur damlaları!
 
-Ağaçların yaprakları arasından rüzgar fış-fış diye esiyor.
+Güneş battığında göl kenarındaki sazlıkların arasından derin bir sesle koroya başlayan kimdir? Gece kurbağası!
 
-Gözlerini kapat ve etrafındaki sesleri dikkatle dinle.
+Kulaklarımız çevremizdeki doğanın fısıldadığı yüzlerce küçük işareti yakalayan olağanüstü alıcılardır.
 
-> **Dinleme oyunu:** Şu an evde duyduğun en kısık ses hangisi?
+> **Dinleme İstasyonu:** Gözlerini bir dakika kapat; bulunduğun mekanda duyabildiğin en kısık ve derindeki ses hangisi?

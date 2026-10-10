@@ -1,22 +1,24 @@
 ---
 lang: tr
-title: "Karanlıktan Korkan Minik Yıldız"
-description: "Gökyüzünün derinliklerinde bulutların arkasına saklanan utangaç bir yıldız vardı."
+title: "Sessiz Yıldız ve Gece Göğünün Masalı"
+description: "Gökyüzünün ilk parıltısı dağların ardında belirince gecenin sessiz yolcuları nasıl yolunu bulur?"
 date: 2026-10-10
 category: eventyr
 cover: /images/yazilar/den-lille-stjernen-og-morket.png
-coverAlt: "Karanlıktan Korkan Minik Yıldız"
+coverAlt: "Sessiz Yıldız ve Gece Göğünün Masalı"
 ageRange: "4-6 Yaş"
 featured: true
 draft: false
 ---
 
-Gökyüzünün masmavi kucağında küçücük parıldayan bir yıldız yaşardı. Çok utangaçtı.
+Mor dağların ardında akşam güneşi usulca batarken vadinin üzerine masmavi bir serinlik çöker.
 
-Her akşam pofuduk ve yumuşak bir bulutun arkasına saklanırdı.
+Ufukta ilk parıldayan akşam yıldızı, ne acele eder ne de parıltısını saklar; billur bir çiy damlası gibi ışıldar.
 
-Hilal Ay ona şefkatle gülümsedi: “Dünya senin ılık ışığını bekliyor minik dostum.”
+Onun ışığı ulu çamların arasından süzülerek geceye kanat çırpan baykuşa sessizce yol gösterir.
 
-Küçük yıldız cesaretle başını uzattı ve göz kırptı. Gökyüzü sıcacık parıldadı.
+Karanlık koyulaştıkça, dağ gölünün durgun sularında gökyüzünün binlerce parıltısı ayna gibi parıldar.
 
-> **Tatlı rüyalar:** Bu gece pencereden bak ve parıldayan yıldızlara neşeyle el salla.
+Gece ürkütücü bir gölge değil, yıldızların hikayelerini fısıldadığı büyüleyici ve huzurlu bir gök kubbedir.
+
+> **Gece Seyri:** Perdeni arala ve gözlerinin karanlığa alışmasını bekle; gökyüzündeki ilk parıltıyı bulup gecenin sessizliğini dinle.

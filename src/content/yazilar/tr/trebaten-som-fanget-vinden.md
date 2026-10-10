@@ -1,26 +1,28 @@
 ---
 lang: tr
-title: "Rüzgarı Yakalayan Tahta Yelkenli"
-description: "Çam kabuğundan yapılan minik yelkenli dere boyunca cesur bir maceraya yelken açar."
+title: "Azgın Akıntıyı Aşan Ahşap Yelkenli"
+description: "Çam kabuğundan oyulmuş minik bir yelkenlinin dere yatağındaki girdapları akıl ve dengeyle aşma serüveni."
 date: 2026-10-10
 category: eventyr
 cover: /images/yazilar/trebaten-som-fanget-vinden.png
-coverAlt: "Rüzgarı Yakalayan Tahta Yelkenli"
+coverAlt: "Azgın Akıntıyı Aşan Ahşap Yelkenli"
 ageRange: "7-9 Yaş"
 featured: false
 draft: false
 ---
 
-Dedesi çam kabuğundan ince bir tekne oydu ve yelken olarak geniş bir çınar yaprağı taktı.
+Dedesi keskin çakısıyla nehrin kıyıya vurduğu kalın bir çam kabuğunu pürüzsüzleştirip dengeli bir tekne gövdesi oydu.
 
-Can tekneyi bahçenin arkasından şırıl şırıl akan derenin serin sularına bıraktı.
+Gövdenin tam ortasına ardıç ağacından ince bir direk dikip kuru bir meşe yaprağını keten iple yelken olarak bağladı.
 
-Tekne ilk başta suyun içinde kendi etrafında dönüp yolunu şaşırmış gibi durdu.
+Can tekneyi değirmenin altındaki köpüklü sulara bıraktığında, nehir taşların arasından hızla akıyor ve girdaplar oluşturuyordu.
 
-Fakat ılık bir rüzgar çınar yaprağına dokununca yelkenli neşeyle hız kazandı.
+İlk denemede rüzgar yelkeni ters yakaladı ve tekne kayaların kenarındaki durgun suda kendi etrafında dönüp durdu.
 
-Taşların arasından ustaca süzüldü, kurbağalara selam verip büyük mavi göle ulaştı.
+Fakat Can kıyıdan uzanıp yaprağın açısını rüzgarı yandan alacak şekilde düzelttiğinde, yelkenli aniden hızlanıp ana akıntıya girdi.
 
-Can kıyıdan koşarak cesur küçük gemisine gururla el salladı.
+Sivri kayaların arasından ustaca sıyrıldı, suyun dibinde pusuya yatmış bir alabalığı selamlayıp geniş gölün sakin sularına ulaştı.
 
-> **Tekne ustası:** Bir dere kenarına gittiğinde sen de kuru bir ağaç kabuğundan minik bir yelkenli yap!
+Doğanın gücüne karşı koymak yerine onun akışını anlamak, en küçük bir kabuğun bile büyük denizlere ulaşmasını sağlıyordu.
+
+> **Gemi Mühendisliği:** Bir dere veya su birikintisi kenarında kabuktan minik bir tekne yap; suyun akışına göre yelken açısını nasıl ayarlamalısın?

@@ -1,22 +1,22 @@
 ---
 lang: tr
-title: "Evimizdeki Gizli Eşyalar"
-description: "Zıplayan toplar, üst üste dizilen renkli küpler ve oyuncak kutusunun bilmeceleri!"
+title: "Evimizdeki Sessiz İcatlar Bilmecesi"
+description: "Güneş ışığını içeri alıp soğuk rüzgarı dışarıda tutan şeffaf kalkan nedir? Evimizin gizemlerini çöz!"
 date: 2026-10-10
 category: gater
 cover: /images/yazilar/hva-gjemmer-seg-i-huset.png
-coverAlt: "Evimizdeki Gizli Eşyalar"
+coverAlt: "Evimizdeki Sessiz İcatlar Bilmecesi"
 ageRange: "4-6 Yaş"
 featured: false
 draft: false
 ---
 
-Yere atınca tavana kadar zıplarım. Ben neyim? Zıpzıp top!
+Bütünüyle şeffafım; güneş ışığını odana buyur eder ama dondurucu kış rüzgarını dışarıda tutarım. Pencere camı!
 
-Rengarenk dizilip kule oluruz. Biz kimiz? Ahşap bloklar!
+Yüzümde gün boyu daireler çizen iki ibrem var, fakat ne kollarım ne de bacaklarım bulunur. Duvardaki saat!
 
-Dört tekerleğim var ve halıda hızla kayarım. Oyuncak araba!
+Birbirine dikilmiş onlarca sayfadan oluşurum; tek bir ses çıkarmadan sana bambaşka dünyalar anlatırım. Kitap!
 
-Oyuncak kutusundaki her eşyanın kendine ait bir sırrı vardır.
+Evimizde her gün kullandığımız sıradan eşyalar, aslında hayatı kolaylaştıran harika mühendislik buluşlarıdır.
 
-> **Kule oyunu:** Tahta bloklarla devrilmeyen en yüksek kuleyi yap!
+> **Mucit Gözü:** Sence evinde bulunan eşyalar arasında insanların tasarladığı en dahiyane icat hangisi?

@@ -1,22 +1,22 @@
 ---
 lang: tr
-title: "Renkler ve Şekiller Bilmecesi"
-description: "Güneş yuvarlaktır, çimenler yemyeşil. Çevrendeki renk ve şekilleri bulma oyunu!"
+title: "Doğanın Gizli Renkleri ve Kamuflaj Bilmecesi"
+description: "Kış gelince kürkünü beyaza çeviren canlılar ve gökyüzünde şekil değiştiren gümüş tepsi bilmeceleri!"
 date: 2026-10-10
 category: gater
 cover: /images/yazilar/farger-og-former-i-hverdagen.png
-coverAlt: "Renkler ve Şekiller Bilmecesi"
+coverAlt: "Doğanın Gizli Renkleri ve Kamuflaj Bilmecesi"
 ageRange: "4-6 Yaş"
 featured: false
 draft: false
 ---
 
-Güneş gökyüzünde sarı bir top gibi parıldar.
+Yazın orman toprağı gibi kahverengiyken, kış gelince bembeyaz bir örtüye bürünen kimdir? Dağ tavşanı!
 
-Ayaklarımızın altındaki çimenler yemyeşil ve yumuşaktır.
+Akşamları gökyüzünde ince bir yay gibi parıldayıp zamanla gümüş bir tepsiye dönüşen nedir? Ay!
 
-Portakal masmavi göğün altında turuncu ve yuvarlaktır.
+Altı ince bacağı olan ve bir ağaç dalına konduğunda kuru bir yapraktan farksız görünen kimdir? Çubuk çekirgesi!
 
-Şimdi odanda hangi renkleri ve şekilleri görüyorsun?
+Doğa, renkleri ve geometrik şekilleri canlıları korumak ve merakımızı uyandırmak için ustaca kullanır.
 
-> **Renk avı:** Odanın içinde üç tane kırmızı nesne bul!
+> **Şekil Avı:** Şu an etrafına dikkatle bak; odanın içinde tam bir daire şeklinde olan kaç eşya sayabilirsin?
