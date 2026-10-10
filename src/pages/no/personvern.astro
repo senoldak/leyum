@@ -1,23 +1,96 @@
 ---
 import BaseLayout from '../../layouts/BaseLayout.astro';
+import Icon from '../../components/Icon.astro';
 import { SITE } from '../../lib/site';
 
 const locale = 'no';
 const loc = SITE.locales[locale];
 ---
 
-<BaseLayout locale={locale} title={loc.privacyTitle}>
-  <article class="article-wrap" style="text-align: left;">
-    <h1 style="text-align: center; margin-bottom: 1.5rem;">🔒 {loc.privacyTitle}</h1>
-    <div class="prose">
-      <p>
-        På <strong>leyum</strong> tar vi barns og familiers personvern på største alvor.
+<BaseLayout
+  locale={locale}
+  title="Personvern og digital sikkerhet — leyum"
+  description="Null informasjonskapsler, null sporing og full trygghet. På leyum er barns og familiers personvern en ufravikelig rettighet."
+>
+  <article class="static-folio-wrap">
+    <header class="static-hero-head">
+      <div class="static-hero-badge">
+        <Icon name="star" size={16} />
+        <span>Personvern &amp; Digital Sikkerhet</span>
+      </div>
+
+      <h1>Null sporing, null informasjonskapsler og full trygghet</h1>
+
+      <p class="static-hero-lead">
+        Vi sporer aldri barns digitale fotavtrykk. På <strong>leyum</strong> er personvern ikke en langtekkelig samtykkeboks, men et kompromissløst arkitektonisk valg med dyp respekt for barns rettigheter.
       </p>
-      <ul>
-        <li>Vi sporer deg ikke med markedsføringscookies eller sporingsskript.</li>
-        <li>Vi samler ikke inn personopplysninger fra barn.</li>
-        <li>Siden leveres direkte som statiske filer over Cloudflare uten unødvendig lagring.</li>
-      </ul>
+    </header>
+
+    <div class="static-cards-grid">
+      <div class="static-card">
+        <div class="static-card-icon" style="background-color: var(--cat-oppdager-surface); color: var(--cat-oppdager-ink);">
+          <span>🍪</span>
+        </div>
+        <h2 class="static-card-title">1. Null Informasjonskapsler (Zero Cookies)</h2>
+        <p class="static-card-body">
+          Vi bruker ingen markedsføringscookies, ingen tredjeparts sporingsskript og ingen analyseverktøy som profilerer lesere. Ingen sporingsfiler lagres på din enhet.
+        </p>
+      </div>
+
+      <div class="static-card">
+        <div class="static-card-icon" style="background-color: var(--cat-filosofi-surface); color: var(--cat-filosofi-ink);">
+          <span>📇</span>
+        </div>
+        <h2 class="static-card-title">2. Ingen Innsamling av Personopplysninger</h2>
+        <p class="static-card-body">
+          Vi ber aldri om navn, e-post, bosted eller fødselsdato fra barn eller foresatte. Valg av aldersgruppe lagres kun lokalt i din egen nettleser og sendes aldri til våre servere.
+        </p>
+      </div>
+
+      <div class="static-card">
+        <div class="static-card-icon" style="background-color: var(--cat-teknologi-surface); color: var(--cat-teknologi-ink);">
+          <span>⚡</span>
+        </div>
+        <h2 class="static-card-title">3. Statisk Distribusjon &amp; Ende-til-ende Kryptering</h2>
+        <p class="static-card-body">
+          Nettstedet leveres som rene, statiske HTML-filer via Cloudflare Pages med moderne HTTPS-kryptering. Det finnes ingen sårbar brukerdatabase i bakkant som kan lekkes eller kompromitteres.
+        </p>
+      </div>
+
+      <div class="static-card">
+        <div class="static-card-icon" style="background-color: var(--cat-kultur-surface); color: var(--cat-kultur-ink);">
+          <span>⚖️</span>
+        </div>
+        <h2 class="static-card-title">4. GDPR &amp; Personopplysningsloven</h2>
+        <p class="static-card-body">
+          Vi oppfyller kravene i EUs personvernforordning (GDPR art. 8 om barns samtykke) og den norske Personopplysningsloven til punkt og prikke.
+        </p>
+      </div>
     </div>
+
+    <div class="static-manifesto-box">
+      <p class="static-manifesto-quote">
+        «Når barnet ditt utforsker en artikkel eller løser en gåte på leyum, er det ingen algoritmer som samler inn data i bakgrunnen for å selge kommersielle annonser.»
+      </p>
+      <p class="static-manifesto-author">
+        <span>🛡️</span>
+        <span>leyums Sikkerhets- og Personvernløfte</span>
+      </p>
+    </div>
+
+    <nav class="static-nav-strip" aria-label="Institusjonelle Sider">
+      <a href={`/${locale}/om-oss/`} class="static-nav-link">
+        <span>🌟</span>
+        <span>{loc.aboutTitle}</span>
+      </a>
+      <a href={`/${locale}/redaksjon/`} class="static-nav-link">
+        <span>📜</span>
+        <span>{loc.editorialTitle}</span>
+      </a>
+      <a href={`/${locale}/personvern/`} class="static-nav-link is-active">
+        <span>🔒</span>
+        <span>{loc.privacyTitle}</span>
+      </a>
+    </nav>
   </article>
 </BaseLayout>

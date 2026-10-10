@@ -126,8 +126,15 @@ const switchPath = currentPath.replace(`/${locale}`, `/${otherLocale}`);
             </div>
             <h3>{SITE.name}</h3>
           </div>
-          <p>{loc.tagline}</p>
-          <p style="color: #4ADE80; font-weight: 700; font-size: 0.95rem;">{loc.nonCommercial}</p>
+          <p style="font-size: 0.98rem; line-height: 1.6; color: #D1D5DB; margin-bottom: 0.85rem;">
+            {locale === 'no'
+              ? 'Et uavhengig og tospråklig kulturtidsskrift med fokus på vitenskap, filosofi, kunst og undring.'
+              : 'Bilim, felsefe, sanat ve diller arası serüvenlere odaklanan bağımsız iki dilli çocuk mecmuası.'}
+          </p>
+          <p style="color: #4ADE80; font-weight: 700; font-size: 0.92rem; display: flex; align-items: center; gap: 0.4rem;">
+            <span>🛡️</span>
+            <span>{loc.nonCommercial}</span>
+          </p>
         </div>
 
         <div class="footer-col">
@@ -157,8 +164,8 @@ const switchPath = currentPath.replace(`/${locale}`, `/${otherLocale}`);
       </div>
 
       <div class="container footer-bottom-bar">
-        <span>© {new Date().getFullYear()} {SITE.name}. {loc.tagline}</span>
-        <span>{locale === 'no' ? 'Redaksjonelt innhold for nysgjerrige barn' : 'Meraklı çocuklar için editoryal dergi'}</span>
+        <span>© {new Date().getFullYear()} {SITE.name} — {loc.tagline}</span>
+        <span>{locale === 'no' ? 'Med respekt for barns nysgjerrighet og tankekraft' : 'Çocukların zihnine ve merakına saygıyla'}</span>
       </div>
     </footer>
 

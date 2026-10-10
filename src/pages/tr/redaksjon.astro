@@ -1,5 +1,6 @@
 ---
 import BaseLayout from '../../layouts/BaseLayout.astro';
+import Icon from '../../components/Icon.astro';
 import { SITE } from '../../lib/site';
 
 const locale = 'tr';
@@ -8,52 +9,108 @@ const loc = SITE.locales[locale];
 
 <BaseLayout
   locale={locale}
-  title="Yazı İşleri, Yayın Etiği ve Çocuk Hakları"
-  description="Yayın ilkelerimiz, pedagojik denetim çerçevemiz, Birleşmiş Milletler Çocuk Hakları Sözleşmesi ve Norveç basın etiği taahhütlerimiz."
+  title="Yazı İşleri, Yayın Etiği ve Çocuk Hakları — leyum"
+  description="Norveç Basın Konseyi VVP 4.8 standartları, BM Çocuk Hakları Sözleşmesi, pedagojik güvenlik filtreleri ve editoryal bağımsızlık taahhütlerimiz."
 >
-  <article class="article-wrap" style="text-align: left;">
-    <div style="display: inline-block; padding: 0.35rem 0.9rem; border-radius: 9999px; font-size: 0.85rem; font-weight: 700; background-color: var(--cat-oppdager-surface); color: var(--cat-oppdager-ink); margin-bottom: 1.25rem;">
-      Yayın Kurulu &amp; Çocuk Hakları Beyannamesi
+  <article class="static-folio-wrap">
+    <header class="static-hero-head">
+      <div class="static-hero-badge">
+        <Icon name="star" size={16} />
+        <span>Yayın Kurulu &amp; Çocuk Hakları Beyannamesi</span>
+      </div>
+
+      <h1>Çocuklar İçin Sorumlu, Şeffaf ve Güvenli Yayıncılık</h1>
+
+      <p class="static-hero-lead">
+        <strong>leyum</strong>; çocukların zihinsel ve duygusal esenliğini korumayı, doğru ve ufuk açıcı bilgiye erişim hakkını her türlü ticari ve sansasyonel kaygının üstünde tutar.
+      </p>
+    </header>
+
+    <div class="static-cards-grid">
+      <div class="static-card">
+        <div class="static-card-icon" style="background-color: var(--cat-oppdager-surface); color: var(--cat-oppdager-ink);">
+          <span>📜</span>
+        </div>
+        <h2 class="static-card-title">1. Vær Varsom-plakaten &amp; Basın Etiği (§ 4.8)</h2>
+        <p class="static-card-body">
+          Norveç Basın Konseyi'nin çocuk yayıncılığı ilkelerine tam bağlıyız. Çocukların saygınlığını zedeleyecek hiçbir unsura yer verilmez; tık tuzağı veya korku pompalayan sansasyonel başlıklara asla başvurulmaz.
+        </p>
+      </div>
+
+      <div class="static-card">
+        <div class="static-card-icon" style="background-color: var(--cat-natur-surface); color: var(--cat-natur-ink);">
+          <span>🛡️</span>
+        </div>
+        <h2 class="static-card-title">2. Zararlı İçerikten Koruma &amp; Pedagojik Güvenlik</h2>
+        <p class="static-card-body">
+          Tüm içerikler çocuk psikolojisi süzgecinden geçer. Şiddet, dehşet ve kabus öğeleri kesinlikle yasaktır. Anlatım ritmi 4–6, 7–9 ve 10–12 yaş gruplarının kavramsal olgunluğuna göre kalibre edilir.
+        </p>
+      </div>
+
+      <div class="static-card">
+        <div class="static-card-icon" style="background-color: var(--cat-kultur-surface); color: var(--cat-kultur-ink);">
+          <span>🌐</span>
+        </div>
+        <h2 class="static-card-title">3. BM Çocuk Haklarına Dair Sözleşme (Madde 17)</h2>
+        <p class="static-card-body">
+          Her çocuğun ruhsal, zihinsel ve ahlaki gelişimini besleyecek güvenilir, doğru ve ufuk açıcı kültürel bilgiye sansürsüz ve engelsiz erişim hakkını savunuyoruz.
+        </p>
+      </div>
+
+      <div class="static-card">
+        <div class="static-card-icon" style="background-color: var(--cat-vitenskap-surface); color: var(--cat-vitenskap-ink);">
+          <span>🌿</span>
+        </div>
+        <h2 class="static-card-title">4. Eko-Anksiyete Yerine Çözüm ve Umut Dili</h2>
+        <p class="static-card-body">
+          Doğa ve iklim meselelerinde çocuklarda çaresizlik uyandıran felaket dili yerine; ekosistemin büyüleyici gücünü, koruma başarılarını ve umut veren bilimsel yenilikleri öne çıkarıyoruz.
+        </p>
+      </div>
+
+      <div class="static-card">
+        <div class="static-card-icon" style="background-color: var(--cat-mat-surface); color: var(--cat-mat-ink);">
+          <span>🔒</span>
+        </div>
+        <h2 class="static-card-title">5. %100 Ticari Bağımsızlık ve Sıfır Reklam</h2>
+        <p class="static-card-body">
+          Sitemizde hiçbir reklam, sponsorluk, ürün yerleştirme veya gizli ticari yönlendirme bulunmaz. Okurlarımızın merakını ticari bir metaya dönüştürmeyiz (Markedsføringsloven § 19).
+        </p>
+      </div>
+
+      <div class="static-card">
+        <div class="static-card-icon" style="background-color: var(--cat-teknologi-surface); color: var(--cat-teknologi-ink);">
+          <span>🔬</span>
+        </div>
+        <h2 class="static-card-title">6. Yapay Zekâ Şeffaflığı ve Üç Kademeli İnsan Denetimi</h2>
+        <p class="static-card-body">
+          İleri yapay zekâ teknolojisi sadece taslak üretici bir araçtır; her metin Yayın Yönetmeni (Vaktsjef), Pedagog ve Dilbilimci (Språkvasker) süzgecinden geçerek onaylanmadan yayımlanamaz.
+        </p>
+      </div>
     </div>
 
-    <h1 style="margin-bottom: 1.5rem; line-height: 1.2;">
-      Çocuklar için güvenli, merak dolu ve bağımsız bir vaha
-    </h1>
-
-    <p style="font-size: 1.15rem; line-height: 1.7; color: var(--color-ink-primary); margin-bottom: 2rem;">
-      <strong>leyum</strong>, çocukların merak duygusunu saygıyla kucaklayan, kâr amacı gütmeyen, tamamen reklamsız ve takip çerezsiz iki dilli bir dijital çocuk dergisidir.
-    </p>
-
-    <div class="prose" style="line-height: 1.8;">
-      <h2>1. Basın Etiği ve Çocuk Hakları Standartları</h2>
-      <p>
-        Yayınlarımız, Norveç Basın Konseyi'nin <strong>Vær Varsom-plakaten (§ 4.8 Çocuk Hakları)</strong> ilkelerine ve evrensel gazetecilik etiğine bağlıdır. Çocukları korkutan, rencide eden veya yetişkin çatışmalarının aracı kılan hiçbir anlatıya yer verilmez; tık tuzağı veya kaygı verici sansasyonel başlıklara asla başvurulmaz.
+    <div class="static-manifesto-box">
+      <p class="static-manifesto-quote">
+        “Yayınlarımızda bir hata, pedagojik açıdan tartışmalı bir ifade veya geliştirilmesini istediğiniz bir detay görürseniz; yazı işleri kurulumuz her türlü yapıcı eleştiriye ve geri bildirime samimiyetle açıktır.”
       </p>
-
-      <h2>2. Zararlı İçerikten Koruma ve Pedagojik Güvenlik</h2>
-      <p>
-        Tüm içerikler çocuk gelişim psikolojisine uygunluk açısından denetlenir. Şiddet, aşırı dehşet, kabus sahneleri ve travmatik içerikler kesinlikle yasaktır. İçerikler yaş gruplarına (<em>4–6 yaş</em>, <em>7–9 yaş</em>, <em>10–12 yaş</em>) göre titizlikle kalibre edilir.
-      </p>
-
-      <h2>3. BM Çocuk Haklarına Dair Sözleşme (Madde 17)</h2>
-      <p>
-        Çocukların ruhsal, ahlaki, zihinsel ve bedensel sağlığını destekleyen nitelikli, doğru ve ufuk açıcı bilgiye erişim hakkına saygı duyuyoruz.
-      </p>
-
-      <h2>4. %100 Reklamsız ve Sıfır Takip Güvencesi</h2>
-      <p>
-        Sitemizde hiçbir reklam, sponsorluk, ürün yerleştirme veya gizli ticari yönlendirme bulunmaz. Okurlarımızdan hiçbir kişisel veri veya çerez toplanmaz (GDPR Madde 8).
-      </p>
-
-      <h2>5. Eko-Anksiyete Yerine Keşif ve Umut</h2>
-      <p>
-        İklim ve doğa konularında çocuklarda çaresizlik uyandıran felaket dili yerine; doğanın muazzam mucizeleri, koruma başarıları ve umut verici bilimsel çözümler öne çıkarılır.
-      </p>
-
-      <h2>6. Yapay Zekâ Şeffaflığı</h2>
-      <p>
-        İçeriklerimiz yapay zekâ teknolojisinin edebi ve görsel gücünden yararlanılarak hazırlanır; ancak her satır çok aşamalı bağımsız pedagojik, editoryal ve dil denetimlerinden (Yazı İşleri Masası, Pedagog ve Redaktör) onay almadan yayına giremez.
+      <p class="static-manifesto-author">
+        <span>✉️</span>
+        <span>Yazı İşleri Masası İletişim: redaksjon@leyum.com</span>
       </p>
     </div>
+
+    <nav class="static-nav-strip" aria-label="Kurumsal Sayfalar">
+      <a href={`/${locale}/om-oss/`} class="static-nav-link">
+        <span>🌟</span>
+        <span>{loc.aboutTitle}</span>
+      </a>
+      <a href={`/${locale}/redaksjon/`} class="static-nav-link is-active">
+        <span>📜</span>
+        <span>{loc.editorialTitle}</span>
+      </a>
+      <a href={`/${locale}/personvern/`} class="static-nav-link">
+        <span>🔒</span>
+        <span>{loc.privacyTitle}</span>
+      </a>
+    </nav>
   </article>
 </BaseLayout>

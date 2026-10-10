@@ -1,25 +1,120 @@
 ---
 import BaseLayout from '../../layouts/BaseLayout.astro';
-import { SITE } from '../../lib/site';
+import Icon from '../../components/Icon.astro';
+import { SITE, CATEGORIES } from '../../lib/site';
 
 const locale = 'tr';
 const loc = SITE.locales[locale];
 ---
 
-<BaseLayout locale={locale} title={loc.aboutTitle}>
-  <article class="article-wrap" style="text-align: left;">
-    <h1 style="text-align: center; margin-bottom: 1.5rem;">🌟 {loc.aboutTitle}</h1>
-    <div class="prose">
-      <p>
-        <strong>leyum</strong>, meraklı çocuklar ve aileler için hazırlanmış, rengarenk, eğlenceli ve güvenli bir dijital çocuk dergisidir.
+<BaseLayout
+  locale={locale}
+  title="leyum Hakkında — Zihne Saygı Duyan Çocuk Mecmuası"
+  description="leyum'un kuruluş amacı, bağımsız yayıncılık felsefesi, reklamsızlık taahhüdü ve iki dilli edebiyat köprüsü."
+>
+  <article class="static-folio-wrap">
+    <header class="static-hero-head">
+      <div class="static-hero-badge">
+        <Icon name="star" size={16} />
+        <span>Misyonumuz &amp; Değerlerimiz</span>
+      </div>
+
+      <h1>Çocukların Zihnine Saygı Duyan Bağımsız Bir Vaha</h1>
+
+      <p class="static-hero-lead">
+        <strong>leyum</strong>; dijital ekranların karmaşasından, ticari satın alma baskılarından ve tık tuzaklarından arındırılmış; çocukların dünyayı merakla, derinlemesine ve özgürce keşfetmesi için tasarlanmış bağımsız iki dilli bir kültür ve bilim mecmuasıdır.
       </p>
-      <h2>Çocuklara ve Ailelere Sözümüz</h2>
-      <ul>
-        <li><strong>%100 Reklamsız:</strong> Hiçbir ticari reklam, sponsorlu yönlendirme veya satın alma baskısı barındırmaz.</li>
-        <li><strong>Güvenli İçerik:</strong> Çocukların gelişimine ve merak duygusuna uygun, özenle hazırlanmış masallar, deneyler ve bilmeceler.</li>
-        <li><strong>İki Dilli (Norveççe & Türkçe):</strong> Çok dilli aileler ve yeni kültürler keşfetmek isteyen minikler için iki dilde zengin içerik.</li>
-        <li><strong>Işık Hızında & Güvenli:</strong> Modern statik web mimarisi sayesinde her ekranda anında açılır.</li>
-      </ul>
+    </header>
+
+    <div class="static-cards-grid">
+      <div class="static-card">
+        <div class="static-card-icon" style="background-color: var(--cat-oppdager-surface); color: var(--cat-oppdager-ink);">
+          <span>🛡️</span>
+        </div>
+        <h2 class="static-card-title">%100 Reklamsız ve Ticari Baskısız</h2>
+        <p class="static-card-body">
+          Hiçbir reklam, sponsorlu ürün yönlendirmesi veya ticari yönlendirme barındırmayız. Çocukların zihni ve merakı hiçbir zaman bir pazarlama hedefi değildir.
+        </p>
+      </div>
+
+      <div class="static-card">
+        <div class="static-card-icon" style="background-color: var(--cat-filosofi-surface); color: var(--cat-filosofi-ink);">
+          <span>🧠</span>
+        </div>
+        <h2 class="static-card-title">Zekâya Saygı ve Pedagojik Özen</h2>
+        <p class="static-card-body">
+          Çocuksu klişelerden ve üstten bakan bebek dilinden uzağız. Bilimsel gerçekliği, edebi zarafeti ve kavramsal derinliği çocuğun anlama gücüne göre incelikle kalibre ederiz.
+        </p>
+      </div>
+
+      <div class="static-card">
+        <div class="static-card-icon" style="background-color: var(--cat-kultur-surface); color: var(--cat-kultur-ink);">
+          <span>🌍</span>
+        </div>
+        <h2 class="static-card-title">İki Dilli Kültür Köprüsü</h2>
+        <p class="static-card-body">
+          Çok dilli aileler ve küresel zihinler için Türkçe ve Norveççe dillerinde eşzamanlı yayın. Her makale iki dil ve kültür arasında doğal ve yaşayan bir öğrenme köprüsü kurar.
+        </p>
+      </div>
+
+      <div class="static-card">
+        <div class="static-card-icon" style="background-color: var(--cat-teknologi-surface); color: var(--cat-teknologi-ink);">
+          <span>⚡</span>
+        </div>
+        <h2 class="static-card-title">Sıfır İz Sürücü &amp; Yalın Teknoloji</h2>
+        <p class="static-card-body">
+          Sunucularımızda hiçbir çerez veya iz sürücü çalışmaz. Gizliliğe mutlak saygı duyan, anında açılan ve dikkati dağıtmayan dingin bir okuma deneyimi sunarız.
+        </p>
+      </div>
     </div>
+
+    <div class="static-manifesto-box">
+      <p class="static-manifesto-quote">
+        “Bir çocuğa verilebilecek en kıymetli armağan; sorularının ciddiye alındığı, aklının küçümsenmediği ve hayal gücünün kanatlanabildiği sessiz, güvenli ve zengin bir düşünce bahçesidir.”
+      </p>
+      <p class="static-manifesto-author">
+        <span>✍️</span>
+        <span>leyum Yazı İşleri Manifestosu</span>
+      </p>
+    </div>
+
+    <div style="margin-top: 3rem;">
+      <h3 style="font-family: var(--font-serif); font-size: 1.5rem; color: var(--ink-primary); margin-bottom: 1.25rem;">
+        12 Odak Alanımız ve Zengin Kataloğumuz
+      </h3>
+      <p style="font-size: 1.05rem; line-height: 1.7; color: #4B5563; margin-bottom: 1.5rem;">
+        Doğanın mikro mucizelerinden derin uzaya, stoacı felsefeden müzik teorisine ve insan anatomisine uzanan 240 ikiz konudan oluşan kapsamlı arşivimize göz atabilirsiniz:
+      </p>
+
+      <div style="display: flex; gap: 0.65rem; flex-wrap: wrap;">
+        {
+          CATEGORIES.map((cat) => (
+            <a
+              href={`/${locale}/kategori/${cat.slug}/`}
+              class="category-nav-link"
+              style={`color: var(--cat-${cat.slug}-ink); background-color: var(--cat-${cat.slug}-surface); padding: 0.5rem 1rem; font-size: 0.92rem;`}
+            >
+              <Icon name={cat.slug} size={16} />
+              <span>{cat.title[locale]}</span>
+            </a>
+          ))
+        }
+      </div>
+    </div>
+
+    <nav class="static-nav-strip" aria-label="Kurumsal Sayfalar">
+      <a href={`/${locale}/om-oss/`} class="static-nav-link is-active">
+        <span>🌟</span>
+        <span>{loc.aboutTitle}</span>
+      </a>
+      <a href={`/${locale}/redaksjon/`} class="static-nav-link">
+        <span>📜</span>
+        <span>{loc.editorialTitle}</span>
+      </a>
+      <a href={`/${locale}/personvern/`} class="static-nav-link">
+        <span>🔒</span>
+        <span>{loc.privacyTitle}</span>
+      </a>
+    </nav>
   </article>
 </BaseLayout>

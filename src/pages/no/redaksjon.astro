@@ -1,5 +1,6 @@
 ---
 import BaseLayout from '../../layouts/BaseLayout.astro';
+import Icon from '../../components/Icon.astro';
 import { SITE } from '../../lib/site';
 
 const locale = 'no';
@@ -8,52 +9,108 @@ const loc = SITE.locales[locale];
 
 <BaseLayout
   locale={locale}
-  title="Redaksjonell etikk og barns rettigheter"
+  title="Redaksjonelle retningslinjer og presseetikk — leyum"
   description="Våre etiske prinsipper, pedagogiske rammer og forpliktelser etter Vær Varsom-plakaten og FNs barnekonvensjon."
 >
-  <article class="article-wrap" style="text-align: left;">
-    <div style="display: inline-block; padding: 0.35rem 0.9rem; border-radius: 9999px; font-size: 0.85rem; font-weight: 700; background-color: var(--cat-oppdager-surface); color: var(--cat-oppdager-ink); margin-bottom: 1.25rem;">
-      Redaksjonell Erklæring &amp; Barns Rettigheter
+  <article class="static-folio-wrap">
+    <header class="static-hero-head">
+      <div class="static-hero-badge">
+        <Icon name="star" size={16} />
+        <span>Redaksjonell Erklæring &amp; Presseetikk</span>
+      </div>
+
+      <h1>Ansvarlig, trygg og gjennomsiktig formidling for barn</h1>
+
+      <p class="static-hero-lead">
+        <strong>leyum</strong> setter barns integritet, mentale trygghet og rett til pålitelig, opplysende kunnskap over enhver kommersiell eller sensasjonspreget interesse.
+      </p>
+    </header>
+
+    <div class="static-cards-grid">
+      <div class="static-card">
+        <div class="static-card-icon" style="background-color: var(--cat-oppdager-surface); color: var(--cat-oppdager-ink);">
+          <span>📜</span>
+        </div>
+        <h2 class="static-card-title">1. Vær Varsom-plakaten &amp; Barns Rettigheter (§ 4.8)</h2>
+        <p class="static-card-body">
+          Vi følger prinsippene i den norske pressens etiske regelverk. Barns verdighet skal aldri krenkes. Vi bruker aldri klikkagn (clickbait), villedende overskrifter eller overdrevne skrekkscenarier.
+        </p>
+      </div>
+
+      <div class="static-card">
+        <div class="static-card-icon" style="background-color: var(--cat-natur-surface); color: var(--cat-natur-ink);">
+          <span>🛡️</span>
+        </div>
+        <h2 class="static-card-title">2. Skånsomhet &amp; Pedagogisk Trygghet</h2>
+        <p class="static-card-body">
+          Alt innhold forhåndsvurderes etter Bildeprogramloven og norske normer for barneinnhold. Vold, marerittaktige elementer og utilbørlig frykt er utelukket. Tekstene tilpasses 4–6 år, 7–9 år og 10–12 år.
+        </p>
+      </div>
+
+      <div class="static-card">
+        <div class="static-card-icon" style="background-color: var(--cat-kultur-surface); color: var(--cat-kultur-ink);">
+          <span>🌐</span>
+        </div>
+        <h2 class="static-card-title">3. FNs Barnekonvensjon (Artikkel 17)</h2>
+        <p class="static-card-body">
+          Gjennom Menneskerettsloven § 2 forplikter vi oss til FNs barnekonvensjon: Barn har rett til pålitelig og berikende informasjon som fremmer deres åndelige, moralske og sosiale utvikling.
+        </p>
+      </div>
+
+      <div class="static-card">
+        <div class="static-card-icon" style="background-color: var(--cat-vitenskap-surface); color: var(--cat-vitenskap-ink);">
+          <span>🌿</span>
+        </div>
+        <h2 class="static-card-title">4. Løsningsorientert Formidling mot Øko-Angst</h2>
+        <p class="static-card-body">
+          I natur- og miljøspørsmål unngår vi katastrofetenkning som skaper handlingslammelse. Vi fokuserer på økosystemenes forbløffende tilpasningsevne, vernearbeid og håpefulle vitenskapelige løsninger.
+        </p>
+      </div>
+
+      <div class="static-card">
+        <div class="static-card-icon" style="background-color: var(--cat-mat-surface); color: var(--cat-mat-ink);">
+          <span>🔒</span>
+        </div>
+        <h2 class="static-card-title">5. 100 % Ikke-kommersielt &amp; Reklamefritt</h2>
+        <p class="static-card-body">
+          Ingen annonser, ingen sponsorater, ingen affiliatelenker og ingen kommersiell påvirkning (etter Markedsføringsloven § 19). Vi gjør aldri barns oppmerksomhet til en vare.
+        </p>
+      </div>
+
+      <div class="static-card">
+        <div class="static-card-icon" style="background-color: var(--cat-teknologi-surface); color: var(--cat-teknologi-ink);">
+          <span>🔬</span>
+        </div>
+        <h2 class="static-card-title">6. Åpenhet om KI &amp; Redaksjonell Menneskelig Kontroll</h2>
+        <p class="static-card-body">
+          Avansert kunstig intelligens benyttes som støtteverktøy i utkastfasen; men hvert eneste ord kvalitetssikres av redaksjonelle filtre (Vaktsjef, Pedagog og Språkvasker) før det godkjennes for publisering.
+        </p>
+      </div>
     </div>
 
-    <h1 style="margin-bottom: 1.5rem; line-height: 1.2;">
-      Et trygt, nysgjerrig og uavhengig magasin for barn
-    </h1>
-
-    <p style="font-size: 1.15rem; line-height: 1.7; color: var(--color-ink-primary); margin-bottom: 2rem;">
-      <strong>leyum</strong> er et ikke-kommersielt, reklamefritt digitalt barnemagasin skapt for å gi barn et trygt og magisk pusterom på internett. Her behandles barn som intelligente, nysgjerrige utforskere.
-    </p>
-
-    <div class="prose" style="line-height: 1.8;">
-      <h2>1. Vær Varsom-plakaten &amp; Redaktørplakaten</h2>
-      <p>
-        Vi følger prinsippene i den norske pressens etiske regelverk, med særlig vekt på <strong>Vær Varsom-plakatens § 4.8 (Barns rettigheter)</strong>. Barns integritet og verdighet skal aldri krenkes. Vi bruker aldri klikkagn (clickbait), villedende titler eller overdrevne skrekkscenarier.
+    <div class="static-manifesto-box">
+      <p class="static-manifesto-quote">
+        «Dersom du oppdager en faktafeil, et pedagogisk tvilsomt uttrykk eller har forslag til forbedringer, ønsker redaksjonen din tilbakemelding hjertelig velkommen.»
       </p>
-
-      <h2>2. Medietilsynet &amp; Bildeprogramloven</h2>
-      <p>
-        Alt innhold forhåndsvurderes etter norske normer for barneinnhold. Vold, overveldende frykt, marerittaktige elementer eller voksentematikk har ingen plass i leyum. Innholdet graderes tydelig etter aldersgrupper: <em>4–6 år</em>, <em>7–9 år</em> og <em>10–12 år</em>.
-      </p>
-
-      <h2>3. FNs Barnekonvensjon (artikkel 17)</h2>
-      <p>
-        Gjennom den norske Menneskerettsloven § 2 forplikter vi oss til artikkel 17 i FNs barnekonvensjon: Barn har rett til pålitelig informasjon som fremmer deres åndelige, moralske og fysiske helse.
-      </p>
-
-      <h2>4. 100 % Ikke-kommersielt &amp; Null Sporing</h2>
-      <p>
-        Vi har ingen annonser, ingen sponsorater, ingen affiliate-lenker og ingen kommersiell påvirkning (etter Markedsføringsloven § 19). Vi samler ingen personopplysninger eller sporingsinformasjonskapsler fra våre lesere (GDPR art. 8).
-      </p>
-
-      <h2>5. Pedagogisk Trygghet &amp; Håp</h2>
-      <p>
-        Vi bekjemper unødig øko-angst og katastrofetenkning. Når vi formidler natur og vitenskap, setter vi fokus på naturens mirakler, oppfinnsomhet og de håpefulle løsningene som finnes.
-      </p>
-
-      <h2>6. Åpenhet om Kunstig Intelligens (KI)</h2>
-      <p>
-        Innhold skapes med støtte fra avansert kunstig intelligens, men gjennomgår en streng redaksjonell og pedagogisk flertrinns kontroll (Vaktsjef, Pedagog og Språkvasker) før publisering for å sikre høyeste kvalitet.
+      <p class="static-manifesto-author">
+        <span>✉️</span>
+        <span>Redaksjonen: redaksjon@leyum.com</span>
       </p>
     </div>
+
+    <nav class="static-nav-strip" aria-label="Institusjonelle Sider">
+      <a href={`/${locale}/om-oss/`} class="static-nav-link">
+        <span>🌟</span>
+        <span>{loc.aboutTitle}</span>
+      </a>
+      <a href={`/${locale}/redaksjon/`} class="static-nav-link is-active">
+        <span>📜</span>
+        <span>{loc.editorialTitle}</span>
+      </a>
+      <a href={`/${locale}/personvern/`} class="static-nav-link">
+        <span>🔒</span>
+        <span>{loc.privacyTitle}</span>
+      </a>
+    </nav>
   </article>
 </BaseLayout>

@@ -860,6 +860,163 @@ img {
   color: #8C9BB5;
 }
 
+/* Institutional & Editorial Folio Pages (Om oss, Redaksjon, Personvern) */
+.static-folio-wrap {
+  max-width: 900px;
+  margin: 3.5rem auto 6rem auto;
+  background: var(--bg-paper);
+  border-radius: var(--radius-lg);
+  border: var(--border-card);
+  box-shadow: var(--shadow-folio);
+  padding: 4rem 3.5rem;
+}
+
+.static-hero-head {
+  margin-bottom: 2.75rem;
+  border-bottom: 2px solid #EADBCC;
+  padding-bottom: 2.25rem;
+}
+
+.static-hero-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.4rem 1.1rem;
+  border-radius: 9999px;
+  font-size: 0.85rem;
+  font-weight: 800;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  background-color: var(--cat-oppdager-surface);
+  color: var(--cat-oppdager-ink);
+  margin-bottom: 1.25rem;
+}
+
+.static-hero-head h1 {
+  font-family: var(--font-serif);
+  font-size: clamp(2.3rem, 4.5vw, 3.3rem);
+  line-height: 1.2;
+  color: var(--ink-primary);
+  margin: 0 0 1.25rem 0;
+}
+
+.static-hero-lead {
+  font-size: 1.25rem;
+  line-height: 1.75;
+  color: var(--ink-warm);
+  margin: 0;
+}
+
+.static-cards-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1.5rem;
+  margin: 2.5rem 0;
+}
+
+.static-card {
+  background: #FFFFFF;
+  border: 1.5px solid #EADBCC;
+  border-radius: var(--radius-md);
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.85rem;
+  transition: transform 0.2s ease, box-shadow 0.2s ease, border-color 0.2s ease;
+}
+
+.static-card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 12px 24px -6px rgba(90, 78, 60, 0.12);
+  border-color: #D9480F;
+}
+
+.static-card-icon {
+  width: 48px;
+  height: 48px;
+  border-radius: 12px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.5rem;
+  margin-bottom: 0.25rem;
+}
+
+.static-card-title {
+  font-family: var(--font-serif);
+  font-size: 1.3rem;
+  color: var(--ink-primary);
+  font-weight: 700;
+  margin: 0;
+  line-height: 1.3;
+}
+
+.static-card-body {
+  font-size: 1.05rem;
+  line-height: 1.75;
+  color: #4B5563;
+  margin: 0;
+}
+
+.static-manifesto-box {
+  background: #FFFDF9;
+  border: 1.5px solid #F5E6D3;
+  border-left: 6px solid var(--brand-star);
+  border-radius: var(--radius-md);
+  padding: 2.25rem;
+  margin: 2.75rem 0;
+}
+
+.static-manifesto-quote {
+  font-family: var(--font-serif);
+  font-size: 1.25rem;
+  line-height: 1.8;
+  color: var(--ink-warm);
+  font-style: italic;
+  margin: 0 0 1rem 0;
+}
+
+.static-manifesto-author {
+  font-size: 0.95rem;
+  font-weight: 700;
+  color: #D9480F;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.static-nav-strip {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+  margin-top: 3.5rem;
+  padding-top: 2.25rem;
+  border-top: 1px dashed #EADBCC;
+}
+
+.static-nav-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.6rem 1.25rem;
+  border-radius: 9999px;
+  font-size: 0.95rem;
+  font-weight: 700;
+  background: #FFFFFF;
+  border: 1.5px solid #EADBCC;
+  color: var(--ink-primary);
+  transition: all 0.2s ease;
+}
+
+.static-nav-link:hover, .static-nav-link.is-active {
+  background: var(--cat-oppdager-surface);
+  color: var(--cat-oppdager-ink);
+  border-color: var(--cat-oppdager-ink);
+}
+
 /* Responsive Adaptations */
 @media (max-width: 900px) {
   .hero-folio-grid {
@@ -868,6 +1025,13 @@ img {
   }
   .article-folio-wrap {
     padding: 2.5rem 1.5rem;
+  }
+  .static-folio-wrap {
+    padding: 2.75rem 2rem;
+    margin: 2rem auto 4.5rem auto;
+  }
+  .static-cards-grid {
+    grid-template-columns: 1fr;
   }
   .footer-grid-folio {
     grid-template-columns: 1fr;

@@ -1,23 +1,96 @@
 ---
 import BaseLayout from '../../layouts/BaseLayout.astro';
+import Icon from '../../components/Icon.astro';
 import { SITE } from '../../lib/site';
 
 const locale = 'tr';
 const loc = SITE.locales[locale];
 ---
 
-<BaseLayout locale={locale} title={loc.privacyTitle}>
-  <article class="article-wrap" style="text-align: left;">
-    <h1 style="text-align: center; margin-bottom: 1.5rem;">🔒 {loc.privacyTitle}</h1>
-    <div class="prose">
-      <p>
-        <strong>leyum</strong>'da çocukların ve ailelerin dijital gizliliği bizim için en önemli önceliktir.
+<BaseLayout
+  locale={locale}
+  title="Gizlilik Politikası ve Çocuk Güvenliği — leyum"
+  description="Sıfır çerez, sıfır takip, sıfır ticari profil çıkarma. leyum'da çocukların ve ailelerin dijital mahremiyeti vazgeçilmez bir haktır."
+>
+  <article class="static-folio-wrap">
+    <header class="static-hero-head">
+      <div class="static-hero-badge">
+        <Icon name="star" size={16} />
+        <span>Dijital Mahremiyet &amp; Çocuk Güvenliği</span>
+      </div>
+
+      <h1>Sıfır Takip, Sıfır Çerez ve Mutlak Gizlilik</h1>
+
+      <p class="static-hero-lead">
+        Çocukların internetteki ayak izlerini asla kaydetmiyoruz. <strong>leyum</strong>'da gizlilik bir onay kutucuğu değil; çocuk haklarına saygı duyan tavizsiz bir mimari tercihtir.
       </p>
-      <ul>
-        <li>Hiçbir reklam izleyicisi, pazarlama çerezi veya üçüncü taraf takip kodu barındırmayız.</li>
-        <li>Çocuklardan herhangi bir kişisel veri toplamayız veya saklamayız.</li>
-        <li>Sitemiz doğrudan Cloudflare Pages üzerinde statik dosyalar olarak güvenle sunulur.</li>
-      </ul>
+    </header>
+
+    <div class="static-cards-grid">
+      <div class="static-card">
+        <div class="static-card-icon" style="background-color: var(--cat-oppdager-surface); color: var(--cat-oppdager-ink);">
+          <span>🍪</span>
+        </div>
+        <h2 class="static-card-title">1. Çerezsiz Mimari (Zero Cookies)</h2>
+        <p class="static-card-body">
+          Sitemizde hiçbir pazarlama çerezi, üçüncü taraf reklam kodu veya izleme pikseli bulunmaz. Sayfaları ziyaret ettiğinizde tarayıcınıza hiçbir takip dosyası yerleştirilmez.
+        </p>
+      </div>
+
+      <div class="static-card">
+        <div class="static-card-icon" style="background-color: var(--cat-filosofi-surface); color: var(--cat-filosofi-ink);">
+          <span>📇</span>
+        </div>
+        <h2 class="static-card-title">2. Kişisel Veri Toplamama İlkesi</h2>
+        <p class="static-card-body">
+          Çocuklardan ya da ailelerden isim, e-posta, konum veya kimlik bilgisi talep edilmez. Seçilen yaş grubu tercihi sadece cihazınızın yerel hafızasında saklanır; sunucularımıza iletilmez.
+        </p>
+      </div>
+
+      <div class="static-card">
+        <div class="static-card-icon" style="background-color: var(--cat-teknologi-surface); color: var(--cat-teknologi-ink);">
+          <span>⚡</span>
+        </div>
+        <h2 class="static-card-title">3. Statik Dağıtım &amp; Uçtan Uca Şifreleme</h2>
+        <p class="static-card-body">
+          Sitemiz modern JAMstack mimarisi ile Cloudflare Pages üzerinden statik HTML olarak ve HTTPS (SSL/TLS) şifrelemesiyle sunulur. Ele geçirilebilecek hiçbir kullanıcı veritabanı tutulmaz.
+        </p>
+      </div>
+
+      <div class="static-card">
+        <div class="static-card-icon" style="background-color: var(--cat-kultur-surface); color: var(--cat-kultur-ink);">
+          <span>⚖️</span>
+        </div>
+        <h2 class="static-card-title">4. GDPR &amp; Çocuk Hakları Uyumluluğu</h2>
+        <p class="static-card-body">
+          Avrupa Birliği Genel Veri Koruma Tüzüğü (GDPR Madde 8) ve Norveç Kişisel Veriler Kanunu (Personopplysningsloven) ile tam uyumluyuz. Çocuklar için güvenli bir dijital sığınak sunuyoruz.
+        </p>
+      </div>
     </div>
+
+    <div class="static-manifesto-box">
+      <p class="static-manifesto-quote">
+        “Çocuğunuz leyum'da bir makale okurken veya bir doğa deneyini incelerken; hiçbir algoritma onun arkasından profil çıkarmaz, ilgi alanlarını reklam şirketlerine veya üçüncü taraflara satmaz.”
+      </p>
+      <p class="static-manifesto-author">
+        <span>🛡️</span>
+        <span>leyum Güvenlik &amp; Mahremiyet Taahhüdü</span>
+      </p>
+    </div>
+
+    <nav class="static-nav-strip" aria-label="Kurumsal Sayfalar">
+      <a href={`/${locale}/om-oss/`} class="static-nav-link">
+        <span>🌟</span>
+        <span>{loc.aboutTitle}</span>
+      </a>
+      <a href={`/${locale}/redaksjon/`} class="static-nav-link">
+        <span>📜</span>
+        <span>{loc.editorialTitle}</span>
+      </a>
+      <a href={`/${locale}/personvern/`} class="static-nav-link is-active">
+        <span>🔒</span>
+        <span>{loc.privacyTitle}</span>
+      </a>
+    </nav>
   </article>
 </BaseLayout>

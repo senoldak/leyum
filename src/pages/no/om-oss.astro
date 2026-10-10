@@ -1,25 +1,120 @@
 ---
 import BaseLayout from '../../layouts/BaseLayout.astro';
-import { SITE } from '../../lib/site';
+import Icon from '../../components/Icon.astro';
+import { SITE, CATEGORIES } from '../../lib/site';
 
 const locale = 'no';
 const loc = SITE.locales[locale];
 ---
 
-<BaseLayout locale={locale} title={loc.aboutTitle}>
-  <article class="article-wrap" style="text-align: left;">
-    <h1 style="text-align: center; margin-bottom: 1.5rem;">🌟 {loc.aboutTitle}</h1>
-    <div class="prose">
-      <p>
-        <strong>leyum</strong> er et fargerikt, trygt og inspirerende digitalt barnemagasin laget for nysgjerrige barn og barnefamilier.
+<BaseLayout
+  locale={locale}
+  title="Om leyum — Et uavhengig kulturtidsskrift for barn"
+  description="Vårt formål, redaksjonelle verdier, reklamefrie løfte og tospråklige kulturbro mellom norsk og tyrkisk."
+>
+  <article class="static-folio-wrap">
+    <header class="static-hero-head">
+      <div class="static-hero-badge">
+        <Icon name="star" size={16} />
+        <span>Vårt Formål &amp; Verdier</span>
+      </div>
+
+      <h1>Et uavhengig rom med respekt for barns tankekraft</h1>
+
+      <p class="static-hero-lead">
+        <strong>leyum</strong> er et ikke-kommersielt, reklamefritt digitalt tidsskrift skapt for å gi barn et trygt, vakkert og inspirerende pusterom på internett. Her behandles barn som intelligente, nysgjerrige tenkere og oppdagere.
       </p>
-      <h2>Vårt løfte til barna og foreldrene</h2>
-      <ul>
-        <li><strong>100% Reklamefritt:</strong> Ingen kommersielle annonser, sponsede lenker eller kjøpepress.</li>
-        <li><strong>Trygt innhold:</strong> Nøye utvalgte historier, eksperimenter og gåter tilpasset barn.</li>
-        <li><strong>To språk:</strong> Tilgjengelig på både norsk og tyrkisk for flerspråklige familier og nysgjerrige lesere.</li>
-        <li><strong>Raskt og lett:</strong> Bygget med moderne nettteknologi som laster lynraskt på alle skjermer.</li>
-      </ul>
+    </header>
+
+    <div class="static-cards-grid">
+      <div class="static-card">
+        <div class="static-card-icon" style="background-color: var(--cat-oppdager-surface); color: var(--cat-oppdager-ink);">
+          <span>🛡️</span>
+        </div>
+        <h2 class="static-card-title">100 % Reklamefritt &amp; Trygt</h2>
+        <p class="static-card-body">
+          Ingen kommersielle annonser, sponsede lenker eller kjøpepress. Barns oppmerksomhet og nysgjerrighet skal aldri være en handelsvare.
+        </p>
+      </div>
+
+      <div class="static-card">
+        <div class="static-card-icon" style="background-color: var(--cat-filosofi-surface); color: var(--cat-filosofi-ink);">
+          <span>🧠</span>
+        </div>
+        <h2 class="static-card-title">Respekt for Barns Intellekt</h2>
+        <p class="static-card-body">
+          Vi unngår babyspråk og kunstig forenkling. Vitenskapelige fakta, poetisk språk og filosofisk dybde formidles med presisjon tilpasset barnets modenhet.
+        </p>
+      </div>
+
+      <div class="static-card">
+        <div class="static-card-icon" style="background-color: var(--cat-kultur-surface); color: var(--cat-kultur-ink);">
+          <span>🌍</span>
+        </div>
+        <h2 class="static-card-title">Tospråklig Kulturbro</h2>
+        <p class="static-card-body">
+          For flerspråklige familier og nysgjerrige lesere tilbyr vi likeverdig innhold på både norsk (bokmål) og tyrkisk. Hver artikkel er en levende bro mellom to verdener.
+        </p>
+      </div>
+
+      <div class="static-card">
+        <div class="static-card-icon" style="background-color: var(--cat-teknologi-surface); color: var(--cat-teknologi-ink);">
+          <span>⚡</span>
+        </div>
+        <h2 class="static-card-title">Null Sporing &amp; Rask Teknologi</h2>
+        <p class="static-card-body">
+          Ingen sporingsskript eller informasjonskapsler. Bygget på moderne statisk teknologi som laster umiddelbart på alle enheter uten distraksjoner.
+        </p>
+      </div>
     </div>
+
+    <div class="static-manifesto-box">
+      <p class="static-manifesto-quote">
+        «Den største gaven vi kan gi et barn er en tankens hage hvor spørsmålene blir tatt på alvor, intelligensen respekteres og fantasien får vokse fritt.»
+      </p>
+      <p class="static-manifesto-author">
+        <span>✍️</span>
+        <span>leyums Redaksjonelle Manifest</span>
+      </p>
+    </div>
+
+    <div style="margin-top: 3rem;">
+      <h3 style="font-family: var(--font-serif); font-size: 1.5rem; color: var(--ink-primary); margin-bottom: 1.25rem;">
+        12 Kjerneområder og et Rikholdig Arkiv
+      </h3>
+      <p style="font-size: 1.05rem; line-height: 1.7; color: #4B5563; margin-bottom: 1.5rem;">
+        Fra naturens usynlige underverker og universets gåter til stoisk filosofi, musikkteori og menneskekroppens anatomi. Utforsk vår samling på 240 tvillingemner:
+      </p>
+
+      <div style="display: flex; gap: 0.65rem; flex-wrap: wrap;">
+        {
+          CATEGORIES.map((cat) => (
+            <a
+              href={`/${locale}/kategori/${cat.slug}/`}
+              class="category-nav-link"
+              style={`color: var(--cat-${cat.slug}-ink); background-color: var(--cat-${cat.slug}-surface); padding: 0.5rem 1rem; font-size: 0.92rem;`}
+            >
+              <Icon name={cat.slug} size={16} />
+              <span>{cat.title[locale]}</span>
+            </a>
+          ))
+        }
+      </div>
+    </div>
+
+    <nav class="static-nav-strip" aria-label="Institusjonelle Sider">
+      <a href={`/${locale}/om-oss/`} class="static-nav-link is-active">
+        <span>🌟</span>
+        <span>{loc.aboutTitle}</span>
+      </a>
+      <a href={`/${locale}/redaksjon/`} class="static-nav-link">
+        <span>📜</span>
+        <span>{loc.editorialTitle}</span>
+      </a>
+      <a href={`/${locale}/personvern/`} class="static-nav-link">
+        <span>🔒</span>
+        <span>{loc.privacyTitle}</span>
+      </a>
+    </nav>
   </article>
 </BaseLayout>
