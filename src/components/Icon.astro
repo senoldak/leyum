@@ -92,9 +92,42 @@ const { name, size = 20, class: className = '' } = Astro.props;
   </svg>
 )}
 
+{name === 'teknologi' && (
+  <svg class={className} width={size} height={size} viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+    <rect width="16" height="16" x="4" y="4" rx="2"/>
+    <rect width="6" height="6" x="9" y="9" rx="1"/>
+    <path d="M15 2v2"/>
+    <path d="M9 2v2"/>
+    <path d="M20 15h2"/>
+    <path d="M20 9h2"/>
+    <path d="M15 20v2"/>
+    <path d="M9 20v2"/>
+    <path d="M2 15h2"/>
+    <path d="M2 9h2"/>
+  </svg>
+)}
+
+{name === 'kroppen' && (
+  <svg class={className} width={size} height={size} viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M19 14c1.49-1.46 3-3.21 3-5.5A5.5 5.5 0 0 0 16.5 3c-1.76 0-3 .5-4.5 2-1.5-1.5-2.74-2-4.5-2A5.5 5.5 0 0 0 2 8.5c0 2.3 1.5 4.05 3 5.5l7 7Z"/>
+    <path d="M3.22 12H9.5l1.5-3 2 6 1.5-3h6.28"/>
+  </svg>
+)}
+
 {name === 'star' && (
   <svg class={className} width={size} height={size} viewBox="0 0 24 24" fill="currentColor">
     <path d="M12 2l2.9 6.8 7.1.6-5.3 4.8 1.6 7.2L12 17.7 5.7 21.4l1.6-7.2L2 9.4l7.1-.6L12 2z"/>
+  </svg>
+)}
+
+{name === 'leyum' && (
+  <svg class={className} width={size} height={size} viewBox="0 0 24 24" fill="none">
+    <!-- 'L' letter: Warm terracotta flame -->
+    <path d="M 5 4 C 5 3.5 5.5 3 6.5 3 L 8 3 C 8.8 3 9 3.5 9 4 L 9 16 C 9 17 9.8 17.5 11 17.5 L 12.5 17.5 C 13.2 17.5 13.5 18 13.5 18.5 C 13.5 19 13.2 19.5 12.5 19.5 L 7 19.5 C 5.5 19.5 5 18.5 5 17 L 5 4 Z" fill="#D9480F" />
+    <!-- 'U' letter: Luminous honey gold -->
+    <path d="M 11.5 6 L 13.5 6 L 13.5 14 C 13.5 16.5 15 17.8 17 17.8 C 19 17.8 20.5 16.5 20.5 14 L 20.5 6 L 22.5 6 L 22.5 14 C 22.5 18 19.8 19.8 17 19.8 C 14.2 19.8 11.5 18 11.5 14 Z" fill="#F59F00" />
+    <!-- Botanical sprout leaf on L -->
+    <path d="M 5 4 C 3 2.5 2.5 0.5 3.5 -0.2 C 5 0.3 6 2 5 4 Z" fill="#10B981" />
   </svg>
 )}
 

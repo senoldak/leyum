@@ -1,6 +1,7 @@
 ---
-import { SITE, type Locale, CATEGORIES } from '../lib/site';
+import { SITE, type Locale, CATEGORIES, AGE_GROUPS } from '../lib/site';
 import Icon from '../components/Icon.astro';
+import OnboardingModal from '../components/OnboardingModal.astro';
 import '../styles/global.css';
 
 interface Props {
@@ -47,20 +48,33 @@ const switchPath = currentPath.replace(`/${locale}`, `/${otherLocale}`);
             <Icon name="sparkle" size={14} class="sym-sparkle" />
             <span>{locale === 'no' ? 'Et trygt, reklamefritt digitalt barnemagasin' : 'Güvenli, reklamsız dijital çocuk dergisi'}</span>
           </span>
-          <span style="display: flex; align-items: center; gap: 1rem;">
-            <span>{locale === 'no' ? 'Norsk & Tyrkisk' : 'Türkçe & Norveççe'}</span>
-          </span>
+          <div style="display: flex; align-items: center; gap: 0.75rem;">
+            <div id="ribbon-current-prefs" class="ribbon-prefs-badge" title={locale === 'no' ? 'Gjeldende valg' : 'Seçili tercihler'}>
+              <span id="ribbon-pref-lang">{locale === 'no' ? '🇳🇴 NO' : '🇹🇷 TR'}</span>
+              <span class="ribbon-prefs-sep">·</span>
+              <span id="ribbon-pref-age">🌟 {locale === 'no' ? 'Alle aldre' : 'Tüm Yaşlar'}</span>
+            </div>
+            <button
+              type="button"
+              id="btn-reopen-onboarding"
+              class="ribbon-welcome-btn"
+              title={locale === 'no' ? 'Endre alder eller språk' : 'Yaş veya dili değiştir'}
+            >
+              <span>{locale === 'no' ? '⚙️ Endre' : '⚙️ Değiştir'}</span>
+            </button>
+          </div>
         </div>
       </div>
 
       <div class="container header-main">
         <a href={`/${locale}/`} class="brand-anchor" aria-label={`${SITE.name} ${loc.backToHome}`}>
           <div class="brand-talisman" aria-hidden="true">
-            <Icon name="star" size={24} />
+            <Icon name="leyum" size={24} />
           </div>
           <span class="brand-title">{SITE.name}<span class="dot">.</span></span>
         </a>
 
+        <!-- Integrated Categories Bar in Header Main -->
         <nav class="category-nav" aria-label={loc.categoriesTitle}>
           {
             CATEGORIES.map((cat) => (
@@ -70,30 +84,33 @@ const switchPath = currentPath.replace(`/${locale}`, `/${otherLocale}`);
                 style={`color: var(--cat-${cat.slug}-ink); background-color: var(--cat-${cat.slug}-surface);`}
                 aria-current={currentPath.includes(`/kategori/${cat.slug}`) ? 'page' : undefined}
               >
-                <Icon name={cat.slug} size={18} />
+                <Icon name={cat.slug} size={16} />
                 <span>{cat.title[locale]}</span>
               </a>
             ))
           }
-
-          <div class="lang-toggle" role="group" aria-label="Language selection">
-            <a
-              href={locale === 'no' ? currentPath : switchPath}
-              class={`lang-option ${locale === 'no' ? 'active' : ''}`}
-              title="Norsk utgave"
-            >
-              NO
-            </a>
-            <a
-              href={locale === 'tr' ? currentPath : switchPath}
-              class={`lang-option ${locale === 'tr' ? 'active' : ''}`}
-              title="Türkçe baskı"
-            >
-              TR
-            </a>
-          </div>
         </nav>
       </div>
+
+      <!-- Sweet Header Collapse / Expand Toggle Tab -->
+      <button
+        type="button"
+        id="btn-toggle-header"
+        class="header-toggle-tab"
+        aria-label={locale === 'no' ? 'Skjul eller vis menyen' : 'Menüyü gizle veya göster'}
+        title={locale === 'no' ? 'Skjul menyen' : 'Menüyü yukarı topla'}
+      >
+        <div class="tab-mascot" aria-hidden="true">
+          <Icon name="leyum" size={17} />
+        </div>
+        <span class="tab-label">
+          <span class="tab-text-collapse">{locale === 'no' ? 'Skjul' : 'Yukarı Al'}</span>
+          <span class="tab-text-expand">{locale === 'no' ? 'Meny' : 'Menü'}</span>
+        </span>
+        <svg class="tab-icon" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+          <path d="m18 15-6-6-6 6"/>
+        </svg>
+      </button>
     </header>
 
     <main class="container">
@@ -144,5 +161,243 @@ const switchPath = currentPath.replace(`/${locale}`, `/${otherLocale}`);
         <span>{locale === 'no' ? 'Redaksjonelt innhold for nysgjerrige barn' : 'Meraklı çocuklar için editoryal dergi'}</span>
       </div>
     </footer>
+
+    <!-- Onboarding Modal -->
+    <OnboardingModal locale={locale} />
+
+    <!-- Age Filtering and Onboarding Controller Script -->
+    <script is:inline>
+      (function () {
+        const STORAGE_KEY_AGE = 'leyum_user_age';
+        const STORAGE_KEY_SEEN = 'leyum_onboarding_completed';
+        const currentLang = document.documentElement.lang === 'tr-TR' ? 'tr' : 'no';
+
+        // 1. Yaş filtreleme fonksiyonu
+        function applyAgeFilter(selectedAge) {
+          const cards = document.querySelectorAll('.story-card-folio');
+          let visibleCount = 0;
+
+          cards.forEach((card) => {
+            const cardAge = card.getAttribute('data-age-range') || '';
+            let matches = false;
+
+            if (selectedAge === 'all' || !selectedAge) {
+              matches = true;
+            } else if (selectedAge === '4-6') {
+              matches = cardAge.includes('4-6') || cardAge.includes('4-8') || cardAge.includes('5-');
+            } else if (selectedAge === '7-9') {
+              matches = cardAge.includes('7-9') || cardAge.includes('6-10') || cardAge.includes('5-10');
+            } else if (selectedAge === '10-12') {
+              matches = cardAge.includes('10-12') || cardAge.includes('10+');
+            } else {
+              matches = cardAge.includes(selectedAge);
+            }
+
+            if (matches) {
+              card.style.display = '';
+              visibleCount++;
+            } else {
+              card.style.display = 'none';
+            }
+          });
+
+          // Ribbon rozetindeki yaş etiketini güncelle
+          const ribbonAgeEl = document.getElementById('ribbon-pref-age');
+          if (ribbonAgeEl) {
+            const ageMap = {
+              'all': currentLang === 'no' ? '🌟 Alle aldre' : '🌟 Tüm Yaşlar',
+              '4-6': currentLang === 'no' ? '🐣 4-6 år' : '🐣 4-6 Yaş',
+              '7-9': currentLang === 'no' ? '🚀 7-9 år' : '🚀 7-9 Yaş',
+              '10-12': currentLang === 'no' ? '🧭 10-12 år' : '🧭 10-12 Yaş',
+            };
+            ribbonAgeEl.textContent = ageMap[selectedAge] || selectedAge;
+          }
+
+          // Onboarding modalındaki yaş butonlarını da senkronize et
+          document.querySelectorAll('.age-btn').forEach((btn) => {
+            if (btn.getAttribute('data-age') === selectedAge) {
+              btn.classList.add('selected');
+            } else {
+              btn.classList.remove('selected');
+            }
+          });
+
+          // Boş durum bildirimi kontrolü (kartlar gizlendiyse)
+          const grid = document.querySelector('.cards-grid');
+          if (grid) {
+            let emptyMsg = document.getElementById('age-filter-empty-state');
+            if (visibleCount === 0 && cards.length > 0) {
+              if (!emptyMsg) {
+                emptyMsg = document.createElement('div');
+                emptyMsg.id = 'age-filter-empty-state';
+                emptyMsg.className = 'age-filter-empty';
+                emptyMsg.innerHTML = currentLang === 'no'
+                  ? '<p>Ingen saker funnet for dette aldersvalget. <button type="button" id="btn-reset-age-filter">Vis alle</button></p>'
+                  : '<p>Bu yaş grubu için henüz içerik bulunamadı. <button type="button" id="btn-reset-age-filter">Tümünü Göster</button></p>';
+                grid.parentNode.insertBefore(emptyMsg, grid.nextSibling);
+                const resetBtn = document.getElementById('btn-reset-age-filter');
+                if (resetBtn) {
+                  resetBtn.addEventListener('click', () => {
+                    localStorage.setItem(STORAGE_KEY_AGE, 'all');
+                    applyAgeFilter('all');
+                  });
+                }
+              }
+              emptyMsg.style.display = 'block';
+            } else if (emptyMsg) {
+              emptyMsg.style.display = 'none';
+            }
+          }
+        }
+
+        // Sayfa yüklendiğinde hafızadaki yaşı oku
+        const savedAge = localStorage.getItem(STORAGE_KEY_AGE) || 'all';
+        applyAgeFilter(savedAge);
+
+        // Header'daki Yaş butonlarına tıklama
+        document.querySelectorAll('[data-age-btn]').forEach((btn) => {
+          btn.addEventListener('click', function () {
+            const ageId = this.getAttribute('data-age-btn');
+            localStorage.setItem(STORAGE_KEY_AGE, ageId);
+            applyAgeFilter(ageId);
+          });
+        });
+
+        // 2. Onboarding Modal Mantığı
+        const modal = document.getElementById('onboarding-modal');
+        const closeBtn = document.getElementById('btn-close-onboarding');
+        const submitBtn = document.getElementById('btn-submit-onboarding');
+        const reopenBtn = document.getElementById('btn-reopen-onboarding');
+
+        function openModal() {
+          if (modal) {
+            modal.classList.add('open');
+            modal.setAttribute('aria-hidden', 'false');
+          }
+        }
+
+        function closeModal() {
+          if (modal) {
+            modal.classList.remove('open');
+            modal.setAttribute('aria-hidden', 'true');
+          }
+        }
+
+        // İlk ziyaret kontrolü: Kullanıcı daha önce seçim yapmadıysa modalı aç
+        const hasCompletedOnboarding = localStorage.getItem(STORAGE_KEY_SEEN);
+        if (!hasCompletedOnboarding) {
+          // Kısa bir gecikmeyle zarifçe aç
+          setTimeout(openModal, 600);
+        }
+
+        if (reopenBtn) {
+          reopenBtn.addEventListener('click', openModal);
+        }
+
+        if (closeBtn) {
+          closeBtn.addEventListener('click', function () {
+            localStorage.setItem(STORAGE_KEY_SEEN, 'true');
+            closeModal();
+          });
+        }
+
+        // Modal dışına tıklanırsa kapat
+        if (modal) {
+          modal.addEventListener('click', function (e) {
+            if (e.target === modal) {
+              localStorage.setItem(STORAGE_KEY_SEEN, 'true');
+              closeModal();
+            }
+          });
+        }
+
+        // Modal içi Dil seçimi
+        let selectedLang = currentLang;
+        document.querySelectorAll('.lang-btn').forEach((btn) => {
+          btn.addEventListener('click', function () {
+            document.querySelectorAll('.lang-btn').forEach((b) => b.classList.remove('selected'));
+            this.classList.add('selected');
+            selectedLang = this.getAttribute('data-lang');
+          });
+        });
+
+        // Modal içi Yaş seçimi
+        let modalSelectedAge = savedAge;
+        document.querySelectorAll('.age-btn').forEach((btn) => {
+          btn.addEventListener('click', function () {
+            document.querySelectorAll('.age-btn').forEach((b) => b.classList.remove('selected'));
+            this.classList.add('selected');
+            modalSelectedAge = this.getAttribute('data-age');
+          });
+        });
+
+        // Onboarding Onay Butonu (Keşfet)
+        if (submitBtn) {
+          submitBtn.addEventListener('click', function () {
+            localStorage.setItem(STORAGE_KEY_SEEN, 'true');
+            localStorage.setItem(STORAGE_KEY_AGE, modalSelectedAge);
+            applyAgeFilter(modalSelectedAge);
+            closeModal();
+
+            // Eğer seçilen dil mevcut sayfadan farklıysa o dile yönlendir
+            if (selectedLang !== currentLang) {
+              const currentPath = window.location.pathname;
+              const targetPath = currentPath.replace('/' + currentLang + '/', '/' + selectedLang + '/');
+              window.location.href = targetPath.startsWith('/' + selectedLang) ? targetPath : '/' + selectedLang + '/';
+            }
+          });
+        }
+
+        // 3. Header Tatlı Gizleme / Açma (Collapse / Expand)
+        const header = document.querySelector('.site-header');
+        const headerToggleBtn = document.getElementById('btn-toggle-header');
+        const STORAGE_KEY_HEADER_COLLAPSED = 'leyum_header_collapsed';
+
+        function updateHeaderHeightVar() {
+          if (header) {
+            const h = header.offsetHeight;
+            if (h > 0) {
+              document.documentElement.style.setProperty('--header-actual-height', h + 'px');
+            }
+          }
+        }
+
+        // Sayfa yüklendiğinde ve pencere boyutlandığında yüksekliği güncelle
+        updateHeaderHeightVar();
+        window.addEventListener('resize', updateHeaderHeightVar);
+
+        function setHeaderCollapsed(collapsed) {
+          if (!header) return;
+          updateHeaderHeightVar();
+          if (collapsed) {
+            header.classList.add('is-collapsed');
+            if (headerToggleBtn) {
+              headerToggleBtn.setAttribute('title', currentLang === 'no' ? 'Vis menyen' : 'Menüyü aç');
+              headerToggleBtn.setAttribute('aria-expanded', 'false');
+            }
+          } else {
+            header.classList.remove('is-collapsed');
+            if (headerToggleBtn) {
+              headerToggleBtn.setAttribute('title', currentLang === 'no' ? 'Skjul menyen' : 'Menüyü yukarı topla');
+              headerToggleBtn.setAttribute('aria-expanded', 'true');
+            }
+          }
+        }
+
+        // Kaydedilmiş header durumunu uygula
+        const isCollapsedSaved = localStorage.getItem(STORAGE_KEY_HEADER_COLLAPSED) === 'true';
+        if (isCollapsedSaved) {
+          setHeaderCollapsed(true);
+        }
+
+        if (headerToggleBtn) {
+          headerToggleBtn.addEventListener('click', function () {
+            const willCollapse = !header.classList.contains('is-collapsed');
+            localStorage.setItem(STORAGE_KEY_HEADER_COLLAPSED, willCollapse ? 'true' : 'false');
+            setHeaderCollapsed(willCollapse);
+          });
+        }
+      })();
+    </script>
   </body>
 </html>

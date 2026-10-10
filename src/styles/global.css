@@ -62,6 +62,14 @@
   --cat-kultur-surface: #FFEDD5;
   --cat-kultur-ink: #7C2D12;
 
+  --cat-teknologi: #0891B2;
+  --cat-teknologi-surface: #CFFAFE;
+  --cat-teknologi-ink: #155E75;
+
+  --cat-kroppen: #BE185D;
+  --cat-kroppen-surface: #FCE7F3;
+  --cat-kroppen-ink: #831843;
+
   /* Brand Primary */
   --brand-star: #F59F00;
   --brand-terracotta: #D9480F;
@@ -171,6 +179,91 @@ img {
   top: 0;
   z-index: 100;
   box-shadow: 0 4px 20px -6px rgba(90, 78, 60, 0.06);
+  transition: transform 0.4s cubic-bezier(0.16, 1, 0.3, 1), margin-bottom 0.4s cubic-bezier(0.16, 1, 0.3, 1), box-shadow 0.3s ease;
+}
+
+/* Header Collapsed State: Yukari cekilmis hal ve boslugun kapanmasi */
+.site-header.is-collapsed {
+  transform: translateY(-100%);
+  margin-bottom: calc(-1 * var(--header-actual-height, 160px));
+  box-shadow: none;
+}
+
+/* Sweet Header Toggle Tab (Sağ Köşede Tatlı Kulakçık - Sabit Duruş) */
+.header-toggle-tab {
+  position: absolute;
+  bottom: -32px;
+  right: 1.5rem;
+  background: #FFFFFF;
+  border: 1.5px solid #EADBCC;
+  border-top: none;
+  border-radius: 0 0 14px 14px;
+  padding: 0.35rem 0.85rem;
+  font-family: inherit;
+  font-size: 0.82rem;
+  font-weight: 800;
+  color: var(--ink-warm);
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.45rem;
+  box-shadow: 0 6px 14px -3px rgba(90, 78, 60, 0.12);
+  transition: background 0.2s ease, color 0.2s ease, border-color 0.2s ease, box-shadow 0.2s ease;
+  user-select: none;
+  z-index: 101;
+}
+
+.header-toggle-tab:hover {
+  background: #FFF8EE;
+  color: #D9480F;
+  border-color: #F59F00;
+  box-shadow: 0 8px 18px -3px rgba(245, 159, 0, 0.25);
+}
+
+.header-toggle-tab .tab-mascot {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  line-height: 1;
+}
+
+.header-toggle-tab .tab-icon {
+  transition: transform 0.3s cubic-bezier(0.34, 1.56, 0.64, 1);
+}
+
+/* Header açıkken */
+.site-header:not(.is-collapsed) .tab-text-expand {
+  display: none;
+}
+
+.site-header:not(.is-collapsed) .tab-text-collapse {
+  display: inline;
+}
+
+/* Header gizlendiğinde kulakçık sabit asılı durur ve geri açma düğmesi olur */
+.site-header.is-collapsed .header-toggle-tab {
+  bottom: -36px;
+  background: #FFF3D6;
+  border-color: #F59F00;
+  color: #D9480F;
+  box-shadow: 0 8px 20px rgba(245, 159, 0, 0.3);
+  padding: 0.4rem 0.95rem;
+}
+
+.site-header.is-collapsed .header-toggle-tab:hover {
+  background: #FFE8B8;
+}
+
+.site-header.is-collapsed .tab-text-collapse {
+  display: none;
+}
+
+.site-header.is-collapsed .tab-text-expand {
+  display: inline;
+}
+
+.site-header.is-collapsed .header-toggle-tab .tab-icon {
+  transform: rotate(180deg);
 }
 
 .ribbon-bar {
@@ -192,21 +285,22 @@ img {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding-top: 1rem;
-  padding-bottom: 1rem;
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
   gap: 1.5rem;
 }
 
 .brand-anchor {
   display: flex;
   align-items: center;
-  gap: 0.85rem;
+  gap: 0.75rem;
   text-decoration: none;
+  flex-shrink: 0;
 }
 
 .brand-talisman {
-  width: 44px;
-  height: 44px;
+  width: 42px;
+  height: 42px;
   background: #FFF3D6;
   border: 2px solid #F59F00;
   border-radius: 50%;
@@ -224,7 +318,7 @@ img {
 
 .brand-title {
   font-family: var(--font-serif);
-  font-size: 2.35rem;
+  font-size: 2.15rem;
   font-weight: 700;
   color: var(--ink-primary);
   letter-spacing: -0.04em;
@@ -235,23 +329,65 @@ img {
   color: var(--brand-terracotta);
 }
 
-/* Navigation Categories (Tactile, Bespoke Icons) */
+.ribbon-prefs-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.45rem;
+  background: rgba(255, 255, 255, 0.12);
+  padding: 0.18rem 0.65rem;
+  border-radius: var(--radius-pill);
+  font-size: 0.8rem;
+  font-weight: 700;
+  color: #FAF6ED;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+.ribbon-prefs-sep {
+  opacity: 0.5;
+}
+
+.ribbon-welcome-btn {
+  background: rgba(255, 255, 255, 0.18);
+  color: #FAF6ED;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  font-family: inherit;
+  font-size: 0.8rem;
+  font-weight: 700;
+  padding: 0.2rem 0.65rem;
+  border-radius: var(--radius-pill);
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  transition: all 0.2s ease;
+}
+
+.ribbon-welcome-btn:hover {
+  background: rgba(255, 255, 255, 0.3);
+  border-color: #FAF6ED;
+  transform: translateY(-1px);
+}
+
+/* Navigation Categories (Tactile, Bespoke Icons - Entegre Tek Satır Düzeni) */
 .category-nav {
   display: flex;
   align-items: center;
-  gap: 0.5rem;
+  justify-content: flex-end;
+  gap: 0.35rem 0.5rem;
   flex-wrap: wrap;
+  flex-grow: 1;
 }
 
 .category-nav-link {
   font-family: var(--font-sans);
-  font-size: 0.95rem;
+  font-size: 0.82rem;
   font-weight: 700;
-  padding: 0.5rem 1rem;
+  padding: 0.32rem 0.75rem;
   border-radius: var(--radius-pill);
   display: inline-flex;
   align-items: center;
-  gap: 0.5rem;
+  gap: 0.35rem;
+  white-space: nowrap;
   transition: all 0.2s cubic-bezier(0.16, 1, 0.3, 1);
   border: 1px solid transparent;
 }
@@ -272,23 +408,47 @@ img {
   background: var(--bg-subtle);
   padding: 3px;
   border-radius: var(--radius-pill);
-  border: 1px solid #E2D3BE;
-  margin-left: 0.5rem;
+  border: 1.5px solid #E2D3BE;
 }
 
 .lang-option {
-  font-size: 0.85rem;
+  font-size: 0.82rem;
   font-weight: 800;
   padding: 0.35rem 0.75rem;
   border-radius: var(--radius-pill);
   color: var(--ink-muted);
   transition: all 0.2s ease;
+  white-space: nowrap;
 }
 
 .lang-option.active {
   background: var(--bg-paper);
   color: var(--ink-primary);
   box-shadow: var(--shadow-press);
+}
+
+/* Age Filter Empty State */
+.age-filter-empty {
+  text-align: center;
+  padding: 3rem 1.5rem;
+  background: var(--bg-paper);
+  border-radius: var(--radius-lg);
+  border: 2px dashed #EADBCC;
+  margin: 2rem 0;
+  color: var(--ink-muted);
+  font-size: 1.1rem;
+}
+
+.age-filter-empty button {
+  background: var(--cat-oppdager-surface);
+  color: var(--cat-oppdager-ink);
+  border: 1px solid var(--cat-oppdager);
+  font-family: inherit;
+  font-weight: 700;
+  padding: 0.35rem 0.85rem;
+  border-radius: var(--radius-pill);
+  margin-left: 0.5rem;
+  cursor: pointer;
 }
 
 /* First Viewport: Asymmetric Storybook Folio Hero */
@@ -718,13 +878,21 @@ img {
 @media (max-width: 640px) {
   .header-main {
     flex-direction: column;
-    align-items: flex-start;
+    align-items: center;
+    gap: 0.85rem;
+    text-align: center;
+  }
+  .header-controls {
+    justify-content: center;
+    width: 100%;
   }
   .category-nav {
-    overflow-x: auto;
-    width: 100%;
-    padding-bottom: 0.5rem;
-    flex-wrap: nowrap;
+    justify-content: center;
+    gap: 0.35rem 0.45rem;
+  }
+  .category-nav-link {
+    font-size: 0.8rem;
+    padding: 0.3rem 0.7rem;
   }
   .hero-folio {
     padding: 2rem 1.25rem;

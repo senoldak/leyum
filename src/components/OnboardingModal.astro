@@ -1,0 +1,314 @@
+---
+import { AGE_GROUPS, type Locale } from '../lib/site';
+import Icon from './Icon.astro';
+
+interface Props {
+  locale: Locale;
+}
+
+const { locale } = Astro.props;
+
+const labels = {
+  no: {
+    welcomeTitle: 'Velkommen til leyum!',
+    welcomeDesc: 'Et trygt, reklamefritt og nysgjerrig magasin for barn.',
+    stepLang: '1. Velg språk',
+    stepAge: '2. Velg alder',
+    enterBtn: 'Utforsk magasinet ✨',
+    allAges: 'Vis alle aldre',
+    changeLater: 'Du kan alltid endre dette øverst i menyen.',
+  },
+  tr: {
+    welcomeTitle: 'leyum\'a Hoş Geldin!',
+    welcomeDesc: 'Çocuklar için güvenli, reklamsız ve merak dolu dijital dergi.',
+    stepLang: '1. Dilini seç',
+    stepAge: '2. Yaş grubunu seç',
+    enterBtn: 'Dergiyi Keşfet ✨',
+    allAges: 'Tüm yaşları göster',
+    changeLater: 'İstediğin zaman menüden kolayca değiştirebilirsin.',
+  },
+}[locale];
+---
+
+<div id="onboarding-modal" class="onboarding-overlay" aria-hidden="true">
+  <div class="onboarding-card" role="dialog" aria-modal="true" aria-labelledby="onboarding-title">
+    <button type="button" class="onboarding-close" id="btn-close-onboarding" aria-label="Lukk / Kapat">
+      <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M18 6 6 18"/><path d="m6 6 12 12"/>
+      </svg>
+    </button>
+
+    <div class="onboarding-header">
+      <div class="onboarding-talisman" aria-hidden="true">
+        <Icon name="sparkle" size={28} />
+      </div>
+      <h2 id="onboarding-title" class="onboarding-title">{labels.welcomeTitle}</h2>
+      <p class="onboarding-desc">{labels.welcomeDesc}</p>
+    </div>
+
+    <!-- Step 1: Language Selection -->
+    <div class="onboarding-step">
+      <label class="step-label">{labels.stepLang}</label>
+      <div class="onboarding-lang-grid">
+        <button
+          type="button"
+          class={`onboarding-choice-btn lang-btn ${locale === 'no' ? 'selected' : ''}`}
+          data-lang="no"
+        >
+          <span class="choice-flag">🇳🇴</span>
+          <div class="choice-text">
+            <strong>Norsk</strong>
+            <small>Bokmål</small>
+          </div>
+        </button>
+        <button
+          type="button"
+          class={`onboarding-choice-btn lang-btn ${locale === 'tr' ? 'selected' : ''}`}
+          data-lang="tr"
+        >
+          <span class="choice-flag">🇹🇷</span>
+          <div class="choice-text">
+            <strong>Türkçe</strong>
+            <small>Edisyon</small>
+          </div>
+        </button>
+      </div>
+    </div>
+
+    <!-- Step 2: Age Selection -->
+    <div class="onboarding-step">
+      <label class="step-label">{labels.stepAge}</label>
+      <div class="onboarding-age-grid">
+        {
+          AGE_GROUPS.map((grp) => (
+            <button
+              type="button"
+              class={`onboarding-choice-btn age-btn ${grp.id === 'all' ? 'selected' : ''}`}
+              data-age={grp.id}
+            >
+              <span class="choice-badge">{grp.badge}</span>
+              <div class="choice-text">
+                <strong>{grp.label[locale]}</strong>
+                {'subtitle' in grp && grp.subtitle && (
+                  <small>{grp.subtitle[locale]}</small>
+                )}
+              </div>
+            </button>
+          ))
+        }
+      </div>
+    </div>
+
+    <!-- Submit CTA -->
+    <div class="onboarding-actions">
+      <button type="button" id="btn-submit-onboarding" class="btn-primary onboarding-submit">
+        <span>{labels.enterBtn}</span>
+        <Icon name="arrow-right" size={20} />
+      </button>
+      <p class="onboarding-hint">{labels.changeLater}</p>
+    </div>
+  </div>
+</div>
+
+<style>
+  .onboarding-overlay {
+    position: fixed;
+    inset: 0;
+    z-index: 1000;
+    background: rgba(28, 35, 51, 0.65);
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1.25rem;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+  }
+
+  .onboarding-overlay.open {
+    opacity: 1;
+    pointer-events: auto;
+  }
+
+  .onboarding-card {
+    position: relative;
+    width: 100%;
+    max-width: 540px;
+    background: #FFFFFF;
+    border-radius: var(--radius-lg, 32px);
+    border: 2px solid #EADBCC;
+    box-shadow: 0 24px 60px -12px rgba(28, 35, 51, 0.35);
+    padding: 2.25rem 2rem;
+    transform: translateY(20px) scale(0.96);
+    transition: transform 0.35s cubic-bezier(0.34, 1.56, 0.64, 1);
+  }
+
+  .onboarding-overlay.open .onboarding-card {
+    transform: translateY(0) scale(1);
+  }
+
+  .onboarding-close {
+    position: absolute;
+    top: 1.25rem;
+    right: 1.25rem;
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    border: 1px solid #E2D3BE;
+    background: var(--bg-subtle, #F3ECE0);
+    color: var(--ink-muted, #667085);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: all 0.2s ease;
+  }
+
+  .onboarding-close:hover {
+    background: #EADBCC;
+    color: var(--ink-primary, #1C2333);
+    transform: rotate(90deg);
+  }
+
+  .onboarding-header {
+    text-align: center;
+    margin-bottom: 1.75rem;
+  }
+
+  .onboarding-talisman {
+    width: 56px;
+    height: 56px;
+    border-radius: 50%;
+    background: #FFF3D6;
+    border: 2px solid #F59F00;
+    color: #D9480F;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 0.85rem;
+    box-shadow: 0 6px 16px rgba(245, 159, 0, 0.3);
+  }
+
+  .onboarding-title {
+    font-family: var(--font-serif, 'Fraunces', serif);
+    font-size: 2rem;
+    color: var(--ink-primary, #1C2333);
+    margin-bottom: 0.35rem;
+    line-height: 1.15;
+  }
+
+  .onboarding-desc {
+    color: var(--ink-muted, #667085);
+    font-size: 0.98rem;
+    line-height: 1.45;
+  }
+
+  .onboarding-step {
+    margin-bottom: 1.35rem;
+  }
+
+  .step-label {
+    display: block;
+    font-size: 0.88rem;
+    font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    color: var(--ink-warm, #5A4E3C);
+    margin-bottom: 0.6rem;
+  }
+
+  .onboarding-lang-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 0.75rem;
+  }
+
+  .onboarding-age-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 0.75rem;
+  }
+
+  @media (max-width: 480px) {
+    .onboarding-age-grid {
+      grid-template-columns: 1fr;
+    }
+    .onboarding-card {
+      padding: 1.75rem 1.25rem;
+    }
+  }
+
+  .onboarding-choice-btn {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    padding: 0.75rem 1rem;
+    background: var(--bg-canvas, #FAF6ED);
+    border: 2px solid #EADBCC;
+    border-radius: var(--radius-sm, 14px);
+    cursor: pointer;
+    font-family: inherit;
+    text-align: left;
+    transition: all 0.2s cubic-bezier(0.16, 1, 0.3, 1);
+  }
+
+  .onboarding-choice-btn:hover {
+    border-color: #D9480F;
+    background: #FFF9F2;
+    transform: translateY(-2px);
+  }
+
+  .onboarding-choice-btn.selected {
+    border-color: #D9480F;
+    background: #FFF3D6;
+    box-shadow: 0 4px 12px rgba(217, 72, 15, 0.15);
+  }
+
+  .choice-flag {
+    font-size: 1.75rem;
+    line-height: 1;
+  }
+
+  .choice-badge {
+    font-size: 1.4rem;
+    line-height: 1;
+  }
+
+  .choice-text {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .choice-text strong {
+    font-size: 0.95rem;
+    color: var(--ink-primary, #1C2333);
+    font-weight: 700;
+  }
+
+  .choice-text small {
+    font-size: 0.78rem;
+    color: var(--ink-muted, #667085);
+  }
+
+  .onboarding-actions {
+    text-align: center;
+    margin-top: 1.5rem;
+  }
+
+  .onboarding-submit {
+    width: 100%;
+    justify-content: center;
+    padding: 0.9rem 1.5rem;
+    font-size: 1.05rem;
+    font-weight: 800;
+    border-radius: var(--radius-pill, 9999px);
+  }
+
+  .onboarding-hint {
+    font-size: 0.8rem;
+    color: var(--ink-muted, #667085);
+    margin-top: 0.75rem;
+  }
+</style>

@@ -26,7 +26,7 @@ test('lagFolioSvg yeni kategori slugları ile sorunsuz çalışır', () => {
   });
   assert.match(svg, /OPPDAGER|NYSSGJERRIG|Meraklı Kaşif/i);
 
-  for (const cat of ['historie', 'rommet', 'musikk', 'filosofi', 'kultur']) {
+  for (const cat of ['historie', 'rommet', 'musikk', 'filosofi', 'kultur', 'teknologi', 'kroppen']) {
     const s = lagFolioSvg({
       title: 'Test Tittel',
       category: cat,

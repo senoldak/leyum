@@ -51,6 +51,15 @@ export const SITE = {
   },
 };
 
+export const AGE_GROUPS = [
+  { id: 'all', label: { no: 'Alle aldre', tr: 'Tüm Yaşlar' }, badge: '🌟' },
+  { id: '4-6', label: { no: '4-6 år', tr: '4-6 Yaş' }, badge: '🐣', subtitle: { no: 'Små utforskere', tr: 'Minik Kaşifler' } },
+  { id: '7-9', label: { no: '7-9 år', tr: '7-9 Yaş' }, badge: '🚀', subtitle: { no: 'Nysgjerrige barn', tr: 'Meraklı Dedektifler' } },
+  { id: '10-12', label: { no: '10-12 år', tr: '10-12 Yaş' }, badge: '🧭', subtitle: { no: 'Store oppdagere', tr: 'Büyük Kaşifler' } },
+] as const;
+
+export type AgeGroupId = (typeof AGE_GROUPS)[number]['id'];
+
 export const CATEGORIES = [
   {
     slug: 'oppdager',
@@ -131,6 +140,22 @@ export const CATEGORIES = [
     bgLight: '#FFEDD5',
     title: { no: 'Verden & Kulturer', tr: 'Dünya & Kültürler' },
     desc: { no: 'Folkefester, skikker, språk og menneskenes fargerike fellesskap.', tr: 'Dünya dilleri, festivaller, gelenekler ve insanlığın ortak mirası.' },
+  },
+  {
+    slug: 'teknologi',
+    icon: '🤖',
+    color: '#0891B2', // Electric Cyan
+    bgLight: '#CFFAFE',
+    title: { no: 'Teknologi & Oppfinnelser', tr: 'Teknoloji & İcatlar' },
+    desc: { no: 'Roboter, datakoder, ren energi og smarte maskiner som forandrer hverdagen.', tr: 'Robotlar, bilgisayar kodları, temiz enerji ve hayatı kolaylaştıran akıllı makineler.' },
+  },
+  {
+    slug: 'kroppen',
+    icon: '🫀',
+    color: '#BE185D', // Crimson Berry
+    bgLight: '#FCE7F3',
+    title: { no: 'Kroppen & Sansene', tr: 'Bedenimiz & Sağlık' },
+    desc: { no: 'Hjernens mysterier, sansenes signaler og hvordan immunforsvaret beskytter oss.', tr: 'Beynimizin sırları, duyularımızın rehberliği ve bağışıklık sistemimizin kalkanı.' },
   },
 ] as const;
 

@@ -13,6 +13,8 @@ export const KATEGORI_FARGER = {
   musikk: { surface: '#FFE4E6', ink: '#E11D48', labelNo: 'Musikk & Rytme', labelTr: 'Müzik & Ritim' },
   filosofi: { surface: '#CCFBF1', ink: '#0D9488', labelNo: 'Filosofi & Store Spørsmål', labelTr: 'Düşünce & Felsefe' },
   kultur: { surface: '#FFEDD5', ink: '#C2410C', labelNo: 'Verden & Kulturer', labelTr: 'Dünya & Kültürler' },
+  teknologi: { surface: '#CFFAFE', ink: '#0891B2', labelNo: 'Teknologi & Oppfinnelser', labelTr: 'Teknoloji & İcatlar' },
+  kroppen: { surface: '#FCE7F3', ink: '#BE185D', labelNo: 'Kroppen & Sansene', labelTr: 'Bedenimiz & Sağlık' },
   // Geriye dönük uyumluluk
   'merakli-kasif': { surface: '#E0F2FE', ink: '#0284C7', labelNo: 'Nysgjerrig Oppdager', labelTr: 'Meraklı Kaşif' },
   'masal-hikaye': { surface: '#F3E8FF', ink: '#7C3AED', labelNo: 'Eventyr & Fortellinger', labelTr: 'Masal & Hikaye' },

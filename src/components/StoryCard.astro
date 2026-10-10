@@ -13,7 +13,7 @@ const cat = getCategory(post.data.category);
 const url = postUrl(post, locale);
 ---
 
-<article class="story-card-folio">
+<article class="story-card-folio" data-age-range={post.data.ageRange}>
   <div class="card-top-bar">
     {
       cat && (
