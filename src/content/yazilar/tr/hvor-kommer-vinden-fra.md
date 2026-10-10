@@ -1,20 +1,24 @@
 ---
 lang: tr
-title: "Rüzgar Nereden Gelir?"
-description: "Rüzgar saçlarımızı uçurur ve yaprakları neşeyle dans ettirir. Peki rüzgar nasıl doğar?"
+title: "Görünmez Rüzgar Nereden Doğar?"
+description: "Rüzgar ulu ağaçları eğip tekneleri dalgaların üzerinde yürütür; peki havanın bu güçlü yolculuğu nereden başlar?"
 date: 2026-10-10
 category: oppdager
 cover: /images/yazilar/hvor-kommer-vinden-fra.png
-coverAlt: "Rüzgar Nereden Gelir?"
+coverAlt: "Görünmez Rüzgar Nereden Doğar?"
 ageRange: "4-6 Yaş"
 featured: false
 draft: false
 ---
 
-Rüzgar aslında aceleyle koşan havadır. Onu göremeyiz ama yüzümüzde hissederiz.
+Rüzgar gözle görünmez; fakat serinliğini tenimizde hisseder, sesini ağaç yapraklarının hışırtısında duyarız.
 
-Güneş yeryüzünü ısıtır. Isınan sıcak hava hafifler ve gökyüzüne doğru yükselir.
+Güneş ışınları yeryüzünü ve toprak üzerindeki hava katmanını ısıtır.
 
-Onun boşalttığı yere serin hava koşar. Havanın bu neşeli koşusuna rüzgar deriz.
+Isınan hava hafifler ve gökyüzüne doğru yavaşça yükselmeye başlar.
 
-> **Biliyor muydun?** Rüzgar kuşların kanat çırpmadan gökyüzünde süzülmesine yardım eder!
+Onun boşalttığı yere daha serin ve ağır hava kütleleri hızla akın eder.
+
+Havanın yeryüzündeki bu kesintisiz akışına rüzgar adını veririz.
+
+> **Rüzgar İşareti:** Çam ağaçlarının tepelerine bak; biz yerde dursak bile dalların eğilişi havanın hangi yöne aktığını fısıldar.

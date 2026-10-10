@@ -1,24 +1,24 @@
 ---
 lang: no
-title: "Enkel bretting: Katt og hund med papir"
-description: "Brett et kvadratisk papir til en søt firbent venn!"
+title: "Papirbretting: Geometriske dyreportretter"
+description: "Gjennom diagonale bretter og symmetriske vinkler forvandles et kvadratisk ark til et stilrent katteansikt."
 date: 2026-10-10
 category: aktiviteter
 cover: /images/yazilar/lett-origami-hund-og-katt.png
-coverAlt: "Enkel bretting: Katt og hund med papir"
+coverAlt: "Papirbretting: Geometriske dyreportretter"
 ageRange: "4-6 år"
 featured: false
 draft: false
 ---
 
-Ta et firkantet papirark i favorittfargen din.
+Legg et kvadratisk ark med farget papir foran deg på bordet med spissen pekende opp.
 
-Brett arket diagonalt på midten til en spiss trekant.
+Brett arket diagonalt fra hjørne til hjørne slik at det dannes en rettvinklet trekant.
 
-Brett de to øverste hjørnene ned for å lage hundeører.
+Fold de to øverste hjørnene skrått oppover for å reise kattens spisse ører mot kanten.
 
-Tegn nese, munn og to glade øyne med en fargestift.
+Bøy den nederste spissen av trekanten en centimeter innover for å skape en flat hake.
 
-Hunden din vifter nesten med halen på arket!
+Tegn værhår og mandelformede øyne med en fin penn for å fullføre det geometriske portrettet.
 
-> **Papirvenn:** Brett et papir til og lag en pusekatt med spisse ører!
+> **Origamiprinsipp:** Stryk alltid tommelfingerneglen hardt over hver brettekant; skarpe bretter gir en stødig figur.

@@ -1,26 +1,26 @@
 ---
 lang: tr
-title: "Adım Adım Sevimli Sincap Çizimi"
-description: "Daireler ve kavisli çizgiler kullanarak fındık kemiren püsküllü kuyruklu sevimli bir sincap çizme rehberi!"
+title: "Çizim Atölyesi: Form, Anatomi ve Dokuyla Sincap Çizimi"
+description: "Basit geometrik hacimler, omurga eğrileri ve tarama teknikleriyle gerçekçi bir hayvan illüstrasyonu oluşturma."
 date: 2026-10-10
 category: aktiviteter
 cover: /images/yazilar/steg-for-steg-tegn-et-sott-ekorn.png
-coverAlt: "Adım Adım Sevimli Sincap Çizimi"
+coverAlt: "Çizim Atölyesi: Form, Anatomi ve Dokuyla Sincap Çizimi"
 ageRange: "7-9 Yaş"
 featured: false
 draft: false
 ---
 
-Resim yapmak karmaşık görünen canlıları basit geometrik şekillere böldüğümüzde çok kolaylaşır.
+Klasik desen çizimi, karmaşık canlı formlarını temel geometrik hacimler üzerinden inşa etme esasına dayanır.
 
-Önce sincabın gövdesi için bir oval, başı içinse daha küçük yuvarlak bir daire çiz.
+Önce hafif bir kurşun kalemle gövde için yumurta biçiminde bir oval, baş içinse hemen üstünde daha küçük bir daire çiz.
 
-Başın üstüne iki sivri kulak kondur ve ortasına parlak siyah bir göz ekle.
+Sincabın omurgasını gösteren hafif bir yay çek; sincaplar genellikle ağırlık merkezini arka ayaklarına vererek çömelir.
 
-Göğsünün hizasına lezzetli bir meşe palamudu tutan minik iki el yerleştir.
+Gövdenin altına güçlü arka patileri, göğüs hizasına ise bir meşe palamudu tutan çevik ön elleri yerleştir.
 
-İşin en eğlenceli kısmı ise sırtından yukarı kıvrılan kocaman püsküllü bir kuyruktur.
+Sırtından yukarı doğru kıvrılan görkemli kuyruk için geniş bir S eğrisi çiz; kuyruk sincaba dengede kalma yeteneği verir.
 
-Sincabını turuncu ve sıcak kahverengi tonlarıyla boyayarak göbeğini krem rengi bırak.
+Kürkün uzama yönüne paralel kısa ve ritmik tarama çizgileri çekerek kuyruğa dolgun ve gerçekçi bir doku kazandır.
 
-> **Ressam kuralı:** Önce kurşun kalemle hafif çizgiler çiz ki gereksiz hatları kolayca silebilesin!
+> **Ressam Kuralı:** İlk aşamada kalemi kağıda fazla bastırma; oranlar tamamen oturana kadar çizgilerini hafif ve silinebilir tut.

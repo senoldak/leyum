@@ -1,26 +1,26 @@
 ---
 lang: tr
-title: "Kendi Stop-Motion Animasyon Filmini Çek"
-description: "Cansız nesnelere hayat verme sanatı: Hamur figürler ve kare kare fotoğraf çekerek kendi animasyonunu yönet!"
+title: "Stop-Motion Sinema Sanatı: Kil Figürlerle Kare Kare Animasyon"
+description: "Gözün artık görüntü ilkesi ve kare hızı fiziğiyle cansız modellere hayat veren stop-motion film yönetmenliği."
 date: 2026-10-10
 category: aktiviteter
 cover: /images/yazilar/lag-din-egen-stop-motion-film.png
-coverAlt: "Kendi Stop-Motion Animasyon Filmini Çek"
+coverAlt: "Stop-Motion Sinema Sanatı: Kil Figürlerle Kare Kare Animasyon"
 ageRange: "10-12 Yaş"
 featured: false
 draft: false
 ---
 
-Stop-motion, hareketsiz nesnelerin her fotoğraf karesinde milimetrik olarak oynatılmasıyla yapılan büyüleyici bir sinema sanatıdır.
+Sinemanın temeli gözün ağtabakasındaki görüntü kalıcılığına dayanır; saniyede art arda geçen kareler zihinde kesintisiz bir hareket olarak birleşir.
 
-Fotoğraflar saniyede on veya on iki kare hızla art arda oynatıldığında insan beyni bunları akıcı bir hareket olarak algılar.
+Geleneksel stop-motion animasyonda akıcı bir saniyelik sahne oluşturabilmek için en az on iki ayrı fotoğraf çekilmesi gerekir.
 
-İhtiyacın olan şeyler sabit bir masa, parlak bir ışık, oyun hamuru figürleri ve sarsılmayan bir telefon tutacağıdır.
+Sabit bir masa üzerinde ışıklandırmanı kur ve telefonunu kesinlikle sarsılmayacak sağlam bir tripoda yerleştir.
 
-Kameranın çekim boyunca milim oynamaması gerekir; aksi takdirde arka plan sahnede sürekli titreyip dikkati dağıtır.
+Figürlerini bükülebilir tel iskelet üzerine modellenmiş kilden yaparak eklemlerinin kontrollü biçimde poz vermesini sağla.
 
-Karakterinin kolunu veya bacağını her karede birkaç milimetre kıvırıp sabırla yeni bir fotoğraf çek.
+Her karede karakterin kolunu veya adımını sadece bir iki milimetre ilerletip sabırla yeni bir fotoğraf çek.
 
-Ses efektleri ve neşeli müzikler eklediğinde kendi ürettiğin çizgi filmin yönetmeni olmanın gururunu yaşarsın.
+Kareleri montaj yazılımında birleştirip adım sesleri ve ortam gürültüleri eklediğinde kil figürün ekranda canlandığına şahit olursun.
 
-> **İlk animasyon:** Oyun hamurundan bir topun yuvarlanıp çiçeğe dönüştüğü beş saniyelik kısa bir animasyon çek!
+> **Animasyon İlkesi:** Yuvarlanan bir kil topun yere çarptığında ezilmesini ve zıplarken uzamasını sağlayarak harekete organik bir elastikiyet kat.

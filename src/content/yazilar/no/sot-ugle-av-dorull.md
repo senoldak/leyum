@@ -1,24 +1,24 @@
 ---
 lang: no
-title: "Lag en søt liten ugle av dorull og papir"
-description: "Brett toppen ned og lim på to store ugleøyne!"
+title: "Skulptur i papp: Skogens nattugle"
+description: "Form en tredimensjonal uglefigur av en solid pappsylinder med enkle brettinger og grafiske mønstre."
 date: 2026-10-10
 category: aktiviteter
 cover: /images/yazilar/sot-ugle-av-dorull.png
-coverAlt: "Lag en søt liten ugle av dorull og papir"
+coverAlt: "Skulptur i papp: Skogens nattugle"
 ageRange: "4-6 år"
 featured: false
 draft: false
 ---
 
-Finn en tom papprull fra en dorull.
+Ta en ren pappsylinder og trykk den øverste kanten forsiktig innover fra to sider.
 
-Trykk toppen forsiktig ned for å lage to spisse ugleører.
+Slik danner pappen to spisse fjærører som kjennetegner kattuglen i skogen.
 
-Klipp ut to store, runde øyne av hvitt papir.
+Klipp to store, runde sirkler av hvitt papir og tegn mørke pupiller i midten.
 
-Tegn svarte prikker inni øynene og lim dem på uglen.
+Lim øynene høyt på sylinderen og fest et trekantet nebb av brun kartong like under.
 
-Nå har du en klok og søt nattugle!
+Tegn fine bueformede linjer over uglemagen med fargestift for å illustrere fjærdrakten.
 
-> **Uglevenn:** Hvilket morsomt navn vil du gi til den nye uglen din?
+> **Utsnitt:** Plasser pappuglen på en bokhylle eller i en vinduskarm der den kan våke over rommet om kvelden.

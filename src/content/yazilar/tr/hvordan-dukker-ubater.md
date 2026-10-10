@@ -1,24 +1,26 @@
 ---
 lang: tr
-title: "Denizaltılar Su Altında Nasıl Dalar?"
-description: "Tonlarca ağırlıktaki koca bir gemi su üstünde yüzerken nasıl derinliklere dalar ve geri çıkar?"
+title: "Denizaltılar Suyun Derinliklerine Nasıl Dalar ve Yükselir?"
+description: "Tonlarca çelikten yapılmış devasa bir araç denizde hem yüzebilir hem de derinliklerde asılı kalabilir; peki nasıl?"
 date: 2026-10-10
 category: oppdager
 cover: /images/yazilar/hvordan-dukker-ubater.png
-coverAlt: "Denizaltılar Su Altında Nasıl Dalar?"
+coverAlt: "Denizaltılar Suyun Derinliklerine Nasıl Dalar ve Yükselir?"
 ageRange: "7-9 Yaş"
 featured: false
 draft: false
 ---
 
-Denizaltılar okyanusların en gizemli araçlarıdır. Haftalarca suyun altında kalabilirler.
+Denizaltılar Arşimet prensibine dayanan iki temel kuvveti dengeler: yerçekimi ve suyun kaldırma kuvveti.
 
-Denizaltının içinde safra tankı adı verilen özel su depoları bulunur.
+Gövdenin iç ve dış çeperleri arasında safra tankı adı verilen geniş hazneler yer alır.
 
-Dalış yapmak istediğinde bu tankların kapakları açılır ve içleri deniz suyuyla doldurulur.
+Denizaltı su yüzeyindeyken bu hazneler havayla doludur; bu durum aracın toplam yoğunluğunu deniz suyundan daha hafif kılar.
 
-Gemi ağırlaşır ve yavaşça derin sulara doğru süzülür.
+Dalışa geçmek için tankların üst kapakları açılır ve deniz suyu hızla içeri dolarak havayı tahliye eder.
 
-Yüzeye çıkmak istediğinde ise basınçlı hava verilerek su dışarı fışkırtılır ve denizaltı hafifler.
+Aracın ağırlığı yer değiştirdiği suyun ağırlığına eşitlendiğinde denizaltı derinliklerde dengede kalarak ilerler.
 
-> **Biliyor muydun?** Denizaltılar karanlık sularda yönünü bulmak için sonar adı verilen ses dalgalarını kullanır!
+Yüzeye çıkmak istendiğinde ise yüksek basınçlı hava tanklara basılarak su dışarı atılır ve araç tekrar hafifler.
+
+> **Sonar Teknolojisi:** Denizaltılar zifiri karanlık derinliklerde ses dalgaları yayarak ve bu dalgaların yankısını dinleyerek yön bulur.

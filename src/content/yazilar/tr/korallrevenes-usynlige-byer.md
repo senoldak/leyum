@@ -1,26 +1,26 @@
 ---
 lang: tr
-title: "Mercan Resiflerinin Gizli Ekosistemi"
-description: "Deniz tabanının sadece küçük bir kısmını kaplayan mercanlar, deniz canlılarının dörtte birine nasıl yuva olur?"
+title: "Mercan Resiflerinin Koloniyal Mimarisi ve Denizel Simbiyoz"
+description: "Deniz tabanının yarım yüzdesini bile kaplamayan mercan polipleri, kalsiyum karbonat iskeletleriyle deniz yaşamının kalbini nasıl oluşturur?"
 date: 2026-10-10
 category: natur
 cover: /images/yazilar/korallrevenes-usynlige-byer.png
-coverAlt: "Mercan Resiflerinin Gizli Ekosistemi"
+coverAlt: "Mercan Resiflerinin Koloniyal Mimarisi ve Denizel Simbiyoz"
 ageRange: "10-12 Yaş"
 featured: false
 draft: false
 ---
 
-Mercan resifleri rengarenk yapıları ve inanılmaz zenginlikleri nedeniyle denizlerin yağmur ormanları olarak adlandırılır.
+Mercan resifleri denizaltında rengarenk taş ormanları gibi görünse de polip adı verilen mikroskobik hayvan kolonilerinden meydana gelir.
 
-Mercanlar dışarıdan bakıldığında süslü kayalara benzese de aslında polip adı verilen minik hayvan kolonileridir.
+Her polip kalsiyum karbonat minerali salgılayarak sert bir kireç taşı iskeleti örer; bu yapılar binlerce yılda devasa resif dağlarına dönüşür.
 
-Her polip kireç taşından sert bir kabuk örer ve bu kabuklar binlerce yılda devasa resif dağlarına dönüşür.
+Polipler, dokularında yaşayan zooksantel adı verilen tek hücreli fotosentetik alglerle mutlak bir ortak yaşam sürdürür.
 
-Polipler dokularında yaşayan minik alglerle ortak yaşar; algler güneşten besin üretirken mercanlar onlara korunaklı ev sağlar.
+Algler güneş enerjisini kullanarak polipe besin ve oksijen sağlarken, mercan hayvanı alge korunaklı bir yuva ve mineral sunar.
 
-Palyaço balıklarından deniz kaplumbağalarına kadar binlerce tür bu mercan şehirlerinde beslenir ve yavrularını büyütür.
+Bu biyolojik ortaklık, binlerce balık ve omurgasız türünün sığındığı, ürediği ve beslendiği en zengin sualtı biyomunu yaratır.
 
-Mercanlar aynı zamanda fırtınalı dev dalgaları kıyıya ulaşmadan kırarak karaları koruyan doğal dalgakıranlardır.
+Resifler aynı zamanda açık denizden gelen dev fırtına dalgalarının enerjisini kırarak kıyı şeritlerini erozyondan korur.
 
-> **Gezegen harikası:** Avustralya açıklarındaki Büyük Set Resifi o kadar büyüktür ki uzaydaki uydulardan bile çıplak gözle görülebilir!
+> **Büyük Set Resifi:** Avustralya kıyılarında iki bin kilometreyi aşan Büyük Set Resifi, canlı organizmalar tarafından inşa edilmiş gezegendeki en büyük yapıdır.

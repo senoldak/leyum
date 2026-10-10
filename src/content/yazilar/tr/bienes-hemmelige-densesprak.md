@@ -1,26 +1,26 @@
 ---
 lang: tr
-title: "Çalışkan Arıların Gizli Dans Dili"
-description: "Kovandaki minik bir kaşif arı, arkadaşlarına çiçeklerin yerini dans ederek nasıl anlatır?"
+title: "Bal Arıları Çiçeklerin Yerini Dans Ederek Nasıl Anlatır?"
+description: "Karanlık kovanın içinde sekiz çizerek dans eden kaşif arı, Güneşe göre açı ve mesafe koordinatlarını nasıl aktarır?"
 date: 2026-10-10
 category: natur
 cover: /images/yazilar/bienes-hemmelige-densesprak.png
-coverAlt: "Çalışkan Arıların Gizli Dans Dili"
+coverAlt: "Bal Arıları Çiçeklerin Yerini Dans Ederek Nasıl Anlatır?"
 ageRange: "7-9 Yaş"
 featured: false
 draft: false
 ---
 
-Bal arıları dünyamızın en çalışkan ve organizedoğa dostlarıdır.
+Bir kaşif arı zengin nektar barındıran bir çiçek tarlası keşfettiğinde bu bilgiyi kovandaki diğer işçilere aktarmak zorundadır.
 
-Bir kaşif arı mis kokulu çiçeklerle dolu bir çayır keşfettiğinde bunu hemen kovana haber verir.
+Arıların konuşacak sesleri yoktur; bunun yerine peteklerin üzerinde sallantı dansı adı verilen matematiksel bir ritim sergilerler.
 
-Arıların kelimeleri yoktur, bunun yerine peteğin üzerinde sekiz çizerek özel bir dans ederler.
+Arı petek üzerinde sekiz figürü çizer ve orta şeritte ilerlerken gövdesini hızla iki yana sallar.
 
-Dansın açısı Güneşe göre hangi yöne doğru uçulması gerektiğini açıkça gösterir.
+Bu şeridin yerçekimi çizgisiyle yaptığı açı, Güneşin gökyüzündeki konumuna göre hangi istikamete uçulacağını açıkça gösterir.
 
-Gövdesini ne kadar hızlı salladığı ise çiçeklerin kovandan kaç metre uzakta olduğunu anlatır.
+Gövdenin sallanma süresi ise mesafeyi bildirir; dansın her bir saniyesi yaklaşık bir kilometrelik uçuş mesafesine denk gelir.
 
-Diğer arılar onun üzerindeki çiçek kokusunu koklar ve doğrudan hedefe doğru uçarlar.
+Dansçının üzerindeki polen kokusu ise işçilere tarlada hangi çiçeği aramaları gerektiğini fısıldar.
 
-> **Önemli gerçek:** Yediğimiz her üç lokma yiyecekten biri arıların çiçekleri tozlaştırması sayesindedir!
+> **Nobel Tarihi:** Avusturyalı zoolog Karl von Frisch arıların bu kusursuz yön dansını çözerek tıp alanında Nobel Ödülü kazanmıştır.

@@ -1,26 +1,26 @@
 ---
 lang: tr
-title: "Bir Bardak Su ve Aynayla Gökkuşağı Yakalama"
-description: "Beyaz güneş ışığının su damlacıklarında nasıl renklere ayrıldığını gösteren odada gökkuşağı yakalama deneyi!"
+title: "Optik Deney: Su Dolu Bardak ve Aynayla Spektrum Yakalama"
+description: "Beyaz gün ışığının su prizmasında kırılarak yedi tayf rengine ayrılmasını evde gözlemleme rehberi."
 date: 2026-10-10
 category: aktiviteter
 cover: /images/yazilar/lag-en-regnbue-med-et-vannglass.png
-coverAlt: "Bir Bardak Su ve Aynayla Gökkuşağı Yakalama"
+coverAlt: "Optik Deney: Su Dolu Bardak ve Aynayla Spektrum Yakalama"
 ageRange: "7-9 Yaş"
 featured: false
 draft: false
 ---
 
-Gözümüze renksiz görünen güneş ışığı aslında evrendeki bütün parlak renkleri içinde gizler.
+Gözümüze renksiz görünen gün ışığı aslında tüm görünür ışık dalga boylarının kusursuz bir bileşimidir.
 
-Şeffaf bir su bardağını temiz suyla doldurup güneş alan pencerenin kenarına koy.
+Derin bir cam kabı veya geniş bir bardağı suyla doldurup doğrudan güneş alan bir pencere pervazına koy.
 
-Bardağın içine küçük bir aynayı hafif eğik biçimde yerleştir.
+Küçük düz bir aynayı suyun içine yaklaşık kırk beş derecelik bir açıyla, güneşe bakacak şekilde yerleştir.
 
-Aynadan yansıyan ışığın önüne beyaz bir kağıt tutarak gökkuşağını yakala.
+Aynadan yansıyan ışığı odadaki beyaz bir duvara veya geniş bir resim kağıdına doğru yönlendir.
 
-Su ve cam ışığı kırarak kırmızıdan mora kadar bütün renkleri sırayla ayırır.
+Suyun oluşturduğu sıvı prizma ışığı kırar; her dalga boyu farklı bir açıyla bükülerek birbirinden ayrılır.
 
-Gökyüzündeki yağmur damlaları da işte tam olarak bu muhteşem doğa olayını gerçekleştirir.
+Yansıyan ışıkta kırmızıdan mora uzanan net bir spektrum kuşağının duvarda parıldadığını görürsün.
 
-> **Renk saymaca:** Kağıdın üzerine düşen gökkuşağındaki yedi rengi sırayla saymayı dene!
+> **Bilimsel Soru:** Işığın önüne renkli şeffaf bir jelatin tut; spektrumun hangi renklerinin emildiğini dikkatle incele.

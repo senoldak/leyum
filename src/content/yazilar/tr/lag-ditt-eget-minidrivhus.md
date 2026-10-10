@@ -1,26 +1,26 @@
 ---
 lang: tr
-title: "Kendi Mini Seranı Kur: Fasulye Çimlendirme"
-description: "Şeffaf bardakta nem ve ısıyla fasulye tohumunun köklenişini adım adım izleme projesi!"
+title: "Botanik Gözlem Odası: Şeffaf Mini Serada Tohum Çimlenmesi"
+description: "Tohumun içindeki embriyonun nem ve ısıyla uyanışını, kök ve yaprak gelişimini şeffaf haznede izleme projesi."
 date: 2026-10-10
 category: aktiviteter
 cover: /images/yazilar/lag-ditt-eget-minidrivhus.png
-coverAlt: "Kendi Mini Seranı Kur: Fasulye Çimlendirme"
+coverAlt: "Botanik Gözlem Odası: Şeffaf Mini Serada Tohum Çimlenmesi"
 ageRange: "7-9 Yaş"
 featured: false
 draft: false
 ---
 
-Kuru bir fasulye tohumu doğru ısı ve nemi bulduğunda uyanmayı bekleyen bir mucizedir.
+Tohum, içinde eksiksiz bir bitki embriyosu ve ilk besin deposunu barındıran dayanıklı bir biyolojik kapsüldür.
 
-Şeffaf bir bardağın dibine nemli pamuk veya biraz temiz saksı toprağı yerleştir.
+Gelişim sürecini köklere zarar vermeden incelemek için şeffaf bir plastik bardaktan kontrollü bir sera odası kurabilirsin.
 
-İki adet kuru fasulyeyi bardağın şeffaf kenarına yakın şekilde pamukların arasına koy.
+Bardağın iç çeperine nemli pamuk veya temiz peçete katmanları yerleştir.
 
-Bardağın ağzını streç filmle kapatıp üzerine kürdanla minik hava delikleri aç.
+İki kuru fasulye tohumunu bardağın şeffaf kenarı ile pamuk arasına, dışarıdan rahatça görünecek şekilde sıkıştır.
 
-Bardağı güneş alan ılık bir pencere pervazına koy ve pamuğun kurumasını engelle.
+Bardağın ağzını nemi içeride tutacak şeffaf bir filmle kapat ve oksijen girişi için birkaç iğne deliği aç.
 
-Birkaç gün içinde tohumun çatlayıp köklerinin aşağıya, filizlerinin yukarıya uzadığını göreceksin.
+Düzeneği aydınlık bir pervaza yerleştir; birkaç gün içinde tohum kabuğu çatlar, ana kök aşağıya, filiz ise yukarıya uzanır.
 
-> **Büyüme günlüğü:** Her sabah filizin boyunu cetvelle ölçüp bir deftere not al!
+> **Gözlem Defteri:** Her gün cetvelle ölçüm yap; tohumun kök salma, gövde uzatma ve yaprak açma evrelerini defterine çizerek belgele.

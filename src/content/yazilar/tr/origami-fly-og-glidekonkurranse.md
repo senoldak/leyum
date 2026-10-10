@@ -1,26 +1,26 @@
 ---
 lang: tr
-title: "En Uzağa Uçan Origami Uçak Katlama"
-description: "Aerodinamik kurallarıyla havada süzülen veya ok gibi fırlayan en iyi kağıt uçakları katlama sanatı!"
+title: "Aerodinamik Katlama: Uzun Mesafe Kağıt Uçak Tasarımı"
+description: "Kanat açıklığı, denge kanatçıkları ve ağırlık merkezi ilkeleriyle havada uzun süre süzülen uçaklar inşa etme rehberi."
 date: 2026-10-10
 category: aktiviteter
 cover: /images/yazilar/origami-fly-og-glidekonkurranse.png
-coverAlt: "En Uzağa Uçan Origami Uçak Katlama"
+coverAlt: "Aerodinamik Katlama: Uzun Mesafe Kağıt Uçak Tasarımı"
 ageRange: "7-9 Yaş"
 featured: false
 draft: false
 ---
 
-Kağıt uçak yapmak Japon katlama sanatı origami ile havacılık biliminin harika bir buluşmasıdır.
+Kağıt uçak katlamak, havacılık mühendisliğinin aerodinamik ve akışkanlar prensiplerini doğrudan deneyimlemenin en pratik yoludur.
 
-Düzgün bir A4 kağıdı al ve her katlama çizgisinin üzerinden tırnağınla iyice geç.
+Düzgün lifli standart bir A4 kağıt alıp orta hat boyunca katlamaların kusursuz bir simetriye sahip olmasını sağla.
 
-Sivri burunlu ince uçaklar havayı hızla delip ok gibi ileriye doğru fırlar.
+Sivri burunlu ve dar kanatlı modeller hava sürtünmesini en aza indirerek ileriye doğru ok gibi hızla fırlar.
 
-Geniş kanatlı uçaklar ise hava akımlarını yakalayarak odada zarifçe ve uzun süre süzülür.
+Geniş kanatlı planör tasarımları ise odadaki hava akımlarını kanat altında toplayarak uzun süre zarifçe süzülür.
 
-Kanatların ucunu hafifçe yukarı doğru kıvırmak uçağın dengesini korumasını ve takla atmamasını sağlar.
+Kanatların arka uçlarını milimetrik olarak yukarı kıvırmak irtifa dümeni işlevi görür ve uçağın burun üstü çakılmasını önler.
 
-Uçağı fırlatırken sertçe atmak yerine omzundan yumuşak bir hareketle ileriye doğru süzdür.
+Her deneme uçuşunda kanat açılarını ince ayarla düzelterek hava direnci ile kaldırma kuvveti arasında mükemmel bir denge yakala.
 
-> **Menzil yarışı:** Evde üç farklı model katlayıp koridorda en uzağa giden uçağı belirle!
+> **Mühendislik Kaydı:** Üç farklı kanat modeliyle beşer deneme uçuşu yap; süzülme süresini ve mesafesini bir tabloya not et.

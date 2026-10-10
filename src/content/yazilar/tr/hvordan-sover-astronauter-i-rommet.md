@@ -1,24 +1,26 @@
 ---
 lang: tr
-title: "Astronotlar Uzayda Nasıl Uyur?"
-description: "Yerçekimi olmayınca havaya uçarsın! Peki astronotlar tavana çarpmadan nasıl uyur?"
+title: "Astronotlar Uzay İstasyonunda Nasıl Uyur?"
+description: "Yerçekimsiz ortamda ne zemin vardır ne de tavan. Yörüngede süzülen astronotlar çarpmadan nasıl dinlenir?"
 date: 2026-10-10
 category: oppdager
 cover: /images/yazilar/hvordan-sover-astronauter-i-rommet.png
-coverAlt: "Astronotlar Uzayda Nasıl Uyur?"
+coverAlt: "Astronotlar Uzay İstasyonunda Nasıl Uyur?"
 ageRange: "7-9 Yaş"
 featured: false
 draft: false
 ---
 
-Uluslararası Uzay İstasyonunda her şey havada uçar. Orada yukarı ya da aşağı yoktur.
+Uluslararası Uzay İstasyonunda her nesne Dünya yörüngesinde sürekli bir düşüş halindedir; bu durum tam bir yerçekimsiz ortam yaratır.
 
-Bir astronot normal bir yatağa uzansaydı, uyurken havaya yükselir ve duvarlara çarpardı.
+Bir astronot uzay aracının içinde serbestçe uyumaya kalkışsaydı, hava akımı yüzünden kabinin içinde sürüklenirdi.
 
-Bu yüzden astronotlar duvara sımsıkı bağlanmış özel uyku tulumlarında uyurlar.
+Uykusunda duvarlardaki hassas cihazlara çarpabilir ya da dar panellerin arasına sıkışabilirdi.
 
-Tulum onları sabit tutar, böylece rüya görürken odanın içinde süzülüp kaybolmazlar.
+Bu tehlikeyi önlemek için duvarlara sıkıca sabitlenmiş özel fermuarlı uyku tulumlarında uyurlar.
 
-Ayrıca odadaki özel havalandırmalar gece boyunca onlara taze hava üfler.
+Tulum, kolların ve gövdenin istemsizce havada dalgalanmasını engelleyerek bedeni sabit tutar.
 
-> **İlginç bilgi:** Uzayda yastığa veya yatağa gerek yoktur, çünkü vücudun tüy gibi hafiftir!
+Ayrıca kabin içinde vantilatörlerin kesintisiz çalışması şarttır; aksi halde nefes verirken çıkan karbondioksit başlarının etrafında birikir.
+
+> **Uzay Bilgisi:** Ağırlıksız ortamda yastığa veya yumuşak yatağa gerek kalmaz; kaslar hiçbir baskı altında kalmadan doğal olarak dinlenir.

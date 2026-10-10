@@ -1,26 +1,26 @@
 ---
 lang: no
-title: "Korallrevenes fargerike og travle undervannsbyer"
-description: "Selv om korallrev dekker under én prosent av havbunnen, huser de en fjerdedel av alt marint liv på kloden."
+title: "Korallrevenes koloniale arkitektur og marine symbioser"
+description: "Selv om koralldyrene dekker under en halv prosent av havbunnen, danner deres kalkskjeletter habitat for en fjerdedel av alt liv i havet."
 date: 2026-10-10
 category: natur
 cover: /images/yazilar/korallrevenes-usynlige-byer.png
-coverAlt: "Korallrevenes fargerike og travle undervannsbyer"
+coverAlt: "Korallrevenes koloniale arkitektur og marine symbioser"
 ageRange: "10-12 år"
 featured: false
 draft: false
 ---
 
-Korallrev blir ofte kalt havets regnskoger på grunn av sitt overveldende biologiske mangfold og fargeprakt.
+Et korallrev framstår ofte som en fargerik undersjøisk hage, men strukturen er skapt av milliarder av bittesmå nesledyr kalt polypper.
 
-En korall ser kanskje ut som en vakker stein eller plante, men er egentlig kolonier av tusenvis av ørsmå nesledyr.
+Hver polypp skiller ut et hardt skjelett av kalsiumkarbonat som over årtusener bygger opp massive geologiske revformasjoner.
 
-Hver lille polypp bygger et hardt skjelett av kalkstein som over tusenvis av år danner enorme revstrukturer.
+Polyppene lever i en uunnværlig mutualistisk symbiose med encellede alger, zooxantheller, som holder til inne i korallvevet.
 
-Polyppene lever i tett symbiose med mikroskopiske alger som forsyner korallen med næring gjennom fotosyntese.
+Gjennom fotosyntese forsyner algene korallverten med sukker og oksygen, mens polyppen tilbyr beskyttelse og uorganiske næringssalter.
 
-Her finner klovnefisk, skilpadder og fargerike rokker både mat, skjulesteder og trygge oppvekstområder.
+Dette samspillet danner grunnlaget for et av klodens mest artsrike habitater, der klovnefisk, murener og havskilpadder finner faste nisjer.
 
-Revene beskytter også kystlinjer mot kraftige stormbølger og er avgjørende for havets helse.
+Revene fungerer også som naturlige kystbarrierer som absorberer bølgeenergi fra tropiske orkaner.
 
-> **Verdens underverk:** Det store barriererevet i Australia er så enormt at det kan sees tydelig fra verdensrommet!
+> **Verdens største rev:** Det store barriererevet utenfor kysten av Australia er over to tusen kilometer langt og representerer verdens største levende struktur.

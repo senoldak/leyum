@@ -1,20 +1,24 @@
 ---
 lang: no
-title: "Sover de kloke uglene om dagen?"
-description: "Mens vi leker i solen, sitter uglen og blunker med store øyne."
+title: "Hvorfor jakter uglene om natten og hviler om dagen?"
+description: "Når skogen bader i solskinn, sitter kattuglen urørlig på furugrenen; hvordan fungerer nattfuglenes sanser?"
 date: 2026-10-10
 category: natur
 cover: /images/yazilar/sover-ugler-om-dagen.png
-coverAlt: "Sover de kloke uglene om dagen?"
+coverAlt: "Hvorfor jakter uglene om natten og hviler om dagen?"
 ageRange: "4-6 år"
 featured: false
 draft: false
 ---
 
-Uglene er nattens rolige voktere i den store skogen. De har myke fjær.
+Uglene er tilpasset et liv i skyggene når mørket har lagt seg over skoglandskapet.
 
-Når solen skinner om dagen, sitter uglen på en gren. Der tar den en lur.
+Om dagen sitter uglen tett inntil trestammen der de gråbrune fjærene gjør den nesten usynlig mot barken.
 
-Når natten kommer, våkner uglen med sine store, klare øyne. Den ser i mørket.
+Når skumringen kommer, åpner den sine store, runde øyne som er fylt med spesialceller for svakt nattelys.
 
-> **Visste du dette?** Uglen kan snu hodet nesten helt rundt!
+Ørene sitter i ulik høyde på hodet; slik beregner uglen posisjonen til en mus under snøen.
+
+De fløyelsmyke kantene på uglefjærene demper luftsuset fullstendig, slik at uglen glir gjennom natten i total stillhet.
+
+> **Hodevri:** En ugle kan vri hodet trekvart runde til hver side; slik har den full oversikt.

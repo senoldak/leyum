@@ -1,33 +1,37 @@
 import { calistirParti } from './parti-derleyici.mjs';
 
 const OPPDAGER_HIKAYELER = [
-  // 4-6 YAŞ (6 KONU)
+  // 4-6 YAŞ (6 KONU - Duru, duyusal, saygın ve bilimsel merak dili; bebek dili kesinlikle yok)
   {
     slug: 'hvorfor-er-skyene-hvite',
     category: 'oppdager',
     ageRange: '4-6',
     featured: true,
     no: {
-      title: 'Hvorfor er skyene hvite?',
-      description: 'Hvorfor er de myke skyene så hvite som melk på himmelen?',
-      body: `Himmelen er blå, men skyene er hvite. Hvorfor er det slik?
+      title: 'Hvorfor er skyene på himmelen hvite?',
+      description: 'Når solen skinner på den dype himmelen, seiler skyene forbi som krystallklare snøfjell. Hva er hemmeligheten?',
+      body: `Himmelen er dyp og blå, men skyene lyser blendende hvitt i dagslyset.
 
-Skyer er laget av ørsmå vanndråper. Når solen skinner, treffer lyset dråpene.
+Hver eneste sky består av milliarder av ørsmå vanndråper og krystaller.
 
-Vanndråpene sprer alle fargene i sollyset likt. Da ser skyen helt hvit og myk ut.
+Når sollyset treffer dråpene, kastes alle fargene i lyset tilbake samtidig; da ser vi det reneste hvite lyset.
 
-> **Visste du dette?** En stor sky veier like mye som mange elefanter!`
+Selv om en sky ser lett ut som damp, bærer himmelen enorme mengder vann over tretoppene.
+
+> **Himmeltitting:** Løft blikket mot de drivende skyene; ser du hvordan formene forandrer seg sakte med vinden?`
     },
     tr: {
-      title: 'Bulutlar Neden Beyazdır?',
-      description: 'Gökyüzündeki pofuduk bulutlara bakıp neden pamuk gibi bembeyaz olduklarını merak ettin mi?',
-      body: `Gökyüzü mavidir, ama bulutlar bembeyaz parıldar. Peki bu nasıl olur?
+      title: 'Bulutlar Gökyüzünde Neden Beyaz Görünür?',
+      description: 'Güneş mavi gökyüzünü aydınlatırken bulutlar karlı dağlar gibi parıldar; peki bu beyazlığın gerçek sırrı nedir?',
+      body: `Gökyüzünün derin maviliği üzerinde süzülen bulutlar göz alıcı bir beyazlıkla ışıldar.
 
-Bulutlar gökyüzünde yüzen minik su damlacıklarından oluşur. Güneş ışığı bu damlacıklara çarpar.
+Her bulut, havada serbestçe asılı duran sayısız su damlacığı ve mikroskobik buz kristalinden oluşur.
 
-Su damlacıkları tüm renkleri neşeyle etrafa saçar. İşte bu yüzden bulutlar pamuk gibi bembeyaz görünür.
+Güneş ışığı bu damlacıklara çarptığında ışığın bütün renkleri aynı anda etrafa yansır; gözlerimiz bu birleşimi saf beyaz olarak görür.
 
-> **Biliyor muydun?** Gökyüzünde süzülen kocaman bir bulut, yüzlerce fil kadar ağırdır!`
+Bulutlar gökyüzünde tüy gibi hafif görünse de içlerinde tonlarca su taşırlar.
+
+> **Gökyüzü Seyri:** Başını yukarı kaldırıp geçen bulutları izle; rüzgarın onların şeklini nasıl usulca değiştirdiğini fark edebiliyor musun?`
     }
   },
   {
@@ -35,26 +39,34 @@ Su damlacıkları tüm renkleri neşeyle etrafa saçar. İşte bu yüzden bulutl
     category: 'oppdager',
     ageRange: '4-6',
     no: {
-      title: 'Hvordan viser speilet oss?',
-      description: 'Når du smiler til speilet, smiler det tilbake. Hvordan klarer speilet det?',
-      body: `Når du ser i speilet, ser du deg selv. Speilet smiler alltid tilbake til deg.
+      title: 'Hvordan kaster speilet bildet vårt tilbake?',
+      description: 'Når du stiller deg foran speilet, ser du dine egne øyne med en gang. Hvordan sender glasset lyset tilbake?',
+      body: `Når du står foran det blanke glasset, møter du ditt eget blikk.
 
-Lys treffer ansiktet ditt først. Deretter spretter lyset bort på det glatte speilglasset.
+Lyset i rommet treffer kinnene dine først og kastes mot speilflaten.
 
-Bak glasset ligger et tynt lag med skinnende metall. Det sender lyset rett tilbake til øynene dine.
+Bak det klare glasset ligger et syltynt lag med blankt sølvmetall.
 
-> **Liten lek:** Gjør en morsom grimase foran speilet. Hvem ler først?`
+Dette glatte metallaget fanger lysstrålene og kaster dem snorrett tilbake til øynene dine.
+
+Slik ser du et krystallklart bilde av deg selv i samme sekund.
+
+> **Lysprøve:** Hold en liten gjenstand foran speilet og se hvordan glasset gjengir hver minste farge og form.`
     },
     tr: {
-      title: 'Aynalar Bizi Nasıl Gösterir?',
-      description: 'Aynaya bakıp gülümsediğinde o da sana gülümser. Peki ayna bunu nasıl yapar?',
-      body: `Aynanın karşısına geçtiğinde kendini görürsün. Sen el sallayınca o da el sallar.
+      title: 'Aynalar Görüntümüzü Bize Nasıl Yansıtır?',
+      description: 'Pürüzsüz bir aynanın karşısına geçtiğinde kendi gözlerinle karşılaşırsın; peki cam bu görüntüyü nasıl geri gönderir?',
+      body: `Aynanın karşısına geçtiğinde doğrudan kendi bakışlarınla karşılaşırsın.
 
-Önce odadaki ışık yüzüne değer. Sonra bu ışık aynanın pürüzsüz camına doğru seker.
+Odadaki ışık önce yüzüne değer ve oradan aynanın yüzeyine doğru yönelir.
 
-Aynanın arkasında parlak gümüş bir sır vardır. Işık oradan zıplayıp doğrudan gözlerine geri döner.
+Saydam camın hemen arkasında gümüşten yapılmış son derece ince parlak bir sır tabakası bulunur.
 
-> **Eğlenceli oyun:** Aynaya bakıp komik bir yüz yap. Kim önce gülecek?`
+Bu pürüzsüz metal katman ışık ışınlarını yakalar ve dosdoğru gözlerine geri yansıtır.
+
+İşte bu sayede kendi yansımanı o anda hiçbir gecikme olmadan görürsün.
+
+> **Işık Denemesi:** Aynaya doğru küçük bir nesne tut ve camın onun her rengini nasıl birebir yansıttığını incele.`
     }
   },
   {
@@ -62,26 +74,34 @@ Aynanın arkasında parlak gümüş bir sır vardır. Işık oradan zıplayıp d
     category: 'oppdager',
     ageRange: '4-6',
     no: {
-      title: 'Hvor kommer vinden fra?',
-      description: 'Vinden kan ruske i håret og danse med bladene. Men hvor starter vinden?',
-      body: `Vinden er luft som er på farten. Vi kan ikke se den, men vi kjenner den.
+      title: 'Hvor oppstår den usynlige vinden?',
+      description: 'Vinden kan bøye de største trærne og drive seilbåter over fjorden; men hvor starter luftens mektige reise?',
+      body: `Vinden er usynlig for øyet, men vi kjenner den mot kinnet og hører suset i løvverket.
 
-Solen varmer opp bakken og luften. Varm luft er lett og stiger opp mot himmelen.
+Solen varmer opp jordoverflaten og luften som hviler over markene.
 
-Da suser kald luft inn for å ta plassen. Denne bevegelsen kaller vi vind.
+Varm luft blir lettere og stiger høyt opp mot himmelen.
 
-> **Visste du dette?** Vinden hjelper fuglene med å seile høyt over trærne!`
+Kald og tung luft strømmer straks inn fra siden for å fylle tomrommet.
+
+Denne mektige bevegelsen av luftmasser kaller vi vind.
+
+> **Vindtegn:** Se opp på furutoppene i skogen; selv når vi står stille, viser greinene hvilken retning luften vandrer.`
     },
     tr: {
-      title: 'Rüzgar Nereden Gelir?',
-      description: 'Rüzgar saçlarımızı uçurur ve yaprakları neşeyle dans ettirir. Peki rüzgar nasıl doğar?',
-      body: `Rüzgar aslında aceleyle koşan havadır. Onu göremeyiz ama yüzümüzde hissederiz.
+      title: 'Görünmez Rüzgar Nereden Doğar?',
+      description: 'Rüzgar ulu ağaçları eğip tekneleri dalgaların üzerinde yürütür; peki havanın bu güçlü yolculuğu nereden başlar?',
+      body: `Rüzgar gözle görünmez; fakat serinliğini tenimizde hisseder, sesini ağaç yapraklarının hışırtısında duyarız.
 
-Güneş yeryüzünü ısıtır. Isınan sıcak hava hafifler ve gökyüzüne doğru yükselir.
+Güneş ışınları yeryüzünü ve toprak üzerindeki hava katmanını ısıtır.
 
-Onun boşalttığı yere serin hava koşar. Havanın bu neşeli koşusuna rüzgar deriz.
+Isınan hava hafifler ve gökyüzüne doğru yavaşça yükselmeye başlar.
 
-> **Biliyor muydun?** Rüzgar kuşların kanat çırpmadan gökyüzünde süzülmesine yardım eder!`
+Onun boşalttığı yere daha serin ve ağır hava kütleleri hızla akın eder.
+
+Havanın yeryüzündeki bu kesintisiz akışına rüzgar adını veririz.
+
+> **Rüzgar İşareti:** Çam ağaçlarının tepelerine bak; biz yerde dursak bile dalların eğilişi havanın hangi yöne aktığını fısıldar.`
     }
   },
   {
@@ -89,26 +109,34 @@ Onun boşalttığı yere serin hava koşar. Havanın bu neşeli koşusuna rüzga
     category: 'oppdager',
     ageRange: '4-6',
     no: {
-      title: 'Hvorfor fester magneter seg?',
-      description: 'En magnet kan holde tegningen din fast på kjøleskapet som ren magi!',
-      body: `Magneter er veldig morsomme leketøy. De fester seg til kjøleskapet med et lite klikk.
+      title: 'Den usynlige kraften i magneter',
+      description: 'En magnet trekker til seg metallgjenstander uten berøring. Hva er denne usynlige kraften?',
+      body: `En magnet ser ut som en vanlig jernbit, men bærer på et usynlig kraftfelt.
 
-Hver magnet har en usynlig kraft. Denne kraften kalles magnetisme.
+Når du fører magneten mot jern eller stål, griper kraften tak med et fast klikk.
 
-Magneten er glad i ting laget av jern. Men den vil ikke feste seg til tre eller plast.
+Kraftfeltet kalles magnetisme og virker tvers gjennom luft, vann og papirark.
 
-> **Prøv selv:** Finn en binders. Se hvordan magneten løfter den opp!`
+Treverk, stein og plast lar seg derimot ikke påvirke av denne kraften.
+
+Naturen skjuler krefter som vi bare kan sanse gjennom virkningen de har.
+
+> **Magnetjakt:** Før en magnet over ulike gjenstander på bordet; hvilke metaller kjenner du at den trekker til seg?`
     },
     tr: {
-      title: 'Mıknatıslar Nasıl Yapışır?',
-      description: 'Bir mıknatıs resmini buzdolabına sihirli bir el gibi yapıştırır. Bu sihir nasıl çalışır?',
-      body: `Mıknatıslar çok eğlencelidir. Buzdolabının kapağına çıt diye yapışırlar.
+      title: 'Mıknatısların Görünmez Çekim Gücü',
+      description: 'Bir mıknatıs metal parçalarını dokunmadan kendine doğru çeker; peki bu görünmez kuvvet nereden gelir?',
+      body: `Mıknatıs sıradan bir metal parçasına benzer; ancak çevresinde görünmez bir çekim alanı barındırır.
 
-Her mıknatısın görünmez güçlü kolları vardır. Biz buna çekim gücü deriz.
+Mıknatısı demir veya çeliğe yaklaştırdığında bu güç nesneyi kararlı bir sesle kendine çeker.
 
-Mıknatıs demirden yapılmış şeyleri çok sever. Ama tahta veya plastiği çekmez.
+Bu kuvvete manyetizma denir; manyetik alan havayı, suyu ve ince kağıtları kolayca aşar.
 
-> **Sen de dene:** Bir ataş bul. Mıknatısın onu nasıl kaptığını izle!`
+Ahşap, taş ve plastik gibi maddeler ise bu çekimden kesinlikle etkilenmez.
+
+Doğa, yalnızca etkilerini gördüğümüzde fark edebileceğimiz derin güçlerle doludur.
+
+> **Mıknatıs Deneyi:** Masadaki farklı eşyalara bir mıknatıs yaklaştır; hangi nesnelerin çekildiğini dikkatle gözlemle.`
     }
   },
   {
@@ -116,26 +144,34 @@ Mıknatıs demirden yapılmış şeyleri çok sever. Ama tahta veya plastiği ç
     category: 'oppdager',
     ageRange: '4-6',
     no: {
-      title: 'Hvor blir solen av om natten?',
-      description: 'Når stjernene tennes og vi skal sove, hvor reiser solen da hen?',
-      body: `Når kvelden kommer, blir himmelen mørk. Solen ser ut til å gå og legge seg.
+      title: 'Hvor vandrer solen når natten senker seg?',
+      description: 'Når kveldshimmelen mørkner og stjernene tennes over hustakene, hvor forsvinner sollyset hen?',
+      body: `Når kvelden faller over landskapet, svinner dagslyset og nattehimmelen blir dyp og mørk.
 
-Men solen står helt stille i rommet. Det er vår egen planet Jorden som snurrer rundt.
+Solen har likevel ikke slukket eller reist sin vei fra universet.
 
-Når vår side snur seg vekk, får vi natt. Da skinner solen på barn på den andre siden.
+Det er vår egen planet Jorden som langsomt dreier rundt sin egen akse.
 
-> **Visste du dette?** Mens du sover, spiser barn langt borte frokost!`
+Når vårt land vender seg bort fra solen, trer vi inn i nattens skygge.
+
+Samtidig stråler det klare dagslyset ned på byer og hav på den andre siden av kloden.
+
+> **Globuslek:** Drei en globus eller en ball foran en lampe; se hvordan den ene siden bader i lys mens den andre hviler i skygge.`
     },
     tr: {
-      title: 'Gece Olunca Güneş Nereye Gider?',
-      description: 'Yıldızlar parıldayıp uyku vakti geldiğinde Güneş nereye saklanır?',
-      body: `Akşam olunca gökyüzü kararır. Güneş sanki uyumaya gitmiş gibi görünür.
+      title: 'Gece Çökünce Güneş Nereye Gider?',
+      description: 'Akşam göğü kararıp yıldızlar evlerin üzerinde parıldamaya başladığında güneş nereye kaybolur?',
+      body: `Akşam vadinin üzerine çöktüğünde gün ışığı usulca çekilir ve gökyüzü koyu bir renge bürünür.
 
-Oysa Güneş uzayda yerinde durur. Dönüp duran aslında bizim güzel Dünyamızdır.
+Oysa güneş ne sönmüştür ne de gökyüzünden uzaklaşıp gitmiştir.
 
-Biz arkamızı döndüğümüzde gece olur. Güneş o sırada dünyanın diğer ucundaki çocukları aydınlatır.
+Dönen aslında üzerinde yaşadığımız Dünya gezegeninin ta kendisidir.
 
-> **Biliyor muydun?** Sen tatlı uykundayken, uzaktaki çocuklar güneşe bakıp kahvaltı yapar!`
+Bulunduğumuz topraklar güneşe arkasını döndüğünde gecenin sakin gölgesine gireriz.
+
+Aynı anda Dünya’nın diğer tarafındaki şehirler ve okyanuslar pırıl pırıl bir gün ışığıyla aydınlanır.
+
+> **Işık Modeli:** Bir lambanın önüne bir elma veya top koyup çevir; bir yüzü aydınlanırken diğer yüzünün gölgede kalışını izle.`
     }
   },
   {
@@ -143,63 +179,75 @@ Biz arkamızı döndüğümüzde gece olur. Güneş o sırada dünyanın diğer 
     category: 'oppdager',
     ageRange: '4-6',
     no: {
-      title: 'Hvorfor er såpebobler runde?',
-      description: 'Selv om såpeblåseren er firkantet, blir boblen alltid rund som en ball!',
-      body: `Såpebobler glitrer i alle farger. De svever så lett gjennom luften.
+      title: 'Hvorfor blir svevende såpebobler alltid runde?',
+      description: 'Uansett hvilken fasong rammen du blåser gjennom har, lukker boblen seg alltid i en perfekt kule. Hvorfor?',
+      body: `Såpebobler svever lydløst i luften og glitrer i regnbuens fineste fargenyanser.
 
-Boblen er fylt med luft du puster inn. Såpevannet lager en tynn hinne rundt luften.
+Inne i boblen finnes luft som du har pustet forsiktig ut.
 
-Hinnen trekker seg sammen så mye den kan. Den rundeste formen er alltid en kule.
+Utenpå danner såpevannet en elastisk og syltynn hinne som omslutter luften.
 
-> **Prøv selv:** Blås forsiktig. Klarer du å lage en kjempeboble?`
+Vannmolekylene i hinnen trekker seg sammen med like stor kraft fra alle kanter.
+
+Den formen som samler luften på minst mulig flate, er alltid en perfekt kule.
+
+> **Bobleblåsing:** Se nøye på en svevende boble i sollyset; ser du hvordan fargene flyter rundt på kuleflaten før den sprekker?`
     },
     tr: {
-      title: 'Sabun Köpükleri Neden Yuvarlaktır?',
-      description: 'Üfleme çubuğun kare olsa bile sabun baloncukları hep top gibi yuvarlak çıkar!',
-      body: `Sabun köpükleri gökkuşağı gibi parlar. Havada tüy gibi süzülürler.
+      title: 'Sabun Baloncukları Neden Hep Yuvarlaktır?',
+      description: 'Üflediğin telin şekli ne olursa olsun, sabun köpüğü havada daima kusursuz bir küreye dönüşür; peki neden?',
+      body: `Sabun baloncukları havada sessizce süzülür ve güneş ışığında gökkuşağı renkleriyle parıldar.
 
-Köpüğün içi nefesindeki havayla dolar. Sabunlu su bu havanın etrafına sarılır.
+Baloncuğun içinde senin üflediğin sakin hava saklıdır.
 
-Su damlacıkları birbirine sımsıkı sarılmayı sever. En sıkı ve rahat şekil küredir.
+Dış yüzeyde ise sabunlu su, havayı saran son derece ince ve esnek bir zar oluşturur.
 
-> **Sen de dene:** Yavaşça üfle. Havada dans eden kocaman bir baloncuk yap!`
+Sudaki moleküller birbirini her yönden eşit bir kuvvetle merkeze doğru çeker.
+
+Bir hacmi en az yüzeyle çevreleyen kusursuz geometrik biçim daima küredir.
+
+> **Işık Halkası:** Güneş ışığı altında süzülen bir baloncuğa yakından bak; yüzeyinde dönen renk desenlerini fark et.`
     }
   },
 
-  // 7-9 YAŞ (8 KONU)
+  // 7-9 YAŞ (8 KONU - Macera, neden-sonuç, bilimsel merak ve duru keşif dili)
   {
     slug: 'hvordan-sover-astronauter-i-rommet',
     category: 'oppdager',
     ageRange: '7-9',
     no: {
-      title: 'Hvordan sover astronauter i rommet?',
-      description: 'Uten tyngdekraft kan man sveve opp i taket! Hvordan legger man seg da?',
-      body: `I den internasjonale romstasjonen svever alt. Det finnes ikke noe opp eller ned.
+      title: 'Hvordan sover astronauter om bord på romstasjonen?',
+      description: 'I vektløs tilstand finnes det verken gulv, tak, dyner eller vanlige senger. Hvordan hviler man i bane rundt Jorden?',
+      body: `Om bord på Den internasjonale romstasjonen faller alt i en evig sirkelbane rundt Jorden; her opplever astronautene fullstendig vektløshet.
 
-Hvis en astronaut bare la seg på en seng, ville hun sveve rundt i rommet og dunke hodet.
+Dersom en astronaut bare la seg til å sove fritt i kabinen, ville kroppen drive viljeløst av gårde med luftstrømmen.
 
-Derfor sover de i spesielle soveposer som er festet til veggen med solide stropper.
+De kunne kollidere med følsomme instrumenter eller sette seg fast i trange hjørner mens de sov.
 
-Posen holder kroppen på plass slik at de ikke driver av gårde mens de drømmer.
+Løsningen er spesialbygde sovekabiner der astronautene fester seg inne i solide soveposer forankret direkte til veggen.
 
-De har også vifter i sovekabinen for å sirkulere frisk luft hele natten.
+Posen holder armer og bein samlet så kroppen holdes trygt på plass gjennom hele hvileperioden.
 
-> **Moro fakta:** Astronauter trenger verken madrass eller pute, for kroppen føles helt vektløs!`
+I tillegg må kraftige vifter sørge for jevn luftsirkulasjon; uten ventilasjon ville utpustet karbondioksid samle seg som en kvelende boble rundt hodet.
+
+> **Astronautfakta:** Astronauter trenger verken madrass eller pute; i vektløshet hviler alle kroppens muskler helt naturlig uten trykkpunkter.`
     },
     tr: {
-      title: 'Astronotlar Uzayda Nasıl Uyur?',
-      description: 'Yerçekimi olmayınca havaya uçarsın! Peki astronotlar tavana çarpmadan nasıl uyur?',
-      body: `Uluslararası Uzay İstasyonunda her şey havada uçar. Orada yukarı ya da aşağı yoktur.
+      title: 'Astronotlar Uzay İstasyonunda Nasıl Uyur?',
+      description: 'Yerçekimsiz ortamda ne zemin vardır ne de tavan. Yörüngede süzülen astronotlar çarpmadan nasıl dinlenir?',
+      body: `Uluslararası Uzay İstasyonunda her nesne Dünya yörüngesinde sürekli bir düşüş halindedir; bu durum tam bir yerçekimsiz ortam yaratır.
 
-Bir astronot normal bir yatağa uzansaydı, uyurken havaya yükselir ve duvarlara çarpardı.
+Bir astronot uzay aracının içinde serbestçe uyumaya kalkışsaydı, hava akımı yüzünden kabinin içinde sürüklenirdi.
 
-Bu yüzden astronotlar duvara sımsıkı bağlanmış özel uyku tulumlarında uyurlar.
+Uykusunda duvarlardaki hassas cihazlara çarpabilir ya da dar panellerin arasına sıkışabilirdi.
 
-Tulum onları sabit tutar, böylece rüya görürken odanın içinde süzülüp kaybolmazlar.
+Bu tehlikeyi önlemek için duvarlara sıkıca sabitlenmiş özel fermuarlı uyku tulumlarında uyurlar.
 
-Ayrıca odadaki özel havalandırmalar gece boyunca onlara taze hava üfler.
+Tulum, kolların ve gövdenin istemsizce havada dalgalanmasını engelleyerek bedeni sabit tutar.
 
-> **İlginç bilgi:** Uzayda yastığa veya yatağa gerek yoktur, çünkü vücudun tüy gibi hafiftir!`
+Ayrıca kabin içinde vantilatörlerin kesintisiz çalışması şarttır; aksi halde nefes verirken çıkan karbondioksit başlarının etrafında birikir.
+
+> **Uzay Bilgisi:** Ağırlıksız ortamda yastığa veya yumuşak yatağa gerek kalmaz; kaslar hiçbir baskı altında kalmadan doğal olarak dinlenir.`
     }
   },
   {
@@ -207,34 +255,38 @@ Ayrıca odadaki özel havalandırmalar gece boyunca onlara taze hava üfler.
     category: 'oppdager',
     ageRange: '7-9',
     no: {
-      title: 'Hvordan kan store fly fly i luften?',
-      description: 'Tunge passasjerfly veier mange tonn, men de glir lett gjennom skyene. Hvordan?',
-      body: `Et stort fly veier like mye som mange hundre elefanter. Likevel flyr det som en fugl.
+      title: 'Hvordan kan tunge passasjerfly løfte seg fra rullebanen?',
+      description: 'Flere hundre tonn med stål og passasjerer stiger uanstrengt mot skyene. Hvordan skaper vingene denne mektige løftekraften?',
+      body: `Et moderne passasjerfly veier like mye som en hel flokk med hvaler, likevel glir det stødig gjennom luftlagene.
 
-Hemmeligheten ligger i vingens smarte form. Vingen er buet på toppen og flat på undersiden.
+Hemmeligheten bak denne bragden ligger i vingeprofilens presise kurve.
 
-Når flyet raser fremover, beveger luften over vingen seg raskere enn luften under.
+Vingens overside er hvelvet, mens undersiden er nesten flat.
 
-Dette skaper et sug oppover som kalles løftekraft. Løftekraften løfter hele det tunge flyet opp i luften.
+Når flyets jetmotorer dytter skroget framover i stor hastighet, må luften over vingen bevege seg raskere enn luften under.
 
-Motorene dytter flyet fremover, og vingene sørger for at det holder seg oppe.
+Rask luft skaper et lavere lufttrykk over vingen; det høyere trykket under vingen dytter hele flyet oppover i et fenomen kalt løftekraft.
 
-> **Eksperiment:** Hold en papirstrimmel under underleppen og blås over den. Se hvordan papiret løfter seg!`
+Så lenge farten fremover opprettholdes, bærer den usynlige luften det massive flyet trygt over kontinentene.
+
+> **Aerodynamisk test:** Hold en papirstrimmel like under leppene og blås kraftig over den; se hvordan papiret straks løfter seg i luftstrømmen.`
     },
     tr: {
-      title: 'Dev Uçaklar Gökyüzünde Nasıl Uçar?',
-      description: 'Tonlarca ağırlıktaki kocaman uçaklar gökyüzünde bir kuş gibi nasıl süzülür?',
-      body: `Kocaman bir yolcu uçağı yüzlerce fil kadar ağırdır. Yine de gökyüzünde kolayca uçar.
+      title: 'Tonlarca Ağırlıktaki Uçaklar Havada Nasıl Yükselir?',
+      description: 'Yüzlerce tonluk dev gövdeler gökyüzünde zarifçe süzülür; kanatlar bu muazzam kaldırma kuvvetini nasıl üretir?',
+      body: `Modern bir yolcu uçağı yüzlerce ton ağırlığa ulaşabilir; buna rağmen gökyüzünde son derece dengeli bir şekilde uçar.
 
-Bunun büyük sırrı kanatların özel şeklinde saklıdır. Kanadın üstü kavisli, altı ise düzdür.
+Bu mühendislik harikasının temel sırrı kanat profilinin aerodinamik yapısında saklıdır.
 
-Uçak hızlandıkça kanadın üzerinden geçen hava hızlanır ve basınç düşer.
+Uçak kanatlarının üst yüzeyi kavisli, alt yüzeyi ise daha düz bir forma sahiptir.
 
-Alttaki hava ise uçağı yukarı doğru güçlüce iter. Bilim insanları buna kaldırma kuvveti der.
+Motorlar uçağı ileriye doğru yüksek bir hızla ittiğinde, kanadın üstünden geçen hava akımı altındakine göre daha hızlı hareket eder.
 
-Motorlar uçağı ileri doğru iterken, kanatlar gökyüzünde süzülmesini sağlar.
+Akışkanlar mekaniğine göre hızlanan havanın basıncı düşer; alttaki yüksek basınç uçağı yukarı doğru güçlü biçimde kaldırır.
 
-> **Küçük deney:** Bir kağıt şeridini dudağının altına koyup üstünden üfle. Kağıdın yukarı kalktığını göreceksin!`
+İleriye doğru hareket devam ettiği müddetçe, hava kütlesi tonlarca ağırlıktaki bu devasa aracı gökyüzünde taşır.
+
+> **Basit Deney:** İnce bir kağıt şeridini alt dudağının hemen altına tut ve üstünden kuvvetlice üfle; kağıdın hızla yukarı kalktığını göreceksin.`
     }
   },
   {
@@ -242,34 +294,38 @@ Motorlar uçağı ileri doğru iterken, kanatlar gökyüzünde süzülmesini sa�
     category: 'oppdager',
     ageRange: '7-9',
     no: {
-      title: 'Når viser regnbuen seg?',
-      description: 'Hvorfor må det både regne og være solskinn samtidig for at regnbuen skal titte frem?',
-      body: `En regnbue er et av naturens aller vakreste underverker på himmelen.
+      title: 'Når og hvordan oppstår regnbuens spekter på himmelen?',
+      description: 'Hvorfor krever naturen både regnvær og strålende solskinn samtidig for at regnbuen skal åpenbare seg?',
+      body: `En regnbue oppstår aldri tilfeldig; den krever en presis geometrisk vinkel mellom solen, regndråpene og øynene dine.
 
-For å se en regnbue må du ha solen i ryggen og regnvær foran deg.
+For å få øye på fenomenet må du stå med ryggen mot solen og se mot et område der det faller regn.
 
-Når det hvite sollyset treffer regndråpene, fungerer hver dråpe som et lite prisme.
+Når det hvite sollyset trenger inn i en regndråpe, fungerer vanndråpen som et naturlig optisk prisme.
 
-Lyset bøyes og deles opp i sine hemmelige farger: rød, oransje, gul, grønn, blå, indigo og fiolett.
+Lyset bremses opp og brytes; deretter reflekteres det på innsiden av dråpen og brytes på ny idet det forlater vannet.
 
-Fargene reflekteres tilbake til øynene dine i en fantastisk, buet fargebro.
+Fordi ulike bølgelengder av lys brytes i ulike vinkler, spres fargene ut i en ren bue fra rødt til fiolett.
 
-> **Visste du dette?** Fra et fly høyt oppe ser regnbuen ut som en hel, perfekt sirkel!`
+Dersom du betrakter en regnbue fra et fly høyt over bakken, danner den faktisk en fullstendig sirkel.
+
+> **Optisk observasjon:** Se etter neste gang det dannes en dobbel regnbue; den ytre buen har alltid fargene i omvendt rekkefølge.`
     },
     tr: {
-      title: 'Gökkuşağı Ne Zaman Ortaya Çıkar?',
-      description: 'Gökkuşağının parıldaması için neden hem yağmurun hem de güneşin aynı anda olması gerekir?',
-      body: `Gökkuşağı doğanın gökyüzüne çizdiği en renkli ve neşeli köprüdür.
+      title: 'Gökkuşağının Renkleri Ne Zaman ve Nasıl Belirir?',
+      description: 'Gökyüzünde bir gökkuşağının açması için neden hem parlayan bir güneş hem de yağmur damlaları gerekir?',
+      body: `Gökkuşağı gökyüzünde rastlantı eseri belirmez; güneş, yağmur damlaları ve senin bakış açın arasında kusursuz bir geometri gerektirir.
 
-Bir gökkuşağı görebilmek için Güneşin arkanda, yağmurun ise önünde olması gerekir.
+Gökkuşağını görebilmek için sırtını güneşe vermeli ve yağmurun yağdığı alana doğru bakmalısın.
 
-Güneşten gelen beyaz ışık havada asılı duran minik yağmur damlalarına çarpar.
+Güneşten gelen beyaz ışık havadaki su damlalarına girdiğinde, her damla doğal bir cam prizma görevi üstlenir.
 
-Her yağmur damlası minik bir cam prizma gibi çalışır ve ışığı yedi renge ayırır.
+Işık damlanın içine geçerken kırılır, arka iç yüzeyden yansır ve dışarı çıkarken tekrar kırılarak bileşenlerine ayrılır.
 
-Kırmızı, turuncu, sarı, yeşil, mavi, lacivert ve mor gökyüzünde bir yay çizer.
+Işığın her rengi farklı bir açıyla kırıldığı için kırmızıdan mora uzanan göz alıcı bir spektrum yay çizer.
 
-> **Biliyor muydun?** Gökyüzündeki bir uçaktan baktığında gökkuşağı yarım yay değil, tam bir çemberdir!`
+Bir uçaktan baktığında ufuk engeli kalktığı için gökkuşağının aslında tam bir çember olduğunu görürsün.
+
+> **Optik Ayrıntı:** Çift gökkuşağı gördüğünde dikkatle bak; dıştaki ikinci yayın renk sıralaması birincinin tam tersidir.`
     }
   },
   {
@@ -277,34 +333,38 @@ Kırmızı, turuncu, sarı, yeşil, mavi, lacivert ve mor gökyüzünde bir yay 
     category: 'oppdager',
     ageRange: '7-9',
     no: {
-      title: 'Vokser sjokolade på trær?',
-      description: 'Lørdagsgodtet vi elsker har en lang reise fra tropiske regnskoger til butikkhyllen!',
-      body: `Du finner ikke ferdige sjokoladeplater hengende på grenene i skogen.
+      title: 'Kakaotreet og sjokoladens opprinnelse i regnskogen',
+      description: 'Fra modne frukter på trestammer i Mellom-Amerika til krystallisering og foredling; hvordan blir kakaobønner til sjokolade?',
+      body: `Sjokoladeplater henger ikke ferdige på grenene, men råvaren stammer fra et fascinerende tre i fuktige tropeskoger.
 
-Men sjokoladens viktigste ingrediens vokser faktisk på trær i varme land!
+Kakaotreet bærer store, skinnende frukter som vokser direkte ut av selve trestammen.
 
-Treet kalles kakaotre. Det får store, fargerike frukter som vokser rett ut av trestammen.
+Inne i den tykke frukten ligger frøene, kjent som kakaobønner, omgitt av et saftig, hvitt fruktkjøtt.
 
-Inne i frukten ligger mange kakaobønner gjemt i et hvitt fruktkjøtt.
+Bønnene høstes for hånd, gjæres i bananblader for å utvikle den dype smaken, og tørkes grundig i solen.
 
-Bønnene tørkes, brennes og males til kakaomasse før de blandes med melk og sukker.
+Deretter brennes og males bønnene til en tykk kakaomasse, før kakaosmør og sukker blandes inn under kontrollert oppvarming.
 
-> **Historisk fakta:** For lenge siden brukte Maya-folket kakaobønner som ekte penger!`
+Gjennom historien verdsatte aztekere og maya-folket kakaodrikken så høyt at bønnene fungerte som edelt betalingsmiddel.
+
+> **Kakaofakta:** Et enkelt kakaotre produserer bare nok bønner hvert år til å lage omtrent en halv kilo ren sjokolade.`
     },
     tr: {
-      title: 'Çikolata Ağaçta mı Yetişir?',
-      description: 'Severek yediğimiz lezzetli çikolatanın tropik ormanlardan mutfağımıza uzanan heyecanlı yolculuğu!',
-      body: `Ağaç dallarında paketli çikolatalar sallanmaz, bu doğru.
+      title: 'Kakao Ağacı ve Çikolatanın Yağmur Ormanlarındaki Yolculuğu',
+      description: 'Ağaç gövdesinde açan egzotik meyvelerden mutfaklarımıza uzanan kadim bir botanik ve üretim hikayesi.',
+      body: `Paketli çikolatalar elbette dallardan toplanmaz; ancak çikolatanın asıl kaynağı yağmur ormanlarında yetişen kadim bir ağaçtır.
 
-Fakat çikolatanın kalbi olan kakao gerçekten de tropik yağmur ormanlarındaki ağaçlarda yetişir!
+Kakao ağacı, kalın gövdesinden doğrudan fışkıran iri ve sert kabuklu meyveler üretir.
 
-Bu ağaca kakao ağacı denir. Kocaman ve renkli meyveleri doğrudan gövdesinde büyür.
+Meyvenin lifli kabuğu yarıldığında içinde beyaz bir meyve özüne gömülü onlarca kakao tohumu çıkar.
 
-Meyvenin kabuğunu açtığınızda içinde pamuk gibi meyve özü ve kakao çekirdekleri çıkar.
+Bu tohumlar özenle toplanır, aromalarının gelişmesi için fermente edilir ve güneş altında günlerce kurutulur.
 
-Bu çekirdekler kurutulur, kavrulur, öğütülür ve süt ile şekerle karıştırılarak çikolataya dönüşür.
+Ardından kavrulan çekirdekler değirmenlerde ezilerek kakao yağı ve kuru kakao tozuna dönüştürülür.
 
-> **Tarihi bilgi:** Çok eski zamanlarda Maya uygarlığı kakao çekirdeklerini para gibi kullanırdı!`
+Orta Amerika’daki kadim uygarlıklar kakao tohumlarını öylesine değerli sayarlardı ki onları para yerine alışverişte kullanırlardı.
+
+> **Botanik Notu:** Bir kakao ağacı, bütün bir yıl boyunca ancak birkaç tablet çikolata yapmaya yetecek kadar tohum verir.`
     }
   },
   {
@@ -312,34 +372,38 @@ Bu çekirdekler kurutulur, kavrulur, öğütülür ve süt ile şekerle karışt
     category: 'oppdager',
     ageRange: '7-9',
     no: {
-      title: 'Hvordan reiser lyden i luften?',
-      description: 'Når noen roper til deg over skolegården, hvordan finner lyden frem til øret ditt?',
-      body: `Alt som lager lyd, begynner med en liten vibrasjon.
+      title: 'Hvordan forplanter lydbølger seg gjennom luften?',
+      description: 'Når en streng slås an eller noen snakker, hvordan reiser usynlige vibrasjoner frem til øret ditt?',
+      body: `Hver eneste lyd i verden starter med en fysisk vibrasjon i en gjenstand.
 
-Når du snakker, vibrerer stemmebåndene i halsen din og dytter borti luftpartiklene.
+Når du slår på en tromme, rister trommeskinnet frem og tilbake i lynrask takt.
 
-Partiklene dytter på naboene sine som en usynlig bølge i et hav av luft.
+Denne bevegelsen dytter til luftmolekylene like foran skinnet, som igjen støter borti sine nabomolekyler.
 
-Denne lydbølgen treffer trommehinnen i øret ditt, som begynner å vibrere i samme takt.
+Det dannes fortettede bølger av lufttrykk som brer seg utover i rommet som ringer i vannet.
 
-Hjernen din oversetter disse vibrasjonene til stemmer, musikk eller fuglesang.
+Når disse trykkbølgene treffer trommehinnen i øret ditt, vibrerer hinnen i samme mønster.
 
-> **Eksperiment:** Legg hånden forsiktig på halsen og nynn høyt. Kjenner du vibrasjonen?`
+Spesialiserte nerveceller oversetter bevegelsen til elektriske signaler som hjernen tolker som toner, ord eller støy.
+
+> **Akustisk eksperiment:** Strekk en gummistrikk mellom to fingre og knips på den; observer hvordan vibrasjonen skaper en klar tone i luften.`
     },
     tr: {
-      title: 'Ses Havada Nasıl Yol Alır?',
-      description: 'Arkadaşın bahçenin diğer ucundan seslendiğinde o ses senin kulağına nasıl ulaşır?',
-      body: `Duyduğumuz her ses aslında minik ve hızlı bir titreşimle başlar.
+      title: 'Ses Dalgaları Havada Nasıl İlerler?',
+      description: 'Bir enstrümanın teline dokunulduğunda veya biri konuştuğunda, görünmez titreşimler kulağımıza nasıl ulaşır?',
+      body: `Duyduğumuz her ses, bir maddenin bulunduğu ortamda fiziksel olarak titreşmesiyle başlar.
 
-Sen konuştuğunda boğazındaki ses telleri titrer ve etrafındaki hava taneciklerini iter.
+Bir davulun derisine vurduğunda yüzey mikroskobik bir hızla ileri ve geri hareket eder.
 
-Hava tanecikleri birbirine çarparak havada görünmez bir dalga gibi yayılır.
+Bu titreşim deriye temas eden hava moleküllerini sıkıştırır ve birbirine doğru iter.
 
-Bu ses dalgası kulağındaki kulak zarına çarpar ve zarı aynı ritimle titreştirir.
+Moleküllerin bu zincirleme hareketi, göle atılan bir taşın yarattığı halkalar gibi havada dalga dalga yayılır.
 
-Beynin bu titreşimleri harika bir melodiye, kelimelere veya bir kahkahaya dönüştürür.
+Ses dalgası kulağına ulaştığında kulak zarını aynı frekansta titreştirir.
 
-> **Küçük deney:** Elini boğazına koy ve mırıldan. Parmaklarının altındaki titreşimi hissediyor musun?`
+İç kulaktaki duyarlı hücreler bu mekanik hareketi sinir sinyallerine çevirir ve beynimiz bunları ses olarak algılar.
+
+> **Titreşim Gözlemi:** İki parmağın arasına bir paket lastiği gerip hafifçe çekip bırak; titreşimin havada nasıl net bir ton ürettiğini duy.`
     }
   },
   {
@@ -347,34 +411,38 @@ Beynin bu titreşimleri harika bir melodiye, kelimelere veya bir kahkahaya dön�
     category: 'oppdager',
     ageRange: '7-9',
     no: {
-      title: 'Hvordan dukker ubåter under vannet?',
-      description: 'En enorm stålbåt kan både flyte på overflaten og synke kontrollert ned i havet. Hvordan?',
-      body: `Ubåter er havets mest hemmelighetsfulle skip. De kan gli under bølgene i ukevis.
+      title: 'Hvordan kontrollerer ubåter sin oppdrift under vann?',
+      description: 'Tusenvis av tonn med solid stål kan både flyte på overflaten og sveve vektløst i havets dyp. Hvordan virker fysikken?',
+      body: `En ubåt må kunne mestre to motstridende krefter: tyngdekraften som trekker ned, og oppdriften som løfter opp.
 
-Ubåten har spesielle tanker som kalles ballasttanker. Disse tankene fungerer som flytevester.
+Skroget er utstyrt med store rom langs sidene som kalles ballasttanker.
 
-Når ubåten skal dykke, åpnes ventilene og tankene fylles med tungt sjøvann.
+Når ubåten seiler på overflaten, er tankene fylt med luft, noe som gjør farkostens samlede tetthet lavere enn vannets.
 
-Da blir ubåten tung nok til å synke ned i det dype havet.
+For å dykke åpner man ventiler på toppen av tankene slik at sjøvann fosser inn fra bunnen og fortrenger luften.
 
-Når den vil opp igjen, blåses vannet ut med kraftig trykkluft så båten blir lett og flyter.
+Når ubåtens vekt nøyaktig matcher vekten av det fortrengte vannet, oppnår den nøytral oppdrift og svever stabilt i dypet.
 
-> **Visste du dette?** Ubåter bruker lydbølger, kalt sonar, for å se under det mørke vannet!`
+Når mannskapet vil stige til overflaten igjen, presses sjøvannet ut med kraftig komprimert luft.
+
+> **Marinefakta:** Ubåter navigerer i stummende mørke ved hjelp av sonar, som sender ut lydpulser og lytter til ekkoet fra havbunnen.`
     },
     tr: {
-      title: 'Denizaltılar Su Altında Nasıl Dalar?',
-      description: 'Tonlarca ağırlıktaki koca bir gemi su üstünde yüzerken nasıl derinliklere dalar ve geri çıkar?',
-      body: `Denizaltılar okyanusların en gizemli araçlarıdır. Haftalarca suyun altında kalabilirler.
+      title: 'Denizaltılar Suyun Derinliklerine Nasıl Dalar ve Yükselir?',
+      description: 'Tonlarca çelikten yapılmış devasa bir araç denizde hem yüzebilir hem de derinliklerde asılı kalabilir; peki nasıl?',
+      body: `Denizaltılar Arşimet prensibine dayanan iki temel kuvveti dengeler: yerçekimi ve suyun kaldırma kuvveti.
 
-Denizaltının içinde safra tankı adı verilen özel su depoları bulunur.
+Gövdenin iç ve dış çeperleri arasında safra tankı adı verilen geniş hazneler yer alır.
 
-Dalış yapmak istediğinde bu tankların kapakları açılır ve içleri deniz suyuyla doldurulur.
+Denizaltı su yüzeyindeyken bu hazneler havayla doludur; bu durum aracın toplam yoğunluğunu deniz suyundan daha hafif kılar.
 
-Gemi ağırlaşır ve yavaşça derin sulara doğru süzülür.
+Dalışa geçmek için tankların üst kapakları açılır ve deniz suyu hızla içeri dolarak havayı tahliye eder.
 
-Yüzeye çıkmak istediğinde ise basınçlı hava verilerek su dışarı fışkırtılır ve denizaltı hafifler.
+Aracın ağırlığı yer değiştirdiği suyun ağırlığına eşitlendiğinde denizaltı derinliklerde dengede kalarak ilerler.
 
-> **Biliyor muydun?** Denizaltılar karanlık sularda yönünü bulmak için sonar adı verilen ses dalgalarını kullanır!`
+Yüzeye çıkmak istendiğinde ise yüksek basınçlı hava tanklara basılarak su dışarı atılır ve araç tekrar hafifler.
+
+> **Sonar Teknolojisi:** Denizaltılar zifiri karanlık derinliklerde ses dalgaları yayarak ve bu dalgaların yankısını dinleyerek yön bulur.`
     }
   },
   {
@@ -382,34 +450,38 @@ Yüzeye çıkmak istediğinde ise basınçlı hava verilerek su dışarı fışk
     category: 'oppdager',
     ageRange: '7-9',
     no: {
-      title: 'Hvordan finner kompasset nord?',
-      description: 'En liten metallnål snurrer rundt og peker alltid mot nordpolen. Hvordan vet den veien?',
-      body: `Enten du står i en mørk skog eller på et stormfullt hav, viser kompasset alltid vei.
+      title: 'Hvordan peker kompassnålen alltid mot nord?',
+      description: 'Uansett hvor du snur deg i en ukjent skog eller på havet, søker den lette metallnålen nordpolen. Hva styrer den?',
+      body: `Et kompass er et av de eldste og mest pålitelige navigasjonsredskapene menneskeheten har utviklet.
 
-Nålen i kompasset er en tynn og lett magnet som flyter fritt på en liten spiss.
+Selve nålen er en tynn metallbit som er blitt magnetisert og balansert på en sylskarp spiss slik at den roterer friksjonsfritt.
 
-Vår planet Jorden er som en gigantisk magnet med en magnetisk nordpol og sørpol.
+Planeten Jorden fungerer som en gigantisk magnet med en flytende kjerne av smeltet jern dypt i sitt indre.
 
-Kompassnålens nordpol tiltrekkes av Jordens magnetfelt og snur seg alltid rett mot nord.
+Denne jernkjernen skaper et usynlig magnetfelt som strekker seg tusenvis av kilometer ut i verdensrommet.
 
-Slik har modige oppdagere funnet veien over ukjente hav i mange hundre år.
+Kompassnålens magnetiske pol påvirkes av Jordens magnetfelt og retter seg automatisk inn langs feltlinjene mot nord.
 
-> **Tips til tur:** Ta med et kompass på tur. Prøv å finne nord!`
+Selv i tykk tåke eller stormvær gir denne usynlige naturkraften en urokkelig retningslinje for reisende.
+
+> **Eksperiment på kjøkkenet:** Gni en synål mot en kjøleskapsmagnet, legg den forsiktig på et flytende løvblad i en skål med vann, og se den finne nord.`
     },
     tr: {
-      title: 'Pusula Kuzeyi Nasıl Bulur?',
-      description: 'Minik bir iğne döner döner ve her zaman kuzeyi gösterir. Yolunu nasıl bu kadar iyi bilir?',
-      body: `İster sık bir ormanda ister sisli bir denizde ol, pusula sana her zaman yön gösterir.
+      title: 'Pusula İbresi Kuzeyi Nasıl Kusursuzca Gösterir?',
+      description: 'Sık bir ormanda ya da açık denizde nereye dönersen dön, serbestçe salınan ince ibre daima kuzeye yönelir; neden?',
+      body: `Pusula, insanlık tarihinin yön bulmak amacıyla geliştirdiği en sade ve güvenilir araçlardan biridir.
 
-Pusulanın içindeki ince ibre serbestçe dönebilen hafif bir mıknatıstır.
+Pusulanın içindeki ince metal ibre mıknatıslanmış bir çeliktir ve sivri bir mil üzerinde sürtünmesizce döner.
 
-Bizim güzel Dünyamız da aslında uzayda dönen devasa bir mıknatıs gibidir.
+Üzerinde yaşadığımız Dünya gezegeni, merkezindeki erimiş demir çekirdeği sayesinde devasa bir mıknatıs gibi davranır.
 
-Dünyanın manyetik alanı, pusulanın iğnesini görünmez bir güçle çeker ve kuzeye döndürür.
+Bu çekirdek gezegenin çevresinde binlerce kilometre boyunca uzanan görünmez bir manyetik alan üretir.
 
-Eski kaşifler yüzyıllar boyunca okyanusları aşarken yönlerini hep bu küçük iğneyle bulmuşlardır.
+Pusula ibresi bu manyetik alanın çizgilerine kapılarak kendiliğinden hizalanır ve ibrenin ucu daima kuzeyi işaret eder.
 
-> **Keşif ipucu:** Doğaya çıktığında pusulanı çıkar ve hangi yönün kuzey olduğunu bulmaya çalış!`
+Sisli havalarda veya fırtınalı gecelerde bile bu evrensel kuvvet kaşiflere güvenilir bir rehberlik sunar.
+
+> **Evde Pusula:** Bir dikiş iğnesini mıknatısa sürt, bir su kabındaki mantar parçasının üzerine koy ve iğnenin kuzeye dönüşünü izle.`
     }
   },
   {
@@ -417,75 +489,79 @@ Eski kaşifler yüzyıllar boyunca okyanusları aşarken yönlerini hep bu küç
     category: 'oppdager',
     ageRange: '7-9',
     no: {
-      title: 'Hvorfor har snøflak seks kanter?',
-      description: 'Hvert eneste snøfnugg er et lite kunstverk, og alle har nøyaktig seks symmetriske armer!',
-      body: `Når det snør ute, daler millioner av glitrende stjerner sakte ned fra himmelen.
+      title: 'Hvorfor har snøkrystaller alltid seks armer?',
+      description: 'Hvert snøfnugg er et mikroskopisk symmetrisk underverk. Hvilke naturlover former denne sekskantede geometrien?',
+      body: `Når fuktig luft stiger mot kalde skylag om vinteren, fryser vanndampen direkte til krystaller uten å bli til flytende dråper først.
 
-Snøflak dannes høyt oppe i skyene når vanndamp fryser direkte til iskrystaller.
+Måten vannmolekyler binder seg sammen på når de fryser, danner alltid et strengt sekskantet mønster.
 
-Vannmolekyler er bygget opp slik at de naturlig hekter seg sammen i sekskanter når de fryser.
+Dette molekylære gitteret fungerer som krystallens opprinnelige grunnstein.
 
-Mens krystallen vokser og faller gjennom luften, bygges det seks like armer ut fra midten.
+Når krystallen driver gjennom skyene, vokser seks identiske armer symmetrisk ut fra sentrum.
 
-Hvert fnugg opplever ulik temperatur på veien ned, så nesten ingen er helt like.
+Siden alle seks armene opplever nøyaktig samme temperatur og fuktighet til enhver tid, utvikler de seg helt likt.
 
-> **Vintertips:** Fang et snøfnugg på en mørk vott og studer de vakre grenene før det smelter!`
+Likevel følger hvert enkelt snøflak en unik rute mot bakken; derfor finnes det knapt to fullstendig identiske snøkrystaller i verden.
+
+> **Vinterutforskning:** Fang ferske snøfnugg på en mørk ullvott og studer de krystallklare forgreningene under et forstørrelsesglass.`
     },
     tr: {
-      title: 'Kar Taneleri Neden Altı Köşelidir?',
-      description: 'Gökyüzünden süzülen her kar tanesi bir sanat eseridir ve hepsi tam altı köşelidir!',
-      body: `Kışın gökten süzülen kar taneleri minik birer elmas gibi parıldar.
+      title: 'Kar Kristalleri Neden Daima Altıgen Şekilde Büyür?',
+      description: 'Gökyüzünden süzülen her kar tanesi mikroskobik bir simetri harikasıdır; bu altı köşeli mimari nasıl kurulur?',
+      body: `Kışın nemli hava soğuk bulut katmanlarına ulaştığında su buharı sıvılaşmadan doğrudan katı buz kristallerine dönüşür.
 
-Kar taneleri gökyüzündeki soğuk bulutlarda su buharının buza dönüşmesiyle başlar.
+Su molekülleri donma noktasında birbirine bağlanırken kimyasal bağları nedeniyle daima altıgen bir kafes oluşturur.
 
-Su tanecikleri donarken birbirine tam altıgen bir desen oluşturacak şekilde kenetlenir.
+Bu moleküler yapı kar kristalinin temel çekirdeğini meydana getirir.
 
-Kristal aşağı doğru süzüldükçe merkezden dışarıya doğru altı eşit kol uzar.
+Kristal bulutların içinde aşağıya doğru süzülürken merkezden dışarıya doğru altı eşit kol simetrik olarak uzar.
 
-Her tanecik farklı bir rüzgarla karşılaştığı için hiçbir kar tanesi birbirinin aynısı değildir.
+Her altı kol da süzülüş boyunca aynı hava sıcaklığı ve neme maruz kaldığından birbirine eş bir ritimle dallanır.
 
-> **Kış eğlencesi:** Koyu renkli eldiveninin üzerine düşen bir kar tanesini büyüteçle incele!`
+Her kar tanesi gökyüzünde kendine has farklı bir yolculuk yaptığından, yeryüzünde birbirinin tıpatıp aynısı iki kristal bulmak neredeyse imkansızdır.
+
+> **Kış Gözlemi:** Taze yağan kar tanelerini koyu renkli bir eldivenin üzerine düşür ve büyüteçle altıgen kolların zarif desenini incele.`
     }
   },
 
-  // 10-12 YAŞ (6 KONU)
+  // 10-12 YAŞ (6 KONU - Edebi derinlik, felsefi ve bilimsel olgunluk, zengin kavrayış)
   {
     slug: 'hvorfor-har-jorden-tidssoner',
     category: 'oppdager',
     ageRange: '10-12',
     no: {
-      title: 'Hvorfor har Jorden ulike tidssoner?',
-      description: 'Når du spiser middag i Oslo, spiser kanskje noen frokost i Tokyo. Hvorfor deler vi tiden inn slik?',
-      body: `Før i tiden stilte hver by klokkene etter når solen sto høyest på himmelen midt på dagen.
+      title: 'Hvorfor deler vi kloden inn i standardiserte tidssoner?',
+      description: 'Før jernbanen og telegrafen hadde hver by sin egen soltid. Hvordan skapte Jordens rotasjon behovet for en global tidsavtale?',
+      body: `Gjennom mesteparten av historien var tid et strengt lokalt anliggende.
 
-Da jernbanen og telegrafen kom, ble dette kaos fordi togtidene ikke stemte mellom nabobyer.
+Hver landsby og kystby stilte sine tårnur etter solen; middag var det nøyaktige øyeblikket da solen sto høyest på den lokale himmelen.
 
-Jorden bruker 24 timer på å snurre én hel runde rundt sin egen akse på 360 grader.
+Med utbyggingen av jernbanenett og telegraflinjer på 1800-tallet kollapset dette tradisjonelle systemet i et kaos av ruteplaner.
 
-Deler vi 360 grader på 24 timer, ser vi at solen flytter seg over 15 lengdegrader hver eneste time.
+Fordi Jorden bruker omtrent 24 timer på å fullføre en hel rotasjon på 360 grader, beveger dagslyset seg over 15 lengdegrader hver time.
 
-I 1884 ble verden enige om å dele kloden inn i 24 standard tidssoner med utgangspunkt i Greenwich i London.
+I 1884 samlet diplomater og astronomer seg i Washington for å etablere et enhetlig system med 24 globale tidssoner med nullmeridianen gjennom Greenwich.
 
-Slik vet fly, tog og internett nøyaktig hva klokken er uansett hvor i verden du befinner deg.
+Denne standardiseringen knytter i moderne tid satellitter, flyruter og finansmarkeder sammen til en koordinert global rytme.
 
-> **Tankeoppgave:** Hvis du flyr vestover like fort som Jorden snurrer, kan du oppleve samme solnedgang hele tiden!`
+> **Tankeeksperiment:** Dersom du fløy et supersonisk fly vestover i 1600 kilometer i timen langs ekvator, ville du reise i takt med solen og oppleve evig middag.`
     },
     tr: {
-      title: 'Zaman Dilimleri ve Dünyanın Dönüşü',
-      description: 'Sen İstanbul’da akşam yemeği yerken Tokyo’da neden yeni bir gün doğar? Zamanı nasıl böldük?',
-      body: `Eski çağlarda her şehir kendi yerel saatini öğle vaktinde Güneşin en tepede olduğu ana göre ayarlardı.
+      title: 'Dünya Neden Standart Zaman Dilimlerine Bölünmüştür?',
+      description: 'Demiryolları ve telgraftan önce her kasaba kendi yerel güneş saatini kullanırdı; küresel zaman düzeni nasıl doğdu?',
+      body: `İnsanlık tarihinin büyük bölümünde zaman kavramı tamamen yerel bir ölçümden ibaretti.
 
-Ancak trenler ve telgraf icat edilince, farklı saatler nedeniyle tren seferlerinde büyük karışıklıklar yaşandı.
+Her şehir ve liman kendi kule saatini Güneşin gökyüzünde ulaştığı en yüksek tepe noktasına göre ayarlar, öğle vaktini buna göre belirlerdi.
 
-Dünyamız kendi ekseni etrafındaki 360 derecelik tam bir dönüşü yaklaşık 24 saatte tamamlar.
+19. yüzyılda kıtaları saran demiryolları ve telgraf hatları yaygınlaşınca, farklı yerel saatler sefer tarifelerinde büyük bir karmaşaya yol açtı.
 
-Bu hesaba göre Güneş her bir saatte gökyüzünde 15 boylamlık bir mesafe kat eder.
+Dünya kendi ekseni etrafındaki 360 derecelik tam bir dönüşü yaklaşık 24 saatte tamamladığı için, Güneş ışığı saatte 15 boylamlık bir yay çizer.
 
-1884 yılında bilim insanları dünyayı 24 eşit zaman dilimine bölerek Londra’daki Greenwich gözlemevini başlangıç noktası seçti.
+1884 yılında toplanan uluslararası konferans, Greenwich gözlemevini başlangıç meridyeni kabul ederek yerküreyi 24 eşit zaman dilimine böldü.
 
-Artık uçaklar, uydular ve internet bu düzenli zaman dilimleri sayesinde kusursuz uyum içinde çalışır.
+Bu küresel mutabakat günümüzde uyduların, havayolu ağlarının ve iletişim sistemlerinin kusursuz bir senkronizasyonla işlemesini sağlar.
 
-> **Düşünce sorusu:** Dünyanın dönüş hızında batıya doğru uçsaydın, batmayan bir gün batımını sonsuza dek izleyebilirdin!`
+> **Zaman Düşüncesi:** Ekvator çizgisi üzerinde batıya doğru saatte yaklaşık 1600 kilometre hızla uçabilseydin, Güneşin batışına hiç şahit olmadan sonsuz bir öğle vaktinde kalırdın.`
     }
   },
   {
@@ -493,38 +569,38 @@ Artık uçaklar, uydular ve internet bu düzenli zaman dilimleri sayesinde kusur
     category: 'oppdager',
     ageRange: '10-12',
     no: {
-      title: 'Hva er egentlig et sort hull?',
-      description: 'De mest ekstreme objektene i universet, der tyngdekraften er så enorm at ikke engang lyset slipper ut.',
-      body: `I det dype universet finnes det kosmiske mysterier som utfordrer alt vi forstår om fysikk.
+      title: 'Hva er egentlig et sort hull i astrofysikken?',
+      description: 'Steder i rommet der masse er komprimert så voldsomt at selve romtiden krummer seg, og ikke engang lyset slipper unna.',
+      body: `Et sort hull representerer en av de mest ekstreme forutsigelsene i Albert Einsteins generelle relativitetsteori.
 
-Når en gigantisk stjerne dør, kollapser kjernen under sin egen enorme vekt og knuses sammen.
+Når en stjerne med mange ganger Solens masse brenner ut sitt kjernefysiske drivstoff, opphører det utoverrettede trykket som holder stjernen stabil.
 
-Massen presses inn i et uendelig lite punkt som kalles en singularitet.
+Kjernen kollapser under sin egen uimotståelige gravitasjon og presses sammen til en teoretisk singularitet med uendelig tetthet.
 
-Tyngdekraften her blir så sterk at ingenting som kommer for nær kan slippe unna, ikke engang det raske lyset.
+Rundt dette punktet oppstår en usynlig grenseflate kjent som hendelseshorisonten.
 
-Grensen der det ikke lenger finnes noen vei tilbake, kalles for hendelseshorisonten.
+Innenfor denne terskelen er romtidens krumning så bratt at unnslippelseshastigheten overgår lysets hastighet på nesten 300 000 kilometer i sekundet.
 
-Siden lyset fanges, kan vi ikke se hullet direkte, men vi ser gassen som gløder intenst like utenfor kanten.
+Selv om det sorte hullet i seg selv er usynlig, røper det sitt nærvær gjennom den glødende gassen som virvler rundt horisonten i en akkresjonsskive.
 
-> **Fascinerende fakta:** I sentrum av vår egen Melkevei-galakse ligger det et supermassivt sort hull som kalles Sagittarius A*!`
+> **Kosmisk sentrum:** I hjertet av vår egen galakse, Melkeveien, hviler Sagittarius A*, et supermassivt sort hull med massen til fire millioner soler.`
     },
     tr: {
-      title: 'Karadelikler Nedir?',
-      description: 'Evrenin en gizemli gök cisimleri: Çekim kuvveti o kadar büyüktür ki ışık bile kaçamaz!',
-      body: `Evrenin derinliklerinde fizik kurallarının sınırlarını zorlayan akıl almaz cisimler bulunur.
+      title: 'Astrofizikte Karadelik Kavramı ve Olay Ufku',
+      description: 'Maddenin öylesine yoğunlaştığı kozmik bölgeler ki, uzay-zaman bükülür ve evrenin en hızlı şeyi olan ışık bile oradan kaçamaz.',
+      body: `Karadelikler, Albert Einstein’ın genel görelilik kuramının evrene kazandırdığı en büyüleyici ve radikal kavramlardan biridir.
 
-Devasa bir yıldız yakıtını bitirip öldüğünde, kendi dev kütlesinin ağırlığı altında aniden çöker.
+Güneşten katbekat büyük dev bir yıldız nükleer yakıtını tükettiğinde, çekirdeği dengede tutan iç basınç aniden çöker.
 
-Yıldızın tüm maddesi sonsuz küçüklükte bir noktaya sıkışır ve bir tekillik meydana gelir.
+Yıldız kendi muazzam kütleçekim kuvvetinin etkisiyle içe doğru büzülerek sonsuz yoğunluktaki bir tekillik noktasına sıkışır.
 
-Bu noktanın çekim kuvveti o kadar şiddetlidir ki, evrendeki en hızlı şey olan ışık bile oradan kurtulamaz.
+Bu merkez noktasının etrafında olay ufku adı verilen geri dönüşü olmayan kuramsal bir sınır oluşur.
 
-Geri dönüşü olmayan bu görünmez sınıra bilim insanları olay ufku adını verirler.
+Olay ufkunu geçen hiçbir madde veya bilgi, saniyede 300 bin kilometre hızla hareket eden ışık dahi, bu çekim alanından kurtulamaz.
 
-Karadeliğin kendisini göremeyiz ama etrafında dönen ve deliğe çekilen parlak gazları gözlemleyebiliriz.
+Gökbilimciler karadeliği doğrudan göremeseler de, olay ufkunun hemen dışındaki gazların dönerken yaydığı yoğun ışıma sayesinde varlığını belgelerler.
 
-> **Büyüleyici bilgi:** Samanyolu galaksimizin tam merkezinde Sagittarius A* adında devasa bir süper kütleli karadelik bulunur!`
+> **Galaktik Merkez:** Samanyolu galaksimizin tam kalbinde Güneşin yaklaşık dört milyon katı kütleye sahip Sagittarius A* adlı dev bir süper kütleli karadelik yer alır.`
     }
   },
   {
@@ -532,38 +608,38 @@ Karadeliğin kendisini göremeyiz ama etrafında dönen ve deliğe çekilen parl
     category: 'oppdager',
     ageRange: '10-12',
     no: {
-      title: 'Hvordan strømmer elektrisitet i ledninger?',
-      description: 'Når du trykker på lysbryteren tennes lampen på et brøkdels sekund. Hva skjer inne i ledningen?',
-      body: `Elektrisitet driver datamaskiner, tog og lyspærer, men hva er det egentlig som beveger seg?
+      title: 'Hvordan forflytter elektrisk ladning seg i ledere?',
+      description: 'Når du trykker på bryteren, tennes lyset momentant; men hvordan beveger de enkelte elektronene seg inne i metallet?',
+      body: `Elektrisitet er en fundamental naturkraft som driver hele den moderne sivilisasjonens infrastruktur.
 
-Alt rundt oss er bygget opp av atomer, og ytterst i atomene kretser ørsmå partikler kalt elektroner.
+I metalliske stoffer som kobber er atomkjernene organisert i faste krystallgittere, mens de ytterste elektronene er frie til å vandre mellom atomene.
 
-I metaller som kobber sitter noen av elektronene veldig løst og kan hoppe fra atom til atom.
+Disse frie elektronene danner en slags elektrongass i lederen.
 
-Når et batteri eller en generator kobles til, dytter den elektronene i samme retning som vann i et rør.
+Når en spenningskilde kobles til en lukket krets, opprettes det et elektrisk felt langs hele ledningens lengde.
 
-Selve elektronene beveger seg ganske sakte, men den elektriske bølgen sprer seg nesten like raskt som lyset.
+Selve det elektriske feltet forplanter seg med nesten lysets hastighet, noe som forklarer hvorfor lampen tennes på et brøkdels sekund.
 
-Når elektronene strømmer gjennom tråden i lampen, skaper motstanden varme og lys som lyser opp rommet.
+De enkelte elektronene driver derimot ganske langsomt fremover i kollisjon med metallatomene, en bevegelse som kalles driftshastighet.
 
-> **Sikkerhet:** Husk at kroppen vår leder strøm godt, så lek aldri med stikkontakter hjemme!`
+> **Fysisk faktum:** Mens signalet i kretsen brer seg i svimlende fart, beveger et elektron i en vanlig lommelyktledning seg med bare brøkdeler av en millimeter per sekund.`
     },
     tr: {
-      title: 'Elektrik Kablolarda Nasıl Akar?',
-      description: 'Düğmeye bastığın an odan ışıkla dolar. Peki o incecik bakır tellerin içinde neler olur?',
-      body: `Elektrik dünyamızdaki trenleri, bilgisayarları ve lambaları çalıştırır, peki içinden geçen nedir?
+      title: 'Elektrik Akımı İletken Tellerde Nasıl İlerler?',
+      description: 'Düğmeye bastığın an oda ışıkla dolar; peki bakır tellerin atomik yapısında elektronlar gerçekte nasıl hareket eder?',
+      body: `Elektrik akımı, modern uygarlığın tüm teknolojisini ve bilgi ağlarını besleyen temel bir fiziksel olgudur.
 
-Etrafımızdaki her şey atomlardan yapılmıştır ve atomların etrafında elektron adı verilen minik parçacıklar döner.
+Bakır gibi iletken metallerde atom çekirdekleri düzenli bir kafes yapısı oluştururken, en dıştaki elektronlar atomlar arasında serbestçe dolaşabilir.
 
-Bakır gibi metallerde bu elektronlar serbestçe gezer ve atomdan atoma kolayca atlayabilir.
+Bu serbest parçacıklar iletkenin içinde adeta bir elektron denizi meydana getirir.
 
-Bir pil veya jeneratör bağlandığında elektronlar bir su borusundaki su gibi aynı yöne doğru itilir.
+Devreye bir gerilim uygulandığında telin her iki ucu arasında anında güçlü bir elektrik alanı kurulur.
 
-Elektronların kendisi yavaş ilerlese de elektrik dalgası kablo boyunca ışık hızına yakın bir hızla yayılır.
+Elektrik alanının iletken boyunca yayılma hızı ışık hızına oldukça yakındır; anahtara bastığımız an ampulün yanması bu yüzdendir.
 
-Akım lambadaki ince telden geçerken oluşan direnç ısıya ve gözlerimizi aydınlatan parlak ışığa dönüşür.
+Ancak atomlarla sürekli çarpışan bağımsız elektronların fiziksel sürüklenme hızı son derece yavaştır ve saatte yalnızca birkaç santimetreyi bulur.
 
-> **Güvenlik uyarısı:** İnsan vücudu elektriği çok iyi iletir, bu yüzden prizlerle asla oyun oynanmamalıdır!`
+> **Fiziksel Gerçek:** Elektriksel enerji dalgası inanılmaz bir hızla yayılırken, elektronların tel içindeki kendi ilerleyişi bir salyangozdan bile daha sakindir.`
     }
   },
   {
@@ -571,38 +647,38 @@ Akım lambadaki ince telden geçerken oluşan direnç ısıya ve gözlerimizi ay
     category: 'oppdager',
     ageRange: '10-12',
     no: {
-      title: 'Hvordan ser store teleskoper inn i fortiden?',
-      description: 'Når James Webb-teleskopet tar bilder av fjerne galakser, ser det faktisk millioner av år tilbake i tid!',
-      body: `Visste du at astronomer er universets ekte tidsreisende? Hver gang de ser ut i rommet, ser de fortid.
+      title: 'Hvorfor er store teleskoper vinduer inn i universets fortid?',
+      description: 'Lyset bruker tid på å krysse kosmiske avstander. Når vi retter speilene mot fjerne galakser, ser vi milliarder av år bakover.',
+      body: `I hverdagen opplever vi at synsinntrykk skjer øyeblikkelig, men i kosmisk målestokk har lyset en endelig hastighet.
 
-Årsaken er at lyset, selv om det er lynraskt med 300 000 kilometer i sekundet, bruker tid på å reise.
+Lyset beveger seg gjennom vakuum i nøyaktig 299 792 kilometer i sekundet.
 
-Sollyset du kjenner på kinnet en varm sommerdag, forlot solen for litt over åtte minutter siden.
+Dette betyr at sollyset som treffer bakken, forlot soloverflaten for over åtte minutter siden.
 
-Når vi retter store romteleskoper mot fjerne galakser, har lyset reist i milliarder av år før det treffer speilet.
+Når astronomer retter avanserte romteleskoper mot stjernetåker og fjerne galaksehoper, har lyspartiklene reist over ufattelige avstander.
 
-Det betyr at vi ser galaksene slik de så ut like etter at universet ble til, ikke slik de er i dagens øyeblikk.
+Lyset fra en galakse ti milliarder lysår unna viser dermed hvordan galaksen så ut for ti milliarder år siden, like etter universets barndom.
 
-Teleskoper fungerer som kraftige tidsmaskiner som lar oss utforske universets aller første kapitler.
+Astronomiske observatorier fungerer derfor som ekte tidsmaskiner som lar oss kartlegge stjernenes og galaksernes opprinnelige evolusjon.
 
-> **Visste du dette?** James Webb-romteleskopet bruker gullbelagte speil for å fange det eldgamle infrarøde lyset!`
+> **James Webb-innsikt:** James Webb-teleskopet benytter infrarøde detektorer for å fange opp lys som har blitt strukket ut av universets ekspansjon gjennom milliarder av år.`
     },
     tr: {
-      title: 'Teleskoplar Geçmişe Nasıl Bakar?',
-      description: 'Dev uzay teleskopları milyonlarca ışık yılı uzaktaki yıldızları görüntülerken zamanda geriye nasıl bakar?',
-      body: `Gökbilimciler evrenin gerçek zaman yolcularıdır. Çünkü uzaya her baktıklarında geçmişi görürler.
+      title: 'Dev Uzay Teleskopları Evrenin Geçmişine Nasıl Bakar?',
+      description: 'Işık kozmik mesafeleri aşarken zaman harcar; uzak galaksilerin ışığını yakalayan aynalar geçmişi nasıl aydınlatır?',
+      body: `Günlük yaşantımızda ışığın anında ulaştığını düşünürüz; ancak evren ölçeğinde ışık sonlu ve ölçülebilir bir hızla seyahat eder.
 
-Bunun sebebi ışığın saniyede 300.000 kilometre gibi akıl almaz bir hızla yol almasına rağmen evrenin çok büyük olmasıdır.
+Işık boşlukta saniyede yaklaşık 300 bin kilometre hızla yol alır.
 
-Yüzünü ısıtan ılık Güneş ışığı aslında sekiz dakika önce Güneşten yola çıkmıştır.
+Bu fiziksel gerçek nedeniyle, şu an gördüğümüz Güneş ışığı aslında sekiz dakika önce yola çıkmış bir enerjidir.
 
-Milyarlarca ışık yılı uzaktaki bir galaksiye teleskopla baktığımızda, o ışık teleskoba ulaşmak için milyarlarca yıl seyahat etmiştir.
+Gökbilimciler devasa teleskopları derin uzaydaki galaksi kümelerine çevirdiklerinde, yakaladıkları fotonlar milyarlarca yıllık bir yolculuktan gelmiştir.
 
-Yani biz o galaksinin şimdiki halini değil, evrenin ilk gençlik yıllarındaki halini görürüz.
+On milyar ışık yılı uzaktaki bir galaksiyi gözlemlediğimizde, onun şimdiki halini değil, evrenin erken dönemindeki halini inceleriz.
 
-Teleskoplar gökyüzünün en büyüleyici zaman makineleridir ve evrenin başlangıç sırlarını keşfetmemizi sağlar.
+Bu sebeple büyük uzay gözlemevleri, evrenin ilk yıldızlarının doğumunu ve ilk galaksilerin oluşumunu belgeleyen birer zaman penceresidir.
 
-> **Büyüleyici bilgi:** James Webb Uzay Teleskobu bu antik ışığı yakalamak için altın kaplama aynalar kullanır!`
+> **James Webb Notu:** James Webb Uzay Teleskobu, evrenin genişlemesiyle dalga boyu uzayıp kızıla kayan bu kadim ışığı yakalamak için altın kaplama aynalar kullanır.`
     }
   },
   {
@@ -610,38 +686,38 @@ Teleskoplar gökyüzünün en büyüleyici zaman makineleridir ve evrenin başla
     category: 'oppdager',
     ageRange: '10-12',
     no: {
-      title: 'Hvordan tenker og lærer en robot?',
-      description: 'Roboter har ingen biologisk hjerne, men de kan løse rubiks kube og navigere på Mars. Hvordan virker de?',
-      body: `Roboter kan utføre kirurgiske inngrep, støvsuge stuen og kjøre rovere på den røde planeten Mars.
+      title: 'Hvordan bearbeider autonome roboter sanseinntrykk?',
+      description: 'Mellom sensorer, mikrokontrollere og maskinlæring; hvordan omsetter maskiner fysiske målinger til målrettet handling?',
+      body: `En autonom robot tenker ikke med bevissthet eller følelser, men utfører kontinuerlige sykluser av sanseoppfattelse og beregning.
 
-En robot består av tre hoveddeler: sensorer som sanser omgivelsene, motorer som beveger seg, og en datamaskin.
+Gjennom sensorer som optiske kameraer, ultralyd og laserskannere samler roboten inn enorme mengder fysiske måleverdier fra miljøet.
 
-Sensorene fungerer som robotens øyne og ører ved å måle avstander, temperatur og lysstyrke.
+Disse rådataene konverteres til digitale signaler som mates inn i en sentral prosessor.
 
-Datamaskinen kjører en algoritme, som er en samling nøyaktige instruksjoner skrevet av programmerere.
+Algoritmene strukturerer dataene til et internt kart over omgivelsene og beregner sannsynlige ruter for bevegelse.
 
-Moderne roboter bruker maskinlæring, der de trener på tusenvis av eksempler for å gjenkjenne hindringer.
+Med moderne maskinlæringsmodeller kan roboten gjenkjenne mønstre og tilpasse sine reaksjoner basert på tidligere erfaringer.
 
-De tenker ikke med følelser som mennesker, men regner ut lynraske matematiske sannsynligheter.
+Til slutt sendes presise elektriske impulser til motorer og aktuatorer som styrer hjul eller gripearmer med millimeternøyaktighet.
 
-> **Prøv å kode:** Lær deg enkle blokkbaserte kodespråk som Scratch for å programmere din egen virtuelle robot!`
+> **Robotikk i praksis:** Selvkjørende rovere på Mars må ta egne avgjørelser i steinete terreng fordi radiosignalene fra Jorden bruker opptil tjue minutter på å nå frem.`
     },
     tr: {
-      title: 'Robotlar Nasıl Düşünür ve Kodlanır?',
-      description: 'Robotların etten kemikten bir beyni yoktur ama Mars’ta gezinebilirler. Peki nasıl karar verirler?',
-      body: `Robotlar fabrikalarda araba üretebilir, evimizi süpürebilir ve Mars gezegeninde keşif yapabilirler.
+      title: 'Otonom Robotlar Çevreyi Nasıl Algılar ve Karar Verir?',
+      description: 'Sensörler, işlemciler ve yapay zeka algoritmaları arasında bir döngü: Makineler fiziksel dünyayı nasıl haritalandırır?',
+      body: `Otonom bir robot insanlar gibi bilinçle düşünmez; algılama, hesaplama ve eylemden oluşan kesintisiz bir matematiksel döngü işletir.
 
-Her robot temel olarak üç parçadan oluşur: çevreyi algılayan sensörler, hareket eden motorlar ve bir işlemci beyin.
+Lazer tarayıcılar, kameralar ve ultrasonik sensörler yardımıyla robot çevresindeki fiziksel ortamdan saniyede binlerce ölçüm toplar.
 
-Sensörler robotun gözü ve kulağı gibidir; mesafeyi, ışığı ve sıcaklığı ölçerek bilgisayara iletir.
+Bu ham veriler dijital sinyallere dönüştürülerek merkezi işlem birimine aktarılır.
 
-İşlemci, yazılımcıların yazdığı algoritma adı verilen adım adım mantık kurallarını çalıştırır.
+Algoritmalar mekanın anlık bir koordinat haritasını çıkarır ve en güvenli hareket yolunu olasılık hesaplarıyla belirler.
 
-Yapay zekaya sahip modern robotlar milyonlarca veriyi inceleyerek engelleri tanımayı ve kendi kendine öğrenmeyi başarır.
+Yapay zeka modelleri sayesinde robot, karşılaştığı nesneleri tanımayı ve daha önceki verilerden hareketle yeni durumlara uyum sağlamayı öğrenir.
 
-İnsanlar gibi hissetmezler, ancak saniyede milyarlarca matematiksel olasılığı hesaplayarak en doğru kararı verirler.
+Son aşamada motorlara hassas elektrik sinyalleri gönderilerek tekerlekler veya robotik kollar kusursuz bir dengeyle yönlendirilir.
 
-> **Kodlama ipucu:** Scratch gibi görsel blok kodlama araçlarıyla sen de kendi robotuna görevler verebilirsin!`
+> **Mars Kaşifleri:** Mars yüzeyindeki robotik keşif araçları kayalık arazide kendi rotalarını belirlemek zorundadır; çünkü Dünya ile iletişim sinyalleri dakikalarca gecikmeyle ulaşır.`
     }
   },
   {
@@ -649,42 +725,38 @@ Yapay zekaya sahip modern robotlar milyonlarca veriyi inceleyerek engelleri tan�
     category: 'oppdager',
     ageRange: '10-12',
     no: {
-      title: 'Fornybar energi for en grønn fremtid',
-      description: 'Hvordan kan vi fange kraften fra sol, vind og brusende elver for å ta vare på planeten vår?',
-      body: `Mennesker trenger energi til varme, lys, transport og fabrikker hver eneste dag.
+      title: 'Teknologien bak fornybare energiressurser',
+      description: 'Hvordan omdanner vi solstråling, vindens kinetiske kraft og vannets kretsløp til utslippsfri elektrisitet?',
+      body: `Sivilisasjonens energibehov har lenge vært drevet av fossile brensler med alvorlige miljømessige konsekvenser.
 
-Lenge har verden brent kull, olje og gass, men disse kildene forurenser og tar slutt en dag.
+Fornybar energi henter derimot kraft fra uuttømmelige kretsløp som solen driver kontinuerlig.
 
-Fornybar energi kommer fra kilder som naturen fyller på hele tiden uten å gå tom.
+I solceller slår fotoner løs elektroner i silisiumkrystaller gjennom den fotovoltaiske effekten, og skaper direkte likestrøm.
 
-Solcellepaneler fanger lyspartikler og forvandler dem direkte til ren elektrisk strøm.
+Vindturbiner konverterer luftmassenes kinetiske energi til mekanisk rotasjon som driver kraftige magnetiske generatorer.
 
-Vindturbiner på fjelltopper og ute i havet utnytter luftens bevegelse til å snurre store generatorer.
+Vannkraftverk utnytter regnets og snøsmeltingens potensielle energi idet vannmassene ledes gjennom turbiner med høy virkningsgrad.
 
-Vannkraftverk i fossefall lager stabil strøm fra vannets tyngdekraft i kretsløpet.
+Ved å koble disse teknologiene sammen i intelligente strømnett bygger ingeniører et robust og bærekraftig energisystem for fremtiden.
 
-Ved å satse på fornybar teknologi bygger vi en trygg og renere fremtid for alle som bor på Jorden.
-
-> **Visste du dette?** I Norge kommer nesten all strøm i stikkontaktene fra ren og fornybar vannkraft!`
+> **Energifakta:** Mengden solenergi som treffer Jordens overflate i løpet av én enkelt time, er mer enn hele menneskehetens samlede årlige energiforbruk.`
     },
     tr: {
-      title: 'Temiz ve Yenilenebilir Enerji',
-      description: 'Güneşin, rüzgarın ve coşkun nehirlerin gücünü yakalayarak dünyamızı nasıl koruyabiliriz?',
-      body: `Evlerimizi aydınlatmak, fabrikaları çalıştırmak ve trenleri yürütmek için her gün enerjiye ihtiyaç duyarız.
+      title: 'Yenilenebilir Enerji Teknolojileri ve Geleceğin Dönüşümü',
+      description: 'Güneş ışınları, rüzgarın kinetik gücü ve su döngüsü nasıl karbon salımı olmadan temiz elektriğe dönüştürülür?',
+      body: `Modern dünyanın artan enerji ihtiyacı uzun yıllar fosil yakıtlarla karşılanmış, bu durum gezegenin iklim dengesini zorlamıştır.
 
-Yıllarca kömür ve petrol gibi fosil yakıtlar kullanıldı, ancak bunlar havayı kirletir ve bir gün tükenecektir.
+Yenilenebilir enerji sistemleri ise doğanın kesintisiz devam eden döngülerinden beslenerek çevreye zarar vermeden enerji üretir.
 
-Yenilenebilir enerji ise doğanın bize sunduğu ve asla tükenmeyen temiz kaynaklardan elde edilir.
+Güneş panelleri, silisyum yarı iletkenler üzerine düşen ışık fotonlarının elektronları harekete geçirmesiyle doğrudan elektrik akımı sağlar.
 
-Güneş panelleri gökyüzünden gelen ışık taneciklerini yakalayarak doğrudan elektrik akımına dönüştürür.
+Dev rüzgar türbinleri hava kütlelerinin taşıdığı kinetik enerjiyi mekanik dönme gücüne, oradan da jeneratörler yardımıyla elektriğe çevirir.
 
-Dev rüzgar türbinleri rüzgarın gücüyle dönerek temiz enerji üretir.
+Hidroelektrik santralleri ise dağlardan vadiye inen suyun potansiyel enerjisini yüksek verimli türbinlerle temiz bir kaynağa dönüştürür.
 
-Akarsular üzerine kurulan hidroelektrik santralleri ise suyun coşkulu akış gücünü elektriğe çevirir.
+Bu sistemlerin akıllı şebekelerle entegre edilmesi, gezegenimizin geleceğini güvence altına alacak en stratejik mühendislik adımıdır.
 
-Yenilenebilir kaynaklara yönelmek mavi gezegenimizin geleceğine verebileceğimiz en değerli hediyedir.
-
-> **Biliyor muydun?** Güneşten dünyamıza bir saatte ulaşan enerji, tüm dünyanın bir yıllık elektrik ihtiyacından fazladır!`
+> **Güneş Potansiyeli:** Yeryüzüne tek bir saat içinde ulaşan güneş enerjisi, tüm insanlığın bir yıllık elektrik tüketimini tek başına karşılayabilecek güçtedir.`
     }
   }
 ];

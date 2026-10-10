@@ -1,20 +1,22 @@
 ---
 lang: tr
-title: "Bulutlar Neden Beyazdır?"
-description: "Gökyüzündeki pofuduk bulutlara bakıp neden pamuk gibi bembeyaz olduklarını merak ettin mi?"
+title: "Bulutlar Gökyüzünde Neden Beyaz Görünür?"
+description: "Güneş mavi gökyüzünü aydınlatırken bulutlar karlı dağlar gibi parıldar; peki bu beyazlığın gerçek sırrı nedir?"
 date: 2026-10-10
 category: oppdager
 cover: /images/yazilar/hvorfor-er-skyene-hvite.png
-coverAlt: "Bulutlar Neden Beyazdır?"
+coverAlt: "Bulutlar Gökyüzünde Neden Beyaz Görünür?"
 ageRange: "4-6 Yaş"
 featured: true
 draft: false
 ---
 
-Gökyüzü mavidir, ama bulutlar bembeyaz parıldar. Peki bu nasıl olur?
+Gökyüzünün derin maviliği üzerinde süzülen bulutlar göz alıcı bir beyazlıkla ışıldar.
 
-Bulutlar gökyüzünde yüzen minik su damlacıklarından oluşur. Güneş ışığı bu damlacıklara çarpar.
+Her bulut, havada serbestçe asılı duran sayısız su damlacığı ve mikroskobik buz kristalinden oluşur.
 
-Su damlacıkları tüm renkleri neşeyle etrafa saçar. İşte bu yüzden bulutlar pamuk gibi bembeyaz görünür.
+Güneş ışığı bu damlacıklara çarptığında ışığın bütün renkleri aynı anda etrafa yansır; gözlerimiz bu birleşimi saf beyaz olarak görür.
 
-> **Biliyor muydun?** Gökyüzünde süzülen kocaman bir bulut, yüzlerce fil kadar ağırdır!
+Bulutlar gökyüzünde tüy gibi hafif görünse de içlerinde tonlarca su taşırlar.
+
+> **Gökyüzü Seyri:** Başını yukarı kaldırıp geçen bulutları izle; rüzgarın onların şeklini nasıl usulca değiştirdiğini fark edebiliyor musun?

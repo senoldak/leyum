@@ -1,26 +1,26 @@
 ---
 lang: tr
-title: "Karton Kutudan Mini Kukla Tiyatrosu Yapımı"
-description: "Ayakkabı kutusunu sahneye dönüştürüp çubuk kuklalarla kendi oyununu sergileme sanatı!"
+title: "Sahne Tasarımı ve Mekanik: Karton Kutudan Minyatür Tiyatro"
+description: "Karton ayakkabı kutusunu sahne mimarisi, kayar dekor panelleri ve kukla mekanizmasıyla bir sahneye dönüştürme."
 date: 2026-10-10
 category: aktiviteter
 cover: /images/yazilar/pappdukketeater-hjemme.png
-coverAlt: "Karton Kutudan Mini Kukla Tiyatrosu Yapımı"
+coverAlt: "Sahne Tasarımı ve Mekanik: Karton Kutudan Minyatür Tiyatro"
 ageRange: "7-9 Yaş"
 featured: false
 draft: false
 ---
 
-Eski bir ayakkabı kutusu biraz hayal gücüyle harika bir tiyatro sahnesine dönüşebilir.
+Tiyatro sahne tasarımı, sınırlı bir mekan içinde derinlik ve atmosfer hissi yaratarak izleyiciye bir dünya sunma sanatıdır.
 
-Kutunun kapağını çıkarıp tabanından geniş bir pencere keserek sahne boşluğunu oluştur.
+Sert bir ayakkabı kutusunun tabanından geniş bir pencere keserek sahnenin ana çerçevesini oluştur.
 
-Arka fona orman, şato veya deniz resimleri çizip kutunun arkasına yapıştır.
+Kutunun tavanına boydan boya paralel yarıklar aç; bu yarıklar arka plan dekorlarının kaydırılarak değiştirilmesini sağlar.
 
-Karakterlerini sert bir kartona çiz, kes ve altlarına ahşap dondurma çubukları yapıştır.
+Karakterleri kalın kartonlara çiz, kes ve alt kısımlarına ahşap çıtalar sabitle.
 
-Kutunun üst kısmına ince yarıklar açarak kuklalarını yukarıdan sahneye indirebilirsin.
+Kuklaları tavan yarıklarından sahneye indirerek seyirciye görünmeden karakterleri yönlendirebilirsin.
 
-Odanın ışıklarını kapatıp sahneyi bir el feneriyle aydınlatarak gizemli bir hava yakala.
+Yandan yönlendireceğin bir el feneri ışığı sahneye güçlü gölgeler düşürerek üç boyutlu bir atmosfer kazandırır.
 
-> **Sahne sırası:** Aileni salona davet et ve yazdığın eğlenceli tiyatro oyununu sergile!
+> **Dekor Değişimi:** Biri geceyi diğeri gündüzü temsil eden iki ayrı arka fon çiz; oyun sırasında paneli kaydırarak zaman geçişini canlandır.

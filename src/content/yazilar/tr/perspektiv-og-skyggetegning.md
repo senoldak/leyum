@@ -1,26 +1,26 @@
 ---
 lang: tr
-title: "Usta Çizim İpuçları: Perspektif ve Gölgelendirme"
-description: "Düz bir kağıtta derinlik hissi yaratma sanatı: Kaçış noktası, ufuk çizgisi ve hacimli gölgelendirme teknikleri!"
+title: "Tek Kaçışlı Perspektif ve Hacim: Rönesans Mekan Kurgusu"
+description: "Ufuk çizgisi, kaçış noktası ve ışık gölge projeksiyonuyla iki boyutlu kağıtta matematiksel mekan derinliği yaratma."
 date: 2026-10-10
 category: aktiviteter
 cover: /images/yazilar/perspektiv-og-skyggetegning.png
-coverAlt: "Usta Çizim İpuçları: Perspektif ve Gölgelendirme"
+coverAlt: "Tek Kaçışlı Perspektif ve Hacim: Rönesans Mekan Kurgusu"
 ageRange: "10-12 Yaş"
 featured: false
 draft: false
 ---
 
-Düz bir kağıt üzerinde üç boyutlu mekanlar ve derinlikler yaratma tekniği Rönesans ressamlarının geliştirdiği muazzam bir yöntemdir.
+Düz bir yüzey üzerinde inandırıcı bir üç boyutlu derinlik kurgulamak, Rönesans ressamlarının geometri ve optik alanındaki en büyük başarısıdır.
 
-Önce kağıdın ortasından düz bir ufuk çizgisi çek ve çizginin tam ortasına minik bir kaçış noktası koy.
+Kağıdın üzerine göz hizasını belirleyen yatay bir ufuk çizgisi çekerek kompozisyona başla.
 
-Çizdiğin yol veya tren rayları kağıdın alt kısmında geniş başlayıp ufuk noktasına doğru gittikçe daralmalıdır.
+Çizginin üzerine tek bir kaçış noktası koy; çizdiğin sokaktaki tüm bina çatıları ve kaldırım hatları bu noktada kesişmelidir.
 
-Ağaçlar ve sokak lambaları da bu noktaya yaklaştıkça kademeli olarak küçülmeli ve birbirine daha sık çizilmelidir.
+Kaçış noktasına yaklaştıkça binalar, pencereler ve sokak lambaları kademeli olarak küçülmeli ve aralıkları daralmalıdır.
 
-Nesnelere gerçek bir hacim kazandırmak için ışığın hangi yönden geldiğini belirlemeli ve zıt tarafa gölgeler eklemelisin.
+Cisimlere kütle kazandırmak için ışığın geldiği yönü belirleyip zıt tarafa gölgeler yerleştirerek chiaroscuro tekniğini uygula.
 
-Açıktan koyuya doğru yumuşak tonlamalar yaptığında sıradan bir yuvarlak, adeta masanın üzerinde duran gerçek bir küreye dönüşür.
+Açıktan koyuya doğru yumuşak tonlamalar yapmak düz bir çizimi derinliği olan somut bir mimari alana dönüştürür.
 
-> **Perspektif çizimi:** İki yanında binalar sıralanan ve tek bir noktada birleşen derin bir cadde manzarası çizmeyi dene!
+> **Perspektif Çizimi:** Karoları kaçış noktasına doğru daralan bir zemin ve iki yanında pencereli binalar yükselen bir koridor tasarla.

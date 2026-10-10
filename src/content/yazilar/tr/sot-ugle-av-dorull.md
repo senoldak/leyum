@@ -1,24 +1,24 @@
 ---
 lang: tr
-title: "Rulodan Sevimli Baykuş Yapımı"
-description: "Tuvalet kağıdı rulosunu büküp kocaman gözler yapıştırarak sevimli bir baykuş yap!"
+title: "Karton Heykelcilik: Ormanın Bilge Gece Baykuşu"
+description: "Geri dönüştürülmüş karton silindiri katlayıp biçimlendirerek üç boyutlu grafik bir baykuş heykeli oluşturma sanatı."
 date: 2026-10-10
 category: aktiviteter
 cover: /images/yazilar/sot-ugle-av-dorull.png
-coverAlt: "Rulodan Sevimli Baykuş Yapımı"
+coverAlt: "Karton Heykelcilik: Ormanın Bilge Gece Baykuşu"
 ageRange: "4-6 Yaş"
 featured: false
 draft: false
 ---
 
-Karton bir tuvalet kağıdı rulosunu eline al.
+Sert bir karton silindiri alıp üst kenarını iki tarafından içe doğru dikkatle bastır.
 
-Üst kısmını parmaklarınla içeri doğru bastırıp iki sivri kulak yap.
+Bu basit büküm kartonun tepesinde baykuşlara özgü iki sivri kulak formu oluşturur.
 
-Beyaz kağıttan iki kocaman yuvarlak göz kes.
+Beyaz kağıttan iki geniş daire kesip ortalarına koyu renkli göz bebekleri çiz.
 
-Gözlerin ortasına siyah noktalar çizip ruloya yapıştır.
+Gözleri silindirin üst kısmına yapıştır; hemen altına kahverengi kartondan üçgen bir gaga yerleştir.
 
-İşte sevimli ve bilge küçük baykuşun hazır!
+Boya kalemiyle baykuşun gövdesine düzenli yaylar çizerek göğüs tüylerinin desenini tamamla.
 
-> **Baykuş dostu:** Yaptığın bu tatlı baykuşa hangi güzel ismi vermek istersin?
+> **Sergileme:** Hazırladığın baykuş heykelini bir kitap rafına koy; odanın sessiz bir bekçisi gibi dursun.

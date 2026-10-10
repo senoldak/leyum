@@ -1,20 +1,22 @@
 ---
 lang: no
-title: "Hvorfor er skyene hvite?"
-description: "Hvorfor er de myke skyene så hvite som melk på himmelen?"
+title: "Hvorfor er skyene på himmelen hvite?"
+description: "Når solen skinner på den dype himmelen, seiler skyene forbi som krystallklare snøfjell. Hva er hemmeligheten?"
 date: 2026-10-10
 category: oppdager
 cover: /images/yazilar/hvorfor-er-skyene-hvite.png
-coverAlt: "Hvorfor er skyene hvite?"
+coverAlt: "Hvorfor er skyene på himmelen hvite?"
 ageRange: "4-6 år"
 featured: true
 draft: false
 ---
 
-Himmelen er blå, men skyene er hvite. Hvorfor er det slik?
+Himmelen er dyp og blå, men skyene lyser blendende hvitt i dagslyset.
 
-Skyer er laget av ørsmå vanndråper. Når solen skinner, treffer lyset dråpene.
+Hver eneste sky består av milliarder av ørsmå vanndråper og krystaller.
 
-Vanndråpene sprer alle fargene i sollyset likt. Da ser skyen helt hvit og myk ut.
+Når sollyset treffer dråpene, kastes alle fargene i lyset tilbake samtidig; da ser vi det reneste hvite lyset.
 
-> **Visste du dette?** En stor sky veier like mye som mange elefanter!
+Selv om en sky ser lett ut som damp, bærer himmelen enorme mengder vann over tretoppene.
+
+> **Himmeltitting:** Løft blikket mot de drivende skyene; ser du hvordan formene forandrer seg sakte med vinden?

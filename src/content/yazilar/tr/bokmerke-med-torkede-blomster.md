@@ -1,26 +1,26 @@
 ---
 lang: tr
-title: "Kuru Çiçeklerle Doğal Kitap Ayracı Yapımı"
-description: "Ağır kitapların arasında kurutulan kır çiçeklerini şık ve kalıcı bir kitap ayracına dönüştürme sanatı!"
+title: "Botanik Ayracı: Preslenmiş Kır Çiçekleriyle Herbaryum Sanatı"
+description: "Geleneksel bitki presleme teknikleriyle çiçeklerin morfolojisini ve doğal pigmentlerini kalıcı bir kitap ayracında koruma."
 date: 2026-10-10
 category: aktiviteter
 cover: /images/yazilar/bokmerke-med-torkede-blomster.png
-coverAlt: "Kuru Çiçeklerle Doğal Kitap Ayracı Yapımı"
+coverAlt: "Botanik Ayracı: Preslenmiş Kır Çiçekleriyle Herbaryum Sanatı"
 ageRange: "7-9 Yaş"
 featured: false
 draft: false
 ---
 
-Çiçek kurutmak doğanın en zarif renklerini yıllarca saklamanın en güzel ve huzurlu yoludur.
+Herbaryum oluşturmak, botanikçilerin yüzyıllardır bitki türlerini belgelemek için kullandığı bilimsel ve estetik bir yöntemdir.
 
-Güneşli ve kuru bir havada menekşe, papatya veya yonca gibi küçük çiçekler topla.
+Sabah çiği kuruduktan sonra papatya, yonca veya minik kır çiçeklerini saplarıyla birlikte özenle topla.
 
-Çiçekleri iki peçetenin arasına koyup kalın ve ağır bir kitabın sayfaları arasına yerleştir.
+Çiçeklerin taç yapraklarını iki emici kurutma kağıdı arasına özenle yayarak ağır bir kitabın sayfaları arasına koy.
 
-Kitabı bir hafta boyunca açmadan bekleterek çiçeğin nemini tamamen kaybetmesini sağla.
+Kitabın üzerine ilave ağırlık koyup iki hafta boyunca hiç açmadan bekleterek bitki dokusundaki tüm nemin emilmesini sağla.
 
-Kuruyan narin çiçekleri renkli bir karton şeridin üzerine yapıştırıp şeffaf bantla kapla.
+Kuru ve tüy kadar hafif hale gelen narin çiçeği cımbızla alıp kalın bir suluboya kartonunun üzerine yerleştir.
 
-Üst kısmına delgeçle bir delik açıp renkli bir kurdele bağlayarak ayracını tamamla.
+Havadaki nem ve sürtünmeden korumak için üzerini şeffaf mat bir koruyucu şeritle kapla.
 
-> **Okuma keyfi:** Hazırladığın bu doğal ayracı en sevdiğin kitabın arasına koy!
+> **Botanik Etiketi:** Ayracın alt kısmına çiçeğin adını, toplandığı yeri ve tarihi not ederek gerçek bir doğa arşivcisi gibi çalış.

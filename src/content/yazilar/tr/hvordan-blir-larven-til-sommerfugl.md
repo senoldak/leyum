@@ -1,20 +1,24 @@
 ---
 lang: tr
-title: "Küçük Tırtıl Nasıl Kelebek Olur?"
-description: "Yeşil yaprakta gezen minik tırtıl bir gün rengarenk kanatlara kavuşur!"
+title: "Yapraktaki Tırtıl Kanatlı Bir Kelebeğe Nasıl Dönüşür?"
+description: "Yapraklar üzerinde dolaşan yeşil tırtıl kozasının içine çekilir; o karanlık kabukta kanatlar nasıl gelişir?"
 date: 2026-10-10
 category: natur
 cover: /images/yazilar/hvordan-blir-larven-til-sommerfugl.png
-coverAlt: "Küçük Tırtıl Nasıl Kelebek Olur?"
+coverAlt: "Yapraktaki Tırtıl Kanatlı Bir Kelebeğe Nasıl Dönüşür?"
 ageRange: "4-6 Yaş"
 featured: false
 draft: false
 ---
 
-Minik yeşil tırtıl bütün gün çıtır çıtır taze yaprak yer. Karnı doyar.
+Bir ısırgan yaprağının altındaki mikroskobik yumurtadan taze bir tırtıl dünyaya gözlerini açar.
 
-Sonra kendine koza adında sıcacık bir uyku tulumu örer. İçinde dinlenir.
+Tırtıl gün boyunca yeşil yapraklarla beslenir ve hızla büyüdükçe dar gelen derisini birkaç kez değiştirir.
 
-Bir süre sonra koza yavaşça aralanır. İçinden kanatlarını açan rengarenk bir kelebek çıkar.
+Gelişimini tamamladığında sağlam bir dala tutunur ve etrafına koza adı verilen koruyucu sert bir kabuk örer.
 
-> **Doğa ipucu:** Bahçedeki yaprakların altına dikkatle bak. Belki minik bir yumurta görürsün!
+Bu sessiz kabuğun içinde doğanın en mucizevi biyolojik dönüşümü gerçekleşir; tırtılın tüm gövdesi baştan aşağı yenilenir.
+
+Haftalar sonra koza kabuğu usulca çatlar ve dışarıya rengarenk kanatlarını güneşe doğru açan zarif bir kelebek çıkar.
+
+> **Kanat Molası:** Kozadan yeni çıkan kelebek kanatları kuruyup sertleşene kadar bir süre dalın üzerinde kıpırdamadan bekler.

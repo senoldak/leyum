@@ -1,24 +1,24 @@
 ---
 lang: no
-title: "Fargerike vennskapsbånd med tråd og perler"
-description: "Træ perler på en snor og lag et koselig bånd!"
+title: "Trådsløyd og rytme: Armbånd med geometriske mønstre"
+description: "Lær å tre perler i faste sekvenser for å utforske fargeteori, mønsterrepetisjon og finmotorisk presisjon."
 date: 2026-10-10
 category: aktiviteter
 cover: /images/yazilar/regnbuearmband-med-perler.png
-coverAlt: "Fargerike vennskapsbånd med tråd og perler"
+coverAlt: "Trådsløyd og rytme: Armbånd med geometriske mønstre"
 ageRange: "4-6 år"
 featured: false
 draft: false
 ---
 
-Klipp en passe lang tråd sammen med en voksen.
+Klipp en vokset bomullstråd på omtrent tretti centimeter og bind en stødig knute i den ene enden.
 
-Finn frem perler i alle regnbuens fine farger.
+Sorter treperler i skåler etter primærfarger og komplementærfarger på arbeidsbordet.
 
-Træ én og én perle forsiktig inn på tråden.
+Træ perlene inn på snoren i et strengt gjentakende mønster: to dypblå, én lys oker, to skoggrønne.
 
-Knytt en trygg knute i begge endene av snoren.
+Gjennom denne rytmen lærer øyet å gjenkjenne matematiske sekvenser og harmoniske fargeoverganger.
 
-Nå har du et nydelig bånd til håndleddet ditt!
+Når båndet når rundt håndleddet, knyttes endene sammen i en solid dobbeltknute som sikres med en dråpe trelim.
 
-> **Gi bort:** Gi et hjemmelaget perlebånd i gave til en god venn!
+> **Mønsterlek:** Tegn mønsteret ditt på et papir med fargeblyanter før du begynner å tre perlene på snoren.

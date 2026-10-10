@@ -1,24 +1,26 @@
 ---
 lang: no
-title: "Lag vakker kunst med blader fra skogen"
-description: "Finn fine blader ute og trykk dem på papiret med maling!"
+title: "Botanisk grafikk: Naturtrykk med høstløv"
+description: "Bruk ekte blader fra eik og lønn som trykkplater for å overføre naturens mikroskopiske nerver til papir."
 date: 2026-10-10
 category: aktiviteter
 cover: /images/yazilar/moro-med-bladtrykk.png
-coverAlt: "Lag vakker kunst med blader fra skogen"
+coverAlt: "Botanisk grafikk: Naturtrykk med høstløv"
 ageRange: "4-6 år"
 featured: false
 draft: false
 ---
 
-Plukk tre fine blader fra bakken under et tre.
+Samle tørre og friske blader med tydelige bladnerver under trærne i parken eller skogen.
 
-Mal baksiden av bladet forsiktig med grønn eller rød maling.
+Legg bladet med baksiden opp; det er her nervene stikker tydeligst frem fra overflaten.
 
-Legg bladet med malingen ned mot det hvite arket.
+Påfør et tynt, jevnt lag med mørk gouachemaling over nervene med en flat pensel.
 
-Press lett med hånden og løft bladet forsiktig opp.
+Legg bladet forsiktig med fargesiden ned mot et rent, hvitt tegneark.
 
-Mønsteret fra bladets årer viser seg som ren magi!
+Legg et tørkepapir over og press håndflaten bestemt mot hele flaten før du løfter bladet sakte av.
 
-> **Naturkunst:** Lag et bilde med blader i mange forskjellige farger!
+Det oppstår et krystallklart botanisk avtrykk som dokumenterer treets indre transportsystem.
+
+> **Samling:** Trykk ulike treslag på samme ark; sammenlign hvordan eikeløvets buer skiller seg fra bjørkens spisser.

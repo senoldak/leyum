@@ -1,26 +1,26 @@
 ---
 lang: tr
-title: "Mutfakta Güvenli Deney: Köpüren Yanardağ"
-description: "Karbonat ve sirkenin kimyasal tepkimesiyle fışkıran kırmızı lavlar: Evde güvenli yanardağ deneyi!"
+title: "Kimyasal Jeoloji: Asit-Baz Tepkimesiyle Çalışan Model Yanardağ"
+description: "Karbonat ve sirke tepkimesiyle oluşan karbondioksit gazının magma odası basıncını nasıl taklit ettiğini inceleme deneyi."
 date: 2026-10-10
 category: aktiviteter
 cover: /images/yazilar/kjokkenvulkan-med-natron-og-eddik.png
-coverAlt: "Mutfakta Güvenli Deney: Köpüren Yanardağ"
+coverAlt: "Kimyasal Jeoloji: Asit-Baz Tepkimesiyle Çalışan Model Yanardağ"
 ageRange: "7-9 Yaş"
 featured: false
 draft: false
 ---
 
-Kimya bilimi mutfaktaki malzemelerle bile inanılmaz görsel mucizeler yaratabileceğimiz eğlenceli bir dünyadır.
+Doğadaki volkanik patlamalar, yer kabuğunun altındaki magma odasında sıkışan gazların yüksek basınçla genişlemesiyle meydana gelir.
 
-Geniş bir tepsinin ortasına küçük bir cam veya plastik bardak yerleştir.
+Bu jeolojik olayı mutfakta asit-baz kimyasal reaksiyonu yardımıyla güvenli bir model üzerinde inceleyebiliriz.
 
-Bardağın etrafını oyun hamuruyla kaplayarak heybetli bir yanardağ dağı inşa et.
+Derin bir tepsinin ortasına küçük silindirik bir kap koyup etrafını kilden bir koni dağı şeklinde kapla.
 
-Bardağın içine iki kaşık karbonat, biraz sıvı sabun ve kırmızı gıda boyası ekle.
+Kabın içine iki yemek kaşığı karbonat, birkaç damla sıvı sabun ve lav rengini taklit etmek için kırmızı boya ekle.
 
-Üzerine sirke döktüğünde bardağın ağzından kırmızı köpüklerin lav gibi taştığını göreceksin.
+Kraterin içine sirke döktüğün anda asetik asit ile sodyum bikarbonat molekülleri şiddetle tepkimeye girer.
 
-Sirke ile karbonat tepkimeye girerek milyonlarca karbondioksit gaz kabarcığı üretir.
+Açığa çıkan karbondioksit gazı sabun köpüklerine hapsolarak genişler ve kraterin ağzından kırmızı bir lav akıntısı gibi taşar.
 
-> **Bilimsel gözlem:** Sıvı sabun miktarını artırdığında köpüklerin nasıl daha kabarık olduğunu incele!
+> **Jeoloji Bilgisi:** Gerçek yanardağlarda lavı yeryüzüne fışkırtan asıl güç, magmanın içinde çözünmüş haldeki yüksek basınçlı gazlardır.

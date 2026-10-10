@@ -1,24 +1,26 @@
 ---
 lang: no
-title: "Når viser regnbuen seg?"
-description: "Hvorfor må det både regne og være solskinn samtidig for at regnbuen skal titte frem?"
+title: "Når og hvordan oppstår regnbuens spekter på himmelen?"
+description: "Hvorfor krever naturen både regnvær og strålende solskinn samtidig for at regnbuen skal åpenbare seg?"
 date: 2026-10-10
 category: oppdager
 cover: /images/yazilar/nar-viser-regnbuen-seg.png
-coverAlt: "Når viser regnbuen seg?"
+coverAlt: "Når og hvordan oppstår regnbuens spekter på himmelen?"
 ageRange: "7-9 år"
 featured: false
 draft: false
 ---
 
-En regnbue er et av naturens aller vakreste underverker på himmelen.
+En regnbue oppstår aldri tilfeldig; den krever en presis geometrisk vinkel mellom solen, regndråpene og øynene dine.
 
-For å se en regnbue må du ha solen i ryggen og regnvær foran deg.
+For å få øye på fenomenet må du stå med ryggen mot solen og se mot et område der det faller regn.
 
-Når det hvite sollyset treffer regndråpene, fungerer hver dråpe som et lite prisme.
+Når det hvite sollyset trenger inn i en regndråpe, fungerer vanndråpen som et naturlig optisk prisme.
 
-Lyset bøyes og deles opp i sine hemmelige farger: rød, oransje, gul, grønn, blå, indigo og fiolett.
+Lyset bremses opp og brytes; deretter reflekteres det på innsiden av dråpen og brytes på ny idet det forlater vannet.
 
-Fargene reflekteres tilbake til øynene dine i en fantastisk, buet fargebro.
+Fordi ulike bølgelengder av lys brytes i ulike vinkler, spres fargene ut i en ren bue fra rødt til fiolett.
 
-> **Visste du dette?** Fra et fly høyt oppe ser regnbuen ut som en hel, perfekt sirkel!
+Dersom du betrakter en regnbue fra et fly høyt over bakken, danner den faktisk en fullstendig sirkel.
+
+> **Optisk observasjon:** Se etter neste gang det dannes en dobbel regnbue; den ytre buen har alltid fargene i omvendt rekkefølge.

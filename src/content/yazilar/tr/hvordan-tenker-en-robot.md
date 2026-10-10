@@ -1,26 +1,26 @@
 ---
 lang: tr
-title: "Robotlar Nasıl Düşünür ve Kodlanır?"
-description: "Robotların etten kemikten bir beyni yoktur ama Mars’ta gezinebilirler. Peki nasıl karar verirler?"
+title: "Otonom Robotlar Çevreyi Nasıl Algılar ve Karar Verir?"
+description: "Sensörler, işlemciler ve yapay zeka algoritmaları arasında bir döngü: Makineler fiziksel dünyayı nasıl haritalandırır?"
 date: 2026-10-10
 category: oppdager
 cover: /images/yazilar/hvordan-tenker-en-robot.png
-coverAlt: "Robotlar Nasıl Düşünür ve Kodlanır?"
+coverAlt: "Otonom Robotlar Çevreyi Nasıl Algılar ve Karar Verir?"
 ageRange: "10-12 Yaş"
 featured: false
 draft: false
 ---
 
-Robotlar fabrikalarda araba üretebilir, evimizi süpürebilir ve Mars gezegeninde keşif yapabilirler.
+Otonom bir robot insanlar gibi bilinçle düşünmez; algılama, hesaplama ve eylemden oluşan kesintisiz bir matematiksel döngü işletir.
 
-Her robot temel olarak üç parçadan oluşur: çevreyi algılayan sensörler, hareket eden motorlar ve bir işlemci beyin.
+Lazer tarayıcılar, kameralar ve ultrasonik sensörler yardımıyla robot çevresindeki fiziksel ortamdan saniyede binlerce ölçüm toplar.
 
-Sensörler robotun gözü ve kulağı gibidir; mesafeyi, ışığı ve sıcaklığı ölçerek bilgisayara iletir.
+Bu ham veriler dijital sinyallere dönüştürülerek merkezi işlem birimine aktarılır.
 
-İşlemci, yazılımcıların yazdığı algoritma adı verilen adım adım mantık kurallarını çalıştırır.
+Algoritmalar mekanın anlık bir koordinat haritasını çıkarır ve en güvenli hareket yolunu olasılık hesaplarıyla belirler.
 
-Yapay zekaya sahip modern robotlar milyonlarca veriyi inceleyerek engelleri tanımayı ve kendi kendine öğrenmeyi başarır.
+Yapay zeka modelleri sayesinde robot, karşılaştığı nesneleri tanımayı ve daha önceki verilerden hareketle yeni durumlara uyum sağlamayı öğrenir.
 
-İnsanlar gibi hissetmezler, ancak saniyede milyarlarca matematiksel olasılığı hesaplayarak en doğru kararı verirler.
+Son aşamada motorlara hassas elektrik sinyalleri gönderilerek tekerlekler veya robotik kollar kusursuz bir dengeyle yönlendirilir.
 
-> **Kodlama ipucu:** Scratch gibi görsel blok kodlama araçlarıyla sen de kendi robotuna görevler verebilirsin!
+> **Mars Kaşifleri:** Mars yüzeyindeki robotik keşif araçları kayalık arazide kendi rotalarını belirlemek zorundadır; çünkü Dünya ile iletişim sinyalleri dakikalarca gecikmeyle ulaşır.

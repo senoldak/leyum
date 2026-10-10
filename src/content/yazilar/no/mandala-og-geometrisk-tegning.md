@@ -1,26 +1,26 @@
 ---
 lang: no
-title: "Tegn beroligende mandalaer med passer og linjal"
-description: "Oppdag matematikkens skjønnhet gjennom sirkelsymmetri, vinkler og beroligende geometriske mønstre."
+title: "Sakral geometri og symmetri: Konstruksjon av mandala med passer"
+description: "Utforsk euklidsk geometri, rotasjonssymmetri og gyldne proporsjoner gjennom presisjonskonstruksjon med passer og linjal."
 date: 2026-10-10
 category: aktiviteter
 cover: /images/yazilar/mandala-og-geometrisk-tegning.png
-coverAlt: "Tegn beroligende mandalaer med passer og linjal"
+coverAlt: "Sakral geometri og symmetri: Konstruksjon av mandala med passer"
 ageRange: "10-12 år"
 featured: false
 draft: false
 ---
 
-Mandala er et eldgammelt kunstnerisk symbol på helhet og harmoni som bygger på matematiske prinsipper om rotasjonssymmetri.
+En mandala bygger på prinsipper om rotasjonssymmetri der geometriske elementer gjentas i faste vinkler rundt et sentralt fokalpunkt.
 
-Start med å finne midtpunktet på arket og tegn en serie konsentriske sirkler med en passer med faste avstander.
+Plasser passerspissen nøyaktig i midten av arket og slå flere konsentriske sirkler med faste, matematiske intervaller.
 
-Bruk en gradskive eller en linjal til å dele sirklene inn i like vinkler, for eksempel åtte eller tolv sektorer.
+Bruk en gradskive og en rett linjal til å dele sirkelbuene inn i tolv like sektorer på nøyaktig tretti grader hver.
 
-Når grunnmønsteret er klart, gjentar du kronblader, buer og geometriske figurer i hver eneste sektor rundt hele sirkelen.
+Konstruer overlappende sirkelbuer fra skjæringspunktene for å skape det klassiske geometriske mønsteret kjent som livets blomst.
 
-Denne repeterende prosessen krever konsentrasjon og har en beroligende virkning på sinnet, nesten som aktiv meditasjon.
+Når grunnstrukturen er etablert med sylskarpe blyantlinjer, legges harmoniske mønstre inn med rotasjonell repetisjon i hver sektor.
 
-Fargelegg mandalaen fra sentrum og utover med harmoniske fargekombinasjoner for å fremheve den visuelle dybden i mønsteret.
+Denne geometriske disiplinen trener romforståelse og skaper et visuelt verk preget av streng matematisk balanse og ro.
 
-> **Presisjon:** Prøv å bruke bare to komplementærfarger som blått og oransje for å skape en slående kontrast!
+> **Geometrisk variasjon:** Forsøk å konstruere en åttedelt mandala basert på gjentatte kvadratrotasjoner med 45 graders vinkelforskyvning.

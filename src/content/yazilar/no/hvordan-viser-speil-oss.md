@@ -1,20 +1,24 @@
 ---
 lang: no
-title: "Hvordan viser speilet oss?"
-description: "Når du smiler til speilet, smiler det tilbake. Hvordan klarer speilet det?"
+title: "Hvordan kaster speilet bildet vårt tilbake?"
+description: "Når du stiller deg foran speilet, ser du dine egne øyne med en gang. Hvordan sender glasset lyset tilbake?"
 date: 2026-10-10
 category: oppdager
 cover: /images/yazilar/hvordan-viser-speil-oss.png
-coverAlt: "Hvordan viser speilet oss?"
+coverAlt: "Hvordan kaster speilet bildet vårt tilbake?"
 ageRange: "4-6 år"
 featured: false
 draft: false
 ---
 
-Når du ser i speilet, ser du deg selv. Speilet smiler alltid tilbake til deg.
+Når du står foran det blanke glasset, møter du ditt eget blikk.
 
-Lys treffer ansiktet ditt først. Deretter spretter lyset bort på det glatte speilglasset.
+Lyset i rommet treffer kinnene dine først og kastes mot speilflaten.
 
-Bak glasset ligger et tynt lag med skinnende metall. Det sender lyset rett tilbake til øynene dine.
+Bak det klare glasset ligger et syltynt lag med blankt sølvmetall.
 
-> **Liten lek:** Gjør en morsom grimase foran speilet. Hvem ler først?
+Dette glatte metallaget fanger lysstrålene og kaster dem snorrett tilbake til øynene dine.
+
+Slik ser du et krystallklart bilde av deg selv i samme sekund.
+
+> **Lysprøve:** Hold en liten gjenstand foran speilet og se hvordan glasset gjengir hver minste farge og form.

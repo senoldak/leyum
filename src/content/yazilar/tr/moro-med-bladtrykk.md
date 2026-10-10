@@ -1,24 +1,26 @@
 ---
 lang: tr
-title: "Doğadan Sanat: Yaprak Baskısı Yapımı"
-description: "Ağaçların altından toplanan yaprakları boyayıp kağıda basarak doğanın desenlerini keşfet!"
+title: "Botanik Baskı Atölyesi: Yaprak Damarlarından Doğal Gravür"
+description: "Ağaç yapraklarını doğal birer baskı kalıbı olarak kullanarak yaprak damarlarının kusursuz mimarisini kağıda aktarma."
 date: 2026-10-10
 category: aktiviteter
 cover: /images/yazilar/moro-med-bladtrykk.png
-coverAlt: "Doğadan Sanat: Yaprak Baskısı Yapımı"
+coverAlt: "Botanik Baskı Atölyesi: Yaprak Damarlarından Doğal Gravür"
 ageRange: "4-6 Yaş"
 featured: false
 draft: false
 ---
 
-Bahçedeki ağaçların altından dökülmüş üç güzel yaprak topla.
+Parktan veya bahçeden damarları belirgin, taze dökülmüş meşe veya çınar yaprakları topla.
 
-Yaprağın damarlı arka yüzünü fırçayla yeşil ya da kırmızıya boya.
+Yaprağı damarlı arka yüzü üste gelecek biçimde masaya ser; desenler bu yüzde daha kabarıktır.
 
-Boyalı kısmı beyaz kağıdın üzerine yavaşça yapıştır.
+Geniş bir fırçayla damarların üzerine ince ve eşit bir kat guaj boya sür.
 
-Elinle hafifçe bastırıp yaprağı kenarından kaldır.
+Boyalı yüzeyi beyaz resim kağıdının üzerine dikkatlice yerleştir.
 
-Yaprağın damarları kağıtta harika bir iz bırakır!
+Üzerine temiz bir kağıt koyup avucunla eşit kuvvetle bastır; ardından yaprağı köşesinden usulca kaldır.
 
-> **Doğa resmi:** Farklı boyutta yapraklar kullanarak renkli bir orman resmi yap!
+Kağıtta yaprağın tüm besin kanallarını gösteren son derece zarif ve net bir botanik baskı kalır.
+
+> **Doğa Karşılaştırması:** Farklı yaprak türlerini yan yana basarak meşe ve akçaağaç yapraklarının damar desenlerini karşılaştır.

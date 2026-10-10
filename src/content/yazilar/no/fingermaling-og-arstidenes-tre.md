@@ -1,24 +1,24 @@
 ---
 lang: no
-title: "Moro med fingermaling: Årstidenes fargerike tre"
-description: "Bruk fingrene til å male fargerike blader på et tre!"
+title: "Monotypi og fingermaling: Årstidenes fargeskift"
+description: "Utforsk hvordan treets krone skifter drakt fra høst til vår med fingertrykk og fargeblanding på papir."
 date: 2026-10-10
 category: aktiviteter
 cover: /images/yazilar/fingermaling-og-arstidenes-tre.png
-coverAlt: "Moro med fingermaling: Årstidenes fargerike tre"
+coverAlt: "Monotypi og fingermaling: Årstidenes fargeskift"
 ageRange: "4-6 år"
 featured: true
 draft: false
 ---
 
-Dypp tommelen i rød, gul og oransje maling.
+Tegn en solid trestamme med dype røtter på et kraftig tegnepapir.
 
-Trykk tommelen mot arket rundt en brun trestamme.
+Dypp tommelen og fingertuppene i okergul, rustrød og dyp oransje temperamaling.
 
-Plutselig har du laget et nydelig høsttre!
+Press fingrene mot arket i tette klynger rundt grenene for å skape høstløv.
 
-Vask de små hendene med varmt vann og såpe.
+Når fargene møtes på papiret, blander de seg til nye, varme nyanser av gyllent løvverk.
 
-Maling med fingrene er kjempegøy og gir masse glede.
+Løft arket opp mot lyset og betrakt hvordan hvert fingertrykk gir treet levende struktur og dybde.
 
-> **Galleritips:** Heng det fine bildet ditt på kjøleskapet med en magnet!
+> **Ateliertips:** Bland lysegrønn og hvit maling; lag et friskt vårtre med spirende knopper.

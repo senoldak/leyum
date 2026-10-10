@@ -1,24 +1,26 @@
 ---
 lang: tr
-title: "Ses Havada Nasıl Yol Alır?"
-description: "Arkadaşın bahçenin diğer ucundan seslendiğinde o ses senin kulağına nasıl ulaşır?"
+title: "Ses Dalgaları Havada Nasıl İlerler?"
+description: "Bir enstrümanın teline dokunulduğunda veya biri konuştuğunda, görünmez titreşimler kulağımıza nasıl ulaşır?"
 date: 2026-10-10
 category: oppdager
 cover: /images/yazilar/hvordan-reiser-lyden-i-luften.png
-coverAlt: "Ses Havada Nasıl Yol Alır?"
+coverAlt: "Ses Dalgaları Havada Nasıl İlerler?"
 ageRange: "7-9 Yaş"
 featured: false
 draft: false
 ---
 
-Duyduğumuz her ses aslında minik ve hızlı bir titreşimle başlar.
+Duyduğumuz her ses, bir maddenin bulunduğu ortamda fiziksel olarak titreşmesiyle başlar.
 
-Sen konuştuğunda boğazındaki ses telleri titrer ve etrafındaki hava taneciklerini iter.
+Bir davulun derisine vurduğunda yüzey mikroskobik bir hızla ileri ve geri hareket eder.
 
-Hava tanecikleri birbirine çarparak havada görünmez bir dalga gibi yayılır.
+Bu titreşim deriye temas eden hava moleküllerini sıkıştırır ve birbirine doğru iter.
 
-Bu ses dalgası kulağındaki kulak zarına çarpar ve zarı aynı ritimle titreştirir.
+Moleküllerin bu zincirleme hareketi, göle atılan bir taşın yarattığı halkalar gibi havada dalga dalga yayılır.
 
-Beynin bu titreşimleri harika bir melodiye, kelimelere veya bir kahkahaya dönüştürür.
+Ses dalgası kulağına ulaştığında kulak zarını aynı frekansta titreştirir.
 
-> **Küçük deney:** Elini boğazına koy ve mırıldan. Parmaklarının altındaki titreşimi hissediyor musun?
+İç kulaktaki duyarlı hücreler bu mekanik hareketi sinir sinyallerine çevirir ve beynimiz bunları ses olarak algılar.
+
+> **Titreşim Gözlemi:** İki parmağın arasına bir paket lastiği gerip hafifçe çekip bırak; titreşimin havada nasıl net bir ton ürettiğini duy.

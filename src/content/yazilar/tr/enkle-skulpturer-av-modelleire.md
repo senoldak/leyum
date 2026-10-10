@@ -1,24 +1,24 @@
 ---
 lang: tr
-title: "Basit Oyun Hamuru Heykelleri"
-description: "Avuçlarında yuvarlanan renkli hamurlarla salyangoz ve neşeli hayvanlar yapma oyunu!"
+title: "Form ve Hacim: Kille Üç Boyutlu Heykel Çalışması"
+description: "Avuç içinde yuvarlanan killerle spiral ve küre formlarını birleştirerek dengeli heykeller üretme atölyesi."
 date: 2026-10-10
 category: aktiviteter
 cover: /images/yazilar/enkle-skulpturer-av-modelleire.png
-coverAlt: "Basit Oyun Hamuru Heykelleri"
+coverAlt: "Form ve Hacim: Kille Üç Boyutlu Heykel Çalışması"
 ageRange: "4-6 Yaş"
 featured: false
 draft: false
 ---
 
-Avucunun içinde yumuşacık bir parça hamuru yuvarla.
+Yumuşak heykel kilini avuçlarının arasında yoğurarak kıvama getir.
 
-Uzun bir şerit yapıp kıvırarak salyangoz kabuğu oluştur.
+Masada ileri geri yuvarlayarak uzun bir fitil oluştur; ardından bunu içe doğru sararak bir salyangoz kabuğu yap.
 
-Tepesine minik hamur parçalarından iki sevimli anten tak.
+Daha küçük bir kil parçasını silindir şeklinde uzatarak salyangozun gövdesini oluştur ve kabukla birleştir.
 
-Dilersen kocaman sarı bir güneş heykeli de yapabilirsin.
+Ahşap bir çubuk yardımıyla kilin yüzeyine ince çizgiler ve doğal dokular kazı.
 
-Oyun hamuru küçük parmaklarınla kolayca şekil alır.
+Ellerinin uyguladığı dengeli basınç, biçimsiz bir kil parçasını üç boyutlu zarif bir heykele dönüştürür.
 
-> **Minik heykeltıraş:** Oyuncak tavşanın için turuncu bir havuç heykeli yap!
+> **Kuruma:** Yaptığın heykeli oda sıcaklığında kurumaya bırak; kil sertleştikçe biçimini kalıcı olarak korur.

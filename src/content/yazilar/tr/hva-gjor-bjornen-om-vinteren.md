@@ -1,20 +1,24 @@
 ---
 lang: tr
-title: "Ayılar Kış Uykusunda Ne Yapar?"
-description: "Kar yağdığında koca ayı sıcacık inine çekilir ve derin bir uykuya dalar."
+title: "Ayılar Soğuk Kış Boyunca İnlerinde Ne Yapar?"
+description: "İlk kar ormandaki böğürtlenlerin üzerine düştüğünde, bozayı korunaklı kış inine çekilir ve derin bir dinlenmeye dalar."
 date: 2026-10-10
 category: natur
 cover: /images/yazilar/hva-gjor-bjornen-om-vinteren.png
-coverAlt: "Ayılar Kış Uykusunda Ne Yapar?"
+coverAlt: "Ayılar Soğuk Kış Boyunca İnlerinde Ne Yapar?"
 ageRange: "4-6 Yaş"
 featured: true
 draft: false
 ---
 
-Sonbaharda kocaman ayı bol bol lezzetli böğürtlen yer. Karnını iyice doyurur.
+Sonbahar boyunca bozayı meşe palamutları ve yaban mersinleriyle beslenerek gövdesinde kalın bir yağ tabakası oluşturur.
 
-Kış gelip kar yağınca sıcacık inine kıvrılır. Orada kış boyunca mışıl mışıl uyur.
+Ayaz başladığında ve karlar patikaları kapladığında, ayı bir kaya yarığında hazırladığı kış inine çekilir.
 
-Kalbi soğuk kış günlerinde çok yavaş atar. İlkbaharda neşeyle uyanıp dışarı çıkar.
+Karanlık inin içinde bedeni sakinleşir; kalbi soğuk aylar boyunca son derece yavaş ve düzenli çarpar.
 
-> **Biliyor muydun?** Minik ayı yavruları anneleri ininde uyurken dünyaya gelir!
+Fırtınalar dışarıda uğuldarken ayı hiçbir şey yemeden yosun ve çam dallarından örülü kuru yatağında dinlenir.
+
+İlkbahar güneşi karları eritip dereler yeniden coşkuyla aktığında uyanır ve taze dağ havasına adım atar.
+
+> **Orman İzi:** İlkbaharda ağaç gövdelerindeki derin tırnak izlerine dikkat et; uzun uykusundan uyanan ayılar kollarını gererek kabukları tırmalar.

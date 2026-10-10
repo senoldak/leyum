@@ -1,26 +1,26 @@
 ---
 lang: no
-title: "Bygg de beste papirflyene som glir lengst!"
-description: "Brett en klassisk glider eller en rask pil og test hvordan vingene fanger luften."
+title: "Aerodynamisk bretting: Konstruksjon av langdistansefly i papir"
+description: "Test hvordan vingespenn, balanseror og vektfordeling påvirker papirflyets glideflukt og stabilitet i luften."
 date: 2026-10-10
 category: aktiviteter
 cover: /images/yazilar/origami-fly-og-glidekonkurranse.png
-coverAlt: "Bygg de beste papirflyene som glir lengst!"
+coverAlt: "Aerodynamisk bretting: Konstruksjon av langdistansefly i papir"
 ageRange: "7-9 år"
 featured: false
 draft: false
 ---
 
-Papirfly er en spennende kombinasjon av gammel brettekunst og ekte aerodynamikk.
+Konstruksjon av papirfly er en praktisk introduksjon til grunnleggende prinsipper innen flyteknikk og strømlinjeforming.
 
-Bruk et vanlig A4-ark og sørg for at alle brettene blir knivskarpe med tommelen.
+Bruk et standard A4-ark med jevn fiberstruktur og sørg for at hver fold er symmetrisk langs arkets midtlinje.
 
-En spiss pil kutter luften raskt og flyr rett frem med høy hastighet.
+En smal pilform med tilspissede vinger reduserer luftmotstanden og gir høy kastehastighet i en rett kulebane.
 
-Et fly med brede vinger fanger derimot luftstrømmene og kan sveve sakte og elegant i sirkler.
+Et bredvinget glidefly fanger derimot oppadgående luftstrømmer og holder seg svevende i store, langsomme sirkler.
 
-Bøy vingespissene bittelitt oppover for å gi flyet bedre stabilitet mot turbulens i rommet.
+Bøy de bakerste vingekantene noen millimeter oppover for å skape høyderor; dette motvirker flyets tendens til å stupe nesen i bakken.
 
-Kast flyet med en myk og jevn bevegelse i stedet for å bruke rå kraft.
+Gjennom systematiske prøvekast kan du justere vingevinklene til modellen oppnår perfekt aerodynamisk likevekt.
 
-> **Konkurranse:** Test tre ulike brettinger i stuen og mål hvem som lander lengst unna!
+> **Ingeniørlogg:** Gjennomfør fem testkast med tre ulike vingemodeller; noter flytid og distanse i et enkelt måleskjema.

@@ -1,26 +1,26 @@
 ---
 lang: tr
-title: "Pergel ve Cetvelle Mandala Geometrisi Çizimi"
-description: "Matematiğin ve simetrinin huzur veren sanatı: Dairesel açılar ve cetvelle büyüleyici mandala çizimi rehberi!"
+title: "Geometrik Mandala Tasarımı: Pergel ve Cetvelle Dairesel Simetri"
+description: "Öklid geometrisi, dairesel açılar ve radyal simetri kurallarıyla karmaşık ve dengeli mandala motifleri inşa etme."
 date: 2026-10-10
 category: aktiviteter
 cover: /images/yazilar/mandala-og-geometrisk-tegning.png
-coverAlt: "Pergel ve Cetvelle Mandala Geometrisi Çizimi"
+coverAlt: "Geometrik Mandala Tasarımı: Pergel ve Cetvelle Dairesel Simetri"
 ageRange: "10-12 Yaş"
 featured: false
 draft: false
 ---
 
-Mandala, evrendeki dengeyi ve bütünlüğü simgeleyen, dairesel simetri kurallarına dayanan kadim bir geometrik sanat formudur.
+Mandala sanatı, geometrik formların merkezi bir odak noktası etrafında sabit açılarla tekrarlandığı radyal simetriye dayanır.
 
-Kağıdın tam merkezini belirleyip pergel yardımıyla iç içe geçmiş farklı çaplarda düzenli daireler çizerek başla.
+Pergelin sivri ucunu kağıdın tam merkezine sabitleyip belirli yarıçap aralıklarıyla iç içe geçmiş eşmerkezli daireler çiz.
 
-Açıölçer veya cetvelle bu daireleri sekiz veya on iki eşit açısal dilime ayırarak temel ızgara yapısını kur.
+Açıölçer ve cetvel yardımıyla daireyi her biri tam otuzar derecelik on iki eşit açısal dilime ayır.
 
-Ardından her dilime aynı yaprak, yay veya üçgen motiflerini kusursuz bir simetriyle ardı ardına tekrarla.
+Kesişim noktalarını merkez alarak pergel açıklığını bozmadan yaylar çiz ve kadim geometrideki yaşam çiçeği ızgarasını kur.
 
-Bu ritmik ve düzenli çizim süreci zihni sakinleştirir, odaklanmayı artırır ve derin bir huzur verir.
+Bu kusursuz matematiksel iskelet üzerine her dilimde aynı geometrik yaprak ve motifleri milimetrik bir disiplinle tekrarla.
 
-Merkezden dışa doğru uyumlu renklerle boyama yaptığında geometrik desenlerin nasıl derinlik kazandığını göreceksin.
+Bu çizim süreci zihinsel odaklanmayı artırırken Öklid geometrisinin harmonik oranlarını somut bir sanat eserine dönüştürür.
 
-> **Renk dengesi:** Mandalanda sadece mavi ve turuncu gibi zıt iki rengi kullanarak çarpıcı bir kontrast yakala!
+> **Geometrik Deneme:** Aynı merkez etrafında kırk beş derecelik açılarla döndürülmüş karelerle sekizgen bir mandala kompozisyonu geliştir.

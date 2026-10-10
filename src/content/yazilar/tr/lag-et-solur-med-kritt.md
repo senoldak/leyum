@@ -1,26 +1,26 @@
 ---
 lang: tr
-title: "Renkli Tebeşirle Güneş Saati Yapımı"
-description: "Mekanik saatlerden önce zamanı gösteren kadim icat: Bahçede gölge ve güneşle saat yapımı!"
+title: "Güneş Saati İnşası: Gölge ve Açıyla Astronomik Zaman Ölçümü"
+description: "Dünya’nın dönüş hızını ve güneş ışığının düşüş açısını kullanarak zeminde kusursuz bir yatay saat oluşturma."
 date: 2026-10-10
 category: aktiviteter
 cover: /images/yazilar/lag-et-solur-med-kritt.png
-coverAlt: "Renkli Tebeşirle Güneş Saati Yapımı"
+coverAlt: "Güneş Saati İnşası: Gölge ve Açıyla Astronomik Zaman Ölçümü"
 ageRange: "7-9 Yaş"
 featured: false
 draft: false
 ---
 
-İnsanlar mekanik saatleri icat etmeden önce gökyüzündeki güneşin hareketlerini takip ederek zamanı okurlardı.
+Mekanik ve atomik saatler geliştirilmeden önce uygarlıklar zamanı gölgelerin yerdeki düzenli hareketini izleyerek ölçerdi.
 
-Günün büyük bölümünde doğrudan güneş alan düz ve taşlık bir alan seç.
+Gün boyu doğrudan güneş alan, engelsiz ve düz bir taş zemin belirle.
 
-Yere dik bir çubuk dik veya koni koyup etrafına tebeşirle geniş bir daire çiz.
+Zeminin tam ortasına dikey ve düz bir çubuk dikerek çevresine tebeşirle geniş bir daire çiz; bu çubuğa gnomon denir.
 
-Her saat başı dışarı çıkıp çubuğun gölgesinin düştüğü yere tebeşirle bir çizgi çek.
+Her saat başında dışarı çıkıp çubuğun zemine düşürdüğü gölgenin tam merkez hattına düz bir çizgi çek.
 
-Çizginin ucuna saati yazarak gün boyu gölgenin nasıl hareket ettiğini takip et.
+Çizginin ucuna saati not et; gün ilerledikçe gölgenin bir kadran gibi düzenli aralıklarla ilerlediğini göreceksin.
 
-Gölgenin düzenli hareketi Dünya’mızın kendi ekseni etrafında batıdan doğuya doğru dönmesinden kaynaklanır.
+Gölgenin bu kusursuz hareketi, gezegenimizin kendi ekseni etrafında saatte on beş derecelik sabit bir hızla dönmesinden kaynaklanır.
 
-> **Zaman dedektifi:** Ertesi güneşli gün dışarı çıkıp gölgenin aynı çizgilere denk gelip gelmediğini kontrol et!
+> **Gözlem Farkı:** Birkaç hafta sonra aynı saatte gölgenin konumunu kontrol et; mevsimsel güneş yüksekliğinin gölge boyunu nasıl etkilediğini tartış.

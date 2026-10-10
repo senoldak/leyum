@@ -1,20 +1,24 @@
 ---
 lang: no
-title: "Hvorfor vifter hunder så glad med halen?"
-description: "Når hunden ser en venn, vifter halen som en liten vindmølle!"
+title: "Hva forteller hundens hale om dens følelser?"
+description: "Hunder bruker hele kroppen til å kommunisere med omverdenen; hvordan leser vi signalene fra halens bevegelser?"
 date: 2026-10-10
 category: natur
 cover: /images/yazilar/hvorfor-vifter-hunder-med-halen.png
-coverAlt: "Hvorfor vifter hunder så glad med halen?"
+coverAlt: "Hva forteller hundens hale om dens følelser?"
 ageRange: "4-6 år"
 featured: false
 draft: false
 ---
 
-Hunder kan ikke snakke med ord som oss. De snakker med hele kroppen sin.
+Hunder har ikke menneskeord, men snakker et rikt språk med ører, øyne, holdning og haleføring.
 
-Når en hund er glad, vifter halen fra side til side. Det betyr hei, venn!
+Når en hund vifter mykt og avslappet med halen fra side til side, viser den vennlighet og trygghet.
 
-Hvis halen står stivt opp, lytter den nøye etter spennende lyder.
+Dersom halen står stivt rett til værs, er hunden på vakt; den følger nøye med på omgivelsene.
 
-> **Klapp en venn:** Stryk hunden rolig over ryggen når den er trygg.
+En hale som er trukket stramt inn mellom bakbeina, forteller derimot at hunden kjenner seg engstelig eller usikker.
+
+Ved å se på hele hundens kroppsspråk lærer vi signalene; da møter vi dyret med respekt og ro.
+
+> **Hundemøte:** La alltid hunden snuse rolig på hånden din; da blir den trygg på nærværet ditt.

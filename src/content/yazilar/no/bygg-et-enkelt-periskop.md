@@ -1,26 +1,26 @@
 ---
 lang: no
-title: "Bygg et fungerende periskop med to små speil"
-description: "Lær om optikk og lysets refleksjonsvinkel ved å bygge et periskop som lar deg se over høye kanter."
+title: "Geometrisk optikk: Konstruksjon av periskop med to planspeil"
+description: "Utforsk refleksjonsloven og lysets rette forplantning ved å bygge et funksjonelt optisk observasjonsinstrument."
 date: 2026-10-10
 category: aktiviteter
 cover: /images/yazilar/bygg-et-enkelt-periskop.png
-coverAlt: "Bygg et fungerende periskop med to små speil"
+coverAlt: "Geometrisk optikk: Konstruksjon av periskop med to planspeil"
 ageRange: "10-12 år"
 featured: false
 draft: false
 ---
 
-Et periskop er et genialt optisk instrument som lar ubåter og oppdagere se over hindringer uten å bli oppdaget selv.
+Et periskop utnytter prinsippet om at lys beveger seg i rette linjer og reflekteres i forutsigbare vinkler mot glatte flater.
 
-Du trenger en lang melkekartong eller en smal pappeske, to små flate speil, en saks og sterk limbånd.
+Finn en langstrakt, stiv pappeske eller en melkekartong med kvadratisk tverrsnitt for å danne instrumentets rør.
 
-Klipp to åpninger i esken på motsatte sider: én øverst foran og én nederst på baksiden.
+Skjær to observasjonsluker på motstående sider av esken: en innsynsåpning nederst og en utsynsåpning øverst på baksiden.
 
-Monter de to speilene parallelt i en nøyaktig vinkel på 45 grader i forhold til eskens rette vegger.
+Monter to parallelle planspeil innvendig i en streng vinkel på nøyaktig 45 grader i forhold til eskens vertikale akse.
 
-Lyset fra omgivelsene treffer det øverste speilet, reflekteres 90 grader nedover, og sendes ut gjennom det nederste speilet til øyet ditt.
+Lysstrålene fra omgivelsene treffer det øverste speilet, reflekteres 90 grader nedover gjennom røret, og sendes ut av det nederste speilet til øyet.
 
-Dette eksperimentet demonstrerer refleksjonsloven, som sier at innfallsvinkelen for lys alltid er nøyaktig like stor som utfallsvinkelen.
+Fordi innfallsvinkelen er nøyaktig lik utfallsvinkelen, bevares hele synsfeltets geometri uten optisk forvrengning.
 
-> **Spionoppdrag:** Bruk periskopet ditt til å kikke forsiktig over sofaryggen uten at noen i stuen oppdager deg!
+> **Taktisk felttest:** Bruk instrumentet til å observere over en murkant eller rundt et hjørne uten å eksponere observatørens posisjon.

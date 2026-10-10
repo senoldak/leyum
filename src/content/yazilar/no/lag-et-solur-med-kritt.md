@@ -1,26 +1,26 @@
 ---
 lang: no
-title: "Lag et ekte solur med farget kritt i skolegården"
-description: "Hvordan fortalte folk tiden før armbåndsuret fantes? Bygg et solur med solen og skygger."
+title: "Astronomisk tidtaking: Konstruer et nøyaktig solur i skolegården"
+description: "Utnytt Jordens jevne rotasjon og solens skyggekast til å kalibrere et fungerende horisontalt solur."
 date: 2026-10-10
 category: aktiviteter
 cover: /images/yazilar/lag-et-solur-med-kritt.png
-coverAlt: "Lag et ekte solur med farget kritt i skolegården"
+coverAlt: "Astronomisk tidtaking: Konstruer et nøyaktig solur i skolegården"
 ageRange: "7-9 år"
 featured: false
 draft: false
 ---
 
-Før menneskene oppfant mekaniske klokker, leste de tiden ved å studere solens vandring på himmelen.
+Før oppfinnelsen av pendelur og atomur leste menneskeheten tiden ved å observere hvordan skygger vandret over bakken.
 
-Finn en åpen asfaltplass som har full sol hele dagen fra morgen til ettermiddag.
+Finn en åpen, solrik plass på asfalt eller steinheller som har fri sikt mot himmelen hele dagen.
 
-Sett en rett pinne eller en kjegle i midten av en stor krittsirkel.
+Plasser en rett, vertikal stang, kalt en gnomon, i midten av flaten og tegn en stor krittsirkel rundt den.
 
-Hver hele time går du ut og tegner en strek der pinnens skygge faller på asfalten.
+Hver hele time går du ut og trekker en snorrett linje langs midten av skyggen som stangen kaster på bakken.
 
-Skriv klokkeslettet ved enden av streken med farget kritt og se mønsteret vokse.
+Noter det nøyaktige klokkeslettet ved ytterkanten av hver skyggestrek med holdbart kritt.
 
-Skyggen flytter seg jevnt fordi jorden roterer rundt sin egen akse fra vest mot øst.
+Skyggens vandring skyldes at Jorden roterer jevnt rundt sin egen akse fra vest mot øst med femten grader i timen.
 
-> **Vitenskapsmann:** Kom tilbake neste solskinnsdag og se om skyggen treffer de samme krittmerkene!
+> **Tidsavvik:** Sammenlign solurets skygge med armbåndsuret ditt noen uker senere; undersøk hvorfor soltid og standardtid kan variere litt.

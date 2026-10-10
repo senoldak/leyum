@@ -1,20 +1,24 @@
 ---
 lang: no
-title: "Hvordan blir larven til en sommerfugl?"
-description: "En liten grønn larve kryper på bladet og får plutselig vinger!"
+title: "Hvordan forvandles den grønne larven til en sommerfugl?"
+description: "En langsom larve kryper langs stilken og lukker seg inne i en puppe; hvordan vokser de fargerike vingene frem?"
 date: 2026-10-10
 category: natur
 cover: /images/yazilar/hvordan-blir-larven-til-sommerfugl.png
-coverAlt: "Hvordan blir larven til en sommerfugl?"
+coverAlt: "Hvordan forvandles den grønne larven til en sommerfugl?"
 ageRange: "4-6 år"
 featured: false
 draft: false
 ---
 
-En liten larve spiser grønne blader hele dagen. Magen blir god og rund.
+På undersiden av et brennesleblad klekkes et ørlite egg til en sulten liten larve.
 
-Så lager den en liten seng som kalles puppe. Inne i sengen hviler larven.
+Larven spiser friske grønne blader dag etter dag og vokser så raskt at skinnet må skiftes flere ganger.
 
-Etter en stund åpner puppens dør seg forsiktig. Ut flyr en fargerik sommerfugl med vinger.
+Når tiden er inne, henger larven seg opp ned; der danner den et hardt skall kalt en puppe.
 
-> **Se etter:** Se nøye under grønne blader. Kanskje finner du et lite egg!
+Inne i dette hemmelige rommet skjer en forunderlig forvandling der larvekroppen bygger seg fullstendig om.
+
+Etter noen uker sprekker puppens skall forsiktig opp, og en sommerfugl folder ut sine fargerike vinger i sollyset.
+
+> **Vingehvil:** Når sommerfuglen forlater puppen, hviler den i ro; vingene må tørke før den flyr.

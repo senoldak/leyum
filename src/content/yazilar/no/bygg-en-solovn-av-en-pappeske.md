@@ -1,26 +1,26 @@
 ---
 lang: no
-title: "Bygg en enkel solovn av en pizzaboks"
-description: "Utnytt solens fornybare energi til å smelte ostesmørbrød ved hjelp av aluminiumsfolie og drivhuseffekten."
+title: "Termisk solenergi: Konstruer en effektiv solovn med drivhuseffekt"
+description: "Utnytt refleksjon, absorpsjon og termisk isolasjon for å fange solstråler og oppnå høye temperaturer i en resirkulert boks."
 date: 2026-10-10
 category: aktiviteter
 cover: /images/yazilar/bygg-en-solovn-av-en-pappeske.png
-coverAlt: "Bygg en enkel solovn av en pizzaboks"
+coverAlt: "Termisk solenergi: Konstruer en effektiv solovn med drivhuseffekt"
 ageRange: "10-12 år"
 featured: false
 draft: false
 ---
 
-Solen sender enorme mengder ren energi til jorden hver dag, og en solovn demonstrerer hvordan denne varmen kan fanges effektivt.
+En solovn illustrerer hvordan elektromagnetisk stråling fra solen kan konsentreres og omdannes til direkte termisk energi.
 
-Du kan bygge en enkel solovn ved å gjenbruke en ren pizzaboks eller en lignende flat pappeske med hengslet lokk.
+Ta en ren pappeske med hengslet lokk og kle innsiden av lokket med glatt aluminiumsfolie for å lage et parabollignende reflektorspeil.
 
-Klipp en luke i lokket og kle innsiden av luken med blank aluminiumsfolie for å reflektere solstrålene ned i esken.
+Klipp en luke i lokket og forsegl åpningen med dobbel plastfilm; dette skaper et isolerende luftlag som slipper lys inn, men hindrer varmetap.
 
-Dekk åpningen med gjennomsiktig plastfolie for å skape et lufttett drivhuskammer som fanger den infrarøde varmestrålingen.
+Mal bunnen av bakkammeret med matt, varmebestandig sort maling, ettersom mørke overflater har maksimal absorpsjonsevne for synlig lys.
 
-Mal bunnen innvendig med matt svart maling eller legg svart papir der, fordi mørke flater absorberer varmeenergi maksimalt.
+Når solstrålene reflekteres inn i kammeret, absorberes de av den svarte bunnen og gjenutstråles som langbølget infrarød varme.
 
-På en varm sommerdag kan temperaturen i solovnen stige til over sytti grader og smelte marshmallows eller ostesmørbrød.
+Plastfilmen blokkerer den infrarøde strålingen fra å unnslippe, noe som driver temperaturen i det lukkede kammeret opp mot nesten hundre grader.
 
-> **Solbaker:** Test ovnen utendørs midt på dagen med en kjeks dekket av sjokolade og se hvor raskt den smelter!
+> **Termisk måling:** Plasser et steketermometer inne i solovnen og loggfør temperaturøkningen hvert tiende minutt midt på dagen.

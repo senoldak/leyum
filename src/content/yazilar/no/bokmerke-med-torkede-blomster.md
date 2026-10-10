@@ -1,26 +1,26 @@
 ---
 lang: no
-title: "Lag koselige bokmerker med tørkede blomster"
-description: "Press fine sommerblomster i tunge bøker og lag varige bokmerker med kartong og snor."
+title: "Herbarium på kartong: Botaniske bokmerker med presseduk"
+description: "Lær tradisjonell plantepressing for å bevare markblomsters morfologi og fargepigmenter i et varig bokmerke."
 date: 2026-10-10
 category: aktiviteter
 cover: /images/yazilar/bokmerke-med-torkede-blomster.png
-coverAlt: "Lag koselige bokmerker med tørkede blomster"
+coverAlt: "Herbarium på kartong: Botaniske bokmerker med presseduk"
 ageRange: "7-9 år"
 featured: false
 draft: false
 ---
 
-Pressing av blomster er en vakker tradisjon som lar deg bevare sommerens farger hele året.
+Herbarieinnsamling er en vitenskapelig og kunstnerisk metode som botanikere har brukt i århundrer for å bevare planteprøver.
 
-Plukk små, flate blomster som forglemmegei, fioler eller kløver på en tørr og solrik dag.
+Plukk små blomster med slanke kronblader på en tørr formiddag etter at morgenfrosten eller duggen har fordampet.
 
-Legg blomstene forsiktig mellom to ark med tørkepapir inni en tung og tykk bok.
+Legg blomstene forsiktig utbredt mellom to lag porøst trekkpapir eller avispapir inni en tung bokpresse.
 
-La boken ligge i ro i en uke slik at all fuktigheten trekkes helt ut.
+Plasser jevn vekt over boken og la den stå uforstyrret i to uker slik at fuktigheten trekkes langsomt ut av plantevevet.
 
-Lim de tørkede blomstene på en stripe med stiv kartong og dekk med gjennomsiktig bokplast.
+Når planten er fullstendig tørr og papirtynn, løftes den med pinsett og monteres på en stripe stiv akvarellkartong.
 
-Lag et hull øverst med en hullemaskin og knytt en fin silkesnor gjennom hullet.
+Beskytt det botaniske eksemplaret med en selvklebende matt film for å hindre at oksygen og slitasje bryter ned pigmentene.
 
-> **Bokorm:** Legg det vakre bokmerket i favorittboken din så finner du alltid riktig side!
+> **Artsetikett:** Skriv plantens norske og latinske artsnavn samt dato og funnsted nederst på bokmerket slik botanikere gjør.

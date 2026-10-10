@@ -1,20 +1,24 @@
 ---
 lang: no
-title: "Hvorfor fryser ikke isbjørnen i snøen?"
-description: "Det er iskaldt på Nordpolen, men isbjørnen koser seg i snøen."
+title: "Hvorfor fryser ikke isbjørnen på den arktiske isen?"
+description: "I bitende kulde og drivis på Nordpolen svømmer isbjørnen i iskaldt havvann uten å skjelve. Hva beskytter den?"
 date: 2026-10-10
 category: natur
 cover: /images/yazilar/hvorfor-fryser-ikke-isbjornen.png
-coverAlt: "Hvorfor fryser ikke isbjørnen i snøen?"
+coverAlt: "Hvorfor fryser ikke isbjørnen på den arktiske isen?"
 ageRange: "4-6 år"
 featured: false
 draft: false
 ---
 
-Isbjørnen elsker å svømme i iskaldt vann. Den fryser nesten aldri på labbene.
+Isbjørnen lever i et av klodens aller kaldeste landskap der vinden hyler over endeløse isflak.
 
-Under pelsen har den et tykt lag med spekk. Spekket holder kroppen god og varm.
+Under huden bærer bamsen et spekklag på opptil ti centimeter som isolerer mot det iskalde sjøvannet.
 
-Hårene i pelsen er hule som sugerør. De fanger solvarmen rett inn til huden.
+Pelsen består av to tette lag; det innerste er tett ull, mens de ytterste dekkhårene er hule som sugerør.
 
-> **Visste du dette?** Under den hvite pelsen er isbjørnens hud helt kullsvart!
+Disse hule hårene fanger solstrålene og leder varmen direkte inn til huden, som faktisk er kullsvart.
+
+Den svarte huden suger til seg solens varme; det tykke fettlaget hindrer at varmen siver ut i frosten.
+
+> **Arktisk fakta:** Labbenes ru såler og stive hår hindrer isbjørnen i å skli på glatt sjøis.

@@ -1,20 +1,24 @@
 ---
 lang: no
-title: "Hvordan finner mauren hjem til tuen?"
-description: "Den lille mauren går på lange turer. Hvordan finner den veien?"
+title: "Hvordan finner mauren alltid veien hjem til tuen?"
+description: "På skogbunnen bærer de flittige maurene tunge barnåler; hvordan vet de retningen gjennom den store skogen?"
 date: 2026-10-10
 category: natur
 cover: /images/yazilar/hvordan-finner-mauren-hjem.png
-coverAlt: "Hvordan finner mauren hjem til tuen?"
+coverAlt: "Hvordan finner mauren alltid veien hjem til tuen?"
 ageRange: "4-6 år"
 featured: false
 draft: false
 ---
 
-Den lille mauren har travle bein i skogen. Den bærer tunge barnåler.
+En enslig skogsmaur vandrer langt utover skogbunnen på jakt etter mat og barnåler til tuen sin.
 
-Når mauren går, lager den en hemmelig duftsti. Lukten viser trygg vei tilbake.
+Når mauren finner noe verdifullt, snur den og setter kursen rett tilbake.
 
-Nesen på følehornene kjenner stien med en gang. Slik går ingen maur seg vill.
+Underveis avsetter kroppen usynlige duftspor på steinene og mosen som kalles feromoner.
 
-> **Liten lek:** Se på maurene i skogen. De går på en lang rekke!
+Følehornene på hodet fungerer som fintfølende neser som fanger opp de kjemiske duftmolekylene i luften.
+
+Dersom en maur mister sporet, søker antennene fra side til side; snart gjenkjenner den duftveien og ledes frem.
+
+> **Naturstudie:** Legg deg forsiktig ned ved en maursti og se hvordan maurene møtes; de hilser på hverandre med følehornene.

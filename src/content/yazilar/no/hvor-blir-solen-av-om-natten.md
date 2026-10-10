@@ -1,20 +1,24 @@
 ---
 lang: no
-title: "Hvor blir solen av om natten?"
-description: "Når stjernene tennes og vi skal sove, hvor reiser solen da hen?"
+title: "Hvor vandrer solen når natten senker seg?"
+description: "Når kveldshimmelen mørkner og stjernene tennes over hustakene, hvor forsvinner sollyset hen?"
 date: 2026-10-10
 category: oppdager
 cover: /images/yazilar/hvor-blir-solen-av-om-natten.png
-coverAlt: "Hvor blir solen av om natten?"
+coverAlt: "Hvor vandrer solen når natten senker seg?"
 ageRange: "4-6 år"
 featured: false
 draft: false
 ---
 
-Når kvelden kommer, blir himmelen mørk. Solen ser ut til å gå og legge seg.
+Når kvelden faller over landskapet, svinner dagslyset og nattehimmelen blir dyp og mørk.
 
-Men solen står helt stille i rommet. Det er vår egen planet Jorden som snurrer rundt.
+Solen har likevel ikke slukket eller reist sin vei fra universet.
 
-Når vår side snur seg vekk, får vi natt. Da skinner solen på barn på den andre siden.
+Det er vår egen planet Jorden som langsomt dreier rundt sin egen akse.
 
-> **Visste du dette?** Mens du sover, spiser barn langt borte frokost!
+Når vårt land vender seg bort fra solen, trer vi inn i nattens skygge.
+
+Samtidig stråler det klare dagslyset ned på byer og hav på den andre siden av kloden.
+
+> **Globuslek:** Drei en globus eller en ball foran en lampe; se hvordan den ene siden bader i lys mens den andre hviler i skygge.

@@ -1,20 +1,24 @@
 ---
 lang: tr
-title: "Sabun Köpükleri Neden Yuvarlaktır?"
-description: "Üfleme çubuğun kare olsa bile sabun baloncukları hep top gibi yuvarlak çıkar!"
+title: "Sabun Baloncukları Neden Hep Yuvarlaktır?"
+description: "Üflediğin telin şekli ne olursa olsun, sabun köpüğü havada daima kusursuz bir küreye dönüşür; peki neden?"
 date: 2026-10-10
 category: oppdager
 cover: /images/yazilar/hvorfor-er-sapebobler-runde.png
-coverAlt: "Sabun Köpükleri Neden Yuvarlaktır?"
+coverAlt: "Sabun Baloncukları Neden Hep Yuvarlaktır?"
 ageRange: "4-6 Yaş"
 featured: false
 draft: false
 ---
 
-Sabun köpükleri gökkuşağı gibi parlar. Havada tüy gibi süzülürler.
+Sabun baloncukları havada sessizce süzülür ve güneş ışığında gökkuşağı renkleriyle parıldar.
 
-Köpüğün içi nefesindeki havayla dolar. Sabunlu su bu havanın etrafına sarılır.
+Baloncuğun içinde senin üflediğin sakin hava saklıdır.
 
-Su damlacıkları birbirine sımsıkı sarılmayı sever. En sıkı ve rahat şekil küredir.
+Dış yüzeyde ise sabunlu su, havayı saran son derece ince ve esnek bir zar oluşturur.
 
-> **Sen de dene:** Yavaşça üfle. Havada dans eden kocaman bir baloncuk yap!
+Sudaki moleküller birbirini her yönden eşit bir kuvvetle merkeze doğru çeker.
+
+Bir hacmi en az yüzeyle çevreleyen kusursuz geometrik biçim daima küredir.
+
+> **Işık Halkası:** Güneş ışığı altında süzülen bir baloncuğa yakından bak; yüzeyinde dönen renk desenlerini fark et.

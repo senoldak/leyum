@@ -1,24 +1,24 @@
 ---
 lang: tr
-title: "Kolay Origami: Kedi ve Köpek Yüzü Katlama"
-description: "Kare bir kağıdı ikiye katlayıp kulaklarını bükerek sevimli hayvan yüzleri yap!"
+title: "Kağıt Katlama Sanatı: Geometrik Kedi Portresi"
+description: "Kare bir kağıdı köşegen çizgiler ve simetrik açılarla katlayarak stilize bir kedi yüzü oluşturma rehberi."
 date: 2026-10-10
 category: aktiviteter
 cover: /images/yazilar/lett-origami-hund-og-katt.png
-coverAlt: "Kolay Origami: Kedi ve Köpek Yüzü Katlama"
+coverAlt: "Kağıt Katlama Sanatı: Geometrik Kedi Portresi"
 ageRange: "4-6 Yaş"
 featured: false
 draft: false
 ---
 
-Sevdiğin renkte kare bir kağıdı önüne koy.
+Renkli kare bir kağıdı masanın üzerine köşelerinden biri sana bakacak şekilde yerleştir.
 
-Kağıdı çapraz katlayıp sivri bir üçgen elde et.
+Kağıdı tam ortadan ikiye katlayarak düzgün bir üçgen elde et.
 
-Üstteki iki köşeyi aşağı doğru bükerek kulaklar yap.
+Üçgenin iki yan köşesini yukarı doğru açılı biçimde katlayarak kedinin dik kulaklarını oluştur.
 
-Boya kalemiyle burnunu, ağzını ve neşeli gözlerini çiz.
+Üçgenin alt sivri ucunu bir parmak kadar yukarı katlayıp çene hattını düzleştir.
 
-Kağıttan sevimli köpeğin sana neşeyle gülümsüyor!
+İnce uçlu bir kalemle badem şeklinde gözler ve uzun bıyıklar çizerek portreni tamamla.
 
-> **Kağıt dostu:** Bir kağıt daha alıp kulakları yukarı bakan bir kedi katla!
+> **Katlama Kuralı:** Her katlama çizgisinin üzerinden tırnağınla iyice geç; net çizgiler origaminin kusursuz durmasını sağlar.

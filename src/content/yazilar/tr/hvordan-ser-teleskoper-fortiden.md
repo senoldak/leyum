@@ -1,26 +1,26 @@
 ---
 lang: tr
-title: "Teleskoplar Geçmişe Nasıl Bakar?"
-description: "Dev uzay teleskopları milyonlarca ışık yılı uzaktaki yıldızları görüntülerken zamanda geriye nasıl bakar?"
+title: "Dev Uzay Teleskopları Evrenin Geçmişine Nasıl Bakar?"
+description: "Işık kozmik mesafeleri aşarken zaman harcar; uzak galaksilerin ışığını yakalayan aynalar geçmişi nasıl aydınlatır?"
 date: 2026-10-10
 category: oppdager
 cover: /images/yazilar/hvordan-ser-teleskoper-fortiden.png
-coverAlt: "Teleskoplar Geçmişe Nasıl Bakar?"
+coverAlt: "Dev Uzay Teleskopları Evrenin Geçmişine Nasıl Bakar?"
 ageRange: "10-12 Yaş"
 featured: false
 draft: false
 ---
 
-Gökbilimciler evrenin gerçek zaman yolcularıdır. Çünkü uzaya her baktıklarında geçmişi görürler.
+Günlük yaşantımızda ışığın anında ulaştığını düşünürüz; ancak evren ölçeğinde ışık sonlu ve ölçülebilir bir hızla seyahat eder.
 
-Bunun sebebi ışığın saniyede 300.000 kilometre gibi akıl almaz bir hızla yol almasına rağmen evrenin çok büyük olmasıdır.
+Işık boşlukta saniyede yaklaşık 300 bin kilometre hızla yol alır.
 
-Yüzünü ısıtan ılık Güneş ışığı aslında sekiz dakika önce Güneşten yola çıkmıştır.
+Bu fiziksel gerçek nedeniyle, şu an gördüğümüz Güneş ışığı aslında sekiz dakika önce yola çıkmış bir enerjidir.
 
-Milyarlarca ışık yılı uzaktaki bir galaksiye teleskopla baktığımızda, o ışık teleskoba ulaşmak için milyarlarca yıl seyahat etmiştir.
+Gökbilimciler devasa teleskopları derin uzaydaki galaksi kümelerine çevirdiklerinde, yakaladıkları fotonlar milyarlarca yıllık bir yolculuktan gelmiştir.
 
-Yani biz o galaksinin şimdiki halini değil, evrenin ilk gençlik yıllarındaki halini görürüz.
+On milyar ışık yılı uzaktaki bir galaksiyi gözlemlediğimizde, onun şimdiki halini değil, evrenin erken dönemindeki halini inceleriz.
 
-Teleskoplar gökyüzünün en büyüleyici zaman makineleridir ve evrenin başlangıç sırlarını keşfetmemizi sağlar.
+Bu sebeple büyük uzay gözlemevleri, evrenin ilk yıldızlarının doğumunu ve ilk galaksilerin oluşumunu belgeleyen birer zaman penceresidir.
 
-> **Büyüleyici bilgi:** James Webb Uzay Teleskobu bu antik ışığı yakalamak için altın kaplama aynalar kullanır!
+> **James Webb Notu:** James Webb Uzay Teleskobu, evrenin genişlemesiyle dalga boyu uzayıp kızıla kayan bu kadim ışığı yakalamak için altın kaplama aynalar kullanır.

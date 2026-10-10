@@ -1,41 +1,41 @@
 import { calistirParti } from './parti-derleyici.mjs';
 
 const AKTIVITETER_KONULARI = [
-  // 4-6 YAŞ (6 KONU - Cümle sınırı: ≤12 kelime)
+  // 4-6 YAŞ (6 KONU - Duyusal atölye, saygın zanaat ve form keşfi; bebek dili kesinlikle yok)
   {
     slug: 'fingermaling-og-arstidenes-tre',
     category: 'aktiviteter',
     ageRange: '4-6',
     featured: true,
     no: {
-      title: 'Moro med fingermaling: Årstidenes fargerike tre',
-      description: 'Bruk fingrene til å male fargerike blader på et tre!',
-      body: `Dypp tommelen i rød, gul og oransje maling.
+      title: 'Monotypi og fingermaling: Årstidenes fargeskift',
+      description: 'Utforsk hvordan treets krone skifter drakt fra høst til vår med fingertrykk og fargeblanding på papir.',
+      body: `Tegn en solid trestamme med dype røtter på et kraftig tegnepapir.
 
-Trykk tommelen mot arket rundt en brun trestamme.
+Dypp tommelen og fingertuppene i okergul, rustrød og dyp oransje temperamaling.
 
-Plutselig har du laget et nydelig høsttre!
+Press fingrene mot arket i tette klynger rundt grenene for å skape høstløv.
 
-Vask de små hendene med varmt vann og såpe.
+Når fargene møtes på papiret, blander de seg til nye, varme nyanser av gyllent løvverk.
 
-Maling med fingrene er kjempegøy og gir masse glede.
+Løft arket opp mot lyset og betrakt hvordan hvert fingertrykk gir treet levende struktur og dybde.
 
-> **Galleritips:** Heng det fine bildet ditt på kjøleskapet med en magnet!`
+> **Ateliertips:** Bland lysegrønn og hvit maling; lag et friskt vårtre med spirende knopper.`
     },
     tr: {
-      title: 'Parmak Boyasıyla Ağaç ve Mevsimler',
-      description: 'Parmak uçlarını boyaya batırıp mevsimlerin renkli ağaçlarını kağıda basma sanatı!',
-      body: `Başparmağını sarı, kırmızı ve turuncu boyaya hafifçe batır.
+      title: 'Parmak Baskısı ve Renk Karışımı: Mevsimlerin Ağacı',
+      description: 'Parmak uçlarıyla boyaları karıştırarak bir ağacın yaprak dokusunu ve mevsimsel dönüşümünü kağıda aktarma atölyesi.',
+      body: `Kalın bir resim kağıdının ortasına sağlam kökleri olan koyu bir ağaç gövdesi çiz.
 
-Kağıda çizdiğin kahverengi gövdenin etrafına parmağınla yapraklar bas.
+Parmak uçlarını hardal sarısı, pas kırmızısı ve kiremit tonlarındaki boyalara hafifçe dokundur.
 
-Bir anda rengarenk harika bir sonbahar ağacın hazır olur!
+Dalların etrafına parmaklarını ritmik hareketlerle basarak ağacın gür yaprak dokusunu oluştur.
 
-Ellerini ılık su ve sabunla güzelce yıka.
+Islak boyalar kağıt üzerinde birbiriyle kaynaşarak sonbaharın zengin tonlarını meydana getirir.
 
-Parmak boyası yapmak hem çok eğlenceli hem de renklidir.
+Resmini ışığa kaldırıp incele; parmak izlerinin oluşturduğu doku ağaca doğal bir hacim kazandırır.
 
-> **Minik sergi:** Yaptığın bu güzel resmi buzdolabının kapağına bir mıknatısla as!`
+> **Atölye İpucu:** Palet üzerinde açık yeşil ve beyaz boyayı karıştırarak taze filizler açmış bir ilkbahar ağacı da çalışabilirsin.`
     }
   },
   {
@@ -43,34 +43,34 @@ Parmak boyası yapmak hem çok eğlenceli hem de renklidir.
     category: 'aktiviteter',
     ageRange: '4-6',
     no: {
-      title: 'Lag en søt liten ugle av dorull og papir',
-      description: 'Brett toppen ned og lim på to store ugleøyne!',
-      body: `Finn en tom papprull fra en dorull.
+      title: 'Skulptur i papp: Skogens nattugle',
+      description: 'Form en tredimensjonal uglefigur av en solid pappsylinder med enkle brettinger og grafiske mønstre.',
+      body: `Ta en ren pappsylinder og trykk den øverste kanten forsiktig innover fra to sider.
 
-Trykk toppen forsiktig ned for å lage to spisse ugleører.
+Slik danner pappen to spisse fjærører som kjennetegner kattuglen i skogen.
 
-Klipp ut to store, runde øyne av hvitt papir.
+Klipp to store, runde sirkler av hvitt papir og tegn mørke pupiller i midten.
 
-Tegn svarte prikker inni øynene og lim dem på uglen.
+Lim øynene høyt på sylinderen og fest et trekantet nebb av brun kartong like under.
 
-Nå har du en klok og søt nattugle!
+Tegn fine bueformede linjer over uglemagen med fargestift for å illustrere fjærdrakten.
 
-> **Uglevenn:** Hvilket morsomt navn vil du gi til den nye uglen din?`
+> **Utsnitt:** Plasser pappuglen på en bokhylle eller i en vinduskarm der den kan våke over rommet om kvelden.`
     },
     tr: {
-      title: 'Rulodan Sevimli Baykuş Yapımı',
-      description: 'Tuvalet kağıdı rulosunu büküp kocaman gözler yapıştırarak sevimli bir baykuş yap!',
-      body: `Karton bir tuvalet kağıdı rulosunu eline al.
+      title: 'Karton Heykelcilik: Ormanın Bilge Gece Baykuşu',
+      description: 'Geri dönüştürülmüş karton silindiri katlayıp biçimlendirerek üç boyutlu grafik bir baykuş heykeli oluşturma sanatı.',
+      body: `Sert bir karton silindiri alıp üst kenarını iki tarafından içe doğru dikkatle bastır.
 
-Üst kısmını parmaklarınla içeri doğru bastırıp iki sivri kulak yap.
+Bu basit büküm kartonun tepesinde baykuşlara özgü iki sivri kulak formu oluşturur.
 
-Beyaz kağıttan iki kocaman yuvarlak göz kes.
+Beyaz kağıttan iki geniş daire kesip ortalarına koyu renkli göz bebekleri çiz.
 
-Gözlerin ortasına siyah noktalar çizip ruloya yapıştır.
+Gözleri silindirin üst kısmına yapıştır; hemen altına kahverengi kartondan üçgen bir gaga yerleştir.
 
-İşte sevimli ve bilge küçük baykuşun hazır!
+Boya kalemiyle baykuşun gövdesine düzenli yaylar çizerek göğüs tüylerinin desenini tamamla.
 
-> **Baykuş dostu:** Yaptığın bu tatlı baykuşa hangi güzel ismi vermek istersin?`
+> **Sergileme:** Hazırladığın baykuş heykelini bir kitap rafına koy; odanın sessiz bir bekçisi gibi dursun.`
     }
   },
   {
@@ -78,34 +78,34 @@ Gözlerin ortasına siyah noktalar çizip ruloya yapıştır.
     category: 'aktiviteter',
     ageRange: '4-6',
     no: {
-      title: 'Enkle og morsomme figurer av fargerik leire',
-      description: 'Rull en kule, trykk den flat og lag en snegle!',
-      body: `Rull en myk klump med leire mellom hendene dine.
+      title: 'Form og volum: Skulpturer i naturleire',
+      description: 'Utforsk leirens formbarhet gjennom kuler, ruller og spiraler; bygg geometriske dyrefigurer med hendene.',
+      body: `Kna en klump med myk modellerleire mellom håndflatene til massen blir smidig og lun.
 
-Lag en lang pølse og rull den sammen som en snegle.
+Rull en jevn pølse på underlaget; kveil den opp i en tett spiral for å lage sneglehuset.
 
-Sett to små leirekuler på toppen som følehorn.
+Trill en mindre kule til sneglenes kropp og fest den forsiktig mot undersiden av sneglehuset.
 
-Du kan også lage en rund og smilende sol.
+Bruk en trepinne til å risse inn fine teksturer og furer i leirens overflate.
 
-Leire former seg lett etter de flinke fingrene dine.
+Gjennom hendenes trykk forvandles en formløs masse til en fast skulptur med tydelig balanse og volum.
 
-> **Kreativ lek:** Prøv å lage en liten gulrot til et lekekanindyr!`
+> **Tørking:** La leirefiguren hvile på en treplank over natten slik at formen setter seg og herder.`
     },
     tr: {
-      title: 'Basit Oyun Hamuru Heykelleri',
-      description: 'Avuçlarında yuvarlanan renkli hamurlarla salyangoz ve neşeli hayvanlar yapma oyunu!',
-      body: `Avucunun içinde yumuşacık bir parça hamuru yuvarla.
+      title: 'Form ve Hacim: Kille Üç Boyutlu Heykel Çalışması',
+      description: 'Avuç içinde yuvarlanan killerle spiral ve küre formlarını birleştirerek dengeli heykeller üretme atölyesi.',
+      body: `Yumuşak heykel kilini avuçlarının arasında yoğurarak kıvama getir.
 
-Uzun bir şerit yapıp kıvırarak salyangoz kabuğu oluştur.
+Masada ileri geri yuvarlayarak uzun bir fitil oluştur; ardından bunu içe doğru sararak bir salyangoz kabuğu yap.
 
-Tepesine minik hamur parçalarından iki sevimli anten tak.
+Daha küçük bir kil parçasını silindir şeklinde uzatarak salyangozun gövdesini oluştur ve kabukla birleştir.
 
-Dilersen kocaman sarı bir güneş heykeli de yapabilirsin.
+Ahşap bir çubuk yardımıyla kilin yüzeyine ince çizgiler ve doğal dokular kazı.
 
-Oyun hamuru küçük parmaklarınla kolayca şekil alır.
+Ellerinin uyguladığı dengeli basınç, biçimsiz bir kil parçasını üç boyutlu zarif bir heykele dönüştürür.
 
-> **Minik heykeltıraş:** Oyuncak tavşanın için turuncu bir havuç heykeli yap!`
+> **Kuruma:** Yaptığın heykeli oda sıcaklığında kurumaya bırak; kil sertleştikçe biçimini kalıcı olarak korur.`
     }
   },
   {
@@ -113,34 +113,34 @@ Oyun hamuru küçük parmaklarınla kolayca şekil alır.
     category: 'aktiviteter',
     ageRange: '4-6',
     no: {
-      title: 'Enkel bretting: Katt og hund med papir',
-      description: 'Brett et kvadratisk papir til en søt firbent venn!',
-      body: `Ta et firkantet papirark i favorittfargen din.
+      title: 'Papirbretting: Geometriske dyreportretter',
+      description: 'Gjennom diagonale bretter og symmetriske vinkler forvandles et kvadratisk ark til et stilrent katteansikt.',
+      body: `Legg et kvadratisk ark med farget papir foran deg på bordet med spissen pekende opp.
 
-Brett arket diagonalt på midten til en spiss trekant.
+Brett arket diagonalt fra hjørne til hjørne slik at det dannes en rettvinklet trekant.
 
-Brett de to øverste hjørnene ned for å lage hundeører.
+Fold de to øverste hjørnene skrått oppover for å reise kattens spisse ører mot kanten.
 
-Tegn nese, munn og to glade øyne med en fargestift.
+Bøy den nederste spissen av trekanten en centimeter innover for å skape en flat hake.
 
-Hunden din vifter nesten med halen på arket!
+Tegn værhår og mandelformede øyne med en fin penn for å fullføre det geometriske portrettet.
 
-> **Papirvenn:** Brett et papir til og lag en pusekatt med spisse ører!`
+> **Origamiprinsipp:** Stryk alltid tommelfingerneglen hardt over hver brettekant; skarpe bretter gir en stødig figur.`
     },
     tr: {
-      title: 'Kolay Origami: Kedi ve Köpek Yüzü Katlama',
-      description: 'Kare bir kağıdı ikiye katlayıp kulaklarını bükerek sevimli hayvan yüzleri yap!',
-      body: `Sevdiğin renkte kare bir kağıdı önüne koy.
+      title: 'Kağıt Katlama Sanatı: Geometrik Kedi Portresi',
+      description: 'Kare bir kağıdı köşegen çizgiler ve simetrik açılarla katlayarak stilize bir kedi yüzü oluşturma rehberi.',
+      body: `Renkli kare bir kağıdı masanın üzerine köşelerinden biri sana bakacak şekilde yerleştir.
 
-Kağıdı çapraz katlayıp sivri bir üçgen elde et.
+Kağıdı tam ortadan ikiye katlayarak düzgün bir üçgen elde et.
 
-Üstteki iki köşeyi aşağı doğru bükerek kulaklar yap.
+Üçgenin iki yan köşesini yukarı doğru açılı biçimde katlayarak kedinin dik kulaklarını oluştur.
 
-Boya kalemiyle burnunu, ağzını ve neşeli gözlerini çiz.
+Üçgenin alt sivri ucunu bir parmak kadar yukarı katlayıp çene hattını düzleştir.
 
-Kağıttan sevimli köpeğin sana neşeyle gülümsüyor!
+İnce uçlu bir kalemle badem şeklinde gözler ve uzun bıyıklar çizerek portreni tamamla.
 
-> **Kağıt dostu:** Bir kağıt daha alıp kulakları yukarı bakan bir kedi katla!`
+> **Katlama Kuralı:** Her katlama çizgisinin üzerinden tırnağınla iyice geç; net çizgiler origaminin kusursuz durmasını sağlar.`
     }
   },
   {
@@ -148,34 +148,38 @@ Kağıttan sevimli köpeğin sana neşeyle gülümsüyor!
     category: 'aktiviteter',
     ageRange: '4-6',
     no: {
-      title: 'Lag vakker kunst med blader fra skogen',
-      description: 'Finn fine blader ute og trykk dem på papiret med maling!',
-      body: `Plukk tre fine blader fra bakken under et tre.
+      title: 'Botanisk grafikk: Naturtrykk med høstløv',
+      description: 'Bruk ekte blader fra eik og lønn som trykkplater for å overføre naturens mikroskopiske nerver til papir.',
+      body: `Samle tørre og friske blader med tydelige bladnerver under trærne i parken eller skogen.
 
-Mal baksiden av bladet forsiktig med grønn eller rød maling.
+Legg bladet med baksiden opp; det er her nervene stikker tydeligst frem fra overflaten.
 
-Legg bladet med malingen ned mot det hvite arket.
+Påfør et tynt, jevnt lag med mørk gouachemaling over nervene med en flat pensel.
 
-Press lett med hånden og løft bladet forsiktig opp.
+Legg bladet forsiktig med fargesiden ned mot et rent, hvitt tegneark.
 
-Mønsteret fra bladets årer viser seg som ren magi!
+Legg et tørkepapir over og press håndflaten bestemt mot hele flaten før du løfter bladet sakte av.
 
-> **Naturkunst:** Lag et bilde med blader i mange forskjellige farger!`
+Det oppstår et krystallklart botanisk avtrykk som dokumenterer treets indre transportsystem.
+
+> **Samling:** Trykk ulike treslag på samme ark; sammenlign hvordan eikeløvets buer skiller seg fra bjørkens spisser.`
     },
     tr: {
-      title: 'Doğadan Sanat: Yaprak Baskısı Yapımı',
-      description: 'Ağaçların altından toplanan yaprakları boyayıp kağıda basarak doğanın desenlerini keşfet!',
-      body: `Bahçedeki ağaçların altından dökülmüş üç güzel yaprak topla.
+      title: 'Botanik Baskı Atölyesi: Yaprak Damarlarından Doğal Gravür',
+      description: 'Ağaç yapraklarını doğal birer baskı kalıbı olarak kullanarak yaprak damarlarının kusursuz mimarisini kağıda aktarma.',
+      body: `Parktan veya bahçeden damarları belirgin, taze dökülmüş meşe veya çınar yaprakları topla.
 
-Yaprağın damarlı arka yüzünü fırçayla yeşil ya da kırmızıya boya.
+Yaprağı damarlı arka yüzü üste gelecek biçimde masaya ser; desenler bu yüzde daha kabarıktır.
 
-Boyalı kısmı beyaz kağıdın üzerine yavaşça yapıştır.
+Geniş bir fırçayla damarların üzerine ince ve eşit bir kat guaj boya sür.
 
-Elinle hafifçe bastırıp yaprağı kenarından kaldır.
+Boyalı yüzeyi beyaz resim kağıdının üzerine dikkatlice yerleştir.
 
-Yaprağın damarları kağıtta harika bir iz bırakır!
+Üzerine temiz bir kağıt koyup avucunla eşit kuvvetle bastır; ardından yaprağı köşesinden usulca kaldır.
 
-> **Doğa resmi:** Farklı boyutta yapraklar kullanarak renkli bir orman resmi yap!`
+Kağıtta yaprağın tüm besin kanallarını gösteren son derece zarif ve net bir botanik baskı kalır.
+
+> **Doğa Karşılaştırması:** Farklı yaprak türlerini yan yana basarak meşe ve akçaağaç yapraklarının damar desenlerini karşılaştır.`
     }
   },
   {
@@ -183,75 +187,75 @@ Yaprağın damarları kağıtta harika bir iz bırakır!
     category: 'aktiviteter',
     ageRange: '4-6',
     no: {
-      title: 'Fargerike vennskapsbånd med tråd og perler',
-      description: 'Træ perler på en snor og lag et koselig bånd!',
-      body: `Klipp en passe lang tråd sammen med en voksen.
+      title: 'Trådsløyd og rytme: Armbånd med geometriske mønstre',
+      description: 'Lær å tre perler i faste sekvenser for å utforske fargeteori, mønsterrepetisjon og finmotorisk presisjon.',
+      body: `Klipp en vokset bomullstråd på omtrent tretti centimeter og bind en stødig knute i den ene enden.
 
-Finn frem perler i alle regnbuens fine farger.
+Sorter treperler i skåler etter primærfarger og komplementærfarger på arbeidsbordet.
 
-Træ én og én perle forsiktig inn på tråden.
+Træ perlene inn på snoren i et strengt gjentakende mønster: to dypblå, én lys oker, to skoggrønne.
 
-Knytt en trygg knute i begge endene av snoren.
+Gjennom denne rytmen lærer øyet å gjenkjenne matematiske sekvenser og harmoniske fargeoverganger.
 
-Nå har du et nydelig bånd til håndleddet ditt!
+Når båndet når rundt håndleddet, knyttes endene sammen i en solid dobbeltknute som sikres med en dråpe trelim.
 
-> **Gi bort:** Gi et hjemmelaget perlebånd i gave til en god venn!`
+> **Mønsterlek:** Tegn mønsteret ditt på et papir med fargeblyanter før du begynner å tre perlene på snoren.`
     },
     tr: {
-      title: 'İp ve Boncukla Gökkuşağı Bilekliği',
-      description: 'Rengarenk boncukları ipe dizerek arkadaşına hediye edebileceğin harika bileklikler yap!',
-      body: `Büyüklerinden yardım alarak uygun uzunlukta bir ip kes.
+      title: 'İp ve Boncuk Zanaatı: Ritmik Geometrik Bileklik',
+      description: 'Renk sıralaması ve tekrarlayan desenlerle boncuk dizerek ritim duygusunu ve el koordinasyonunu geliştirme çalışması.',
+      body: `Yaklaşık otuz santimetre uzunluğunda pamuklu sağlam bir ip kesip ucuna açılmayacak bir düğüm at.
 
-Gökkuşağının bütün renklerindeki minik boncukları önüne diz.
+Ahşap boncukları masadaki küçük kaselere renklerine göre özenle ayır.
 
-Boncukları tek tek ve dikkatle ipin içinden geçir.
+Boncukları ipe düzenli bir matematiksel örüntüyle diz: iki lacivert, bir sarı, iki orman yeşili.
 
-İpin iki ucunu açılmayacak sağlam bir düğümle bağla.
+Bu düzenli tekrar, gözün renk armonilerini ve geometrik ritimleri doğal olarak kavramasını sağlar.
 
-Bileğinde pırıl pırıl parıldayan gökkuşağı bilekliğin hazır!
+Bileklik boyuna ulaştığında iki ucu sağlam bir çifte düğümle bağlayarak tamamla.
 
-> **Sevgi hediyesi:** Bu güzel bilekliği en sevdiğin arkadaşına hediye et!`
+> **Tasarım Planı:** İpe dizmeye başlamadan önce boncuk renklerinin sırasını kağıda boyayarak kendi modelini çiz.`
     }
   },
 
-  // 7-9 YAŞ (8 KONU - Cümle sınırı: ≤18 kelime)
+  // 7-9 YAŞ (8 KONU - Deney, maket, aerodinamik, botanik ve görsel ilkeler)
   {
     slug: 'lag-en-regnbue-med-et-vannglass',
     category: 'aktiviteter',
     ageRange: '7-9',
     no: {
-      title: 'Hvordan fange en regnbue med et vannglass og sollys?',
-      description: 'Se hvordan hvitt lys splittes i alle regnbuens farger ved hjelp av vann og et lite speil.',
-      body: `Hvitt sollys ser fargeløst ut, men det inneholder egentlig alle fargene i hele regnbuen.
+      title: 'Optisk prisme: Fang solens fargespekter med vann og speil',
+      description: 'Demonstrer hvordan hvitt sollys brytes og spres i sine syv spektralfarger ved hjelp av enkle husholdningsartikler.',
+      body: `Hvitt dagslys inneholder alle synlige bølgelengder av lys, men for å skille dem fra hverandre må vi tvinge lysstrålene gjennom et brytende medium.
 
-Fyll et klart glass med lunkent vann og sett det i en solfylt vinduskarm.
+Fyll en dyp glasskål eller et klart vannglass halvfullt med rent vann og plasser det i en vinduskarm med direkte solinnfall.
 
-Plasser et lite lommespeil på skrå nedi vannet slik at sollyset treffer glasset.
+Plasser et lite, flatt baderomsspeil på skrå nedi vannet slik at speilflaten vender opp mot de innkommende solstrålene.
 
-Hold et hvitt papirark foran speilet til en lysende regnbue danser på papiret.
+Juster vinkelen til speilet reflekterer lyset ut i rommet mot en hvit vegg eller et stort ark tegnepapir.
 
-Vannet og glasset fungerer som et optisk prisme som bryter og sprer lysstrålene.
+Vannet over speilet danner et flytende prisme; lyset bremses og bøyes ulikt avhengig av bølgelengde.
 
-Dette er nøyaktig det samme som skjer når regndråper i luften skaper regnbuer.
+På veggen avtegner det seg et skarpt regnbuespekter fra rødt med lengst bølgelengde til fiolett med kortest bølgelengde.
 
-> **Fargejakt:** Tell alle de syv fargene du klarer å se på det hvite arket!`
+> **Vitenskapelig oppgave:** Hold et farget gjennomsiktig plastark foran lysstrålen; observer hvilke deler av spekteret som blokkeres.`
     },
     tr: {
-      title: 'Bir Bardak Su ve Aynayla Gökkuşağı Yakalama',
-      description: 'Beyaz güneş ışığının su damlacıklarında nasıl renklere ayrıldığını gösteren odada gökkuşağı yakalama deneyi!',
-      body: `Gözümüze renksiz görünen güneş ışığı aslında evrendeki bütün parlak renkleri içinde gizler.
+      title: 'Optik Deney: Su Dolu Bardak ve Aynayla Spektrum Yakalama',
+      description: 'Beyaz gün ışığının su prizmasında kırılarak yedi tayf rengine ayrılmasını evde gözlemleme rehberi.',
+      body: `Gözümüze renksiz görünen gün ışığı aslında tüm görünür ışık dalga boylarının kusursuz bir bileşimidir.
 
-Şeffaf bir su bardağını temiz suyla doldurup güneş alan pencerenin kenarına koy.
+Derin bir cam kabı veya geniş bir bardağı suyla doldurup doğrudan güneş alan bir pencere pervazına koy.
 
-Bardağın içine küçük bir aynayı hafif eğik biçimde yerleştir.
+Küçük düz bir aynayı suyun içine yaklaşık kırk beş derecelik bir açıyla, güneşe bakacak şekilde yerleştir.
 
-Aynadan yansıyan ışığın önüne beyaz bir kağıt tutarak gökkuşağını yakala.
+Aynadan yansıyan ışığı odadaki beyaz bir duvara veya geniş bir resim kağıdına doğru yönlendir.
 
-Su ve cam ışığı kırarak kırmızıdan mora kadar bütün renkleri sırayla ayırır.
+Suyun oluşturduğu sıvı prizma ışığı kırar; her dalga boyu farklı bir açıyla bükülerek birbirinden ayrılır.
 
-Gökyüzündeki yağmur damlaları da işte tam olarak bu muhteşem doğa olayını gerçekleştirir.
+Yansıyan ışıkta kırmızıdan mora uzanan net bir spektrum kuşağının duvarda parıldadığını görürsün.
 
-> **Renk saymaca:** Kağıdın üzerine düşen gökkuşağındaki yedi rengi sırayla saymayı dene!`
+> **Bilimsel Soru:** Işığın önüne renkli şeffaf bir jelatin tut; spektrumun hangi renklerinin emildiğini dikkatle incele.`
     }
   },
   {
@@ -259,38 +263,38 @@ Gökyüzündeki yağmur damlaları da işte tam olarak bu muhteşem doğa olayı
     category: 'aktiviteter',
     ageRange: '7-9',
     no: {
-      title: 'Steg for steg: Lær å tegne et kjempesøtt ekorn',
-      description: 'Med enkle sirkler og buer kan du tegne et sjarmerende ekorn med stor, bustete hale!',
-      body: `Tegning er en morsom ferdighet som blir lettere når du deler figuren inn i enkle former.
+      title: 'Tegnekunst for oppdagere: Ekornets proporsjoner og anatomi',
+      description: 'Lær å bygge opp en anatomisk korrekt dyretegning ved hjelp av geometriske grunnformer, skravering og tekstur.',
+      body: `All klassisk tegning hviler på å observere komplekse motiver som sammensetninger av enkle geometriske volumer.
 
-Start med å tegne en oval sirkel for kroppen og en litt mindre sirkel for hodet.
+Begynn med å skissere en eggformet oval for kroppen og en mindre sirkel like over for hodet med en lys blyant.
 
-Tegn to spisse ører med små hårtufser på toppen og et stort, mørkt øye.
+Tegn hjelpelinjer for ryggradens kurve; ekornet sitter vanligvis krummet over bakbeina med tyngdepunktet lavt.
 
-Legg til to bittesmå forpoter som holder godt fast i en rund eikenøtt.
+Legg til de kompakte baklabbene og de smidige forpotene som holdes samlet foran brystet som om de griper en kongle.
 
-Den store hemmeligheten er halen: tegn en enorm, myk bueformet kurve som svinger oppover ryggen.
+Skisser den karakteristiske S-kurven til den buskete halen, som fungerer både som ror ved hopp og som varmeteppe om vinteren.
 
-Fargelegg ekornet med varme oransje og brune farger og gi magen et lyst felt.
+Bruk korte, tette blyantstrøk i pelsens vekstretning for å bygge opp volum og gi halefjærene en realistisk ullen tekstur.
 
-> **Tegnetips:** Bruk en myk blyant først slik at du kan hviske ut hjelpelinjene etterpå!`
+> **Atelierprinsipp:** Unngå å trykke hardt på blyanten i startfasen; hold linjene lette til alle proporsjoner stemmer med helheten.`
     },
     tr: {
-      title: 'Adım Adım Sevimli Sincap Çizimi',
-      description: 'Daireler ve kavisli çizgiler kullanarak fındık kemiren püsküllü kuyruklu sevimli bir sincap çizme rehberi!',
-      body: `Resim yapmak karmaşık görünen canlıları basit geometrik şekillere böldüğümüzde çok kolaylaşır.
+      title: 'Çizim Atölyesi: Form, Anatomi ve Dokuyla Sincap Çizimi',
+      description: 'Basit geometrik hacimler, omurga eğrileri ve tarama teknikleriyle gerçekçi bir hayvan illüstrasyonu oluşturma.',
+      body: `Klasik desen çizimi, karmaşık canlı formlarını temel geometrik hacimler üzerinden inşa etme esasına dayanır.
 
-Önce sincabın gövdesi için bir oval, başı içinse daha küçük yuvarlak bir daire çiz.
+Önce hafif bir kurşun kalemle gövde için yumurta biçiminde bir oval, baş içinse hemen üstünde daha küçük bir daire çiz.
 
-Başın üstüne iki sivri kulak kondur ve ortasına parlak siyah bir göz ekle.
+Sincabın omurgasını gösteren hafif bir yay çek; sincaplar genellikle ağırlık merkezini arka ayaklarına vererek çömelir.
 
-Göğsünün hizasına lezzetli bir meşe palamudu tutan minik iki el yerleştir.
+Gövdenin altına güçlü arka patileri, göğüs hizasına ise bir meşe palamudu tutan çevik ön elleri yerleştir.
 
-İşin en eğlenceli kısmı ise sırtından yukarı kıvrılan kocaman püsküllü bir kuyruktur.
+Sırtından yukarı doğru kıvrılan görkemli kuyruk için geniş bir S eğrisi çiz; kuyruk sincaba dengede kalma yeteneği verir.
 
-Sincabını turuncu ve sıcak kahverengi tonlarıyla boyayarak göbeğini krem rengi bırak.
+Kürkün uzama yönüne paralel kısa ve ritmik tarama çizgileri çekerek kuyruğa dolgun ve gerçekçi bir doku kazandır.
 
-> **Ressam kuralı:** Önce kurşun kalemle hafif çizgiler çiz ki gereksiz hatları kolayca silebilesin!`
+> **Ressam Kuralı:** İlk aşamada kalemi kağıda fazla bastırma; oranlar tamamen oturana kadar çizgilerini hafif ve silinebilir tut.`
     }
   },
   {
@@ -298,39 +302,38 @@ Sincabını turuncu ve sıcak kahverengi tonlarıyla boyayarak göbeğini krem r
     category: 'aktiviteter',
     ageRange: '7-9',
     no: {
-      title: 'Bygg de beste papirflyene som glir lengst!',
-      description: 'Brett en klassisk glider eller en rask pil og test hvordan vingene fanger luften.',
-      body: `Papirfly er en spennende kombinasjon av gammel brettekunst og ekte aerodynamikk.
+      title: 'Aerodynamisk bretting: Konstruksjon av langdistansefly i papir',
+      description: 'Test hvordan vingespenn, balanseror og vektfordeling påvirker papirflyets glideflukt og stabilitet i luften.',
+      body: `Konstruksjon av papirfly er en praktisk introduksjon til grunnleggende prinsipper innen flyteknikk og strømlinjeforming.
 
-Bruk et vanlig A4-ark og sørg for at alle brettene blir knivskarpe med tommelen.
+Bruk et standard A4-ark med jevn fiberstruktur og sørg for at hver fold er symmetrisk langs arkets midtlinje.
 
-En spiss pil kutter luften raskt og flyr rett frem med høy hastighet.
+En smal pilform med tilspissede vinger reduserer luftmotstanden og gir høy kastehastighet i en rett kulebane.
 
-Et fly med brede vinger fanger derimot luftstrømmene og kan sveve sakte og elegant i sirkler.
+Et bredvinget glidefly fanger derimot oppadgående luftstrømmer og holder seg svevende i store, langsomme sirkler.
 
-Bøy vingespissene bittelitt oppover for å gi flyet bedre stabilitet mot turbulens i rommet.
+Bøy de bakerste vingekantene noen millimeter oppover for å skape høyderor; dette motvirker flyets tendens til å stupe nesen i bakken.
 
-Kast flyet med en myk og jevn bevegelse i stedet for å bruke rå kraft.
+Gjennom systematiske prøvekast kan du justere vingevinklene til modellen oppnår perfekt aerodynamisk likevekt.
 
-> **Konkurranse:** Test tre ulike brettinger i stuen og mål hvem som lander lengst unna!`
+> **Ingeniørlogg:** Gjennomfør fem testkast med tre ulike vingemodeller; noter flytid og distanse i et enkelt måleskjema.`
     },
     tr: {
-      title: 'En Uzağa Uçan Origami Uçak Katlama',
-      description: 'Aerodinamik kurallarıyla havada süzülen veya ok gibi fırlayan en iyi kağıt uçakları katlama sanatı!',
-      body: `Kağıt uçak yapmak Japon katlama sanatı origami ile havacılık biliminin harika bir buluşmasıdır.
+      title: 'Aerodinamik Katlama: Uzun Mesafe Kağıt Uçak Tasarımı',
+      description: 'Kanat açıklığı, denge kanatçıkları ve ağırlık merkezi ilkeleriyle havada uzun süre süzülen uçaklar inşa etme rehberi.',
+      body: `Kağıt uçak katlamak, havacılık mühendisliğinin aerodinamik ve akışkanlar prensiplerini doğrudan deneyimlemenin en pratik yoludur.
 
-Düzgün bir A4 kağıdı al ve her katlama çizgisinin üzerinden tırnağınla iyice geç.
+Düzgün lifli standart bir A4 kağıt alıp orta hat boyunca katlamaların kusursuz bir simetriye sahip olmasını sağla.
 
-Sivri burunlu ince uçaklar havayı hızla delip ok gibi ileriye doğru fırlar.
+Sivri burunlu ve dar kanatlı modeller hava sürtünmesini en aza indirerek ileriye doğru ok gibi hızla fırlar.
 
-Geniş kanatlı uçaklar ise hava akımlarını yakalayarak odada zarifçe ve uzun süre süzülür.
+Geniş kanatlı planör tasarımları ise odadaki hava akımlarını kanat altında toplayarak uzun süre zarifçe süzülür.
 
-Kanatların ucunu hafifçe yukarı doğru kıvırmak uçağın dengesini korumasını ve takla atmamasını sağlar.
+Kanatların arka uçlarını milimetrik olarak yukarı kıvırmak irtifa dümeni işlevi görür ve uçağın burun üstü çakılmasını önler.
 
-Uçağı fırlatırken sertçe atmak yerine omzundan yumuşak bir hareketle ileriye doğru süzdür.
+Her deneme uçuşunda kanat açılarını ince ayarla düzelterek hava direnci ile kaldırma kuvveti arasında mükemmel bir denge yakala.
 
-> **Menzil yarışı:** Evde üç farklı model katlayıp koridorda en uzağa giden uçağı belirle!
-`
+> **Mühendislik Kaydı:** Üç farklı kanat modeliyle beşer deneme uçuşu yap; süzülme süresini ve mesafesini bir tabloya not et.`
     }
   },
   {
@@ -338,38 +341,38 @@ Uçağı fırlatırken sertçe atmak yerine omzundan yumuşak bir hareketle iler
     category: 'aktiviteter',
     ageRange: '7-9',
     no: {
-      title: 'Morsomt kjøkkeneksperiment: Den boblende vulkanen',
-      description: 'Bygg et krater av leire og se et ufarlig utbrudd av rød lava med natron og eddik!',
-      body: `Kjemi kan være like spennende som et ekte naturvitenskapelig eventyr på laboratoriet.
+      title: 'Kjemisk geologi: Bygg en modellvulkan med syre-base-reaksjon',
+      description: 'Utforsk hvordan natriumbikarbonat og eddiksyre produserer gass under trykk som etterligner et vulkanutbrudd.',
+      body: `Vulkanutbrudd i naturen drives av oppløste gasser som utvider seg under enormt trykk dypt nede i magmakammeret.
 
-Sett en liten plastkopp i midten av et dypt fat for å samle opp sølet.
+Vi kan simulere dette geologiske prinsippet trygt på kjøkkenbenken ved å utnytte en syre-base-reaksjon.
 
-Bygg et fjell av trolldeig eller modellkitt rundt koppen slik at det ligner en vulkan.
+Plasser en liten sylinderformet plastbeholder midt på et dypt brett og bygg et kjeglefjell av leire rundt kantene.
 
-Hell to spiseskjeer natron, litt oppvaskmiddel og noen dråper rød konditorfarge nedi krateret.
+Fyll beholderen med to spiseskjeer natron, litt flytende oppvasksåpe og noen dråper rød farge for å simulere lava.
 
-Hell eddik forsiktig oppi og se det skummende, røde utbruddet fosse over kantene.
+Når du heller vanlig husholdningseddik ned i krateret, reagerer eddiksyren umiddelbart med natriumhydrogenkarbonatet.
 
-Eddiksyren reagerer med natronet og danner millioner av bobler med ufarlig karbondioksidgass.
+Reaksjonen danner store mengder karbondioksidgass som fanges i såpeskummet og fosser over kraterkanten som en rød strøm.
 
-> **Forskerblikk:** Hva skjer hvis du tilsetter litt mer oppvaskmiddel før du heller i eddiken?`
+> **Geologifakta:** I virkelige vulkaner som Etna er det vanndamp og svovelgasser under høyt trykk som slynger lavaen til værs.`
     },
     tr: {
-      title: 'Mutfakta Güvenli Deney: Köpüren Yanardağ',
-      description: 'Karbonat ve sirkenin kimyasal tepkimesiyle fışkıran kırmızı lavlar: Evde güvenli yanardağ deneyi!',
-      body: `Kimya bilimi mutfaktaki malzemelerle bile inanılmaz görsel mucizeler yaratabileceğimiz eğlenceli bir dünyadır.
+      title: 'Kimyasal Jeoloji: Asit-Baz Tepkimesiyle Çalışan Model Yanardağ',
+      description: 'Karbonat ve sirke tepkimesiyle oluşan karbondioksit gazının magma odası basıncını nasıl taklit ettiğini inceleme deneyi.',
+      body: `Doğadaki volkanik patlamalar, yer kabuğunun altındaki magma odasında sıkışan gazların yüksek basınçla genişlemesiyle meydana gelir.
 
-Geniş bir tepsinin ortasına küçük bir cam veya plastik bardak yerleştir.
+Bu jeolojik olayı mutfakta asit-baz kimyasal reaksiyonu yardımıyla güvenli bir model üzerinde inceleyebiliriz.
 
-Bardağın etrafını oyun hamuruyla kaplayarak heybetli bir yanardağ dağı inşa et.
+Derin bir tepsinin ortasına küçük silindirik bir kap koyup etrafını kilden bir koni dağı şeklinde kapla.
 
-Bardağın içine iki kaşık karbonat, biraz sıvı sabun ve kırmızı gıda boyası ekle.
+Kabın içine iki yemek kaşığı karbonat, birkaç damla sıvı sabun ve lav rengini taklit etmek için kırmızı boya ekle.
 
-Üzerine sirke döktüğünde bardağın ağzından kırmızı köpüklerin lav gibi taştığını göreceksin.
+Kraterin içine sirke döktüğün anda asetik asit ile sodyum bikarbonat molekülleri şiddetle tepkimeye girer.
 
-Sirke ile karbonat tepkimeye girerek milyonlarca karbondioksit gaz kabarcığı üretir.
+Açığa çıkan karbondioksit gazı sabun köpüklerine hapsolarak genişler ve kraterin ağzından kırmızı bir lav akıntısı gibi taşar.
 
-> **Bilimsel gözlem:** Sıvı sabun miktarını artırdığında köpüklerin nasıl daha kabarık olduğunu incele!`
+> **Jeoloji Bilgisi:** Gerçek yanardağlarda lavı yeryüzüne fışkırtan asıl güç, magmanın içinde çözünmüş haldeki yüksek basınçlı gazlardır.`
     }
   },
   {
@@ -377,38 +380,38 @@ Sirke ile karbonat tepkimeye girerek milyonlarca karbondioksit gaz kabarcığı 
     category: 'aktiviteter',
     ageRange: '7-9',
     no: {
-      title: 'Bygg et lite minidrivhus i en plastkopp',
-      description: 'Se et lite bønnefrø spire og strekke røttene sine i et gjennomsiktig minidrivhus.',
-      body: `Et frø bærer på en utrolig livskraft som bare venter på vann og varme.
+      title: 'Botanisk veksthuskammer: Frøspiring i lukket mikroklima',
+      description: 'Konstruer et gjennomsiktig miniveksthus for å observere hvordan fuktighet, varme og oksygen vekker kimplanten.',
+      body: `Et frø er en sovende botanisk kapsel som inneholder et komplett embryo og opplagsnæring for den første vekstfasen.
 
-Legg fuktig bomull eller litt plantejord i bunnen av et gjennomsiktig plastbeger.
+For å studere denne prosessen uten å forstyrre røttene, kan du bygge et veksthuskammer av et gjennomsiktig plastbeger.
 
-Plasser et par tørkede bønner inntil plastveggen slik at du kan se dem fra utsiden.
+Legg et lag med fuktet tørkepapir eller ren bomull langs innerveggen av begeret.
 
-Dekk toppen med plastfolie og stikk noen bittesmå luftehull med en tannpirker.
+Skyv to tørkede bønnefrø forsiktig ned mellom plastveggen og bomullen slik at frøene er fullt synlige fra utsiden.
 
-Sett begeret i en lun vinduskarm der det får masse dagslys og hold bomullen fuktig.
+Strekk gjennomsiktig plastfilm over toppen for å holde på luftfuktigheten og stikk noen luftehull for gassutveksling.
 
-Etter få dager sprekker skallet, roten vokser nedover og grønne spirer klatrer opp mot lyset.
+Plasser begeret i lyst, indirekte sollys; innen få dager sprekker frøskallet, kimroten søker nedover og kimbladene strekker seg mot lyset.
 
-> **Botaniker:** Mål spiren din med en linjal hver morgen og skriv opp veksten i en notatbok!`
+> **Forskerlogg:** Bruk en millimeterlinjal daglig; tegn frøets utvikling i tre stadier: rotfeste, stengelstrekk og bladdanning.`
     },
     tr: {
-      title: 'Kendi Mini Seranı Kur: Fasulye Çimlendirme',
-      description: 'Şeffaf bardakta nem ve ısıyla fasulye tohumunun köklenişini adım adım izleme projesi!',
-      body: `Kuru bir fasulye tohumu doğru ısı ve nemi bulduğunda uyanmayı bekleyen bir mucizedir.
+      title: 'Botanik Gözlem Odası: Şeffaf Mini Serada Tohum Çimlenmesi',
+      description: 'Tohumun içindeki embriyonun nem ve ısıyla uyanışını, kök ve yaprak gelişimini şeffaf haznede izleme projesi.',
+      body: `Tohum, içinde eksiksiz bir bitki embriyosu ve ilk besin deposunu barındıran dayanıklı bir biyolojik kapsüldür.
 
-Şeffaf bir bardağın dibine nemli pamuk veya biraz temiz saksı toprağı yerleştir.
+Gelişim sürecini köklere zarar vermeden incelemek için şeffaf bir plastik bardaktan kontrollü bir sera odası kurabilirsin.
 
-İki adet kuru fasulyeyi bardağın şeffaf kenarına yakın şekilde pamukların arasına koy.
+Bardağın iç çeperine nemli pamuk veya temiz peçete katmanları yerleştir.
 
-Bardağın ağzını streç filmle kapatıp üzerine kürdanla minik hava delikleri aç.
+İki kuru fasulye tohumunu bardağın şeffaf kenarı ile pamuk arasına, dışarıdan rahatça görünecek şekilde sıkıştır.
 
-Bardağı güneş alan ılık bir pencere pervazına koy ve pamuğun kurumasını engelle.
+Bardağın ağzını nemi içeride tutacak şeffaf bir filmle kapat ve oksijen girişi için birkaç iğne deliği aç.
 
-Birkaç gün içinde tohumun çatlayıp köklerinin aşağıya, filizlerinin yukarıya uzadığını göreceksin.
+Düzeneği aydınlık bir pervaza yerleştir; birkaç gün içinde tohum kabuğu çatlar, ana kök aşağıya, filiz ise yukarıya uzanır.
 
-> **Büyüme günlüğü:** Her sabah filizin boyunu cetvelle ölçüp bir deftere not al!`
+> **Gözlem Defteri:** Her gün cetvelle ölçüm yap; tohumun kök salma, gövde uzatma ve yaprak açma evrelerini defterine çizerek belgele.`
     }
   },
   {
@@ -416,38 +419,38 @@ Birkaç gün içinde tohumun çatlayıp köklerinin aşağıya, filizlerinin yuk
     category: 'aktiviteter',
     ageRange: '7-9',
     no: {
-      title: 'Lag ditt eget dukketeater av en skoeske',
-      description: 'Forvandle en tom skoeske til en magisk teaterscene med baktepper og papirfigurer på grillpinner.',
-      body: `En gammel skoeske kan bli til den mest fantastiske teaterscenen du kan forestille deg.
+      title: 'Scenografi og mekanikk: Bygg et miniatyrteater i papp',
+      description: 'Lær grunnprinsipper innen scenearkitektur, kulisseveksling og figurmekanikk ved hjelp av en gjenbrukt skoeske.',
+      body: `Teaterarkitektur handler om å skape en illusjon av en hel verden innenfor en avgrenset visuell ramme.
 
-Klipp ut et stort rektangel i bunnen av esken for å lage selve sceneåpningen.
+Skjær ut en stor rektangulær portal i bunnen av en solid skoeske for å danne scenens prosceniumsåpning.
 
-Tegn vakre bakgrunner på hvite ark med skoger, slott eller hav, og fest dem bak.
+Skjær parallelle spor i eskens overside; gjennom disse sporene kan scenearbeideren skyve kulisser og baktepper inn og ut.
 
-Tegn figurer på stiv papp, klipp dem ut og lim dem fast på trepinner.
+Tegn karakterer på stiv kartong, klipp dem presist ut og fest dem til tynne trepinner med lim eller maskeringstape.
 
-Klipp smale sprekker i toppen av esken slik at du kan styre figurene ovenfra.
+Figurene senkes ned gjennom toppsporene slik at dukkeføreren kan manipulere bevegelsene uten å synes for publikum.
 
-Skru av lyset i rommet og lys opp scenen med en lommelykt bakfra for stemning.
+Ved å plassere en lyskilde i skrå vinkel fra siden skapes dramatiske slagskygger som gir scenen dybde og mystikk.
 
-> **Teatersjef:** Inviter familien til premiere og spill en morsom historie du har funnet på selv!`
+> **Sceneprøve:** Mal et nattlandskap og et dagslandskap på to ulike baktepper; skift mellom dem under forestillingen for å markere tidens gang.`
     },
     tr: {
-      title: 'Karton Kutudan Mini Kukla Tiyatrosu Yapımı',
-      description: 'Ayakkabı kutusunu sahneye dönüştürüp çubuk kuklalarla kendi oyununu sergileme sanatı!',
-      body: `Eski bir ayakkabı kutusu biraz hayal gücüyle harika bir tiyatro sahnesine dönüşebilir.
+      title: 'Sahne Tasarımı ve Mekanik: Karton Kutudan Minyatür Tiyatro',
+      description: 'Karton ayakkabı kutusunu sahne mimarisi, kayar dekor panelleri ve kukla mekanizmasıyla bir sahneye dönüştürme.',
+      body: `Tiyatro sahne tasarımı, sınırlı bir mekan içinde derinlik ve atmosfer hissi yaratarak izleyiciye bir dünya sunma sanatıdır.
 
-Kutunun kapağını çıkarıp tabanından geniş bir pencere keserek sahne boşluğunu oluştur.
+Sert bir ayakkabı kutusunun tabanından geniş bir pencere keserek sahnenin ana çerçevesini oluştur.
 
-Arka fona orman, şato veya deniz resimleri çizip kutunun arkasına yapıştır.
+Kutunun tavanına boydan boya paralel yarıklar aç; bu yarıklar arka plan dekorlarının kaydırılarak değiştirilmesini sağlar.
 
-Karakterlerini sert bir kartona çiz, kes ve altlarına ahşap dondurma çubukları yapıştır.
+Karakterleri kalın kartonlara çiz, kes ve alt kısımlarına ahşap çıtalar sabitle.
 
-Kutunun üst kısmına ince yarıklar açarak kuklalarını yukarıdan sahneye indirebilirsin.
+Kuklaları tavan yarıklarından sahneye indirerek seyirciye görünmeden karakterleri yönlendirebilirsin.
 
-Odanın ışıklarını kapatıp sahneyi bir el feneriyle aydınlatarak gizemli bir hava yakala.
+Yandan yönlendireceğin bir el feneri ışığı sahneye güçlü gölgeler düşürerek üç boyutlu bir atmosfer kazandırır.
 
-> **Sahne sırası:** Aileni salona davet et ve yazdığın eğlenceli tiyatro oyununu sergile!`
+> **Dekor Değişimi:** Biri geceyi diğeri gündüzü temsil eden iki ayrı arka fon çiz; oyun sırasında paneli kaydırarak zaman geçişini canlandır.`
     }
   },
   {
@@ -455,38 +458,38 @@ Odanın ışıklarını kapatıp sahneyi bir el feneriyle aydınlatarak gizemli 
     category: 'aktiviteter',
     ageRange: '7-9',
     no: {
-      title: 'Lag et ekte solur med farget kritt i skolegården',
-      description: 'Hvordan fortalte folk tiden før armbåndsuret fantes? Bygg et solur med solen og skygger.',
-      body: `Før menneskene oppfant mekaniske klokker, leste de tiden ved å studere solens vandring på himmelen.
+      title: 'Astronomisk tidtaking: Konstruer et nøyaktig solur i skolegården',
+      description: 'Utnytt Jordens jevne rotasjon og solens skyggekast til å kalibrere et fungerende horisontalt solur.',
+      body: `Før oppfinnelsen av pendelur og atomur leste menneskeheten tiden ved å observere hvordan skygger vandret over bakken.
 
-Finn en åpen asfaltplass som har full sol hele dagen fra morgen til ettermiddag.
+Finn en åpen, solrik plass på asfalt eller steinheller som har fri sikt mot himmelen hele dagen.
 
-Sett en rett pinne eller en kjegle i midten av en stor krittsirkel.
+Plasser en rett, vertikal stang, kalt en gnomon, i midten av flaten og tegn en stor krittsirkel rundt den.
 
-Hver hele time går du ut og tegner en strek der pinnens skygge faller på asfalten.
+Hver hele time går du ut og trekker en snorrett linje langs midten av skyggen som stangen kaster på bakken.
 
-Skriv klokkeslettet ved enden av streken med farget kritt og se mønsteret vokse.
+Noter det nøyaktige klokkeslettet ved ytterkanten av hver skyggestrek med holdbart kritt.
 
-Skyggen flytter seg jevnt fordi jorden roterer rundt sin egen akse fra vest mot øst.
+Skyggens vandring skyldes at Jorden roterer jevnt rundt sin egen akse fra vest mot øst med femten grader i timen.
 
-> **Vitenskapsmann:** Kom tilbake neste solskinnsdag og se om skyggen treffer de samme krittmerkene!`
+> **Tidsavvik:** Sammenlign solurets skygge med armbåndsuret ditt noen uker senere; undersøk hvorfor soltid og standardtid kan variere litt.`
     },
     tr: {
-      title: 'Renkli Tebeşirle Güneş Saati Yapımı',
-      description: 'Mekanik saatlerden önce zamanı gösteren kadim icat: Bahçede gölge ve güneşle saat yapımı!',
-      body: `İnsanlar mekanik saatleri icat etmeden önce gökyüzündeki güneşin hareketlerini takip ederek zamanı okurlardı.
+      title: 'Güneş Saati İnşası: Gölge ve Açıyla Astronomik Zaman Ölçümü',
+      description: 'Dünya’nın dönüş hızını ve güneş ışığının düşüş açısını kullanarak zeminde kusursuz bir yatay saat oluşturma.',
+      body: `Mekanik ve atomik saatler geliştirilmeden önce uygarlıklar zamanı gölgelerin yerdeki düzenli hareketini izleyerek ölçerdi.
 
-Günün büyük bölümünde doğrudan güneş alan düz ve taşlık bir alan seç.
+Gün boyu doğrudan güneş alan, engelsiz ve düz bir taş zemin belirle.
 
-Yere dik bir çubuk dik veya koni koyup etrafına tebeşirle geniş bir daire çiz.
+Zeminin tam ortasına dikey ve düz bir çubuk dikerek çevresine tebeşirle geniş bir daire çiz; bu çubuğa gnomon denir.
 
-Her saat başı dışarı çıkıp çubuğun gölgesinin düştüğü yere tebeşirle bir çizgi çek.
+Her saat başında dışarı çıkıp çubuğun zemine düşürdüğü gölgenin tam merkez hattına düz bir çizgi çek.
 
-Çizginin ucuna saati yazarak gün boyu gölgenin nasıl hareket ettiğini takip et.
+Çizginin ucuna saati not et; gün ilerledikçe gölgenin bir kadran gibi düzenli aralıklarla ilerlediğini göreceksin.
 
-Gölgenin düzenli hareketi Dünya’mızın kendi ekseni etrafında batıdan doğuya doğru dönmesinden kaynaklanır.
+Gölgenin bu kusursuz hareketi, gezegenimizin kendi ekseni etrafında saatte on beş derecelik sabit bir hızla dönmesinden kaynaklanır.
 
-> **Zaman dedektifi:** Ertesi güneşli gün dışarı çıkıp gölgenin aynı çizgilere denk gelip gelmediğini kontrol et!`
+> **Gözlem Farkı:** Birkaç hafta sonra aynı saatte gölgenin konumunu kontrol et; mevsimsel güneş yüksekliğinin gölge boyunu nasıl etkilediğini tartış.`
     }
   },
   {
@@ -494,79 +497,79 @@ Gölgenin düzenli hareketi Dünya’mızın kendi ekseni etrafında batıdan do
     category: 'aktiviteter',
     ageRange: '7-9',
     no: {
-      title: 'Lag koselige bokmerker med tørkede blomster',
-      description: 'Press fine sommerblomster i tunge bøker og lag varige bokmerker med kartong og snor.',
-      body: `Pressing av blomster er en vakker tradisjon som lar deg bevare sommerens farger hele året.
+      title: 'Herbarium på kartong: Botaniske bokmerker med presseduk',
+      description: 'Lær tradisjonell plantepressing for å bevare markblomsters morfologi og fargepigmenter i et varig bokmerke.',
+      body: `Herbarieinnsamling er en vitenskapelig og kunstnerisk metode som botanikere har brukt i århundrer for å bevare planteprøver.
 
-Plukk små, flate blomster som forglemmegei, fioler eller kløver på en tørr og solrik dag.
+Plukk små blomster med slanke kronblader på en tørr formiddag etter at morgenfrosten eller duggen har fordampet.
 
-Legg blomstene forsiktig mellom to ark med tørkepapir inni en tung og tykk bok.
+Legg blomstene forsiktig utbredt mellom to lag porøst trekkpapir eller avispapir inni en tung bokpresse.
 
-La boken ligge i ro i en uke slik at all fuktigheten trekkes helt ut.
+Plasser jevn vekt over boken og la den stå uforstyrret i to uker slik at fuktigheten trekkes langsomt ut av plantevevet.
 
-Lim de tørkede blomstene på en stripe med stiv kartong og dekk med gjennomsiktig bokplast.
+Når planten er fullstendig tørr og papirtynn, løftes den med pinsett og monteres på en stripe stiv akvarellkartong.
 
-Lag et hull øverst med en hullemaskin og knytt en fin silkesnor gjennom hullet.
+Beskytt det botaniske eksemplaret med en selvklebende matt film for å hindre at oksygen og slitasje bryter ned pigmentene.
 
-> **Bokorm:** Legg det vakre bokmerket i favorittboken din så finner du alltid riktig side!`
+> **Artsetikett:** Skriv plantens norske og latinske artsnavn samt dato og funnsted nederst på bokmerket slik botanikere gjør.`
     },
     tr: {
-      title: 'Kuru Çiçeklerle Doğal Kitap Ayracı Yapımı',
-      description: 'Ağır kitapların arasında kurutulan kır çiçeklerini şık ve kalıcı bir kitap ayracına dönüştürme sanatı!',
-      body: `Çiçek kurutmak doğanın en zarif renklerini yıllarca saklamanın en güzel ve huzurlu yoludur.
+      title: 'Botanik Ayracı: Preslenmiş Kır Çiçekleriyle Herbaryum Sanatı',
+      description: 'Geleneksel bitki presleme teknikleriyle çiçeklerin morfolojisini ve doğal pigmentlerini kalıcı bir kitap ayracında koruma.',
+      body: `Herbaryum oluşturmak, botanikçilerin yüzyıllardır bitki türlerini belgelemek için kullandığı bilimsel ve estetik bir yöntemdir.
 
-Güneşli ve kuru bir havada menekşe, papatya veya yonca gibi küçük çiçekler topla.
+Sabah çiği kuruduktan sonra papatya, yonca veya minik kır çiçeklerini saplarıyla birlikte özenle topla.
 
-Çiçekleri iki peçetenin arasına koyup kalın ve ağır bir kitabın sayfaları arasına yerleştir.
+Çiçeklerin taç yapraklarını iki emici kurutma kağıdı arasına özenle yayarak ağır bir kitabın sayfaları arasına koy.
 
-Kitabı bir hafta boyunca açmadan bekleterek çiçeğin nemini tamamen kaybetmesini sağla.
+Kitabın üzerine ilave ağırlık koyup iki hafta boyunca hiç açmadan bekleterek bitki dokusundaki tüm nemin emilmesini sağla.
 
-Kuruyan narin çiçekleri renkli bir karton şeridin üzerine yapıştırıp şeffaf bantla kapla.
+Kuru ve tüy kadar hafif hale gelen narin çiçeği cımbızla alıp kalın bir suluboya kartonunun üzerine yerleştir.
 
-Üst kısmına delgeçle bir delik açıp renkli bir kurdele bağlayarak ayracını tamamla.
+Havadaki nem ve sürtünmeden korumak için üzerini şeffaf mat bir koruyucu şeritle kapla.
 
-> **Okuma keyfi:** Hazırladığın bu doğal ayracı en sevdiğin kitabın arasına koy!`
+> **Botanik Etiketi:** Ayracın alt kısmına çiçeğin adını, toplandığı yeri ve tarihi not ederek gerçek bir doğa arşivcisi gibi çalış.`
     }
   },
 
-  // 10-12 YAŞ (6 KONU - Cümle sınırı: ≤24 kelime)
+  // 10-12 YAŞ (6 KONU - İleri atölye, optik, perspektif, animasyon, termodinamik, geometri ve ekosistem)
   {
     slug: 'bygg-et-enkelt-periskop',
     category: 'aktiviteter',
     ageRange: '10-12',
     no: {
-      title: 'Bygg et fungerende periskop med to små speil',
-      description: 'Lær om optikk og lysets refleksjonsvinkel ved å bygge et periskop som lar deg se over høye kanter.',
-      body: `Et periskop er et genialt optisk instrument som lar ubåter og oppdagere se over hindringer uten å bli oppdaget selv.
+      title: 'Geometrisk optikk: Konstruksjon av periskop med to planspeil',
+      description: 'Utforsk refleksjonsloven og lysets rette forplantning ved å bygge et funksjonelt optisk observasjonsinstrument.',
+      body: `Et periskop utnytter prinsippet om at lys beveger seg i rette linjer og reflekteres i forutsigbare vinkler mot glatte flater.
 
-Du trenger en lang melkekartong eller en smal pappeske, to små flate speil, en saks og sterk limbånd.
+Finn en langstrakt, stiv pappeske eller en melkekartong med kvadratisk tverrsnitt for å danne instrumentets rør.
 
-Klipp to åpninger i esken på motsatte sider: én øverst foran og én nederst på baksiden.
+Skjær to observasjonsluker på motstående sider av esken: en innsynsåpning nederst og en utsynsåpning øverst på baksiden.
 
-Monter de to speilene parallelt i en nøyaktig vinkel på 45 grader i forhold til eskens rette vegger.
+Monter to parallelle planspeil innvendig i en streng vinkel på nøyaktig 45 grader i forhold til eskens vertikale akse.
 
-Lyset fra omgivelsene treffer det øverste speilet, reflekteres 90 grader nedover, og sendes ut gjennom det nederste speilet til øyet ditt.
+Lysstrålene fra omgivelsene treffer det øverste speilet, reflekteres 90 grader nedover gjennom røret, og sendes ut av det nederste speilet til øyet.
 
-Dette eksperimentet demonstrerer refleksjonsloven, som sier at innfallsvinkelen for lys alltid er nøyaktig like stor som utfallsvinkelen.
+Fordi innfallsvinkelen er nøyaktig lik utfallsvinkelen, bevares hele synsfeltets geometri uten optisk forvrengning.
 
-> **Spionoppdrag:** Bruk periskopet ditt til å kikke forsiktig over sofaryggen uten at noen i stuen oppdager deg!`
+> **Taktisk felttest:** Bruk instrumentet til å observere over en murkant eller rundt et hjørne uten å eksponere observatørens posisjon.`
     },
     tr: {
-      title: 'Evde Basit Periskop Yapımı (İki Aynayla)',
-      description: 'Denizaltıların su yüzeyini gözetleme prensibi: İki ayna ve karton kutuyla optik periskop yapımı rehberi!',
-      body: `Periskop, denizaltıların ve kaşiflerin görünmeden yüksek engellerin ardını görmesini sağlayan büyüleyici bir optik araçtır.
+      title: 'Geometrik Optik: İki Düzlem Aynayla Çalışan Periskop Tasarımı',
+      description: 'Yansıma kanunları ve ışığın doğrusal yayılımı ilkeleriyle çalışan gerçek bir optik gözlem aracı imal etme projesi.',
+      body: `Periskop, ışığın doğrusal yayılımını ve pürüzsüz yüzeylerdeki geometrik yansıma kurallarını temel alan klasik bir optik araçtır.
 
-İhtiyacın olan malzemeler uzun bir meyve suyu kutusu, iki küçük düz ayna, makas ve yapışkan banttır.
+Kare kesitli sert ve uzun bir karton kutu temin ederek aletin ana optik gövdesini hazırla.
 
-Kutunun üst ön kısmına ve alt arka kısmına karşılıklı iki adet pencere aç.
+Gövdenin alt ön yüzüne bir bakış penceresi, üst arka yüzüne ise karşılıklı bir hedef penceresi aç.
 
-Aynaları kutunun içine tam kırk beş derecelik açılarla ve birbirine paralel olacak biçimde dikkatle yerleştir.
+Kutunun içine iki düzlem aynayı birbirine tam paralel ve gövde eksenine tam 45 derecelik açılarla dikkatle sabitle.
 
-Üstteki aynaya çarpan ışık dik bir açıyla aşağı yansır ve alttaki ayna sayesinde doğrudan gözüne ulaşır.
+Dış ortamdan gelen ışınlar üstteki aynaya çarparak 90 derecelik dik bir açıyla gövdeden aşağı iner ve alttaki ayna aracılığıyla göze ulaşır.
 
-Bu deney optik bilimindeki yansıma kanununu kanıtlar; yani ışığın bir yüzeye geliş açısı ile yansıma açısı birbirine daima eşittir.
+Işığın yüzeye geliş açısı yansıma açısına daima eşit olduğundan, görüntüde hiçbir kırılma ya da bozulma yaşanmadan hedef net olarak izlenir.
 
-> **Gizli dedektif:** Periskobunu kullanarak koltuğun arkasına saklanıp odayı görünmeden gözetlemeyi dene!`
+> **Saha Denemesi:** Periskobunu kullanarak yüksek bir duvarın veya bir engelin arkasını kendini göstermeden gözetlemeyi dene.`
     }
   },
   {
@@ -574,38 +577,38 @@ Bu deney optik bilimindeki yansıma kanununu kanıtlar; yani ışığın bir yü
     category: 'aktiviteter',
     ageRange: '10-12',
     no: {
-      title: 'Tegnetips for mestere: Lær perspektiv og skygger',
-      description: 'Hvordan skaper kunstnere dybde på et flatt ark? Lær forsvinningspunktet og skyggeleggingens kunst.',
-      body: `Å tegne tredimensjonale scener på et flatt papir er en teknikk som renessansekunstnerne perfeksjonerte for fem hundre år siden.
+      title: 'Renessansens romillusjon: Ett-punktsperspektiv og chiaroscuro',
+      description: 'Lær de matematiske lovene bak horisontlinjen, forsvinningspunktet og lyskildens projeksjon for å skape romlig dybde.',
+      body: `Å skape en troverdig tredimensjonal illusjon på et todimensjonalt ark var en av renessansekunstens største vitenskapelige bragder.
 
-Start med å trekke en horisontlinje tvers over arket og merk av et lite forsvinningspunkt midt på linjen.
+Tegn en vannrett horisontlinje tvers over tegnearket for å definere betrakterens øyehøyde i rommet.
 
-Når du tegner en vei eller togskinner, skal linjene starte brede nederst og smalne gradvis inn mot forsvinningspunktet.
+Plasser et enslig forsvinningspunkt midt på linjen; alle ortogonale linjer i arkitekturen må konvergere presist mot dette punktet.
 
-Trær og lyktestolper må også tegnes gradvis mindre og tettere jo nærmere de kommer dette felles punktet i horisonten.
+Når du tegner en gate eller en søylerekke, må avstanden mellom objektene avta proporsjonalt etter hvert som de nærmer seg sentrum.
 
-For å gi objektene ekte volum må du bestemme hvor lyskilden kommer fra og legge konsekvente skygger på motsatt side.
+For å bygge opp fysisk masse benyttes chiaroscuro, teknikken der man definerer en fast lyskilde og tegner konsekvente kjernekroner og slagskygger.
 
-Gjennom myke overganger fra lys til mørke forvandles flate sirkler til massive kuler som ser ut til å sveve i rommet.
+Gjennom myke valørtoninger fra høylys til dyp skygge oppstår en kraftfull optisk dybde som trekker betrakterens blikk dypt inn i motivet.
 
-> **Øvelse:** Tegn en lang gate med bygninger på begge sider som alle følger hjelpelinjene mot ett enkelt forsvinningspunkt!`
+> **Tegneøvelse:** Konstruer et innvendig rom med flislagt gulv der hver enkelt fliserute følger hjelpelinjene mot forsvinningspunktet.`
     },
     tr: {
-      title: 'Usta Çizim İpuçları: Perspektif ve Gölgelendirme',
-      description: 'Düz bir kağıtta derinlik hissi yaratma sanatı: Kaçış noktası, ufuk çizgisi ve hacimli gölgelendirme teknikleri!',
-      body: `Düz bir kağıt üzerinde üç boyutlu mekanlar ve derinlikler yaratma tekniği Rönesans ressamlarının geliştirdiği muazzam bir yöntemdir.
+      title: 'Tek Kaçışlı Perspektif ve Hacim: Rönesans Mekan Kurgusu',
+      description: 'Ufuk çizgisi, kaçış noktası ve ışık gölge projeksiyonuyla iki boyutlu kağıtta matematiksel mekan derinliği yaratma.',
+      body: `Düz bir yüzey üzerinde inandırıcı bir üç boyutlu derinlik kurgulamak, Rönesans ressamlarının geometri ve optik alanındaki en büyük başarısıdır.
 
-Önce kağıdın ortasından düz bir ufuk çizgisi çek ve çizginin tam ortasına minik bir kaçış noktası koy.
+Kağıdın üzerine göz hizasını belirleyen yatay bir ufuk çizgisi çekerek kompozisyona başla.
 
-Çizdiğin yol veya tren rayları kağıdın alt kısmında geniş başlayıp ufuk noktasına doğru gittikçe daralmalıdır.
+Çizginin üzerine tek bir kaçış noktası koy; çizdiğin sokaktaki tüm bina çatıları ve kaldırım hatları bu noktada kesişmelidir.
 
-Ağaçlar ve sokak lambaları da bu noktaya yaklaştıkça kademeli olarak küçülmeli ve birbirine daha sık çizilmelidir.
+Kaçış noktasına yaklaştıkça binalar, pencereler ve sokak lambaları kademeli olarak küçülmeli ve aralıkları daralmalıdır.
 
-Nesnelere gerçek bir hacim kazandırmak için ışığın hangi yönden geldiğini belirlemeli ve zıt tarafa gölgeler eklemelisin.
+Cisimlere kütle kazandırmak için ışığın geldiği yönü belirleyip zıt tarafa gölgeler yerleştirerek chiaroscuro tekniğini uygula.
 
-Açıktan koyuya doğru yumuşak tonlamalar yaptığında sıradan bir yuvarlak, adeta masanın üzerinde duran gerçek bir küreye dönüşür.
+Açıktan koyuya doğru yumuşak tonlamalar yapmak düz bir çizimi derinliği olan somut bir mimari alana dönüştürür.
 
-> **Perspektif çizimi:** İki yanında binalar sıralanan ve tek bir noktada birleşen derin bir cadde manzarası çizmeyi dene!`
+> **Perspektif Çizimi:** Karoları kaçış noktasına doğru daralan bir zemin ve iki yanında pencereli binalar yükselen bir koridor tasarla.`
     }
   },
   {
@@ -613,38 +616,38 @@ Açıktan koyuya doğru yumuşak tonlamalar yaptığında sıradan bir yuvarlak,
     category: 'aktiviteter',
     ageRange: '10-12',
     no: {
-      title: 'Lag din egen stop-motion-film med leirfigurer',
-      description: 'Pust liv i leirfigurer og leker ved å ta bilde for bilde og sette dem sammen til en ekte animasjonsfilm.',
-      body: `Stop-motion er den magiske filmteknikken der ubevegelige figurer flyttes mikroskopisk lite mellom hvert eneste fotografi.
+      title: 'Kinematografisk animasjon: Produksjon av stop-motion med leire',
+      description: 'Forstå prinsippet om synspersepsjon og bildehastighet ved å produsere en animert sekvens bilde for bilde.',
+      body: `All film hviler på synsbedraget kjent som synsfeltets etterbilde; hjernen smelter sammen enkeltbilder som vises i rask rekkefølge til kontinuerlig bevegelse.
 
-Når bildene spilles av i rask rekkefølge med ti til tolv bilder i sekundet, oppfatter hjernen dette som jevn og flytende bevegelse.
+I tradisjonell stop-motion-animasjon kreves det vanligvis tolv unike fotografier for å skape ett enkelt sekund med flytende film.
 
-Du trenger et stødig bord, god belysning, modellkitt eller leketøysfigurer og et mobilkamera montert på et stabilt stativ.
+Rigg opp en fast arbeidsflate med jevn belysning og monter kameraet på et urokkelig stativ; selv mikroskopiske kamerabevegelser ødelegger illusjonen.
 
-Kameraet må stå helt urokkelig fast under hele opptaket for at ikke bakgrunnen skal hoppe urolig fra bilde til bilde.
+Form karakterer av stabil plastilinleire over et fleksibelt ståltrådskjelett som tillater kontrollerte justeringer av leddene.
 
-Flytt leirfigurens arm eller bein bare noen få millimeter per bilde og ta ett nytt bilde for hvert eneste trinn.
+Flytt figurens armer og bein bare en millimeter eller to per eksponering, og hold en streng tidsplan for bevegelsens akselerasjon og retardasjon.
 
-Med tålmodighet og kreativitet kan du lage sjarmerende animasjonsfilmer med egne historier, morsomme lydeffekter og spennende dialoger.
+Ved å kombinere bildesekvensen med synkrone lydeffekter og bakgrunnsstøy i et redigeringsprogram, vekkes de livløse figurene til live på skjermen.
 
-> **Første film:** Lag en kort film på fem sekunder der en leirball ruller over bordet og forvandler seg til en blomst!`
+> **Fysikk i bevegelse:** Studer hvordan en hoppende leirball flates ut idet den treffer bakken og strekker seg i luften for å gi spenst i animasjonen.`
     },
     tr: {
-      title: 'Kendi Stop-Motion Animasyon Filmini Çek',
-      description: 'Cansız nesnelere hayat verme sanatı: Hamur figürler ve kare kare fotoğraf çekerek kendi animasyonunu yönet!',
-      body: `Stop-motion, hareketsiz nesnelerin her fotoğraf karesinde milimetrik olarak oynatılmasıyla yapılan büyüleyici bir sinema sanatıdır.
+      title: 'Stop-Motion Sinema Sanatı: Kil Figürlerle Kare Kare Animasyon',
+      description: 'Gözün artık görüntü ilkesi ve kare hızı fiziğiyle cansız modellere hayat veren stop-motion film yönetmenliği.',
+      body: `Sinemanın temeli gözün ağtabakasındaki görüntü kalıcılığına dayanır; saniyede art arda geçen kareler zihinde kesintisiz bir hareket olarak birleşir.
 
-Fotoğraflar saniyede on veya on iki kare hızla art arda oynatıldığında insan beyni bunları akıcı bir hareket olarak algılar.
+Geleneksel stop-motion animasyonda akıcı bir saniyelik sahne oluşturabilmek için en az on iki ayrı fotoğraf çekilmesi gerekir.
 
-İhtiyacın olan şeyler sabit bir masa, parlak bir ışık, oyun hamuru figürleri ve sarsılmayan bir telefon tutacağıdır.
+Sabit bir masa üzerinde ışıklandırmanı kur ve telefonunu kesinlikle sarsılmayacak sağlam bir tripoda yerleştir.
 
-Kameranın çekim boyunca milim oynamaması gerekir; aksi takdirde arka plan sahnede sürekli titreyip dikkati dağıtır.
+Figürlerini bükülebilir tel iskelet üzerine modellenmiş kilden yaparak eklemlerinin kontrollü biçimde poz vermesini sağla.
 
-Karakterinin kolunu veya bacağını her karede birkaç milimetre kıvırıp sabırla yeni bir fotoğraf çek.
+Her karede karakterin kolunu veya adımını sadece bir iki milimetre ilerletip sabırla yeni bir fotoğraf çek.
 
-Ses efektleri ve neşeli müzikler eklediğinde kendi ürettiğin çizgi filmin yönetmeni olmanın gururunu yaşarsın.
+Kareleri montaj yazılımında birleştirip adım sesleri ve ortam gürültüleri eklediğinde kil figürün ekranda canlandığına şahit olursun.
 
-> **İlk animasyon:** Oyun hamurundan bir topun yuvarlanıp çiçeğe dönüştüğü beş saniyelik kısa bir animasyon çek!`
+> **Animasyon İlkesi:** Yuvarlanan bir kil topun yere çarptığında ezilmesini ve zıplarken uzamasını sağlayarak harekete organik bir elastikiyet kat.`
     }
   },
   {
@@ -652,38 +655,38 @@ Ses efektleri ve neşeli müzikler eklediğinde kendi ürettiğin çizgi filmin 
     category: 'aktiviteter',
     ageRange: '10-12',
     no: {
-      title: 'Bygg en enkel solovn av en pizzaboks',
-      description: 'Utnytt solens fornybare energi til å smelte ostesmørbrød ved hjelp av aluminiumsfolie og drivhuseffekten.',
-      body: `Solen sender enorme mengder ren energi til jorden hver dag, og en solovn demonstrerer hvordan denne varmen kan fanges effektivt.
+      title: 'Termisk solenergi: Konstruer en effektiv solovn med drivhuseffekt',
+      description: 'Utnytt refleksjon, absorpsjon og termisk isolasjon for å fange solstråler og oppnå høye temperaturer i en resirkulert boks.',
+      body: `En solovn illustrerer hvordan elektromagnetisk stråling fra solen kan konsentreres og omdannes til direkte termisk energi.
 
-Du kan bygge en enkel solovn ved å gjenbruke en ren pizzaboks eller en lignende flat pappeske med hengslet lokk.
+Ta en ren pappeske med hengslet lokk og kle innsiden av lokket med glatt aluminiumsfolie for å lage et parabollignende reflektorspeil.
 
-Klipp en luke i lokket og kle innsiden av luken med blank aluminiumsfolie for å reflektere solstrålene ned i esken.
+Klipp en luke i lokket og forsegl åpningen med dobbel plastfilm; dette skaper et isolerende luftlag som slipper lys inn, men hindrer varmetap.
 
-Dekk åpningen med gjennomsiktig plastfolie for å skape et lufttett drivhuskammer som fanger den infrarøde varmestrålingen.
+Mal bunnen av bakkammeret med matt, varmebestandig sort maling, ettersom mørke overflater har maksimal absorpsjonsevne for synlig lys.
 
-Mal bunnen innvendig med matt svart maling eller legg svart papir der, fordi mørke flater absorberer varmeenergi maksimalt.
+Når solstrålene reflekteres inn i kammeret, absorberes de av den svarte bunnen og gjenutstråles som langbølget infrarød varme.
 
-På en varm sommerdag kan temperaturen i solovnen stige til over sytti grader og smelte marshmallows eller ostesmørbrød.
+Plastfilmen blokkerer den infrarøde strålingen fra å unnslippe, noe som driver temperaturen i det lukkede kammeret opp mot nesten hundre grader.
 
-> **Solbaker:** Test ovnen utendørs midt på dagen med en kjeks dekket av sjokolade og se hvor raskt den smelter!`
+> **Termisk måling:** Plasser et steketermometer inne i solovnen og loggfør temperaturøkningen hvert tiende minutt midt på dagen.`
     },
     tr: {
-      title: 'Karton Kutudan Güneş Fırını Yapımı',
-      description: 'Temiz enerjinin gücü: Alüminyum folyo ve sera etkisiyle pizza kutusunu güneş fırınına dönüştürme projesi!',
-      body: `Güneş her saniye Dünya’mıza muazzam miktarda ısı ve ışık enerjisi gönderir; güneş fırını bu gücü doğrudan yakalamayı öğretir.
+      title: 'Termal Güneş Fırını: Yansıma ve Sera Etkisiyle Isı Odası İnşası',
+      description: 'Elektromanyetik güneş ışınımını yansıtıcı paneller ve siyah soğurucu yüzeylerle yüksek ısı enerjisine dönüştürme projesi.',
+      body: `Güneş fırını, güneşten gelen radyasyon enerjisinin toplanarak doğrudan termal ısıya nasıl dönüştürülebileceğini kanıtlar.
 
-Temiz bir pizza kutusu veya kapaklı karton bir kutu bu fen projesi için mükemmel bir fırın gövdesidir.
+Kapaklı temiz bir karton kutu alıp kapağının iç yüzeyini pürüzsüz alüminyum folyoyla kaplayarak geniş bir yansıtıcı ayna yap.
 
-Kapağın üzerinde üç kenarı kesilmiş bir pencere aç ve kapağın içini parlak alüminyum folyoyla kapla.
+Kutunun ağzını çift kat şeffaf streç filmle hava sızdırmayacak biçimde kapat; bu katman ışığı içeri alır fakat ısının kaçmasını önler.
 
-Açılan boşluğu şeffaf streç filmle hava almayacak şekilde örterek içeride güçlü bir sera etkisi odası yarat.
+Kutunun tabanını mat siyah kağıtla kapla; siyah yüzeyler görünür ışığı neredeyse tamamen soğurarak ısıya çevirir.
 
-Kutunun tabanını siyah kağıtla kapla; çünkü koyu renkler güneş ışınlarını yansıtmak yerine içine çekip ısıya dönüştürür.
+Yansıtıcıdan içeri giren ışınlar tabana çarptığında uzun dalga boylu kızılötesi ısı dalgalarına dönüşür.
 
-Güneşli bir yaz öğlesinde bu mini fırının iç sıcaklığı yetmiş dereceye kadar çıkabilir ve peynirleri eritebilir.
+Şeffaf film bu kızılötesi dalgaların dışarı kaçmasını engelleyerek içerideki sera etkisini tırmandırır ve sıcaklığı seksen derecenin üzerine çıkarır.
 
-> **Güneş şefi:** Öğle saatinde fırının içine çikolatalı bir bisküvi koyup ne kadar sürede eridiğini gözlemle!`
+> **Sıcaklık Grafiği:** Fırının içine bir fırın termometresi koyup güneşli bir öğle saatinde her on dakikada bir sıcaklık artışını kaydet.`
     }
   },
   {
@@ -691,38 +694,38 @@ Güneşli bir yaz öğlesinde bu mini fırının iç sıcaklığı yetmiş derec
     category: 'aktiviteter',
     ageRange: '10-12',
     no: {
-      title: 'Tegn beroligende mandalaer med passer og linjal',
-      description: 'Oppdag matematikkens skjønnhet gjennom sirkelsymmetri, vinkler og beroligende geometriske mønstre.',
-      body: `Mandala er et eldgammelt kunstnerisk symbol på helhet og harmoni som bygger på matematiske prinsipper om rotasjonssymmetri.
+      title: 'Sakral geometri og symmetri: Konstruksjon av mandala med passer',
+      description: 'Utforsk euklidsk geometri, rotasjonssymmetri og gyldne proporsjoner gjennom presisjonskonstruksjon med passer og linjal.',
+      body: `En mandala bygger på prinsipper om rotasjonssymmetri der geometriske elementer gjentas i faste vinkler rundt et sentralt fokalpunkt.
 
-Start med å finne midtpunktet på arket og tegn en serie konsentriske sirkler med en passer med faste avstander.
+Plasser passerspissen nøyaktig i midten av arket og slå flere konsentriske sirkler med faste, matematiske intervaller.
 
-Bruk en gradskive eller en linjal til å dele sirklene inn i like vinkler, for eksempel åtte eller tolv sektorer.
+Bruk en gradskive og en rett linjal til å dele sirkelbuene inn i tolv like sektorer på nøyaktig tretti grader hver.
 
-Når grunnmønsteret er klart, gjentar du kronblader, buer og geometriske figurer i hver eneste sektor rundt hele sirkelen.
+Konstruer overlappende sirkelbuer fra skjæringspunktene for å skape det klassiske geometriske mønsteret kjent som livets blomst.
 
-Denne repeterende prosessen krever konsentrasjon og har en beroligende virkning på sinnet, nesten som aktiv meditasjon.
+Når grunnstrukturen er etablert med sylskarpe blyantlinjer, legges harmoniske mønstre inn med rotasjonell repetisjon i hver sektor.
 
-Fargelegg mandalaen fra sentrum og utover med harmoniske fargekombinasjoner for å fremheve den visuelle dybden i mønsteret.
+Denne geometriske disiplinen trener romforståelse og skaper et visuelt verk preget av streng matematisk balanse og ro.
 
-> **Presisjon:** Prøv å bruke bare to komplementærfarger som blått og oransje for å skape en slående kontrast!`
+> **Geometrisk variasjon:** Forsøk å konstruere en åttedelt mandala basert på gjentatte kvadratrotasjoner med 45 graders vinkelforskyvning.`
     },
     tr: {
-      title: 'Pergel ve Cetvelle Mandala Geometrisi Çizimi',
-      description: 'Matematiğin ve simetrinin huzur veren sanatı: Dairesel açılar ve cetvelle büyüleyici mandala çizimi rehberi!',
-      body: `Mandala, evrendeki dengeyi ve bütünlüğü simgeleyen, dairesel simetri kurallarına dayanan kadim bir geometrik sanat formudur.
+      title: 'Geometrik Mandala Tasarımı: Pergel ve Cetvelle Dairesel Simetri',
+      description: 'Öklid geometrisi, dairesel açılar ve radyal simetri kurallarıyla karmaşık ve dengeli mandala motifleri inşa etme.',
+      body: `Mandala sanatı, geometrik formların merkezi bir odak noktası etrafında sabit açılarla tekrarlandığı radyal simetriye dayanır.
 
-Kağıdın tam merkezini belirleyip pergel yardımıyla iç içe geçmiş farklı çaplarda düzenli daireler çizerek başla.
+Pergelin sivri ucunu kağıdın tam merkezine sabitleyip belirli yarıçap aralıklarıyla iç içe geçmiş eşmerkezli daireler çiz.
 
-Açıölçer veya cetvelle bu daireleri sekiz veya on iki eşit açısal dilime ayırarak temel ızgara yapısını kur.
+Açıölçer ve cetvel yardımıyla daireyi her biri tam otuzar derecelik on iki eşit açısal dilime ayır.
 
-Ardından her dilime aynı yaprak, yay veya üçgen motiflerini kusursuz bir simetriyle ardı ardına tekrarla.
+Kesişim noktalarını merkez alarak pergel açıklığını bozmadan yaylar çiz ve kadim geometrideki yaşam çiçeği ızgarasını kur.
 
-Bu ritmik ve düzenli çizim süreci zihni sakinleştirir, odaklanmayı artırır ve derin bir huzur verir.
+Bu kusursuz matematiksel iskelet üzerine her dilimde aynı geometrik yaprak ve motifleri milimetrik bir disiplinle tekrarla.
 
-Merkezden dışa doğru uyumlu renklerle boyama yaptığında geometrik desenlerin nasıl derinlik kazandığını göreceksin.
+Bu çizim süreci zihinsel odaklanmayı artırırken Öklid geometrisinin harmonik oranlarını somut bir sanat eserine dönüştürür.
 
-> **Renk dengesi:** Mandalanda sadece mavi ve turuncu gibi zıt iki rengi kullanarak çarpıcı bir kontrast yakala!`
+> **Geometrik Deneme:** Aynı merkez etrafında kırk beş derecelik açılarla döndürülmüş karelerle sekizgen bir mandala kompozisyonu geliştir.`
     }
   },
   {
@@ -730,38 +733,38 @@ Merkezden dışa doğru uyumlu renklerle boyama yaptığında geometrik desenler
     category: 'aktiviteter',
     ageRange: '10-12',
     no: {
-      title: 'Bygg ditt eget lukkede økosystem i et glass',
-      description: 'Skap en selvforsynt miniatyrverden i et forseglet syltetøyglass der planter og mikrober lever i harmoni.',
-      body: `Et lukket terrarium er en fascinerende modell av planeten Jorden, der alle næringsstoffer og vann resirkuleres i en lukket sirkel.
+      title: 'Biosfære i miniatyr: Konstruer et forseglet terrarium med lukket kretsløp',
+      description: 'Forstå biogeokjemiske kretsløp ved å skape et hermetisk lukket økosystem der vann, oksygen og karbon resirkuleres.',
+      body: `Jorden er et lukket materielt system der alt liv avhenger av kontinuerlig resirkulering av vann, nitrogen og karbonatomer.
 
-Finn et stort, rent glass med tettsittende lokk, småstein til drenering, aktivt kull, pottejord og saktevoksende mose.
+Vi kan bygge en fungerende mikromodell av biosfæren i en stor glasskrukke med tettsittende gummipakning og bøylelokk.
 
-Legg småstein i bunnen for å hindre rotråte, et tynt lag kull for å rense vannet, og deretter fuktig jord.
+Legg et to centimeter tykt lag med vasket pukk eller lecakuler i bunnen for å sikre uunnværlig vanndrenering mot rotråte.
 
-Plant små mosedotter eller bregner forsiktig i jorden med en pinsett og spray med bare noen få dråper rent vann.
+Dekk singellaget med et tynt filter og et lag med aktivt kull som filtrerer bakterier og forhindrer anaerob forråtnelse.
 
-Skru lokket godt igjen: plantene produserer oksygen om dagen, og kondensert vann drypper ned igjen som regn.
+Legg på næringsrik pottejord og plant saktevoksende mose, bregner eller dvergplanter før du fukter jorden forsiktig med regnvann.
 
-Hvis balansen mellom lys og fuktighet er riktig, kan et slikt økosystem overleve forseglet i flere tiår uten åpning.
+Når krukken forsegles, driver fotosyntesen og cellulær respirasjon et selvstendig kretsløp der vanndamp kondenserer og faller som regn.
 
-> **Økolog:** Plasser glasset i lyst, men indirekte sollys, og følg med på hvordan vanndråpene danser på glassveggene!`
+> **Økologisk likevekt:** Dersom det danner seg for mye kondens på glasset om morgenen, må krukken luftes en kort stund før endelig forsegling.`
     },
     tr: {
-      title: 'Kavanozda Kendi Kapalı Ekosistemini (Teraryum) Kur',
-      description: 'Dünya’nın su döngüsünü kavanoza sığdırmak: Hiç açılmadan yıllarca yaşayan kapalı ekosistem (teraryum) yapımı!',
-      body: `Kapalı bir teraryum, doğadaki su ve oksijen döngüsünün minyatür bir kavanozda nasıl kusursuz çalıştığını gösteren harika bir modeldir.
+      title: 'Kapalı Biyosfer Modeli: Kavanozda Kendi Kendine Yeten Teraryum',
+      description: 'Su, karbon ve oksijenin dışarıdan müdahale olmadan döngüye girdiği hermetik olarak mühürlü bir ekosistem kurma rehberi.',
+      body: `Dünyamız kapalı bir biyosferdir; tüm canlılık suyun, oksijenin ve karbonun milyarlarca yıldır kesintisiz devridaim yapmasıyla sürer.
 
-Temiz bir cam kavanoz, drenaj için çakıl taşları, aktif karbon, saksı toprağı ve yosun parçaları temin et.
+Bu biyolojik prensibi cam bir kavanozda tamamen mühürlü minyatür bir ekosistem inşa ederek doğrudan gözlemleyebilirsin.
 
-Kavanozun dibine fazla suyu tutacak çakılları, suyu temizleyecek kömürü ve ardından nemli toprağı katmanlar halinde diz.
+Kavanozun dibine fazla suyu toplayarak bitki köklerinin çürümesini önleyecek iki santimetre kalınlığında temiz çakıl katmanı ser.
 
-Cımbız yardımıyla nemi seven küçük yosun ve eğrelti otlarını toprağa özenle dikip birkaç damla su püskürt.
+Çakılların üzerine suyu temizleyecek ve zararlı bakterileri filtreleyecek aktif karbon parçacıkları ekle.
 
-Kavanozun kapağını sıkıca kapat; bitkiler gündüz oksijen üretir, camda buharlaşan su ise yağmur gibi toprağa geri döner.
+Üzerine hafif saksı toprağı koyup neme dayanıklı yosunlar ve küçük eğrelti otları diktikten sonra toprağı birkaç damla suyla nemlendir.
 
-Doğru miktarda dolaylı ışık aldığında bu minik dünya kapağı hiç açılmadan yıllarca kendi kendine yaşamaya devam eder.
+Kavanozun kapağını hava almayacak şekilde kapattığında fotosentez ve solunum dengesi kurulur; camda buharlaşan su düzenli yağmur gibi toprağa döner.
 
-> **Ekosistem nöbeti:** Kavanozunu doğrudan yakıcı güneş almayan aydınlık bir yere koy ve camdaki su damlacıklarını izle!`
+> **Ekolojik Denge:** Sabahları cam duvarlarda aşırı yoğunlaşma görüyorsan kapağı kısa bir süre açıp fazla nemi uçurduktan sonra nihai olarak mühürle.`
     }
   }
 ];

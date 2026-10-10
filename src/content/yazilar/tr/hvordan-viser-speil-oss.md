@@ -1,20 +1,24 @@
 ---
 lang: tr
-title: "Aynalar Bizi Nasıl Gösterir?"
-description: "Aynaya bakıp gülümsediğinde o da sana gülümser. Peki ayna bunu nasıl yapar?"
+title: "Aynalar Görüntümüzü Bize Nasıl Yansıtır?"
+description: "Pürüzsüz bir aynanın karşısına geçtiğinde kendi gözlerinle karşılaşırsın; peki cam bu görüntüyü nasıl geri gönderir?"
 date: 2026-10-10
 category: oppdager
 cover: /images/yazilar/hvordan-viser-speil-oss.png
-coverAlt: "Aynalar Bizi Nasıl Gösterir?"
+coverAlt: "Aynalar Görüntümüzü Bize Nasıl Yansıtır?"
 ageRange: "4-6 Yaş"
 featured: false
 draft: false
 ---
 
-Aynanın karşısına geçtiğinde kendini görürsün. Sen el sallayınca o da el sallar.
+Aynanın karşısına geçtiğinde doğrudan kendi bakışlarınla karşılaşırsın.
 
-Önce odadaki ışık yüzüne değer. Sonra bu ışık aynanın pürüzsüz camına doğru seker.
+Odadaki ışık önce yüzüne değer ve oradan aynanın yüzeyine doğru yönelir.
 
-Aynanın arkasında parlak gümüş bir sır vardır. Işık oradan zıplayıp doğrudan gözlerine geri döner.
+Saydam camın hemen arkasında gümüşten yapılmış son derece ince parlak bir sır tabakası bulunur.
 
-> **Eğlenceli oyun:** Aynaya bakıp komik bir yüz yap. Kim önce gülecek?
+Bu pürüzsüz metal katman ışık ışınlarını yakalar ve dosdoğru gözlerine geri yansıtır.
+
+İşte bu sayede kendi yansımanı o anda hiçbir gecikme olmadan görürsün.
+
+> **Işık Denemesi:** Aynaya doğru küçük bir nesne tut ve camın onun her rengini nasıl birebir yansıttığını incele.

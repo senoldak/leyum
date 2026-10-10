@@ -1,26 +1,26 @@
 ---
 lang: tr
-title: "Evde Basit Periskop Yapımı (İki Aynayla)"
-description: "Denizaltıların su yüzeyini gözetleme prensibi: İki ayna ve karton kutuyla optik periskop yapımı rehberi!"
+title: "Geometrik Optik: İki Düzlem Aynayla Çalışan Periskop Tasarımı"
+description: "Yansıma kanunları ve ışığın doğrusal yayılımı ilkeleriyle çalışan gerçek bir optik gözlem aracı imal etme projesi."
 date: 2026-10-10
 category: aktiviteter
 cover: /images/yazilar/bygg-et-enkelt-periskop.png
-coverAlt: "Evde Basit Periskop Yapımı (İki Aynayla)"
+coverAlt: "Geometrik Optik: İki Düzlem Aynayla Çalışan Periskop Tasarımı"
 ageRange: "10-12 Yaş"
 featured: false
 draft: false
 ---
 
-Periskop, denizaltıların ve kaşiflerin görünmeden yüksek engellerin ardını görmesini sağlayan büyüleyici bir optik araçtır.
+Periskop, ışığın doğrusal yayılımını ve pürüzsüz yüzeylerdeki geometrik yansıma kurallarını temel alan klasik bir optik araçtır.
 
-İhtiyacın olan malzemeler uzun bir meyve suyu kutusu, iki küçük düz ayna, makas ve yapışkan banttır.
+Kare kesitli sert ve uzun bir karton kutu temin ederek aletin ana optik gövdesini hazırla.
 
-Kutunun üst ön kısmına ve alt arka kısmına karşılıklı iki adet pencere aç.
+Gövdenin alt ön yüzüne bir bakış penceresi, üst arka yüzüne ise karşılıklı bir hedef penceresi aç.
 
-Aynaları kutunun içine tam kırk beş derecelik açılarla ve birbirine paralel olacak biçimde dikkatle yerleştir.
+Kutunun içine iki düzlem aynayı birbirine tam paralel ve gövde eksenine tam 45 derecelik açılarla dikkatle sabitle.
 
-Üstteki aynaya çarpan ışık dik bir açıyla aşağı yansır ve alttaki ayna sayesinde doğrudan gözüne ulaşır.
+Dış ortamdan gelen ışınlar üstteki aynaya çarparak 90 derecelik dik bir açıyla gövdeden aşağı iner ve alttaki ayna aracılığıyla göze ulaşır.
 
-Bu deney optik bilimindeki yansıma kanununu kanıtlar; yani ışığın bir yüzeye geliş açısı ile yansıma açısı birbirine daima eşittir.
+Işığın yüzeye geliş açısı yansıma açısına daima eşit olduğundan, görüntüde hiçbir kırılma ya da bozulma yaşanmadan hedef net olarak izlenir.
 
-> **Gizli dedektif:** Periskobunu kullanarak koltuğun arkasına saklanıp odayı görünmeden gözetlemeyi dene!
+> **Saha Denemesi:** Periskobunu kullanarak yüksek bir duvarın veya bir engelin arkasını kendini göstermeden gözetlemeyi dene.

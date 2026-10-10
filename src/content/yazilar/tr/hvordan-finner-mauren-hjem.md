@@ -1,20 +1,24 @@
 ---
 lang: tr
-title: "Karıncalar Yuvalarını Nasıl Bulur?"
-description: "Küçücük karınca ormanda uzun yürüyüşlere çıkar. Peki evini nasıl şaşırmaz?"
+title: "Karıncalar Ormandaki Yuvalarına Nasıl Döner?"
+description: "Orman tabanında kendi boylarından ağır çam iğneleri taşıyan karıncalar, yollarını hiç şaşırmadan nasıl bulur?"
 date: 2026-10-10
 category: natur
 cover: /images/yazilar/hvordan-finner-mauren-hjem.png
-coverAlt: "Karıncalar Yuvalarını Nasıl Bulur?"
+coverAlt: "Karıncalar Ormandaki Yuvalarına Nasıl Döner?"
 ageRange: "4-6 Yaş"
 featured: false
 draft: false
 ---
 
-Minik karınca ormanda hızlı adımlarla koşar. Kendi boyundan büyük iğneler taşır.
+Bir orman karıncası yuvaya yiyecek ve yapı malzemesi taşımak için ağaç kökleri arasında uzun yollar kateder.
 
-Yolda yürürken arkasında görünmez kokulu bir iz bırakır. Bu koku ona yol gösterir.
+Aradığı malzemeyi bulduğunda hiç duraksamadan yuvasının yönüne doğru yola koyulur.
 
-Antenleriyle bu tatlı kokuyu hemen tanır. Böylece hiçbir karınca ormanda kaybolmaz.
+Yürürken toprağa ve yosunlara feromon adı verilen görünmez kimyasal koku izleri bırakır.
 
-> **Eğlenceli oyun:** Ormanda karıncaları izle. Hepsi arka arkaya sırayla yürür!
+Başındaki duyarlı antenler havadaki bu koku taneciklerini anında algılayan kusursuz alıcılar gibi çalışır.
+
+Karınca yolunu kaybetse bile antenlerini sağa sola hareket ettirerek koku izini yeniden yakalar ve yuvasına ulaşır.
+
+> **Doğa Gözlemi:** Bir karınca yolunun kenarına sessizce eğilip bak; karşılaşan karıncalar birbirlerine antenleriyle dokunarak haberleşir.

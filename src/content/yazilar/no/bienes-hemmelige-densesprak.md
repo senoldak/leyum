@@ -1,26 +1,26 @@
 ---
 lang: no
-title: "Bienes hemmelige dansespråk"
-description: "En liten speiderbie kommer tilbake til kuben og danser for å vise veien til blomster!"
+title: "Hvordan forteller honningbier retningen gjennom sin dans?"
+description: "I den stummende mørke bikuben danser speiderbien i åttetall for å oppgi nøyaktige koordinater til blomstene."
 date: 2026-10-10
 category: natur
 cover: /images/yazilar/bienes-hemmelige-densesprak.png
-coverAlt: "Bienes hemmelige dansespråk"
+coverAlt: "Hvordan forteller honningbier retningen gjennom sin dans?"
 ageRange: "7-9 år"
 featured: false
 draft: false
 ---
 
-Honningbier er noen av de mest hardtarbeidende skapningene på planeten vår.
+Når en speiderbie finner en blomstereng med nektar, må hun formidle funnet til tusenvis av arbeidere i kuben.
 
-Når en speiderbie finner en eng full av søt nektar, må hun fortelle det til vennene.
+Bier har ingen stemmebånd; i stedet utfører hun en presis koreografi på vokskakene, kjent som vrikkedansen.
 
-Siden hun ikke kan snakke, lager hun en spesiell figur som kalles vrikkedans på vokskaken.
+Bien løper i et åttetallsmønster og rister energisk på bakkroppen langs den rette midtlinjen i figuren.
 
-Vinkelen på dansen viser nøyaktig hvilken retning biene skal fly i forhold til solen.
+Vinkelen på denne midtlinjen i forhold til loddrett retning angir nøyaktig hvilken vinkel biene må fly i forhold til solen.
 
-Hvor lenge hun vrikker på bakkroppen, forteller nøyaktig hvor mange meter unna engen ligger.
+Hvor lenge vrikkingen pågår, forteller avstanden til nektarkilden; ett sekunds vrikking tilsvarer omtrent tusen meters flytur.
 
-De andre biene kjenner duften på henne og flyr rett ut til de ventende blomstene.
+Lukten av blomsterstøvet på danserens kropp bekrefter hvilken blomsterart som venter på arbeiderne der ute.
 
-> **Miljøfakta:** Én av tre matbiter vi mennesker spiser, er avhengig av at flittige bier pollinerer blomstene!
+> **Nobelpris:** Den østerrikske zoologen Karl von Frisch mottok Nobelprisen for å ha dechiffrert bienes fascinerende dansespråk.

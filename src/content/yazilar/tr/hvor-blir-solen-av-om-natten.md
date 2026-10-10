@@ -1,20 +1,24 @@
 ---
 lang: tr
-title: "Gece Olunca Güneş Nereye Gider?"
-description: "Yıldızlar parıldayıp uyku vakti geldiğinde Güneş nereye saklanır?"
+title: "Gece Çökünce Güneş Nereye Gider?"
+description: "Akşam göğü kararıp yıldızlar evlerin üzerinde parıldamaya başladığında güneş nereye kaybolur?"
 date: 2026-10-10
 category: oppdager
 cover: /images/yazilar/hvor-blir-solen-av-om-natten.png
-coverAlt: "Gece Olunca Güneş Nereye Gider?"
+coverAlt: "Gece Çökünce Güneş Nereye Gider?"
 ageRange: "4-6 Yaş"
 featured: false
 draft: false
 ---
 
-Akşam olunca gökyüzü kararır. Güneş sanki uyumaya gitmiş gibi görünür.
+Akşam vadinin üzerine çöktüğünde gün ışığı usulca çekilir ve gökyüzü koyu bir renge bürünür.
 
-Oysa Güneş uzayda yerinde durur. Dönüp duran aslında bizim güzel Dünyamızdır.
+Oysa güneş ne sönmüştür ne de gökyüzünden uzaklaşıp gitmiştir.
 
-Biz arkamızı döndüğümüzde gece olur. Güneş o sırada dünyanın diğer ucundaki çocukları aydınlatır.
+Dönen aslında üzerinde yaşadığımız Dünya gezegeninin ta kendisidir.
 
-> **Biliyor muydun?** Sen tatlı uykundayken, uzaktaki çocuklar güneşe bakıp kahvaltı yapar!
+Bulunduğumuz topraklar güneşe arkasını döndüğünde gecenin sakin gölgesine gireriz.
+
+Aynı anda Dünya’nın diğer tarafındaki şehirler ve okyanuslar pırıl pırıl bir gün ışığıyla aydınlanır.
+
+> **Işık Modeli:** Bir lambanın önüne bir elma veya top koyup çevir; bir yüzü aydınlanırken diğer yüzünün gölgede kalışını izle.

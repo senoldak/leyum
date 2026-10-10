@@ -1,24 +1,24 @@
 ---
 lang: no
-title: "Enkle og morsomme figurer av fargerik leire"
-description: "Rull en kule, trykk den flat og lag en snegle!"
+title: "Form og volum: Skulpturer i naturleire"
+description: "Utforsk leirens formbarhet gjennom kuler, ruller og spiraler; bygg geometriske dyrefigurer med hendene."
 date: 2026-10-10
 category: aktiviteter
 cover: /images/yazilar/enkle-skulpturer-av-modelleire.png
-coverAlt: "Enkle og morsomme figurer av fargerik leire"
+coverAlt: "Form og volum: Skulpturer i naturleire"
 ageRange: "4-6 år"
 featured: false
 draft: false
 ---
 
-Rull en myk klump med leire mellom hendene dine.
+Kna en klump med myk modellerleire mellom håndflatene til massen blir smidig og lun.
 
-Lag en lang pølse og rull den sammen som en snegle.
+Rull en jevn pølse på underlaget; kveil den opp i en tett spiral for å lage sneglehuset.
 
-Sett to små leirekuler på toppen som følehorn.
+Trill en mindre kule til sneglenes kropp og fest den forsiktig mot undersiden av sneglehuset.
 
-Du kan også lage en rund og smilende sol.
+Bruk en trepinne til å risse inn fine teksturer og furer i leirens overflate.
 
-Leire former seg lett etter de flinke fingrene dine.
+Gjennom hendenes trykk forvandles en formløs masse til en fast skulptur med tydelig balanse og volum.
 
-> **Kreativ lek:** Prøv å lage en liten gulrot til et lekekanindyr!
+> **Tørking:** La leirefiguren hvile på en treplank over natten slik at formen setter seg og herder.

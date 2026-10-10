@@ -1,20 +1,24 @@
 ---
 lang: tr
-title: "Kutup Ayıları Neden Üşümez?"
-description: "Kuzey Kutbu buz gibidir ama kutup ayısı karların üstünde neşeyle yuvarlanır."
+title: "Kutup Ayısı Buzlu Kutup Sularında Neden Üşümez?"
+description: "Kuzey Kutbu’nun dondurucu rüzgarlarında ve buz dağları arasında yaşayan kutup ayısı soğuktan nasıl korunur?"
 date: 2026-10-10
 category: natur
 cover: /images/yazilar/hvorfor-fryser-ikke-isbjornen.png
-coverAlt: "Kutup Ayıları Neden Üşümez?"
+coverAlt: "Kutup Ayısı Buzlu Kutup Sularında Neden Üşümez?"
 ageRange: "4-6 Yaş"
 featured: false
 draft: false
 ---
 
-Kutup ayısı buz gibi sularda yüzmeyi çok sever. Patileri hiç üşümez.
+Kutup ayısı yeryüzünün en çetin ve dondurucu buz çöllerinde rahatça avlanır ve yaşar.
 
-Kürkünün altında kalın ve sıcak bir yağ tabakası vardır. Bu tabaka onu korur.
+Derisinin hemen altında kalınlığı on santimetreyi bulan yoğun bir yağ tabakası bulunur.
 
-Tüyleri içi boş minik pipetler gibidir. Güneşin sıcacık ışığını doğrudan içine çeker.
+Kürkü iki farklı katmandan oluşur; alttaki sıkı yün tabakası rüzgarı keserken, üstteki şeffaf tüylerin içi boştur.
 
-> **Biliyor muydun?** Bembeyaz kürkünün altında kutup ayısının derisi simsiyahtır!
+Bu içi boş kıllar gün ışığını içine hapsederek ısının doğrudan deriye ulaşmasını sağlar.
+
+Kutup ayısının tüylerinin altındaki asıl derisi simsiyahtır; bu koyu renk güneşten gelen her ışık zerresini soğurur.
+
+> **Kutup Bilgisi:** Geniş patilerinin altındaki sert kıllar ve pürüzlü doku, ayının kaygan buzullar üzerinde kaymasını engeller.

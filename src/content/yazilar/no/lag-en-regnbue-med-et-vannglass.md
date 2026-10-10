@@ -1,26 +1,26 @@
 ---
 lang: no
-title: "Hvordan fange en regnbue med et vannglass og sollys?"
-description: "Se hvordan hvitt lys splittes i alle regnbuens farger ved hjelp av vann og et lite speil."
+title: "Optisk prisme: Fang solens fargespekter med vann og speil"
+description: "Demonstrer hvordan hvitt sollys brytes og spres i sine syv spektralfarger ved hjelp av enkle husholdningsartikler."
 date: 2026-10-10
 category: aktiviteter
 cover: /images/yazilar/lag-en-regnbue-med-et-vannglass.png
-coverAlt: "Hvordan fange en regnbue med et vannglass og sollys?"
+coverAlt: "Optisk prisme: Fang solens fargespekter med vann og speil"
 ageRange: "7-9 år"
 featured: false
 draft: false
 ---
 
-Hvitt sollys ser fargeløst ut, men det inneholder egentlig alle fargene i hele regnbuen.
+Hvitt dagslys inneholder alle synlige bølgelengder av lys, men for å skille dem fra hverandre må vi tvinge lysstrålene gjennom et brytende medium.
 
-Fyll et klart glass med lunkent vann og sett det i en solfylt vinduskarm.
+Fyll en dyp glasskål eller et klart vannglass halvfullt med rent vann og plasser det i en vinduskarm med direkte solinnfall.
 
-Plasser et lite lommespeil på skrå nedi vannet slik at sollyset treffer glasset.
+Plasser et lite, flatt baderomsspeil på skrå nedi vannet slik at speilflaten vender opp mot de innkommende solstrålene.
 
-Hold et hvitt papirark foran speilet til en lysende regnbue danser på papiret.
+Juster vinkelen til speilet reflekterer lyset ut i rommet mot en hvit vegg eller et stort ark tegnepapir.
 
-Vannet og glasset fungerer som et optisk prisme som bryter og sprer lysstrålene.
+Vannet over speilet danner et flytende prisme; lyset bremses og bøyes ulikt avhengig av bølgelengde.
 
-Dette er nøyaktig det samme som skjer når regndråper i luften skaper regnbuer.
+På veggen avtegner det seg et skarpt regnbuespekter fra rødt med lengst bølgelengde til fiolett med kortest bølgelengde.
 
-> **Fargejakt:** Tell alle de syv fargene du klarer å se på det hvite arket!
+> **Vitenskapelig oppgave:** Hold et farget gjennomsiktig plastark foran lysstrålen; observer hvilke deler av spekteret som blokkeres.

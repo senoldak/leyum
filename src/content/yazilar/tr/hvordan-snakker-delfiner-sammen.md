@@ -1,26 +1,26 @@
 ---
 lang: tr
-title: "Yunuslar Birbirleriyle Nasıl Konuşur?"
-description: "Mavi dalgaların altında yunuslar ıslıklar çalar ve birbirlerine özel isimleriyle seslenir!"
+title: "Yunuslar Okyanusun Derinliklerinde Nasıl Sesle İletişim Kurar?"
+description: "Görüş mesafesinin azaldığı derin sularda yunuslar ıslıklarla ve kendilerine has isimlerle nasıl anlaşır?"
 date: 2026-10-10
 category: natur
 cover: /images/yazilar/hvordan-snakker-delfiner-sammen.png
-coverAlt: "Yunuslar Birbirleriyle Nasıl Konuşur?"
+coverAlt: "Yunuslar Okyanusun Derinliklerinde Nasıl Sesle İletişim Kurar?"
 ageRange: "7-9 Yaş"
 featured: false
 draft: false
 ---
 
-Yunuslar okyanusların en zeki, oyuncu ve sosyal memeli hayvanlarıdır.
+Yunuslar okyanuslarda son derece sosyal sürüler halinde yaşar ve hayatta kalmak için ses dalgalarına güvenirler.
 
-Suyun altında görüş mesafesi azaldığında birbirlerini bulmak için ses dalgalarını kullanırlar.
+Ses suda havaya kıyasla dört kat daha hızlı yayıldığı için deniz memelilerinin en gelişmiş organı işitme sistemidir.
 
-Çıkardıkları neşeli klik sesleri ve ıslıklar denizin içinde hızla yayılır.
+Deniz biyologları her bir yunusun hayatının ilk aylarında kendine özgü bir frekansta ıslık geliştirdiğini kanıtlamıştır.
 
-Bilim insanları her bir yunusun kendine özel eşsiz bir ıslık melodisi olduğunu keşfetmiştir.
+Bu imza ıslık tıpkı bir isim görevi görür; sürüdeki diğer yunuslar o bireye seslenmek istediklerinde onun ıslığını taklit ederler.
 
-Bu ıslık tıpkı bir isim gibi çalışır ve arkadaşları ona bu sesle seslenir.
+Ayrıca su altına yüksek frekanslı tıkırtı sesleri yayarak bu dalgaların nesnelerden geri dönüşünü dinlerler.
 
-Ayrıca ekolokasyon yardımıyla karanlık sularda avlarının yerini kusursuz şekilde belirlerler.
+Ekolokasyon adı verilen bu yöntem sayesinde en bulanık sularda bile avlarının yerini ve mesafesini milimetrik olarak haritalandırırlar.
 
-> **Biliyor muydun?** Yunuslar uyurken beyinlerinin sadece yarısını dinlendirir, diğer yarısı hep uyanık kalır!
+> **Uyku Adaptasyonu:** Yunuslar uyurken beyinlerinin sadece bir yarısını dinlendirir; diğer yarı nefes almak için su yüzeyine çıkmalarını sağlar.

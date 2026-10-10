@@ -1,26 +1,26 @@
 ---
 lang: no
-title: "Morsomt kjøkkeneksperiment: Den boblende vulkanen"
-description: "Bygg et krater av leire og se et ufarlig utbrudd av rød lava med natron og eddik!"
+title: "Kjemisk geologi: Bygg en modellvulkan med syre-base-reaksjon"
+description: "Utforsk hvordan natriumbikarbonat og eddiksyre produserer gass under trykk som etterligner et vulkanutbrudd."
 date: 2026-10-10
 category: aktiviteter
 cover: /images/yazilar/kjokkenvulkan-med-natron-og-eddik.png
-coverAlt: "Morsomt kjøkkeneksperiment: Den boblende vulkanen"
+coverAlt: "Kjemisk geologi: Bygg en modellvulkan med syre-base-reaksjon"
 ageRange: "7-9 år"
 featured: false
 draft: false
 ---
 
-Kjemi kan være like spennende som et ekte naturvitenskapelig eventyr på laboratoriet.
+Vulkanutbrudd i naturen drives av oppløste gasser som utvider seg under enormt trykk dypt nede i magmakammeret.
 
-Sett en liten plastkopp i midten av et dypt fat for å samle opp sølet.
+Vi kan simulere dette geologiske prinsippet trygt på kjøkkenbenken ved å utnytte en syre-base-reaksjon.
 
-Bygg et fjell av trolldeig eller modellkitt rundt koppen slik at det ligner en vulkan.
+Plasser en liten sylinderformet plastbeholder midt på et dypt brett og bygg et kjeglefjell av leire rundt kantene.
 
-Hell to spiseskjeer natron, litt oppvaskmiddel og noen dråper rød konditorfarge nedi krateret.
+Fyll beholderen med to spiseskjeer natron, litt flytende oppvasksåpe og noen dråper rød farge for å simulere lava.
 
-Hell eddik forsiktig oppi og se det skummende, røde utbruddet fosse over kantene.
+Når du heller vanlig husholdningseddik ned i krateret, reagerer eddiksyren umiddelbart med natriumhydrogenkarbonatet.
 
-Eddiksyren reagerer med natronet og danner millioner av bobler med ufarlig karbondioksidgass.
+Reaksjonen danner store mengder karbondioksidgass som fanges i såpeskummet og fosser over kraterkanten som en rød strøm.
 
-> **Forskerblikk:** Hva skjer hvis du tilsetter litt mer oppvaskmiddel før du heller i eddiken?
+> **Geologifakta:** I virkelige vulkaner som Etna er det vanndamp og svovelgasser under høyt trykk som slynger lavaen til værs.

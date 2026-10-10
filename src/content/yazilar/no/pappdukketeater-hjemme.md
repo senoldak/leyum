@@ -1,26 +1,26 @@
 ---
 lang: no
-title: "Lag ditt eget dukketeater av en skoeske"
-description: "Forvandle en tom skoeske til en magisk teaterscene med baktepper og papirfigurer på grillpinner."
+title: "Scenografi og mekanikk: Bygg et miniatyrteater i papp"
+description: "Lær grunnprinsipper innen scenearkitektur, kulisseveksling og figurmekanikk ved hjelp av en gjenbrukt skoeske."
 date: 2026-10-10
 category: aktiviteter
 cover: /images/yazilar/pappdukketeater-hjemme.png
-coverAlt: "Lag ditt eget dukketeater av en skoeske"
+coverAlt: "Scenografi og mekanikk: Bygg et miniatyrteater i papp"
 ageRange: "7-9 år"
 featured: false
 draft: false
 ---
 
-En gammel skoeske kan bli til den mest fantastiske teaterscenen du kan forestille deg.
+Teaterarkitektur handler om å skape en illusjon av en hel verden innenfor en avgrenset visuell ramme.
 
-Klipp ut et stort rektangel i bunnen av esken for å lage selve sceneåpningen.
+Skjær ut en stor rektangulær portal i bunnen av en solid skoeske for å danne scenens prosceniumsåpning.
 
-Tegn vakre bakgrunner på hvite ark med skoger, slott eller hav, og fest dem bak.
+Skjær parallelle spor i eskens overside; gjennom disse sporene kan scenearbeideren skyve kulisser og baktepper inn og ut.
 
-Tegn figurer på stiv papp, klipp dem ut og lim dem fast på trepinner.
+Tegn karakterer på stiv kartong, klipp dem presist ut og fest dem til tynne trepinner med lim eller maskeringstape.
 
-Klipp smale sprekker i toppen av esken slik at du kan styre figurene ovenfra.
+Figurene senkes ned gjennom toppsporene slik at dukkeføreren kan manipulere bevegelsene uten å synes for publikum.
 
-Skru av lyset i rommet og lys opp scenen med en lommelykt bakfra for stemning.
+Ved å plassere en lyskilde i skrå vinkel fra siden skapes dramatiske slagskygger som gir scenen dybde og mystikk.
 
-> **Teatersjef:** Inviter familien til premiere og spill en morsom historie du har funnet på selv!
+> **Sceneprøve:** Mal et nattlandskap og et dagslandskap på to ulike baktepper; skift mellom dem under forestillingen for å markere tidens gang.

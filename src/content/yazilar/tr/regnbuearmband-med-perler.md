@@ -1,24 +1,24 @@
 ---
 lang: tr
-title: "İp ve Boncukla Gökkuşağı Bilekliği"
-description: "Rengarenk boncukları ipe dizerek arkadaşına hediye edebileceğin harika bileklikler yap!"
+title: "İp ve Boncuk Zanaatı: Ritmik Geometrik Bileklik"
+description: "Renk sıralaması ve tekrarlayan desenlerle boncuk dizerek ritim duygusunu ve el koordinasyonunu geliştirme çalışması."
 date: 2026-10-10
 category: aktiviteter
 cover: /images/yazilar/regnbuearmband-med-perler.png
-coverAlt: "İp ve Boncukla Gökkuşağı Bilekliği"
+coverAlt: "İp ve Boncuk Zanaatı: Ritmik Geometrik Bileklik"
 ageRange: "4-6 Yaş"
 featured: false
 draft: false
 ---
 
-Büyüklerinden yardım alarak uygun uzunlukta bir ip kes.
+Yaklaşık otuz santimetre uzunluğunda pamuklu sağlam bir ip kesip ucuna açılmayacak bir düğüm at.
 
-Gökkuşağının bütün renklerindeki minik boncukları önüne diz.
+Ahşap boncukları masadaki küçük kaselere renklerine göre özenle ayır.
 
-Boncukları tek tek ve dikkatle ipin içinden geçir.
+Boncukları ipe düzenli bir matematiksel örüntüyle diz: iki lacivert, bir sarı, iki orman yeşili.
 
-İpin iki ucunu açılmayacak sağlam bir düğümle bağla.
+Bu düzenli tekrar, gözün renk armonilerini ve geometrik ritimleri doğal olarak kavramasını sağlar.
 
-Bileğinde pırıl pırıl parıldayan gökkuşağı bilekliğin hazır!
+Bileklik boyuna ulaştığında iki ucu sağlam bir çifte düğümle bağlayarak tamamla.
 
-> **Sevgi hediyesi:** Bu güzel bilekliği en sevdiğin arkadaşına hediye et!
+> **Tasarım Planı:** İpe dizmeye başlamadan önce boncuk renklerinin sırasını kağıda boyayarak kendi modelini çiz.

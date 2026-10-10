@@ -1,20 +1,24 @@
 ---
 lang: no
-title: "Hva gjør bjørnen i hi om vinteren?"
-description: "Når snøen daler, kryper den store bamsen inn i sitt lune hi."
+title: "Hva gjør bjørnen i hiet hele den kalde vinteren?"
+description: "Når den første snøen legger seg over skogsbærene, søker den store brunbjørnen inn i sitt lune vinterhi."
 date: 2026-10-10
 category: natur
 cover: /images/yazilar/hva-gjor-bjornen-om-vinteren.png
-coverAlt: "Hva gjør bjørnen i hi om vinteren?"
+coverAlt: "Hva gjør bjørnen i hiet hele den kalde vinteren?"
 ageRange: "4-6 år"
 featured: true
 draft: false
 ---
 
-Om høsten spiser den store bjørnen masse bær. Den blir god og mett.
+Gjennom den fargerike høsten spiser brunbjørnen store mengder blåbær og røtter for å bygge opp et tykt fettlag.
 
-Når vinteren kommer, kryper bjørnen inn i hiet sitt. Der sover den trygt.
+Når frosten biter og snøen dekker stiene, kryper bjørnen inn i et tørt hi; der hviler den under en trerot.
 
-Hjertet slår veldig sakte hele den kalde vinteren. Den våkner glad til våren.
+Der inne senker kroppen farten; hjerteslagene slår langsomt og jevnt gjennom de kalde månedene.
 
-> **Visste du dette?** Bjørneungene blir født inne i hiet mens mamma sover!
+Bjørnen spiser ingenting mens vinterstormene raser utenfor; den hviler trygt på et mykt leie av mose og granbar.
+
+Når vårsolen smelter snødekket og skogbekkene sildrer igjen, våkner bjørnen og trår ut i det nye lyset.
+
+> **Skogsspor:** Om våren kan du se dype klomerker på furustammer; der har bjørnen strukket seg etter søvnen.
