@@ -28,7 +28,7 @@ function escapeXml(s = '') {
 export function lagFolioSvg({ title = '', category = 'merakli-kasif', ageRange = '7-9' }) {
   const kat = KATEGORI_FARGER[category] ?? KATEGORI_FARGER['merakli-kasif'];
   const safeTitle = escapeXml(title);
-  const safeKat = escapeXml(kat.labelNo);
+  const safeKatUpper = escapeXml(String(kat.labelNo).toUpperCase());
 
   return `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630">
   <defs>
@@ -47,7 +47,7 @@ export function lagFolioSvg({ title = '', category = 'merakli-kasif', ageRange =
   <!-- Kategori Etiketi -->
   <rect x="80" y="90" width="280" height="48" rx="24" fill="${kat.surface}" />
   <text x="220" y="121" fill="${kat.ink}" font-family="system-ui, -apple-system, sans-serif" font-weight="700" font-size="18" text-anchor="middle" letter-spacing="1">
-    ${safeKat.toUpperCase()}
+    ${safeKatUpper}
   </text>
 
   <!-- Yaş Grubu Rozeti -->
