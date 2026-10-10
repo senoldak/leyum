@@ -1,0 +1,48 @@
+# Haftalık olarak yeni çocuk içeriği üretir ve repoya commit eder.
+name: Leyum Redaksjon Bot
+
+on:
+  schedule:
+    - cron: '15 6 * * 1,4' # Pazartesi ve Perşembe sabah 06:15 UTC
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: leyum-redaksjon
+  cancel-in-progress: false
+
+jobs:
+  produser:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+
+      - name: Bağımlılıkları yükle
+        run: npm ci --no-audit --no-fund
+
+      - name: Yeni sayı üret
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          GEMINI_MODEL: ${{ vars.GEMINI_MODEL || 'gemini-2.5-flash' }}
+        run: npm run redaksjon:uret
+
+      - name: Değişiklikleri kaydet ve commit at
+        run: |
+          git config user.name "leyum-redaksjon-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add src/content/yazilar public/images/yazilar scripts/redaksjon/sett.json
+          if git diff --cached --quiet; then
+            echo "Yeni içerik üretilmedi veya taslak reddedildi."
+            exit 0
+          fi
+          git commit -m "chore(dergi): yeni sayı eklendi [skip ci]"
+          git pull --rebase
+          git push
