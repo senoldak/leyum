@@ -1,0 +1,59 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import { SITE } from '../../lib/site';
+
+const locale = 'no';
+const loc = SITE.locales[locale];
+---
+
+<BaseLayout
+  locale={locale}
+  title="Redaksjonell etikk og barns rettigheter"
+  description="Våre etiske prinsipper, pedagogiske rammer og forpliktelser etter Vær Varsom-plakaten og FNs barnekonvensjon."
+>
+  <article class="article-wrap" style="text-align: left;">
+    <div style="display: inline-block; padding: 0.35rem 0.9rem; border-radius: 9999px; font-size: 0.85rem; font-weight: 700; background-color: var(--cat-oppdager-surface); color: var(--cat-oppdager-ink); margin-bottom: 1.25rem;">
+      Redaksjonell Erklæring &amp; Barns Rettigheter
+    </div>
+
+    <h1 style="margin-bottom: 1.5rem; line-height: 1.2;">
+      Et trygt, nysgjerrig og uavhengig magasin for barn
+    </h1>
+
+    <p style="font-size: 1.15rem; line-height: 1.7; color: var(--color-ink-primary); margin-bottom: 2rem;">
+      <strong>leyum</strong> er et ikke-kommersielt, reklamefritt digitalt barnemagasin skapt for å gi barn et trygt og magisk pusterom på internett. Her behandles barn som intelligente, nysgjerrige utforskere.
+    </p>
+
+    <div class="prose" style="line-height: 1.8;">
+      <h2>1. Vær Varsom-plakaten &amp; Redaktørplakaten</h2>
+      <p>
+        Vi følger prinsippene i den norske pressens etiske regelverk, med særlig vekt på <strong>Vær Varsom-plakatens § 4.8 (Barns rettigheter)</strong>. Barns integritet og verdighet skal aldri krenkes. Vi bruker aldri klikkagn (clickbait), villedende titler eller overdrevne skrekkscenarier.
+      </p>
+
+      <h2>2. Medietilsynet &amp; Bildeprogramloven</h2>
+      <p>
+        Alt innhold forhåndsvurderes etter norske normer for barneinnhold. Vold, overveldende frykt, marerittaktige elementer eller voksentematikk har ingen plass i leyum. Innholdet graderes tydelig etter aldersgrupper: <em>4–6 år</em>, <em>7–9 år</em> og <em>10–12 år</em>.
+      </p>
+
+      <h2>3. FNs Barnekonvensjon (artikkel 17)</h2>
+      <p>
+        Gjennom den norske Menneskerettsloven § 2 forplikter vi oss til artikkel 17 i FNs barnekonvensjon: Barn har rett til pålitelig informasjon som fremmer deres åndelige, moralske og fysiske helse.
+      </p>
+
+      <h2>4. 100 % Ikke-kommersielt &amp; Null Sporing</h2>
+      <p>
+        Vi har ingen annonser, ingen sponsorater, ingen affiliate-lenker og ingen kommersiell påvirkning (etter Markedsføringsloven § 19). Vi samler ingen personopplysninger eller sporingsinformasjonskapsler fra våre lesere (GDPR art. 8).
+      </p>
+
+      <h2>5. Pedagogisk Trygghet &amp; Håp</h2>
+      <p>
+        Vi bekjemper unødig øko-angst og katastrofetenkning. Når vi formidler natur og vitenskap, setter vi fokus på naturens mirakler, oppfinnsomhet og de håpefulle løsningene som finnes.
+      </p>
+
+      <h2>6. Åpenhet om Kunstig Intelligens (KI)</h2>
+      <p>
+        Innhold skapes med støtte fra avansert kunstig intelligens, men gjennomgår en streng redaksjonell og pedagogisk flertrinns kontroll (Vaktsjef, Pedagog og Språkvasker) før publisering for å sikre høyeste kvalitet.
+      </p>
+    </div>
+  </article>
+</BaseLayout>

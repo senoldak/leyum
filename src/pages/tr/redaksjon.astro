@@ -1,0 +1,59 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import { SITE } from '../../lib/site';
+
+const locale = 'tr';
+const loc = SITE.locales[locale];
+---
+
+<BaseLayout
+  locale={locale}
+  title="Yazı İşleri, Yayın Etiği ve Çocuk Hakları"
+  description="Yayın ilkelerimiz, pedagojik denetim çerçevemiz, Birleşmiş Milletler Çocuk Hakları Sözleşmesi ve Norveç basın etiği taahhütlerimiz."
+>
+  <article class="article-wrap" style="text-align: left;">
+    <div style="display: inline-block; padding: 0.35rem 0.9rem; border-radius: 9999px; font-size: 0.85rem; font-weight: 700; background-color: var(--cat-oppdager-surface); color: var(--cat-oppdager-ink); margin-bottom: 1.25rem;">
+      Yayın Kurulu &amp; Çocuk Hakları Beyannamesi
+    </div>
+
+    <h1 style="margin-bottom: 1.5rem; line-height: 1.2;">
+      Çocuklar için güvenli, merak dolu ve bağımsız bir vaha
+    </h1>
+
+    <p style="font-size: 1.15rem; line-height: 1.7; color: var(--color-ink-primary); margin-bottom: 2rem;">
+      <strong>leyum</strong>, çocukların merak duygusunu saygıyla kucaklayan, kâr amacı gütmeyen, tamamen reklamsız ve takip çerezsiz iki dilli bir dijital çocuk dergisidir.
+    </p>
+
+    <div class="prose" style="line-height: 1.8;">
+      <h2>1. Basın Etiği ve Çocuk Hakları Standartları</h2>
+      <p>
+        Yayınlarımız, Norveç Basın Konseyi'nin <strong>Vær Varsom-plakaten (§ 4.8 Çocuk Hakları)</strong> ilkelerine ve evrensel gazetecilik etiğine bağlıdır. Çocukları korkutan, rencide eden veya yetişkin çatışmalarının aracı kılan hiçbir anlatıya yer verilmez; tık tuzağı veya kaygı verici sansasyonel başlıklara asla başvurulmaz.
+      </p>
+
+      <h2>2. Zararlı İçerikten Koruma ve Pedagojik Güvenlik</h2>
+      <p>
+        Tüm içerikler çocuk gelişim psikolojisine uygunluk açısından denetlenir. Şiddet, aşırı dehşet, kabus sahneleri ve travmatik içerikler kesinlikle yasaktır. İçerikler yaş gruplarına (<em>4–6 yaş</em>, <em>7–9 yaş</em>, <em>10–12 yaş</em>) göre titizlikle kalibre edilir.
+      </p>
+
+      <h2>3. BM Çocuk Haklarına Dair Sözleşme (Madde 17)</h2>
+      <p>
+        Çocukların ruhsal, ahlaki, zihinsel ve bedensel sağlığını destekleyen nitelikli, doğru ve ufuk açıcı bilgiye erişim hakkına saygı duyuyoruz.
+      </p>
+
+      <h2>4. %100 Reklamsız ve Sıfır Takip Güvencesi</h2>
+      <p>
+        Sitemizde hiçbir reklam, sponsorluk, ürün yerleştirme veya gizli ticari yönlendirme bulunmaz. Okurlarımızdan hiçbir kişisel veri veya çerez toplanmaz (GDPR Madde 8).
+      </p>
+
+      <h2>5. Eko-Anksiyete Yerine Keşif ve Umut</h2>
+      <p>
+        İklim ve doğa konularında çocuklarda çaresizlik uyandıran felaket dili yerine; doğanın muazzam mucizeleri, koruma başarıları ve umut verici bilimsel çözümler öne çıkarılır.
+      </p>
+
+      <h2>6. Yapay Zekâ Şeffaflığı</h2>
+      <p>
+        İçeriklerimiz yapay zekâ teknolojisinin edebi ve görsel gücünden yararlanılarak hazırlanır; ancak her satır çok aşamalı bağımsız pedagojik, editoryal ve dil denetimlerinden (Yazı İşleri Masası, Pedagog ve Redaktör) onay almadan yayına giremez.
+      </p>
+    </div>
+  </article>
+</BaseLayout>
