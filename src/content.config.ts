@@ -12,7 +12,7 @@ const postSchema = ({ image }: { image: any }) =>
     description: z.string(),
     date: z.coerce.date(),
     category: z.enum(slugs),
-    cover: image().optional(),
+    cover: z.string().optional(),
     coverAlt: z.string().optional(),
     ageRange: z.string().default('6-10'),
     featured: z.boolean().default(false),
