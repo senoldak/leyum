@@ -8,6 +8,11 @@ export const KATEGORI_FARGER = {
   eventyr: { surface: '#F3E8FF', ink: '#7C3AED', labelNo: 'Eventyr & Fortellinger', labelTr: 'Masal & Hikaye' },
   gater: { surface: '#D1FAE5', ink: '#059669', labelNo: 'Gåter & Moro', labelTr: 'Zeka & Bilmece' },
   aktiviteter: { surface: '#FFEDD5', ink: '#EA580C', labelNo: 'Aktiviteter & Kunst', labelTr: 'Etkinlik & Sanat' },
+  historie: { surface: '#FEF3C7', ink: '#B45309', labelNo: 'Historie & Sivilisasjoner', labelTr: 'Tarih & Medeniyet' },
+  rommet: { surface: '#E0E7FF', ink: '#4338CA', labelNo: 'Rommet & Universet', labelTr: 'Uzay & Evren' },
+  musikk: { surface: '#FFE4E6', ink: '#E11D48', labelNo: 'Musikk & Rytme', labelTr: 'Müzik & Ritim' },
+  filosofi: { surface: '#CCFBF1', ink: '#0D9488', labelNo: 'Filosofi & Store Spørsmål', labelTr: 'Düşünce & Felsefe' },
+  kultur: { surface: '#FFEDD5', ink: '#C2410C', labelNo: 'Verden & Kulturer', labelTr: 'Dünya & Kültürler' },
   // Geriye dönük uyumluluk
   'merakli-kasif': { surface: '#E0F2FE', ink: '#0284C7', labelNo: 'Nysgjerrig Oppdager', labelTr: 'Meraklı Kaşif' },
   'masal-hikaye': { surface: '#F3E8FF', ink: '#7C3AED', labelNo: 'Eventyr & Fortellinger', labelTr: 'Masal & Hikaye' },

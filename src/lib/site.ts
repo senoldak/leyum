@@ -92,6 +92,46 @@ export const CATEGORIES = [
     title: { no: 'Natur & Dyr', tr: 'Doğa & Hayvanlar' },
     desc: { no: 'Dyrenes hemmeligheter og planeten vår.', tr: 'Hayvanlar aleminin sırları ve mavi gezegenimiz.' },
   },
+  {
+    slug: 'historie',
+    icon: '🏛️',
+    color: '#B45309', // Amber / Parchment
+    bgLight: '#FEF3C7',
+    title: { no: 'Historie & Sivilisasjoner', tr: 'Tarih & Medeniyet' },
+    desc: { no: 'Vikingskip, eldgamle pyramider og oppdagelser som formet verden.', tr: 'Viking gemileri, kadim piramitler ve dünyayı değiştiren keşifler.' },
+  },
+  {
+    slug: 'rommet',
+    icon: '🪐',
+    color: '#4338CA', // Cosmos Indigo
+    bgLight: '#E0E7FF',
+    title: { no: 'Rommet & Universet', tr: 'Uzay & Evren' },
+    desc: { no: 'Planeter, fjerne galakser, stjernestøv og kosmiske mysterier.', tr: 'Gezegenler, uzak galaksiler, yıldız tozları ve kozmik sırlar.' },
+  },
+  {
+    slug: 'musikk',
+    icon: '🎵',
+    color: '#E11D48', // Carmine Rose
+    bgLight: '#FFE4E6',
+    title: { no: 'Musikk & Rytme', tr: 'Müzik & Ritim' },
+    desc: { no: 'Instrumentenes magi, verdensrytmer og hvordan lyd skaper følelser.', tr: 'Enstrümanların büyüsü, dünya ritimleri ve seslerin duygusu.' },
+  },
+  {
+    slug: 'filosofi',
+    icon: '💡',
+    color: '#0D9488', // Sage Teal
+    bgLight: '#CCFBF1',
+    title: { no: 'Filosofi & Store Spørsmål', tr: 'Düşünce & Felsefe' },
+    desc: { no: 'Hvem er jeg? Rettferdighet, vennskap og livets forunderlige gåter.', tr: 'Ben kimim? Adalet, dostluk ve hayatın derin soruları.' },
+  },
+  {
+    slug: 'kultur',
+    icon: '🗺️',
+    color: '#C2410C', // Warm Terracotta
+    bgLight: '#FFEDD5',
+    title: { no: 'Verden & Kulturer', tr: 'Dünya & Kültürler' },
+    desc: { no: 'Folkefester, skikker, språk og menneskenes fargerike fellesskap.', tr: 'Dünya dilleri, festivaller, gelenekler ve insanlığın ortak mirası.' },
+  },
 ] as const;
 
 export type CategorySlug = (typeof CATEGORIES)[number]['slug'];

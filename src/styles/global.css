@@ -42,6 +42,26 @@
   --cat-natur-surface: #EBFBEE;
   --cat-natur-ink: #1B5E20;
 
+  --cat-historie: #B45309;
+  --cat-historie-surface: #FEF3C7;
+  --cat-historie-ink: #78350F;
+
+  --cat-rommet: #4338CA;
+  --cat-rommet-surface: #E0E7FF;
+  --cat-rommet-ink: #312E81;
+
+  --cat-musikk: #E11D48;
+  --cat-musikk-surface: #FFE4E6;
+  --cat-musikk-ink: #9F1239;
+
+  --cat-filosofi: #0D9488;
+  --cat-filosofi-surface: #CCFBF1;
+  --cat-filosofi-ink: #115E59;
+
+  --cat-kultur: #C2410C;
+  --cat-kultur-surface: #FFEDD5;
+  --cat-kultur-ink: #7C2D12;
+
   /* Brand Primary */
   --brand-star: #F59F00;
   --brand-terracotta: #D9480F;

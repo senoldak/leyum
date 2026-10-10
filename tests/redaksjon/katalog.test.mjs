@@ -25,4 +25,13 @@ test('lagFolioSvg yeni kategori slugları ile sorunsuz çalışır', () => {
     ageRange: '7-9',
   });
   assert.match(svg, /OPPDAGER|NYSSGJERRIG|Meraklı Kaşif/i);
+
+  for (const cat of ['historie', 'rommet', 'musikk', 'filosofi', 'kultur']) {
+    const s = lagFolioSvg({
+      title: 'Test Tittel',
+      category: cat,
+      ageRange: '10-12',
+    });
+    assert.ok(s.length > 500, `${cat} kategorisi geçerli bir SVG üretmelidir`);
+  }
 });
