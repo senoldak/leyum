@@ -2,18 +2,34 @@
 import BaseLayout from '../layouts/BaseLayout.astro';
 ---
 
-<BaseLayout locale="no" title="404 · Fant ikke siden / Sayfa Bulunamadı">
-  <div style="text-align: center; padding: 5rem 1rem;">
-    <span style="font-size: 5rem; display: block; margin-bottom: 1rem;">🚀💫</span>
-    <h1 style="font-size: 2.5rem; margin-bottom: 1rem;">Oisann! Denne siden fløy visst til en annen galakse!</h1>
-    <p style="font-size: 1.25rem; color: #64748B; margin-bottom: 2rem;">
-      Aradığın sayfa uzay boşluğunda kaybolmuş olabilir.
+<BaseLayout locale="no" title="404 · Fant ikke siden / Sayfa Bulunamadı" noindex>
+  <div style="text-align: center; padding: 4.5rem 1rem; max-width: 680px; margin: 0 auto;">
+    <span style="font-size: 4.5rem; display: block; margin-bottom: 0.75rem;" aria-hidden="true">🚀💫</span>
+    <span style="display: inline-block; font-size: 0.95rem; font-weight: 800; letter-spacing: 0.08em; text-transform: uppercase; color: var(--cat-aktiviteter-ink); background: var(--cat-aktiviteter-surface); padding: 0.25rem 0.85rem; border-radius: var(--radius-pill); margin-bottom: 1.25rem;">
+      404
+    </span>
+
+    <h1 style="font-family: var(--font-serif); font-size: clamp(1.8rem, 4vw, 2.4rem); line-height: 1.2; margin-bottom: 0.75rem; color: var(--ink-primary);">
+      Oisann! Siden fløy til en annen galakse!
+    </h1>
+    <p style="font-size: 1.05rem; color: var(--ink-muted); margin-bottom: 1.75rem; line-height: 1.5;">
+      Siden du leter etter kan være flyttet eller tatt bort.
     </p>
+
+    <div style="border-top: 1px dashed #E2D3BE; padding-top: 1.5rem; margin-bottom: 2.25rem;" lang="tr">
+      <h2 style="font-family: var(--font-serif); font-size: 1.35rem; color: var(--ink-warm); margin-bottom: 0.5rem;">
+        Bu sayfa başka bir galaksiye uçmuş olabilir!
+      </h2>
+      <p style="font-size: 0.98rem; color: var(--ink-muted); line-height: 1.5; margin: 0;">
+        Aradığın sayfa uzay boşluğunda kaybolmuş ya da adresi değişmiş olabilir.
+      </p>
+    </div>
+
     <div style="display: flex; gap: 1rem; justify-content: center; flex-wrap: wrap;">
-      <a href="/no/" class="nav-item" style="background-color: #FFEDD5; color: #EA580C; font-size: 1.1rem; padding: 0.75rem 1.5rem;">
+      <a href="/no/" class="btn-primary" style="padding: 0.85rem 1.6rem; font-size: 1rem; border-radius: var(--radius-pill); text-decoration: none;">
         🇳🇴 Til forsiden (Norsk)
       </a>
-      <a href="/tr/" class="nav-item" style="background-color: #E0F2FE; color: #0284C7; font-size: 1.1rem; padding: 0.75rem 1.5rem;">
+      <a href="/tr/" class="btn-primary" style="padding: 0.85rem 1.6rem; font-size: 1rem; border-radius: var(--radius-pill); text-decoration: none; background: #0070BA; border-color: #004578;" lang="tr">
         🇹🇷 Ana Sayfaya Dön (Türkçe)
       </a>
     </div>

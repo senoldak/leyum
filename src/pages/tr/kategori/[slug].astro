@@ -4,6 +4,7 @@ import StoryCard from '../../../components/StoryCard.astro';
 import Icon from '../../../components/Icon.astro';
 import { CATEGORIES, getCategory } from '../../../lib/site';
 import { getPosts } from '../../../lib/posts';
+import { collectionGraph } from '../../../lib/seo';
 
 export async function getStaticPaths() {
   return CATEGORIES.map((cat) => ({
@@ -22,6 +23,7 @@ const filtered = allPosts.filter((p) => p.data.category === slug);
   locale={locale}
   title={cat?.title[locale]}
   description={cat?.desc[locale]}
+  schema={collectionGraph(slug!, locale, filtered)}
 >
   <div style="text-align: center; margin: 3rem 0 3.5rem 0;">
     <div

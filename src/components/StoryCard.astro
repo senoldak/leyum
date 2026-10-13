@@ -37,7 +37,7 @@ const url = postUrl(post, locale);
   <p class="card-excerpt">{post.data.description}</p>
 
   <div class="card-foot">
-    <a href={url} class="card-action">
+    <a href={url} class="card-action" aria-label={`${locale === 'no' ? 'Les fortellingen' : 'Hikayeyi Oku'}: ${post.data.title}`}>
       <span>{locale === 'no' ? 'Les fortellingen' : 'Hikayeyi Oku'}</span>
       <Icon name="arrow-right" size={16} />
     </a>

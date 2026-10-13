@@ -32,8 +32,8 @@ const labels = {
 
 <div id="onboarding-modal" class="onboarding-overlay" aria-hidden="true">
   <div class="onboarding-card" role="dialog" aria-modal="true" aria-labelledby="onboarding-title">
-    <button type="button" class="onboarding-close" id="btn-close-onboarding" aria-label="Lukk / Kapat">
-      <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+    <button type="button" class="onboarding-close" id="btn-close-onboarding" aria-label={locale === 'no' ? 'Lukk' : 'Kapat'}>
+      <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false">
         <path d="M18 6 6 18"/><path d="m6 6 12 12"/>
       </svg>
     </button>
@@ -54,6 +54,7 @@ const labels = {
           type="button"
           class={`onboarding-choice-btn lang-btn ${locale === 'no' ? 'selected' : ''}`}
           data-lang="no"
+          aria-pressed={locale === 'no' ? 'true' : 'false'}
         >
           <span class="choice-flag">🇳🇴</span>
           <div class="choice-text">
@@ -65,6 +66,7 @@ const labels = {
           type="button"
           class={`onboarding-choice-btn lang-btn ${locale === 'tr' ? 'selected' : ''}`}
           data-lang="tr"
+          aria-pressed={locale === 'tr' ? 'true' : 'false'}
         >
           <span class="choice-flag">🇹🇷</span>
           <div class="choice-text">
@@ -85,6 +87,7 @@ const labels = {
               type="button"
               class={`onboarding-choice-btn age-btn ${grp.id === 'all' ? 'selected' : ''}`}
               data-age={grp.id}
+              aria-pressed={grp.id === 'all' ? 'true' : 'false'}
             >
               <span class="choice-badge">{grp.badge}</span>
               <div class="choice-text">

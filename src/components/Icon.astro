@@ -3,13 +3,14 @@ interface Props {
   name: string;
   size?: number;
   class?: string;
+  label?: string;
 }
 
-const { name, size = 20, class: className = '' } = Astro.props;
+const { name, size = 20, class: className = '', label } = Astro.props;
 ---
 
 {name === 'oppdager' && (
-  <svg class={className} width={size} height={size} viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+  <svg class={className} width={size} height={size} viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" role={label ? 'img' : undefined} aria-label={label} aria-hidden={label ? undefined : 'true'} focusable="false">
     <path d="M4.5 16.5c-1.5 1.26-2 5-2 5s3.74-.5 5-2c.71-.84.7-2.13-.09-2.91a2.18 2.18 0 0 0-2.91-.09z"/>
     <path d="m12 15-3-3a22 22 0 0 1 2-3.95A12.88 12.88 0 0 1 22 2c0 2.72-.78 7.5-6 11a22.35 22.35 0 0 1-4 2z"/>
     <path d="M9 12H4s.55-3.03 2-4c1.62-1.08 5 0 5 0"/>
@@ -18,7 +19,7 @@ const { name, size = 20, class: className = '' } = Astro.props;
 )}
 
 {name === 'eventyr' && (
-  <svg class={className} width={size} height={size} viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+  <svg class={className} width={size} height={size} viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" role={label ? 'img' : undefined} aria-label={label} aria-hidden={label ? undefined : 'true'} focusable="false">
     <path d="M4 19.5v-15A2.5 2.5 0 0 1 6.5 2H20v20H6.5a2.5 2.5 0 0 1-2.5-2.5Z"/>
     <path d="M6 6h10"/>
     <path d="M6 10h10"/>
@@ -28,7 +29,7 @@ const { name, size = 20, class: className = '' } = Astro.props;
 )}
 
 {name === 'aktiviteter' && (
-  <svg class={className} width={size} height={size} viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+  <svg class={className} width={size} height={size} viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" role={label ? 'img' : undefined} aria-label={label} aria-hidden={label ? undefined : 'true'} focusable="false">
     <circle cx="13.5" cy="6.5" r=".5" fill="currentColor"/>
     <circle cx="17.5" cy="10.5" r=".5" fill="currentColor"/>
     <circle cx="8.5" cy="7.5" r=".5" fill="currentColor"/>
@@ -38,20 +39,20 @@ const { name, size = 20, class: className = '' } = Astro.props;
 )}
 
 {name === 'gater' && (
-  <svg class={className} width={size} height={size} viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+  <svg class={className} width={size} height={size} viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" role={label ? 'img' : undefined} aria-label={label} aria-hidden={label ? undefined : 'true'} focusable="false">
     <path d="M19.439 7.85c0-1.571-1.274-2.85-2.85-2.85H14v2.5a1.5 1.5 0 0 1-3 0V5H8.411c-1.576 0-2.85 1.279-2.85 2.85V10h2.5a1.5 1.5 0 0 1 0 3H5.56v2.15c0 1.576 1.274 2.85 2.85 2.85H10v-2.5a1.5 1.5 0 0 1 3 0V18h3.589c1.576 0 2.85-1.274 2.85-2.85V13h-2.5a1.5 1.5 0 0 1 0-3h2.5V7.85z"/>
   </svg>
 )}
 
 {name === 'natur' && (
-  <svg class={className} width={size} height={size} viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+  <svg class={className} width={size} height={size} viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" role={label ? 'img' : undefined} aria-label={label} aria-hidden={label ? undefined : 'true'} focusable="false">
     <path d="M11 20A7 7 0 0 1 9.8 6.1C15.5 5 17 4.48 19 2c1 2 2 4.18 2 8 0 5.5-4.78 10-10 10Z"/>
     <path d="M2 21c0-3 1.85-5.36 5.08-6C9.5 14.52 12 13 13 12"/>
   </svg>
 )}
 
 {name === 'historie' && (
-  <svg class={className} width={size} height={size} viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+  <svg class={className} width={size} height={size} viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" role={label ? 'img' : undefined} aria-label={label} aria-hidden={label ? undefined : 'true'} focusable="false">
     <path d="M3 21h18"/>
     <path d="M3 7h18"/>
     <path d="M4 7V4h16v3"/>
@@ -63,14 +64,14 @@ const { name, size = 20, class: className = '' } = Astro.props;
 )}
 
 {name === 'rommet' && (
-  <svg class={className} width={size} height={size} viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+  <svg class={className} width={size} height={size} viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" role={label ? 'img' : undefined} aria-label={label} aria-hidden={label ? undefined : 'true'} focusable="false">
     <circle cx="12" cy="12" r="6"/>
     <path d="M2.5 14.5c4-5 15-5 19 0"/>
   </svg>
 )}
 
 {name === 'musikk' && (
-  <svg class={className} width={size} height={size} viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+  <svg class={className} width={size} height={size} viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" role={label ? 'img' : undefined} aria-label={label} aria-hidden={label ? undefined : 'true'} focusable="false">
     <path d="M9 18V5l12-2v13"/>
     <circle cx="6" cy="18" r="3"/>
     <circle cx="18" cy="16" r="3"/>
@@ -78,14 +79,14 @@ const { name, size = 20, class: className = '' } = Astro.props;
 )}
 
 {name === 'filosofi' && (
-  <svg class={className} width={size} height={size} viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+  <svg class={className} width={size} height={size} viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" role={label ? 'img' : undefined} aria-label={label} aria-hidden={label ? undefined : 'true'} focusable="false">
     <path d="M12 2a7 7 0 0 0-7 7c0 2.5 1.5 4.5 3 6v2h8v-2c1.5-1.5 3-3.5 3-6a7 7 0 0 0-7-7z"/>
     <path d="M9 21h6"/>
   </svg>
 )}
 
 {name === 'kultur' && (
-  <svg class={className} width={size} height={size} viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+  <svg class={className} width={size} height={size} viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" role={label ? 'img' : undefined} aria-label={label} aria-hidden={label ? undefined : 'true'} focusable="false">
     <circle cx="12" cy="12" r="10"/>
     <path d="M2 12h20"/>
     <path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/>
@@ -93,7 +94,7 @@ const { name, size = 20, class: className = '' } = Astro.props;
 )}
 
 {name === 'teknologi' && (
-  <svg class={className} width={size} height={size} viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+  <svg class={className} width={size} height={size} viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" role={label ? 'img' : undefined} aria-label={label} aria-hidden={label ? undefined : 'true'} focusable="false">
     <rect width="16" height="16" x="4" y="4" rx="2"/>
     <rect width="6" height="6" x="9" y="9" rx="1"/>
     <path d="M15 2v2"/>
@@ -108,20 +109,20 @@ const { name, size = 20, class: className = '' } = Astro.props;
 )}
 
 {name === 'kroppen' && (
-  <svg class={className} width={size} height={size} viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+  <svg class={className} width={size} height={size} viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" role={label ? 'img' : undefined} aria-label={label} aria-hidden={label ? undefined : 'true'} focusable="false">
     <path d="M19 14c1.49-1.46 3-3.21 3-5.5A5.5 5.5 0 0 0 16.5 3c-1.76 0-3 .5-4.5 2-1.5-1.5-2.74-2-4.5-2A5.5 5.5 0 0 0 2 8.5c0 2.3 1.5 4.05 3 5.5l7 7Z"/>
     <path d="M3.22 12H9.5l1.5-3 2 6 1.5-3h6.28"/>
   </svg>
 )}
 
 {name === 'star' && (
-  <svg class={className} width={size} height={size} viewBox="0 0 24 24" fill="currentColor">
+  <svg class={className} width={size} height={size} viewBox="0 0 24 24" fill="currentColor" role={label ? 'img' : undefined} aria-label={label} aria-hidden={label ? undefined : 'true'} focusable="false">
     <path d="M12 2l2.9 6.8 7.1.6-5.3 4.8 1.6 7.2L12 17.7 5.7 21.4l1.6-7.2L2 9.4l7.1-.6L12 2z"/>
   </svg>
 )}
 
 {name === 'leyum' && (
-  <svg class={className} width={size} height={size} viewBox="0 0 24 24" fill="none">
+  <svg class={className} width={size} height={size} viewBox="0 0 24 24" fill="none" role={label ? 'img' : undefined} aria-label={label} aria-hidden={label ? undefined : 'true'} focusable="false">
     <!-- 'L' letter: Warm terracotta flame -->
     <path d="M 5 4 C 5 3.5 5.5 3 6.5 3 L 8 3 C 8.8 3 9 3.5 9 4 L 9 16 C 9 17 9.8 17.5 11 17.5 L 12.5 17.5 C 13.2 17.5 13.5 18 13.5 18.5 C 13.5 19 13.2 19.5 12.5 19.5 L 7 19.5 C 5.5 19.5 5 18.5 5 17 L 5 4 Z" fill="#D9480F" />
     <!-- 'U' letter: Luminous honey gold -->
@@ -132,19 +133,19 @@ const { name, size = 20, class: className = '' } = Astro.props;
 )}
 
 {name === 'leaf' && (
-  <svg class={className} width={size} height={size} viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+  <svg class={className} width={size} height={size} viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" role={label ? 'img' : undefined} aria-label={label} aria-hidden={label ? undefined : 'true'} focusable="false">
     <path d="M11 20A7 7 0 0 1 9.8 6.1C15.5 5 17 4.48 19 2c1 2 2 4.18 2 8 0 5.5-4.78 10-10 10Z"/>
   </svg>
 )}
 
 {name === 'sparkle' && (
-  <svg class={className} width={size} height={size} viewBox="0 0 24 24" fill="currentColor">
+  <svg class={className} width={size} height={size} viewBox="0 0 24 24" fill="currentColor" role={label ? 'img' : undefined} aria-label={label} aria-hidden={label ? undefined : 'true'} focusable="false">
     <path d="m12 3-1.9 5.8a2 2 0 0 1-1.3 1.3L3 12l5.8 1.9a2 2 0 0 1 1.3 1.3L12 21l1.9-5.8a2 2 0 0 1 1.3-1.3L21 12l-5.8-1.9a2 2 0 0 1-1.3-1.3L12 3z"/>
   </svg>
 )}
 
 {name === 'arrow-right' && (
-  <svg class={className} width={size} height={size} viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+  <svg class={className} width={size} height={size} viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" role={label ? 'img' : undefined} aria-label={label} aria-hidden={label ? undefined : 'true'} focusable="false">
     <path d="M5 12h14"/>
     <path d="m12 5 7 7-7 7"/>
   </svg>
