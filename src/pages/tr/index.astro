@@ -15,7 +15,7 @@ const featuredUrl = featured ? postUrl(featured, locale) : '#';
 
 <BaseLayout locale={locale}>
   {
-    featured && (
+    featured ? (
       <section class="hero-folio" aria-label="Haftanın öne çıkan hikayesi">
         <div class="hero-folio-grid">
           <div>
@@ -44,6 +44,8 @@ const featuredUrl = featured ? postUrl(featured, locale) : '#';
           </div>
         </div>
       </section>
+    ) : (
+      <h1 class="sr-only">{loc.metaTitle}</h1>
     )
   }
 

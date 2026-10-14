@@ -1097,3 +1097,40 @@ img {
     scroll-behavior: auto !important;
   }
 }
+
+/* Yazdırma & PDF Stilleri */
+@media print {
+  .site-header,
+  .site-footer,
+  .skip-link,
+  .onboarding-overlay,
+  .ribbon-bar,
+  .header-toggle-tab,
+  nav,
+  button {
+    display: none !important;
+  }
+
+  body, html, main {
+    background: #fff !important;
+    color: #000 !important;
+  }
+
+  .container {
+    max-width: 100% !important;
+    padding: 0 !important;
+    margin: 0 !important;
+  }
+
+  article, table, figure, .story-card-folio {
+    break-inside: avoid;
+    page-break-inside: avoid;
+  }
+
+  h1, h2, h3 {
+    break-after: avoid;
+    page-break-after: avoid;
+    color: #000 !important;
+  }
+}
+

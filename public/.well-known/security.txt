@@ -1,0 +1,4 @@
+Contact: mailto:redaksjon@leyum.com
+Expires: 2027-12-31T23:59:59.000Z
+Preferred-Languages: no, nb, tr, en
+Canonical: https://leyum.com/.well-known/security.txt

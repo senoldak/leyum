@@ -48,6 +48,12 @@ const jsonLd = JSON.stringify({
     <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
     <link rel="manifest" href="/site.webmanifest" />
     <link rel="sitemap" href="/sitemap-index.xml" />
+    <link
+      rel="alternate"
+      type="application/rss+xml"
+      title={`${SITE.name} (${locale.toUpperCase()})`}
+      href={`/${locale}/rss.xml`}
+    />
     <meta property="og:site_name" content={SITE.name} />
     <meta property="og:title" content={pageTitle} />
     <meta property="og:description" content={metaDesc} />
@@ -188,6 +194,7 @@ const jsonLd = JSON.stringify({
             <li><a href={`/${locale}/om-oss/`}>{loc.aboutTitle}</a></li>
             <li><a href={`/${locale}/redaksjon/`}>{loc.editorialTitle}</a></li>
             <li><a href={`/${locale}/personvern/`}>{loc.privacyTitle}</a></li>
+            <li><a href={`/${locale}/rss.xml`}>RSS</a></li>
           </ul>
         </div>
       </div>
