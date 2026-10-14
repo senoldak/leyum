@@ -9,6 +9,11 @@ coverAlt: "DNA: Den spiralformede oppskriftsboken inne i hver celle"
 ageRange: "10-12 år"
 featured: true
 draft: false
+why_matters: "DNA er naturens eget universelle kodespråk; bare fire kjemiske bokstaver inneholder all informasjonen som trengs for å bygge og vedlikeholde en levende organisme."
+key_points:
+  - "Molekylet er formet som en vridd taustige (dobbel heliks) oppdaget i 1953."
+  - "Fire kjemiske baser (A, T, C, G) danner parene som koder for samtlige proteiner."
+  - "To meter med DNA er kveilet sammen i en mikroskopisk cellekjerne i nesten hver celle."
 ---
 
 I kjernen av nesten hver eneste av de tretti billioner cellene i kroppen din ligger et kjemisk mesterverk: deoksyribonukleinsyre, eller DNA.

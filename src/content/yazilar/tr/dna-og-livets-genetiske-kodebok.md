@@ -9,6 +9,11 @@ coverAlt: "DNA ve Yaşamın Çift Sarmallı Genetik Şifresi"
 ageRange: "10-12 Yaş"
 featured: true
 draft: false
+why_matters: "DNA, doğanın milyarlarca yıllık dijital bilgi deposudur; yalnızca dört kimyasal harf, bütün bir insanı inşa eden ve yaşatan tüm tarifleri saklar."
+key_points:
+  - "1953'te keşfedilen çift sarmal yapısı, kıvrılmış bir merdivene benzer."
+  - "Dört kimyasal baz (A, T, C, G) kusursuz kurallarla eşleşerek genetik kodu oluşturur."
+  - "Tek bir hücre çekirdeğindeki 2 metrelik DNA ipliği histon proteinleriyle mikroskobik boyuta katlanır."
 ---
 
 Vücudumuzdaki otuz trilyon hücrenin neredeyse her birinin çekirdeğinde muhteşem bir molekül saklanır: Deoksiribonükleik asit, yani DNA.

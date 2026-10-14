@@ -1,6 +1,7 @@
 // Arama motorları için ortak yapılandırılmış veri (schema.org JSON-LD) yardımcıları.
 import { SITE, type Locale, getCategory } from './site';
 import { postUrl, categoryUrl, type PostEntry } from './posts';
+import { matchEntities } from './entities';
 
 export const SITE_URL = 'https://leyum.com';
 export const ORG_ID = `${SITE_URL}/#organization`;
@@ -22,6 +23,7 @@ export function siteGraph(locale: Locale) {
       },
       publishingPrinciples: `${SITE_URL}/${locale}/redaksjon/`,
       inLanguage: ['nb', 'tr'],
+      knowsAbout: ['Vitenskap', 'Natur', 'Historie', 'Astronomi', 'Teknologi', 'Bilim', 'Doğa', 'Tarih', 'Uzay'],
     },
     {
       '@type': 'WebSite',
@@ -55,6 +57,8 @@ export function articleGraph(post: PostEntry, locale: Locale) {
     ? new URL(post.data.cover, SITE_URL).href
     : `${SITE_URL}/og-default.png`;
 
+  const entities = matchEntities(`${post.data.title} ${post.data.description}`, locale);
+
   return [
     {
       '@type': 'Article',
@@ -72,6 +76,7 @@ export function articleGraph(post: PostEntry, locale: Locale) {
       inLanguage: loc.code === 'no' ? 'nb' : 'tr',
       isAccessibleForFree: true,
       isPartOf: { '@id': WEBSITE_ID },
+      ...(entities.length > 0 ? { about: entities } : {}),
     },
     breadcrumbs([
       { name: SITE.name, url: `${SITE_URL}/${locale}/` },

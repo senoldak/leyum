@@ -814,6 +814,93 @@ img {
   margin: 2rem 0;
 }
 
+/* ==========================================================================
+   KID-FRIENDLY CURIOSITY SYNTHESIS BLOCK (SentezBlok)
+   Strictly zero inline styles for CSP compliance; warm storybook aesthetics.
+   ========================================================================== */
+
+.sentez-kutu {
+  margin: 0 0 2.75rem 0;
+  padding: 1.75rem 2rem;
+  background-color: var(--bg-subtle);
+  border: var(--border-card);
+  border-radius: var(--radius-md);
+  box-shadow: var(--shadow-press);
+}
+
+.sentez-kutu-header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1.25rem;
+}
+
+.sentez-kutu-tittel {
+  font-family: var(--font-serif);
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: var(--ink-primary);
+  background-color: #FAF0E4;
+  border: 1px solid #E2D3BE;
+  padding: 0.35rem 0.9rem;
+  border-radius: var(--radius-pill);
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  box-shadow: 0 1px 2px rgba(28, 35, 51, 0.04);
+}
+
+.sentez-seksjon {
+  margin-bottom: 1.35rem;
+}
+
+.sentez-seksjon:last-child {
+  margin-bottom: 0;
+}
+
+.sentez-seksjon-tittel {
+  font-family: var(--font-sans);
+  font-size: 0.95rem;
+  font-weight: 700;
+  color: var(--brand-terracotta);
+  letter-spacing: 0.01em;
+  margin-bottom: 0.45rem;
+}
+
+.sentez-tekst {
+  font-family: var(--font-sans);
+  font-size: 1.05rem;
+  line-height: 1.65;
+  color: var(--ink-body);
+  margin: 0;
+}
+
+.sentez-liste {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0.6rem;
+}
+
+.sentez-liste li {
+  font-family: var(--font-sans);
+  font-size: 1.02rem;
+  line-height: 1.55;
+  color: var(--ink-body);
+  padding-left: 1.5rem;
+  position: relative;
+}
+
+.sentez-liste li::before {
+  content: '✦';
+  position: absolute;
+  left: 0;
+  top: 0.05rem;
+  color: var(--brand-star);
+  font-size: 0.9rem;
+}
+
 /* Footer (Editorial & Ethical Statements) */
 .site-footer {
   background: #182238;
@@ -1084,6 +1171,20 @@ img {
   .hero-folio {
     padding: 2rem 1.25rem;
   }
+  .sentez-kutu {
+    padding: 1.35rem 1.25rem;
+    margin-bottom: 2rem;
+  }
+  .sentez-kutu-tittel {
+    font-size: 1rem;
+    padding: 0.3rem 0.75rem;
+  }
+  .sentez-tekst {
+    font-size: 1rem;
+  }
+  .sentez-liste li {
+    font-size: 0.98rem;
+  }
 }
 
 /* Accessibility: Prefers-reduced-motion */
@@ -1122,7 +1223,7 @@ img {
     margin: 0 !important;
   }
 
-  article, table, figure, .story-card-folio {
+  article, table, figure, .story-card-folio, .sentez-kutu {
     break-inside: avoid;
     page-break-inside: avoid;
   }

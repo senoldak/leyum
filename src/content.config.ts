@@ -17,6 +17,8 @@ const postSchema = ({ image }: { image: any }) =>
     ageRange: z.string().default('6-10'),
     featured: z.boolean().default(false),
     draft: z.boolean().default(false),
+    why_matters: z.string().optional(),
+    key_points: z.array(z.string()).optional(),
   });
 
 const yazilar_no = defineCollection({

@@ -2,6 +2,7 @@
 import { render } from 'astro:content';
 import BaseLayout from '../../../layouts/BaseLayout.astro';
 import Icon from '../../../components/Icon.astro';
+import SentezBlok from '../../../components/SentezBlok.astro';
 import { getCategory, formatDate } from '../../../lib/site';
 import { getPosts, type PostEntry } from '../../../lib/posts';
 import { articleGraph } from '../../../lib/seo';
@@ -54,6 +55,8 @@ const locale = 'no';
         <span>🗓️ {formatDate(post.data.date, locale)}</span>
       </div>
     </header>
+
+    <SentezBlok locale={locale} whyMatters={post.data.why_matters} keyPoints={post.data.key_points} />
 
     <div class="article-body-prose">
       <Content />

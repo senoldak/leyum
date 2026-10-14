@@ -1,0 +1,57 @@
+---
+// SentezBlok: Barn- og nysgjerrighetsvennlig oppsummering (Kort forklart)
+import type { Locale } from '../lib/site';
+
+interface Props {
+  locale: Locale;
+  whyMatters?: string;
+  keyPoints?: string[];
+}
+
+const { locale = 'no', whyMatters, keyPoints } = Astro.props;
+
+const effectiveWhy = (whyMatters || '').trim();
+const hasWhy = effectiveWhy.length > 0;
+const hasPoints = Array.isArray(keyPoints) && keyPoints.length > 0;
+
+const labels = {
+  no: {
+    header: 'Kort forklart 🔍',
+    whyTitle: 'Hvorfor er det spennende? 💡',
+    pointsTitle: '3 Viktige fakta ✨',
+  },
+  tr: {
+    header: 'Kısaca Merak Edilenler 🔍',
+    whyTitle: 'Neden Büyüleyici? 💡',
+    pointsTitle: '3 Önemli Nokta ✨',
+  },
+};
+
+const currentLabels = labels[locale] || labels.no;
+---
+
+{
+  (hasWhy || hasPoints) && (
+    <aside class="sentez-kutu" aria-label={currentLabels.header}>
+      <div class="sentez-kutu-header">
+        <span class="sentez-kutu-tittel">{currentLabels.header}</span>
+      </div>
+      {hasWhy && (
+        <div class="sentez-seksjon sentez-neden">
+          <p class="sentez-seksjon-tittel">{currentLabels.whyTitle}</p>
+          <p class="sentez-tekst">{effectiveWhy}</p>
+        </div>
+      )}
+      {hasPoints && (
+        <div class="sentez-seksjon sentez-fakta">
+          <p class="sentez-seksjon-tittel">{currentLabels.pointsTitle}</p>
+          <ul class="sentez-liste">
+            {keyPoints!.map((point) => (
+              <li>{point}</li>
+            ))}
+          </ul>
+        </div>
+      )}
+    </aside>
+  )
+}
