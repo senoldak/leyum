@@ -5,12 +5,19 @@ import { SITE } from '../../lib/site';
 
 const locale = 'tr';
 const loc = SITE.locales[locale];
+
+const IFJ_URL = 'https://www.ifj.org/who/rules-and-policy/global-charter-of-ethics-for-journalists';
+const VVP_URL = 'https://www.presse.no/vaer-varsom-plakaten';
+const RP_URL = 'https://www.redaktor.no/ressurser/etiske-og-juridiske-rammeverk/redaktorplakaten';
+const TRUST_PROJECT_URL = 'https://thetrustproject.org';
+const RSF_CHARTER_URL = 'https://rsf.org/en/paris-charter-ai-and-journalism';
+const PFU_URL = 'https://presse.no/pfu/';
 ---
 
 <BaseLayout
   locale={locale}
   title="Yazı İşleri, Yayın Etiği ve Çocuk Hakları — leyum"
-  description="Norveç Basın Konseyi VVP 4.8 standartları, BM Çocuk Hakları Sözleşmesi, pedagojik güvenlik filtreleri ve editoryal bağımsızlık taahhütlerimiz."
+  description="IFJ Küresel Gazetecilik Etiği Şartı, Vær Varsom-plakaten § 4.8, The Trust Project 8 güven göstergesi, RSF Paris Yapay Zekâ Şartı ve pedagojik güvenlik güvencelerimiz."
 >
   <article class="static-folio-wrap">
     <header class="static-hero-head">
@@ -22,7 +29,7 @@ const loc = SITE.locales[locale];
       <h1>Çocuklar İçin Sorumlu, Şeffaf ve Güvenli Yayıncılık</h1>
 
       <p class="static-hero-lead">
-        <strong>leyum</strong>; çocukların zihinsel ve duygusal esenliğini korumayı, doğru ve ufuk açıcı bilgiye erişim hakkını her türlü ticari ve sansasyonel kaygının üstünde tutar.
+        <strong>leyum</strong>; çocukların zihinsel ve duygusal esenliğini korumayı, doğru ve ufuk açıcı bilgiye erişim hakkını her türlü ticari ve sansasyonel kaygının üstünde tutar. Uluslararası Gazeteciler Federasyonu (IFJ), Norveç Basın Konseyi (VVP &amp; Redaktørplakaten), The Trust Project ve RSF Paris Şartı standartlarına tavizsiz bağlıyız.
       </p>
     </header>
 
@@ -31,9 +38,9 @@ const loc = SITE.locales[locale];
         <div class="static-card-icon" style="background-color: var(--cat-oppdager-surface); color: var(--cat-oppdager-ink);">
           <span>📜</span>
         </div>
-        <h2 class="static-card-title">1. Vær Varsom-plakaten &amp; Basın Etiği (§ 4.8)</h2>
+        <h2 class="static-card-title">1. IFJ Şartı &amp; Vær Varsom-plakaten (§ 4.8)</h2>
         <p class="static-card-body">
-          Norveç Basın Konseyi'nin çocuk yayıncılığı ilkelerine tam bağlıyız. Çocukların saygınlığını zedeleyecek hiçbir unsura yer verilmez; tık tuzağı veya korku pompalayan sansasyonel başlıklara asla başvurulmaz.
+          <a href={IFJ_URL} target="_blank" rel="noopener noreferrer" style="text-decoration: underline;">IFJ Küresel Gazetecilik Etiği Şartı</a> ve Norveç Basın Konseyi <a href={VVP_URL} target="_blank" rel="noopener noreferrer" style="text-decoration: underline;">Vær Varsom-plakaten § 4.8</a> çocuk yayıncılığı normlarına tam bağlıyız. Çocukların saygınlığını zedeleyecek hiçbir unsura yer verilmez; tık tuzağı veya korku pompalayan sansasyonel başlıklara asla başvurulmaz. <a href={RP_URL} target="_blank" rel="noopener noreferrer" style="text-decoration: underline;">Redaktørplakaten</a> uyarınca editoryal bağımsızlık ve tam sorumluluk esastır.
         </p>
       </div>
 
@@ -41,19 +48,9 @@ const loc = SITE.locales[locale];
         <div class="static-card-icon" style="background-color: var(--cat-natur-surface); color: var(--cat-natur-ink);">
           <span>🛡️</span>
         </div>
-        <h2 class="static-card-title">2. Zararlı İçerikten Koruma &amp; Pedagojik Güvenlik</h2>
+        <h2 class="static-card-title">2. BM Çocuk Hakları (Md. 17) &amp; Pedagojik Güvenlik</h2>
         <p class="static-card-body">
-          Tüm içerikler çocuk psikolojisi süzgecinden geçer. Şiddet, dehşet ve kabus öğeleri kesinlikle yasaktır. Anlatım ritmi 4–6, 7–9 ve 10–12 yaş gruplarının kavramsal olgunluğuna göre kalibre edilir.
-        </p>
-      </div>
-
-      <div class="static-card">
-        <div class="static-card-icon" style="background-color: var(--cat-kultur-surface); color: var(--cat-kultur-ink);">
-          <span>🌐</span>
-        </div>
-        <h2 class="static-card-title">3. BM Çocuk Haklarına Dair Sözleşme (Madde 17)</h2>
-        <p class="static-card-body">
-          Her çocuğun ruhsal, zihinsel ve ahlaki gelişimini besleyecek güvenilir, doğru ve ufuk açıcı kültürel bilgiye sansürsüz ve engelsiz erişim hakkını savunuyoruz.
+          Menneskerettsloven § 2 ve BM Çocuk Haklarına Dair Sözleşme (Madde 17) gereğince çocukların kültürel bilgiye sansürsüz ve güvenli erişimini savunuyoruz. Norveç Görsel Program Yasası (Bildeprogramloven) standartlarında pedagojik filtre uygulanır: Şiddet, dehşet ve kabus öğeleri kesinlikle yasaktır; içerikler 4–6, 7–9 ve 10–12 yaş gruplarına göre kalibre edilir.
         </p>
       </div>
 
@@ -61,9 +58,9 @@ const loc = SITE.locales[locale];
         <div class="static-card-icon" style="background-color: var(--cat-vitenskap-surface); color: var(--cat-vitenskap-ink);">
           <span>🌿</span>
         </div>
-        <h2 class="static-card-title">4. Eko-Anksiyete Yerine Çözüm ve Umut Dili</h2>
+        <h2 class="static-card-title">3. Eko-Anksiyete Yerine Çözüm ve Umut Dili</h2>
         <p class="static-card-body">
-          Doğa ve iklim meselelerinde çocuklarda çaresizlik uyandıran felaket dili yerine; ekosistemin büyüleyici gücünü, koruma başarılarını ve umut veren bilimsel yenilikleri öne çıkarıyoruz.
+          Doğa, iklim ve biyoloji konularında çocuklarda çaresizlik uyandıran felaket dili yerine; ekosistemin büyüleyici uyumunu, koruma başarılarını ve umut veren bilimsel yenilikleri öne çıkarıyoruz. Çocukların merakını ve çevre sevgisini yapıcı bir eylem arzusuna dönüştürüyoruz.
         </p>
       </div>
 
@@ -71,9 +68,9 @@ const loc = SITE.locales[locale];
         <div class="static-card-icon" style="background-color: var(--cat-mat-surface); color: var(--cat-mat-ink);">
           <span>🔒</span>
         </div>
-        <h2 class="static-card-title">5. %100 Ticari Bağımsızlık ve Sıfır Reklam</h2>
+        <h2 class="static-card-title">4. %100 Ticari Bağımsızlık ve Sıfır Reklam</h2>
         <p class="static-card-body">
-          Sitemizde hiçbir reklam, sponsorluk, ürün yerleştirme veya gizli ticari yönlendirme bulunmaz. Okurlarımızın merakını ticari bir metaya dönüştürmeyiz (Markedsføringsloven § 19).
+          Sitemizde hiçbir reklam, sponsorluk, ürün yerleştirme veya gizli ticari yönlendirme bulunmaz. Okurlarımızın saf merakını asla ticari bir metaya dönüştürmeyiz (Markedsføringsloven § 19). İz sürücüler, üçüncü taraf pazarlama çerezleri veya profil çıkarma mekanizmaları sitemizde kesinlikle yer alamaz.
         </p>
       </div>
 
@@ -81,22 +78,164 @@ const loc = SITE.locales[locale];
         <div class="static-card-icon" style="background-color: var(--cat-teknologi-surface); color: var(--cat-teknologi-ink);">
           <span>🔬</span>
         </div>
-        <h2 class="static-card-title">6. Yapay Zekâ Şeffaflığı ve Üç Kademeli İnsan Denetimi</h2>
+        <h2 class="static-card-title">5. RSF Paris Şartı &amp; Üç Kademeli İnsan Denetimi</h2>
         <p class="static-card-body">
-          İleri yapay zekâ teknolojisi sadece taslak üretici bir araçtır; her metin Yayın Yönetmeni (Vaktsjef), Pedagog ve Dilbilimci (Språkvasker) süzgecinden geçerek onaylanmadan yayımlanamaz.
+          <a href={RSF_CHARTER_URL} target="_blank" rel="noopener noreferrer" style="text-decoration: underline;">RSF Paris Yapay Zekâ ve Gazetecilik Şartı (2023)</a> doğrultusunda algoritmalar yalnızca ilk araştırma ve taslak aracıdır; insan sorumluluğu devredilemez. Her metin üç kademeli editoryal süzgeçten geçer: <strong>Yayın Yönetmeni (Vaktsjef)</strong>, <strong>Pedagog</strong> ve <strong>Dilbilimci/Düzeltmen (Språkvasker)</strong>.
+        </p>
+      </div>
+
+      <div class="static-card">
+        <div class="static-card-icon" style="background-color: var(--cat-filosofi-surface); color: var(--cat-filosofi-ink);">
+          <span>🚫</span>
+        </div>
+        <h2 class="static-card-title">6. Sentetik Manipülasyon Yasağı ve Şeffaf Etiketleme</h2>
+        <p class="static-card-body">
+          Gerçekliği tahrif eden "deepfake" görseller, manipüle edilmiş fotoğraflar ve sahte alıntılar kesinlikle yasaktır. Bilimsel çizimler ve görsel materyaller hakiki verilere dayanır. Yapay zekâ teknolojisinin katkı sunduğu herhangi bir araştırma veya görselleştirme VVP 2.3 uyarınca açıkça etiketlenir.
         </p>
       </div>
     </div>
 
-    <div class="static-manifesto-box">
-      <p class="static-manifesto-quote">
-        “Yayınlarımızda bir hata, pedagojik açıdan tartışmalı bir ifade veya geliştirilmesini istediğiniz bir detay görürseniz; yazı işleri kurulumuz her türlü yapıcı eleştiriye ve geri bildirime samimiyetle açıktır.”
+    <div style="margin: 3.5rem 0 1.5rem 0; border-top: 2px solid #EADBCC; padding-top: 2.5rem;">
+      <div class="static-hero-badge" style="background-color: var(--cat-rommet-surface); color: var(--cat-rommet-ink);">
+        <Icon name="star" size={16} />
+        <span>Uluslararası Gazetecilikte Güven Standardı</span>
+      </div>
+      <h2 id="trust-project" style="font-family: var(--font-serif); font-size: 2rem; color: var(--ink-primary); margin: 0.5rem 0 1rem 0;">
+        The Trust Project: Çocuk Mecmuacılığı İçin 8 Güven Göstergesi
+      </h2>
+      <p style="font-size: 1.1rem; line-height: 1.7; color: var(--ink-warm); margin-bottom: 2rem;">
+        leyum, küresel gazetecilik konsorsiyumu <a href={TRUST_PROJECT_URL} target="_blank" rel="noopener noreferrer" style="text-decoration: underline; font-weight: 700;">The Trust Project</a> tarafından tanımlanan 8 temel güven göstergesini (Trust Indicators) çocukların bilişsel dünyasına ve pedagojik ihtiyaçlarına uyarlayarak eksiksiz uygular:
       </p>
-      <p class="static-manifesto-author">
-        <span>✉️</span>
-        <span>Yazı İşleri Masası İletişim: redaksjon@leyum.com</span>
-      </p>
+
+      <div class="static-cards-grid">
+        <div class="static-card">
+          <div class="static-card-icon" style="background-color: var(--cat-oppdager-surface); color: var(--cat-oppdager-ink);">
+            <span>1️⃣</span>
+          </div>
+          <h3 class="static-card-title">En İyi Uygulamalar (Best Practices)</h3>
+          <p class="static-card-body">
+            Çocukların üstün yararı, doğrulama ilkelerimiz, editoryal misyonumuz, kâr amacı gütmeyen bağımsız yapımız ve etik standartlarımız kamuya tamamen açıktır.
+          </p>
+        </div>
+
+        <div class="static-card">
+          <div class="static-card-icon" style="background-color: var(--cat-eventyr-surface); color: var(--cat-eventyr-ink);">
+            <span>2️⃣</span>
+          </div>
+          <h3 class="static-card-title">Yazar ve Pedagog Uzmanlığı (Author Expertise)</h3>
+          <p class="static-card-body">
+            Her içerik bilim editörleri, çocuk gelişim uzmanları ve dilbilimcilerin ortak denetiminde hazırlanır; künye ve uzmanlık alanları şeffaftır.
+          </p>
+        </div>
+
+        <div class="static-card">
+          <div class="static-card-icon" style="background-color: var(--cat-aktiviteter-surface); color: var(--cat-aktiviteter-ink);">
+            <span>3️⃣</span>
+          </div>
+          <h3 class="static-card-title">İçerik Türü Etiketleme (Type of Work)</h3>
+          <p class="static-card-body">
+            Doğa gözlemi, bilimsel keşif haberi, tarihsel anlatı, felsefi düşünce deneyi veya kültürel hikâye türleri açıkça etiketlenir; kurgu ile olgu birbirine karıştırılmaz.
+          </p>
+        </div>
+
+        <div class="static-card">
+          <div class="static-card-icon" style="background-color: var(--cat-gater-surface); color: var(--cat-gater-ink);">
+            <span>4️⃣</span>
+          </div>
+          <h3 class="static-card-title">Kaynaklar ve Doğrulama (Citations &amp; References)</h3>
+          <p class="static-card-body">
+            Astronomi, biyoloji ve teknoloji konularında NASA, ESA, Nature, Science, TÜBİTAK ve üniversite araştırmaları gibi hakemli birincil bilimsel kaynaklara dayanılır.
+          </p>
+        </div>
+
+        <div class="static-card">
+          <div class="static-card-icon" style="background-color: var(--cat-natur-surface); color: var(--cat-natur-ink);">
+            <span>5️⃣</span>
+          </div>
+          <h3 class="static-card-title">Pedagojik Yöntem (Methods)</h3>
+          <p class="static-card-body">
+            Kavramsal zorluk derecesi, cümle ritmi ve soyutlama seviyesi 4–6, 7–9 ve 10–12 yaş kademelerine göre bilimsel pedagoji ilkeleriyle kalibre edilir.
+          </p>
+        </div>
+
+        <div class="static-card">
+          <div class="static-card-icon" style="background-color: var(--cat-historie-surface); color: var(--cat-historie-ink);">
+            <span>6️⃣</span>
+          </div>
+          <h3 class="static-card-title">Yerel ve Evrensel Perspektif (Locally Sourced)</h3>
+          <p class="static-card-body">
+            İskandinav ve Anadolu doğa coğrafyası, yerel fauna ve flora ile evrensel bilim mirası arasında çift yönlü, canlı ve somut köprüler kurulur.
+          </p>
+        </div>
+
+        <div class="static-card">
+          <div class="static-card-icon" style="background-color: var(--cat-kultur-surface); color: var(--cat-kultur-ink);">
+            <span>7️⃣</span>
+          </div>
+          <h3 class="static-card-title">Kapsayıcılık ve Çok Seslilik (Diverse Voices)</h3>
+          <p class="static-card-body">
+            Farklı kültürler, engellilik farkındalığı, nöroçeşitlilik ve cinsiyet eşitliği gözetilir; üstenci, ayrımcı ve ötekileştirici dilden kesinlikle kaçınılır.
+          </p>
+        </div>
+
+        <div class="static-card">
+          <div class="static-card-icon" style="background-color: var(--cat-teknologi-surface); color: var(--cat-teknologi-ink);">
+            <span>8️⃣</span>
+          </div>
+          <h3 class="static-card-title">Açık Düzeltme (Actionable Feedback)</h3>
+          <p class="static-card-body">
+            Çocukların, öğretmenlerin ve ebeveynlerin merak ettikleri soruları iletmeleri ve olası hataları bildirmeleri için etkin bir düzeltme ve katılım masası işletilir.
+          </p>
+        </div>
+      </div>
     </div>
+
+    <section style="margin-top: 3.5rem; border-top: 2px solid #EADBCC; padding-top: 2.5rem;">
+      <a id="rettelser" class="sr-only"></a>
+      <h2 id="duzeltmeler" style="font-family: var(--font-serif); font-size: 2rem; color: var(--ink-primary); margin-bottom: 1rem;">
+        Düzeltme ve Katılım Masası
+      </h2>
+      <p style="font-size: 1.1rem; line-height: 1.7; color: #4B5563; margin-bottom: 1.5rem;">
+        Gerçeğe ve çocukların güvenine saygı, hataların dürüstçe kabul edilmesini gerektirir. leyum'da yayımlanan herhangi bir makalede maddi bir olgu hatası, pedagojik açıdan tartışmalı bir kavram veya güncelliğini yitirmiş bir bilgi tespit edildiğinde aşağıdaki düzeltme protokolü işletilir:
+      </p>
+
+      <div class="static-cards-grid" style="margin-top: 1.5rem; margin-bottom: 2rem;">
+        <div class="static-card">
+          <div class="static-card-icon" style="background-color: var(--cat-aktiviteter-surface); color: var(--cat-aktiviteter-ink);">
+            <span>⚖️</span>
+          </div>
+          <h3 class="static-card-title">Açık ve Kalıcı Düzeltme Notu</h3>
+          <p class="static-card-body">
+            Hatalar asla sessizce silinmez ya da gizlenmez. Vær Varsom-plakaten § 4.13 uyarınca düzeltilen metinlerin altına hatanın konusu, doğru bilgi ve düzeltme tarihi/saati şeffaf bir "Düzeltme Notu" olarak eklenir.
+          </p>
+        </div>
+
+        <div class="static-card">
+          <div class="static-card-icon" style="background-color: var(--cat-gater-surface); color: var(--cat-gater-ink);">
+            <span>⏱️</span>
+          </div>
+          <h3 class="static-card-title">24 Saat İçinde İnceleme Güvencesi</h3>
+          <p class="static-card-body">
+            Çocuklardan, velilerden veya eğitimcilerden gelen bildirimler Yazı İşleri Masası tarafından öncelikle incelenir ve en geç 24 saat içinde geri bildirimde bulunularak teyit edilen düzeltmeler ivedilikle hayata geçirilir.
+          </p>
+        </div>
+      </div>
+
+      <div class="static-manifesto-box">
+        <p class="static-manifesto-quote">
+          “Bir çocuğun sorduğu soru ya da dikkatli bir okurun fark ettiği küçücük bir ayrıntı, yayın kalitemizi büyüten en değerli pusuladır. Bize her zaman doğrudan yazabilirsiniz.”
+        </p>
+        <div style="display: flex; flex-direction: column; gap: 0.6rem; margin-top: 1.25rem;">
+          <p class="static-manifesto-author">
+            <span>✉️</span>
+            <span>Yazı İşleri Masası İletişim: <a href="mailto:redaksjon@leyum.com" style="text-decoration: underline; color: inherit;">redaksjon@leyum.com</a></span>
+          </p>
+          <p style="font-size: 0.92rem; color: var(--ink-muted); margin: 0; line-height: 1.6;">
+            Norveç basın etiği standartları uyarınca çözülemeyen uyuşmazlıklarda Pressens Faglige Utvalg (PFU — <a href={PFU_URL} target="_blank" rel="noopener noreferrer" style="text-decoration: underline;">presse.no/pfu</a>) başvuru mercii olarak tanınır.
+          </p>
+        </div>
+      </div>
+    </section>
 
     <nav class="static-nav-strip" aria-label="Kurumsal Sayfalar">
       <a href={`/${locale}/om-oss/`} class="static-nav-link">

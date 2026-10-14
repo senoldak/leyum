@@ -9,6 +9,7 @@ export const WEBSITE_ID = `${SITE_URL}/#website`;
 
 export function siteGraph(locale: Locale) {
   const loc = SITE.locales[locale];
+  const correctionsAnchor = locale === 'no' ? '#rettelser' : '#duzeltmeler';
   return [
     {
       '@type': 'Organization',
@@ -22,6 +23,7 @@ export function siteGraph(locale: Locale) {
         height: 512,
       },
       publishingPrinciples: `${SITE_URL}/${locale}/redaksjon/`,
+      correctionsPolicy: `${SITE_URL}/${locale}/redaksjon/${correctionsAnchor}`,
       inLanguage: ['nb', 'tr'],
       knowsAbout: ['Vitenskap', 'Natur', 'Historie', 'Astronomi', 'Teknologi', 'Bilim', 'Doğa', 'Tarih', 'Uzay'],
     },

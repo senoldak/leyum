@@ -5,12 +5,19 @@ import { SITE } from '../../lib/site';
 
 const locale = 'no';
 const loc = SITE.locales[locale];
+
+const IFJ_URL = 'https://www.ifj.org/who/rules-and-policy/global-charter-of-ethics-for-journalists';
+const VVP_URL = 'https://www.presse.no/vaer-varsom-plakaten';
+const RP_URL = 'https://www.redaktor.no/ressurser/etiske-og-juridiske-rammeverk/redaktorplakaten';
+const TRUST_PROJECT_URL = 'https://thetrustproject.org';
+const RSF_CHARTER_URL = 'https://rsf.org/en/paris-charter-ai-and-journalism';
+const PFU_URL = 'https://presse.no/pfu/';
 ---
 
 <BaseLayout
   locale={locale}
   title="Redaksjonelle retningslinjer og presseetikk — leyum"
-  description="Våre etiske prinsipper, pedagogiske rammer og forpliktelser etter Vær Varsom-plakaten og FNs barnekonvensjon."
+  description="IFJ Global Charter of Ethics, Vær Varsom-plakaten § 4.8, The Trust Project (8 tillitsindikatorer), Paris-charteret om KI og pedagogisk trygghet."
 >
   <article class="static-folio-wrap">
     <header class="static-hero-head">
@@ -22,7 +29,7 @@ const loc = SITE.locales[locale];
       <h1>Ansvarlig, trygg og gjennomsiktig formidling for barn</h1>
 
       <p class="static-hero-lead">
-        <strong>leyum</strong> setter barns integritet, mentale trygghet og rett til pålitelig, opplysende kunnskap over enhver kommersiell eller sensasjonspreget interesse.
+        <strong>leyum</strong> setter barns integritet, mentale trygghet og rett til pålitelig, opplysende kunnskap over enhver kommersiell eller sensasjonspreget interesse. Vi forplikter oss til Det internasjonale journalistforbundets globale etiske charter (IFJ), Vær Varsom-plakaten (§ 4.8), Redaktørplakaten, The Trust Project og Paris-charteret om KI (RSF 2023).
       </p>
     </header>
 
@@ -31,9 +38,9 @@ const loc = SITE.locales[locale];
         <div class="static-card-icon" style="background-color: var(--cat-oppdager-surface); color: var(--cat-oppdager-ink);">
           <span>📜</span>
         </div>
-        <h2 class="static-card-title">1. Vær Varsom-plakaten &amp; Barns Rettigheter (§ 4.8)</h2>
+        <h2 class="static-card-title">1. IFJ Charter &amp; Vær Varsom-plakaten (§ 4.8)</h2>
         <p class="static-card-body">
-          Vi følger prinsippene i den norske pressens etiske regelverk. Barns verdighet skal aldri krenkes. Vi bruker aldri klikkagn (clickbait), villedende overskrifter eller overdrevne skrekkscenarier.
+          <a href={IFJ_URL} target="_blank" rel="noopener noreferrer" style="text-decoration: underline;">IFJs globale charter om presseetikk</a> og Norsk Presseforbunds <a href={VVP_URL} target="_blank" rel="noopener noreferrer" style="text-decoration: underline;">Vær Varsom-plakat (§ 4.8 om barns rettigheter)</a> danner fundamentet for alt vårt arbeid. Barns verdighet og integritet skal aldri krenkes; klikkagn (clickbait), oppkonstruert frykt eller spekulative overskrifter avvises konsekvent. I henhold til <a href={RP_URL} target="_blank" rel="noopener noreferrer" style="text-decoration: underline;">Redaktørplakaten</a> og Medieansvarsloven har redaksjonen full uavhengighet og udelt ansvar.
         </p>
       </div>
 
@@ -41,19 +48,9 @@ const loc = SITE.locales[locale];
         <div class="static-card-icon" style="background-color: var(--cat-natur-surface); color: var(--cat-natur-ink);">
           <span>🛡️</span>
         </div>
-        <h2 class="static-card-title">2. Skånsomhet &amp; Pedagogisk Trygghet</h2>
+        <h2 class="static-card-title">2. FNs Barnekonvensjon (Art. 17) &amp; Trygghet</h2>
         <p class="static-card-body">
-          Alt innhold forhåndsvurderes etter Bildeprogramloven og norske normer for barneinnhold. Vold, marerittaktige elementer og utilbørlig frykt er utelukket. Tekstene tilpasses 4–6 år, 7–9 år og 10–12 år.
-        </p>
-      </div>
-
-      <div class="static-card">
-        <div class="static-card-icon" style="background-color: var(--cat-kultur-surface); color: var(--cat-kultur-ink);">
-          <span>🌐</span>
-        </div>
-        <h2 class="static-card-title">3. FNs Barnekonvensjon (Artikkel 17)</h2>
-        <p class="static-card-body">
-          Gjennom Menneskerettsloven § 2 forplikter vi oss til FNs barnekonvensjon: Barn har rett til pålitelig og berikende informasjon som fremmer deres åndelige, moralske og sosiale utvikling.
+          Gjennom Menneskerettsloven § 2 forplikter vi oss til FNs barnekonvensjon (artikkel 17): Barn har en ukrenkelig rett til opplysende, sannferdig og berikende informasjon som fremmer deres åndelige, moralske og sosiale utvikling. Alt innhold forhåndsvurderes etter Bildeprogramloven og skånsomhetsprinsippet: Vold, marerittaktige fremstillinger og skremsler er forbudt. Formidlingen kalibreres pedagogisk for 4–6 år, 7–9 år og 10–12 år.
         </p>
       </div>
 
@@ -61,9 +58,9 @@ const loc = SITE.locales[locale];
         <div class="static-card-icon" style="background-color: var(--cat-vitenskap-surface); color: var(--cat-vitenskap-ink);">
           <span>🌿</span>
         </div>
-        <h2 class="static-card-title">4. Løsningsorientert Formidling mot Øko-Angst</h2>
+        <h2 class="static-card-title">3. Løsningsorientert Formidling mot Øko-Angst</h2>
         <p class="static-card-body">
-          I natur- og miljøspørsmål unngår vi katastrofetenkning som skaper handlingslammelse. Vi fokuserer på økosystemenes forbløffende tilpasningsevne, vernearbeid og håpefulle vitenskapelige løsninger.
+          I dekningen av natur-, klima- og miljøspørsmål unngår vi katastrofetenkning og apokalyptiske fremstillinger som skaper handlingslammelse og øko-angst hos barn. Vi retter søkelyset mot økosystemenes forbløffende motstandskraft, vellykkede naturvernprosjekter og nyskapende vitenskapelige løsninger, for å stimulere genuin undring, nysgjerrighet og framtidshåp.
         </p>
       </div>
 
@@ -71,9 +68,9 @@ const loc = SITE.locales[locale];
         <div class="static-card-icon" style="background-color: var(--cat-mat-surface); color: var(--cat-mat-ink);">
           <span>🔒</span>
         </div>
-        <h2 class="static-card-title">5. 100 % Ikke-kommersielt &amp; Reklamefritt</h2>
+        <h2 class="static-card-title">4. 100 % Ikke-kommersielt &amp; Reklamefritt</h2>
         <p class="static-card-body">
-          Ingen annonser, ingen sponsorater, ingen affiliatelenker og ingen kommersiell påvirkning (etter Markedsføringsloven § 19). Vi gjør aldri barns oppmerksomhet til en vare.
+          Ingen annonser, ingen sponsorater, ingen produktplassering, ingen affiliatelenker og null kommersiell påvirkning. Etter Markedsføringsloven § 19 og god forretningsskikk overfor barn og unge gjør vi aldri barns oppmerksomhet eller nysgjerrighet til en handelsvare. Sidene våre er fullstendig frie for sporingsskript, atferdsbasert profilering og tredjeparts informasjonskapsler.
         </p>
       </div>
 
@@ -81,22 +78,164 @@ const loc = SITE.locales[locale];
         <div class="static-card-icon" style="background-color: var(--cat-teknologi-surface); color: var(--cat-teknologi-ink);">
           <span>🔬</span>
         </div>
-        <h2 class="static-card-title">6. Åpenhet om KI &amp; Redaksjonell Menneskelig Kontroll</h2>
+        <h2 class="static-card-title">5. Paris-charteret om KI &amp; Trelags Kontroll</h2>
         <p class="static-card-body">
-          Avansert kunstig intelligens benyttes som støtteverktøy i utkastfasen; men hvert eneste ord kvalitetssikres av redaksjonelle filtre (Vaktsjef, Pedagog og Språkvasker) før det godkjennes for publisering.
+          Vi etterlever <a href={RSF_CHARTER_URL} target="_blank" rel="noopener noreferrer" style="text-decoration: underline;">Paris-charteret om kunstig intelligens og journalistikk (RSF 2023)</a>: Algoritmiske verktøy brukes utelukkende som støtte i tidlig idéutvikling og innsamlingsfase; menneskelig redaktøransvar kan aldri overføres til teknologi. Hver eneste artikkel underlegges et strengt trelags kontrollfilter før godkjenning: <strong>Vaktsjef</strong> (journalistisk etterrettelighet), <strong>Pedagog</strong> (aldersadekvans og barnepsykologi) og <strong>Språkvasker</strong> (tekstlig stringens og formidlingsglede).
+        </p>
+      </div>
+
+      <div class="static-card">
+        <div class="static-card-icon" style="background-color: var(--cat-filosofi-surface); color: var(--cat-filosofi-ink);">
+          <span>🚫</span>
+        </div>
+        <h2 class="static-card-title">6. Forbud mot Syntetiske Manipulasjoner</h2>
+        <p class="static-card-body">
+          Vi forbyr enhver form for deepfakes, manipulerte fotografier, syntetiske forfalskninger og oppdiktede sitater. Vitenskapelige illustrasjoner, diagrammer og kart skal gjengi verifiserbare fakta. Dersom språkteknologi eller generativ visualisering har bidratt til forarbeidet, deklareres dette i full åpenhet overfor barn, lærere og foresatte i samsvar med VVP 2.3.
         </p>
       </div>
     </div>
 
-    <div class="static-manifesto-box">
-      <p class="static-manifesto-quote">
-        «Dersom du oppdager en faktafeil, et pedagogisk tvilsomt uttrykk eller har forslag til forbedringer, ønsker redaksjonen din tilbakemelding hjertelig velkommen.»
+    <div style="margin: 3.5rem 0 1.5rem 0; border-top: 2px solid #EADBCC; padding-top: 2.5rem;">
+      <div class="static-hero-badge" style="background-color: var(--cat-rommet-surface); color: var(--cat-rommet-ink);">
+        <Icon name="star" size={16} />
+        <span>Internasjonal Presseetisk Standard</span>
+      </div>
+      <h2 id="trust-project" style="font-family: var(--font-serif); font-size: 2rem; color: var(--ink-primary); margin: 0.5rem 0 1rem 0;">
+        The Trust Project: 8 tillitsindikatorer for barneformidling
+      </h2>
+      <p style="font-size: 1.1rem; line-height: 1.7; color: var(--ink-warm); margin-bottom: 2rem;">
+        leyum slutter seg til retningslinjene i det globale konsortiet <a href={TRUST_PROJECT_URL} target="_blank" rel="noopener noreferrer" style="text-decoration: underline; font-weight: 700;">The Trust Project</a> og operasjonaliserer de 8 tillitsindikatorene (Trust Indicators) spesifikt for barns kognitive forutsetninger, skolemiljø og nysgjerrighet:
       </p>
-      <p class="static-manifesto-author">
-        <span>✉️</span>
-        <span>Redaksjonen: redaksjon@leyum.com</span>
-      </p>
+
+      <div class="static-cards-grid">
+        <div class="static-card">
+          <div class="static-card-icon" style="background-color: var(--cat-oppdager-surface); color: var(--cat-oppdager-ink);">
+            <span>1️⃣</span>
+          </div>
+          <h3 class="static-card-title">Beste praksis (Best Practices)</h3>
+          <p class="static-card-body">
+            Vår redaksjonelle profil, barnefaglige formål, ikke-kommersielle grunnlag og uavhengige driftsmodell er fullt ut tilgjengelige for allmennheten.
+          </p>
+        </div>
+
+        <div class="static-card">
+          <div class="static-card-icon" style="background-color: var(--cat-eventyr-surface); color: var(--cat-eventyr-ink);">
+            <span>2️⃣</span>
+          </div>
+          <h3 class="static-card-title">Forfatter- og pedagogekspertise (Author Expertise)</h3>
+          <p class="static-card-body">
+            Formidlere og redaktører har dokumentert innsikt i vitenskapsformidling, språk og barnepedagogikk; redaksjonelle ansvarslinjer er eksplisitt oppgitt.
+          </p>
+        </div>
+
+        <div class="static-card">
+          <div class="static-card-icon" style="background-color: var(--cat-aktiviteter-surface); color: var(--cat-aktiviteter-ink);">
+            <span>3️⃣</span>
+          </div>
+          <h3 class="static-card-title">Merking av innholdstype (Type of Work)</h3>
+          <p class="static-card-body">
+            Vi skiller strengt mellom naturvitenskapelige fakta, historiske beretninger, filosofiske tankeeksperimenter og eventyr. Hver artikkel er entydig merket.
+          </p>
+        </div>
+
+        <div class="static-card">
+          <div class="static-card-icon" style="background-color: var(--cat-gater-surface); color: var(--cat-gater-ink);">
+            <span>4️⃣</span>
+          </div>
+          <h3 class="static-card-title">Kilder og forankring (Citations &amp; References)</h3>
+          <p class="static-card-body">
+            Vi baserer oss på fagfellevurdert forskning og autoritative institusjoner (f.eks. Havforskningsinstituttet, NASA, ESA, UiO og Norsk Polarinstitutt).
+          </p>
+        </div>
+
+        <div class="static-card">
+          <div class="static-card-icon" style="background-color: var(--cat-natur-surface); color: var(--cat-natur-ink);">
+            <span>5️⃣</span>
+          </div>
+          <h3 class="static-card-title">Pedagogisk metode (Methods)</h3>
+          <p class="static-card-body">
+            Begrepsnivå, setningsbygning og visuell støtte kalibreres etter barns utviklingstrinn for henholdsvis 4–6 år, 7–9 år og 10–12 år.
+          </p>
+        </div>
+
+        <div class="static-card">
+          <div class="static-card-icon" style="background-color: var(--cat-historie-surface); color: var(--cat-historie-ink);">
+            <span>6️⃣</span>
+          </div>
+          <h3 class="static-card-title">Lokal og global horisont (Locally Sourced)</h3>
+          <p class="static-card-body">
+            Fra nordisk natur, fauna og geologi til universelle vitenskapelige gåter – innholdet skaper nærhet og gjenkjennelse i barns nærområder.
+          </p>
+        </div>
+
+        <div class="static-card">
+          <div class="static-card-icon" style="background-color: var(--cat-kultur-surface); color: var(--cat-kultur-ink);">
+            <span>7️⃣</span>
+          </div>
+          <h3 class="static-card-title">Mangfold og inkludering (Diverse Voices)</h3>
+          <p class="static-card-body">
+            Vi representerer et mangfold av barn, livserfaringer og kulturer uten fordommer, kjønnsstereotypier eller fremmedgjørende språkføring.
+          </p>
+        </div>
+
+        <div class="static-card">
+          <div class="static-card-icon" style="background-color: var(--cat-teknologi-surface); color: var(--cat-teknologi-ink);">
+            <span>8️⃣</span>
+          </div>
+          <h3 class="static-card-title">Åpen korrigering (Actionable Feedback)</h3>
+          <p class="static-card-body">
+            Barn, foreldre og lærere har direkte adgang til å stille spørsmål, foreslå forbedringer og varsle om feil som behandles åpent og resolutt.
+          </p>
+        </div>
+      </div>
     </div>
+
+    <section style="margin-top: 3.5rem; border-top: 2px solid #EADBCC; padding-top: 2.5rem;">
+      <a id="duzeltmeler" class="sr-only"></a>
+      <h2 id="rettelser" style="font-family: var(--font-serif); font-size: 2rem; color: var(--ink-primary); margin-bottom: 1rem;">
+        Rettelser og klagebehandling
+      </h2>
+      <p style="font-size: 1.1rem; line-height: 1.7; color: #4B5563; margin-bottom: 1.5rem;">
+        Respekt for sannheten og tillit fra barn og foreldre krever kompromissløs ærlighet når feil oppstår. Dersom en artikkel i leyum inneholder en faktisk unøyaktighet, et pedagogisk uheldig begrep eller utdaterte opplysninger, følger vi faste etiske rutiner:
+      </p>
+
+      <div class="static-cards-grid" style="margin-top: 1.5rem; margin-bottom: 2rem;">
+        <div class="static-card">
+          <div class="static-card-icon" style="background-color: var(--cat-aktiviteter-surface); color: var(--cat-aktiviteter-ink);">
+            <span>⚖️</span>
+          </div>
+          <h3 class="static-card-title">Åpen og tydelig rettelsespraksis</h3>
+          <p class="static-card-body">
+            Vi foretar aldri lydløse eller hemmelige endringer av vesentlige feil. I tråd med Vær Varsom-plakatens punkt 4.13 markeres korrigeringer åpent med en egen rettelsesnote i artikkelen som angir hva som var feil, hva som er rettet og tidspunkt for oppdateringen.
+          </p>
+        </div>
+
+        <div class="static-card">
+          <div class="static-card-icon" style="background-color: var(--cat-gater-surface); color: var(--cat-gater-ink);">
+            <span>⏱️</span>
+          </div>
+          <h3 class="static-card-title">Rask saksbehandling innen 24 timer</h3>
+          <p class="static-card-body">
+            Henvendelser fra barn, lærere og foresatte vurderes fortløpende av redaksjonen. Vårt mål er å behandle og svare på faktakritikk innen 24 timer, og rette bekreftede feil umiddelbart.
+          </p>
+        </div>
+      </div>
+
+      <div class="static-manifesto-box">
+        <p class="static-manifesto-quote">
+          «Et barns nysgjerrige spørsmål eller en våken lesers påpekning av en detalj er det beste kompasset for vår redaksjonelle kvalitet. Tvil og tilbakemeldinger tas alltid på største alvor.»
+        </p>
+        <div style="display: flex; flex-direction: column; gap: 0.6rem; margin-top: 1.25rem;">
+          <p class="static-manifesto-author">
+            <span>✉️</span>
+            <span>Redaksjonen: <a href="mailto:redaksjon@leyum.com" style="text-decoration: underline; color: inherit;">redaksjon@leyum.com</a></span>
+          </p>
+          <p style="font-size: 0.92rem; color: var(--ink-muted); margin: 0; line-height: 1.6;">
+            Pressens Faglige Utvalg (PFU — <a href={PFU_URL} target="_blank" rel="noopener noreferrer" style="text-decoration: underline;">presse.no/pfu</a>) er klageorgan for brudd på god presseskikk etter Vær Varsom-plakaten.
+          </p>
+        </div>
+      </div>
+    </section>
 
     <nav class="static-nav-strip" aria-label="Institusjonelle Sider">
       <a href={`/${locale}/om-oss/`} class="static-nav-link">
