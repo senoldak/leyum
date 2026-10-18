@@ -1,5 +1,7 @@
 # Yazı İşleri Müdürlüğü ve Pedagojik Konsey Implementation Plan
 
+> **Durum (2026-10-18):** Uygulandı (redaksjon betikleri, testler, sayfalar).
+
 > **For agentic workers:** REQUIRED SUB-SKILL: Use superpowers:subagent-driven-development (recommended) or superpowers:executing-plans to implement this plan task-by-task. Steps use checkbox (`- [ ]`) syntax for tracking.
 
 **Goal:** `leyum` için yapay zekâ destekli, çocuk pedagojisi, Norveç medya hukuku (VVP 4.8, Medietilsynet, Barnekonvensjonen) ve çift dilli (Norveççe Bokmål + Türkçe) yayın standartlarına sahip kusursuz bir Yazı İşleri Müdürlüğü ve Pedagojik Konsey motoru ile kamusal şeffaflık sayfalarını kurmak.
@@ -32,7 +34,7 @@
   - `systemPromptPedagog(alder)`: Yaş grubuna göre pedagog sistem istemini döndüren fonksiyon.
   - `systemPromptVaktsjef()`: Yazı işleri müdürü sistem istemini döndüren fonksiyon.
 
-- [ ] **Step 1: Yazı İşleri ve Pedagoji kuralları testini yaz**
+- [x] **Step 1: Yazı İşleri ve Pedagoji kuralları testini yaz**
 
 ```javascript
 // tests/redaksjon/lover-og-regler.test.mjs
@@ -72,12 +74,12 @@ test('systemPromptVaktsjef VVP 4.8 ve doğruluk ilkelerini içerir', () => {
 });
 ```
 
-- [ ] **Step 2: Testi çalıştır ve başarısız olduğunu doğrula**
+- [x] **Step 2: Testi çalıştır ve başarısız olduğunu doğrula**
 
 Run: `node --test tests/redaksjon/lover-og-regler.test.mjs`
 Expected: FAIL (Cannot find module)
 
-- [ ] **Step 3: `lover-og-regler.mjs` dosyasını uygula**
+- [x] **Step 3: `lover-og-regler.mjs` dosyasını uygula**
 
 ```javascript
 // scripts/redaksjon/lover-og-regler.mjs
@@ -139,12 +141,12 @@ Dine absolutte krav:
 }
 ```
 
-- [ ] **Step 4: Testi çalıştır ve geçtiğini doğrula**
+- [x] **Step 4: Testi çalıştır ve geçtiğini doğrula**
 
 Run: `node --test tests/redaksjon/lover-og-regler.test.mjs`
 Expected: PASS
 
-- [ ] **Step 5: Git commit yap**
+- [x] **Step 5: Git commit yap**
 
 Run: `git add scripts/redaksjon/lover-og-regler.mjs tests/redaksjon/lover-og-regler.test.mjs; git commit -m "feat(redaksjon): add legal and pedagogical framework module"`
 Expected: Commit success.
@@ -166,7 +168,7 @@ Expected: Commit success.
   - `sjekkSprakligNorm(tekst, lang)`: Bokmål'da Nynorsk kelimeleri, göreli zamanı ve hatalı tırnakları denetler.
   - `deterministiskSjekk(artikkel, { lang, alder })`: Tüm kontrolleri çalıştırıp `{ ok, feil }` döndürür.
 
-- [ ] **Step 1: Deterministik filtre testlerini yaz**
+- [x] **Step 1: Deterministik filtre testlerini yaz**
 
 ```javascript
 // tests/redaksjon/sjekker.test.mjs
@@ -216,12 +218,12 @@ test('deterministiskSjekk temiz metinde ok=true döner', () => {
 });
 ```
 
-- [ ] **Step 2: Testi çalıştır ve başarısız olduğunu doğrula**
+- [x] **Step 2: Testi çalıştır ve başarısız olduğunu doğrula**
 
 Run: `node --test tests/redaksjon/sjekker.test.mjs`
 Expected: FAIL (Cannot find module)
 
-- [ ] **Step 3: `sjekker.mjs` modülünü uygula**
+- [x] **Step 3: `sjekker.mjs` modülünü uygula**
 
 ```javascript
 // scripts/redaksjon/sjekker.mjs
@@ -309,12 +311,12 @@ export function deterministiskSjekk(artikkel, { lang = 'no', alder = '7-9' } = {
 }
 ```
 
-- [ ] **Step 4: Testi çalıştır ve geçtiğini doğrula**
+- [x] **Step 4: Testi çalıştır ve geçtiğini doğrula**
 
 Run: `node --test tests/redaksjon/sjekker.test.mjs`
 Expected: PASS
 
-- [ ] **Step 5: Git commit yap**
+- [x] **Step 5: Git commit yap**
 
 Run: `git add scripts/redaksjon/sjekker.mjs tests/redaksjon/sjekker.test.mjs; git commit -m "feat(redaksjon): add deterministic safety and linguistic checker"`
 Expected: Commit success.
@@ -334,7 +336,7 @@ Expected: Commit success.
   - `formaterMarkdown({ meta, body })`: Astro Markdown frontmatter çıktısını hazırlar.
   - `lesSett() / lagreSett(nøkkel)`: Daha önce işlenen konuları takip eden `sett.json` yardımcıları.
 
-- [ ] **Step 1: Çekirdek yardımcılar için test yaz**
+- [x] **Step 1: Çekirdek yardımcılar için test yaz**
 
 ```javascript
 // tests/redaksjon/lib.test.mjs
@@ -373,12 +375,12 @@ test('formaterMarkdown doğru Astro frontmatter bloğu oluşturur', () => {
 });
 ```
 
-- [ ] **Step 2: Testi çalıştır ve başarısız olduğunu doğrula**
+- [x] **Step 2: Testi çalıştır ve başarısız olduğunu doğrula**
 
 Run: `node --test tests/redaksjon/lib.test.mjs`
 Expected: FAIL (Cannot find module)
 
-- [ ] **Step 3: `lib.mjs` modülünü uygula**
+- [x] **Step 3: `lib.mjs` modülünü uygula**
 
 ```javascript
 // scripts/redaksjon/lib.mjs
@@ -527,12 +529,12 @@ export async function gemini({
 }
 ```
 
-- [ ] **Step 4: Testi çalıştır ve geçtiğini doğrula**
+- [x] **Step 4: Testi çalıştır ve geçtiğini doğrula**
 
 Run: `node --test tests/redaksjon/lib.test.mjs`
 Expected: PASS
 
-- [ ] **Step 5: Git commit yap**
+- [x] **Step 5: Git commit yap**
 
 Run: `git add scripts/redaksjon/lib.mjs tests/redaksjon/lib.test.mjs; git commit -m "feat(redaksjon): add core library, Gemini client, typography and markdown utilities"`
 Expected: Commit success.
@@ -551,7 +553,7 @@ Expected: Commit success.
   - `lagFolioSvg({ title, category, ageRange })`: Deterministik zarif SVG Storybook kapağı üretir.
   - `lagBilde({ slug, title, category, ageRange })`: Önce yapay zekâ illüstrasyonu dener, başarısız veya API yoksa SVG Folio'dan PNG/WebP oluşturur.
 
-- [ ] **Step 1: Görsel üretim testini yaz**
+- [x] **Step 1: Görsel üretim testini yaz**
 
 ```javascript
 // tests/redaksjon/bilde.test.mjs
@@ -582,12 +584,12 @@ test('genererKortPng geçerli bir PNG buffer üretir', async () => {
 });
 ```
 
-- [ ] **Step 2: Testi çalıştır ve başarısız olduğunu doğrula**
+- [x] **Step 2: Testi çalıştır ve başarısız olduğunu doğrula**
 
 Run: `node --test tests/redaksjon/bilde.test.mjs`
 Expected: FAIL (Cannot find module)
 
-- [ ] **Step 3: `bilde.mjs` modülünü uygula**
+- [x] **Step 3: `bilde.mjs` modülünü uygula**
 
 ```javascript
 // scripts/redaksjon/bilde.mjs
@@ -679,12 +681,12 @@ export async function lagBilde({ slug, title, category, ageRange }) {
 }
 ```
 
-- [ ] **Step 4: Testi çalıştır ve geçtiğini doğrula**
+- [x] **Step 4: Testi çalıştır ve geçtiğini doğrula**
 
 Run: `node --test tests/redaksjon/bilde.test.mjs`
 Expected: PASS
 
-- [ ] **Step 5: Git commit yap**
+- [x] **Step 5: Git commit yap**
 
 Run: `git add scripts/redaksjon/bilde.mjs tests/redaksjon/bilde.test.mjs; git commit -m "feat(redaksjon): add dual-model illustration engine with storybook folio fallback"`
 Expected: Commit success.
@@ -707,7 +709,7 @@ Expected: Commit success.
   - `sprakvaskBokmal(sak)`: Norveççe edebi dil ve Bokmål temizliği.
   - `sprakvaskTurkce(sak)`: Türkçe edebi dil ve TDK temizliği.
 
-- [ ] **Step 1: Rollerin şema ve simülasyon testini yaz**
+- [x] **Step 1: Rollerin şema ve simülasyon testini yaz**
 
 ```javascript
 // tests/redaksjon/roller.test.mjs
@@ -727,12 +729,12 @@ test('TEKST_SKJEMA title, description ve body alanlarını içerir', () => {
 });
 ```
 
-- [ ] **Step 2: Testi çalıştır ve başarısız olduğunu doğrula**
+- [x] **Step 2: Testi çalıştır ve başarısız olduğunu doğrula**
 
 Run: `node --test tests/redaksjon/roller.test.mjs`
 Expected: FAIL (Cannot find module)
 
-- [ ] **Step 3: `pedagog.mjs`, `vaktsjef.mjs` ve `sprakvask.mjs` modüllerini uygula**
+- [x] **Step 3: `pedagog.mjs`, `vaktsjef.mjs` ve `sprakvask.mjs` modüllerini uygula**
 
 ```javascript
 // scripts/redaksjon/pedagog.mjs
@@ -850,12 +852,12 @@ ${sak.body}`;
 }
 ```
 
-- [ ] **Step 4: Testi çalıştır ve geçtiğini doğrula**
+- [x] **Step 4: Testi çalıştır ve geçtiğini doğrula**
 
 Run: `node --test tests/redaksjon/roller.test.mjs`
 Expected: PASS
 
-- [ ] **Step 5: Git commit yap**
+- [x] **Step 5: Git commit yap**
 
 Run: `git add scripts/redaksjon/pedagog.mjs scripts/redaksjon/vaktsjef.mjs scripts/redaksjon/sprakvask.mjs tests/redaksjon/roller.test.mjs; git commit -m "feat(redaksjon): add pedagogical, editorial and linguistic council desks"`
 Expected: Commit success.
@@ -875,7 +877,7 @@ Expected: Commit success.
   - `genererTvillingUtkast({ tema, kategori, alder })`: Hem Norveççe hem Türkçe eşzamanlı ikiz taslak üretir.
   - `redigerOgPubliser({ tema, kategori, alder })`: Tam denetim, düzeltme turları, görsel ekleme ve dosya yazımını yürütür.
 
-- [ ] **Step 1: Orkestrasyon akış testini yaz**
+- [x] **Step 1: Orkestrasyon akış testini yaz**
 
 ```javascript
 // tests/redaksjon/rediger.test.mjs
@@ -895,12 +897,12 @@ test('redigerSak temiz bir taslağı başarıyla onaylar', async () => {
 });
 ```
 
-- [ ] **Step 2: Testi çalıştır ve başarısız olduğunu doğrula**
+- [x] **Step 2: Testi çalıştır ve başarısız olduğunu doğrula**
 
 Run: `node --test tests/redaksjon/rediger.test.mjs`
 Expected: FAIL (Cannot find module)
 
-- [ ] **Step 3: `tvilling.mjs` ve `rediger.mjs` modüllerini uygula**
+- [x] **Step 3: `tvilling.mjs` ve `rediger.mjs` modüllerini uygula**
 
 ```javascript
 // scripts/redaksjon/tvilling.mjs
@@ -1073,12 +1075,12 @@ export async function redigerOgPubliser({ tema, kategori, alder = '7-9' }) {
 }
 ```
 
-- [ ] **Step 4: Testi çalıştır ve geçtiğini doğrula**
+- [x] **Step 4: Testi çalıştır ve geçtiğini doğrula**
 
 Run: `node --test tests/redaksjon/rediger.test.mjs`
 Expected: PASS
 
-- [ ] **Step 5: Git commit yap**
+- [x] **Step 5: Git commit yap**
 
 Run: `git add scripts/redaksjon/tvilling.mjs scripts/redaksjon/rediger.mjs tests/redaksjon/rediger.test.mjs; git commit -m "feat(redaksjon): add bilingual twin generator and multi-round editorial orchestration"`
 Expected: Commit success.
@@ -1099,7 +1101,7 @@ Expected: Commit success.
   - `npm run redaksjon:denetle`: Mevcut tüm içerik koleksiyonunu tarayıp kural ihlallerini raporlar.
   - `npm test`: Tüm editoryal ve kod testlerini çalıştırır.
 
-- [ ] **Step 1: CLI argüman çözümleme testini yaz**
+- [x] **Step 1: CLI argüman çözümleme testini yaz**
 
 ```javascript
 // tests/redaksjon/cli.test.mjs
@@ -1118,12 +1120,12 @@ test('CLI argüman ayrıştırıcı parametreleri doğru okur', () => {
 });
 ```
 
-- [ ] **Step 2: Testi çalıştır ve geçtiğini doğrula**
+- [x] **Step 2: Testi çalıştır ve geçtiğini doğrula**
 
 Run: `node --test tests/redaksjon/cli.test.mjs`
 Expected: PASS
 
-- [ ] **Step 3: `uret.mjs` ve `denetle.mjs` komutlarını uygula**
+- [x] **Step 3: `uret.mjs` ve `denetle.mjs` komutlarını uygula**
 
 ```javascript
 // scripts/redaksjon/uret.mjs
@@ -1206,7 +1208,7 @@ async function main() {
 main();
 ```
 
-- [ ] **Step 4: `package.json` scripts alanını güncelle**
+- [x] **Step 4: `package.json` scripts alanını güncelle**
 
 ```json
     "test": "node --test tests/redaksjon/*.test.mjs",
@@ -1214,12 +1216,12 @@ main();
     "redaksjon:denetle": "node scripts/redaksjon/denetle.mjs",
 ```
 
-- [ ] **Step 5: Testleri çalıştır**
+- [x] **Step 5: Testleri çalıştır**
 
 Run: `npm test`
 Expected: Tüm testler PASS
 
-- [ ] **Step 6: Git commit yap**
+- [x] **Step 6: Git commit yap**
 
 Run: `git add package.json scripts/redaksjon/uret.mjs scripts/redaksjon/denetle.mjs tests/redaksjon/cli.test.mjs; git commit -m "feat(redaksjon): add interactive CLI, audit script and npm test runners"`
 Expected: Commit success.
@@ -1234,7 +1236,7 @@ Expected: Commit success.
 **Interfaces:**
 - Produces: Haftalık/zamanlanmış GitHub Actions otomatik üretim ve commit döngüsü.
 
-- [ ] **Step 1: `.github/workflows/redaksjon.yml` dosyasını oluştur**
+- [x] **Step 1: `.github/workflows/redaksjon.yml` dosyasını oluştur**
 
 ```yaml
 # Haftalık olarak yeni çocuk içeriği üretir ve repoya commit eder.
@@ -1287,7 +1289,7 @@ jobs:
           git push
 ```
 
-- [ ] **Step 2: Git commit yap**
+- [x] **Step 2: Git commit yap**
 
 Run: `git add .github/workflows/redaksjon.yml; git commit -m "ci: add scheduled GitHub Actions workflow for editorial bot"`
 Expected: Commit success.
@@ -1304,7 +1306,7 @@ Expected: Commit success.
 **Interfaces:**
 - Produces: Norveç ve Türkiye standartlarında şeffaf editoryal tüzük, Barnekonvensjonen, Medietilsynet ve pedagojik beyanname sayfaları.
 
-- [ ] **Step 1: `src/pages/no/redaksjon.astro` sayfasını oluştur**
+- [x] **Step 1: `src/pages/no/redaksjon.astro` sayfasını oluştur**
 
 ```astro
 ---
@@ -1368,7 +1370,7 @@ import Layout from '../../layouts/Layout.astro';
 </Layout>
 ```
 
-- [ ] **Step 2: `src/pages/tr/yazi-isleri.astro` sayfasını oluştur**
+- [x] **Step 2: `src/pages/tr/yazi-isleri.astro` sayfasını oluştur**
 
 ```astro
 ---
@@ -1432,16 +1434,16 @@ import Layout from '../../layouts/Layout.astro';
 </Layout>
 ```
 
-- [ ] **Step 3: Footer ve Navigasyona link ekle**
+- [x] **Step 3: Footer ve Navigasyona link ekle**
 
 Footer bileşenine Norveççe için `/no/redaksjon`, Türkçe için `/tr/yazi-isleri` bağlantısı ekle.
 
-- [ ] **Step 4: `npm run build` ile derleme doğrulaması yap**
+- [x] **Step 4: `npm run build` ile derleme doğrulaması yap**
 
 Run: `npm run build`
 Expected: Build success (0 errors)
 
-- [ ] **Step 5: Git commit yap**
+- [x] **Step 5: Git commit yap**
 
 Run: `git add src/pages/no/redaksjon.astro src/pages/tr/yazi-isleri.astro src/components/; git commit -m "feat: add public editorial and pedagogical charter pages for norwegian and turkish editions"`
 Expected: Commit success.
