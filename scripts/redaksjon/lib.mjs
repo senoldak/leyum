@@ -91,7 +91,7 @@ export async function gemini({
   temperature = 0.4,
   systemInstruction = '',
   apiKey = process.env.GEMINI_API_KEY,
-  model = process.env.GEMINI_MODEL || 'gemini-2.5-flash',
+  model = process.env.GEMINI_MODEL || 'gemini-3.1-flash-lite',
 }) {
   if (!apiKey) {
     console.warn('GEMINI_API_KEY bulunamadı, simüle ediliyor.');

@@ -31,7 +31,7 @@ jobs:
       - name: Yeni sayı üret
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
-          GEMINI_MODEL: ${{ vars.GEMINI_MODEL || 'gemini-2.5-flash' }}
+          GEMINI_MODEL: ${{ vars.GEMINI_MODEL || 'gemini-3.1-flash-lite' }}
         run: npm run redaksjon:uret
 
       - name: Değişiklikleri kaydet ve commit at
