@@ -211,6 +211,44 @@ const jsonLd = JSON.stringify({
     <!-- Age Filtering and Onboarding Controller Script -->
     <script is:inline>
       (function () {
+        const _memStore = new Map();
+        const safeStorage = {
+          getItem(k) {
+            try {
+              if (typeof window !== 'undefined' && window.localStorage) {
+                const val = window.localStorage.getItem(k);
+                if (val !== null) return val;
+              }
+            } catch {}
+            return _memStore.get(k) ?? null;
+          },
+          setItem(k, v) {
+            const sVal = String(v);
+            try {
+              if (typeof window !== 'undefined' && window.localStorage) {
+                window.localStorage.setItem(k, sVal);
+              }
+            } catch {}
+            _memStore.set(k, sVal);
+          },
+          removeItem(k) {
+            try {
+              if (typeof window !== 'undefined' && window.localStorage) {
+                window.localStorage.removeItem(k);
+              }
+            } catch {}
+            _memStore.delete(k);
+          },
+          clear() {
+            try {
+              if (typeof window !== 'undefined' && window.localStorage) {
+                window.localStorage.clear();
+              }
+            } catch {}
+            _memStore.clear();
+          },
+        };
+
         const STORAGE_KEY_AGE = 'leyum_user_age';
         const STORAGE_KEY_SEEN = 'leyum_onboarding_completed';
         const currentLang = document.documentElement.lang === 'tr-TR' ? 'tr' : 'no';
@@ -281,7 +319,7 @@ const jsonLd = JSON.stringify({
                 const resetBtn = document.getElementById('btn-reset-age-filter');
                 if (resetBtn) {
                   resetBtn.addEventListener('click', () => {
-                    localStorage.setItem(STORAGE_KEY_AGE, 'all');
+                    safeStorage.setItem(STORAGE_KEY_AGE, 'all');
                     applyAgeFilter('all');
                   });
                 }
@@ -294,14 +332,14 @@ const jsonLd = JSON.stringify({
         }
 
         // Sayfa yüklendiğinde hafızadaki yaşı oku
-        const savedAge = localStorage.getItem(STORAGE_KEY_AGE) || 'all';
+        const savedAge = safeStorage.getItem(STORAGE_KEY_AGE) || 'all';
         applyAgeFilter(savedAge);
 
         // Header'daki Yaş butonlarına tıklama
         document.querySelectorAll('[data-age-btn]').forEach((btn) => {
           btn.addEventListener('click', function () {
             const ageId = this.getAttribute('data-age-btn');
-            localStorage.setItem(STORAGE_KEY_AGE, ageId);
+            safeStorage.setItem(STORAGE_KEY_AGE, ageId);
             applyAgeFilter(ageId);
           });
         });
@@ -327,7 +365,7 @@ const jsonLd = JSON.stringify({
         }
 
         // İlk ziyaret kontrolü: Kullanıcı daha önce seçim yapmadıysa modalı aç
-        const hasCompletedOnboarding = localStorage.getItem(STORAGE_KEY_SEEN);
+        const hasCompletedOnboarding = safeStorage.getItem(STORAGE_KEY_SEEN);
         if (!hasCompletedOnboarding) {
           // Kısa bir gecikmeyle zarifçe aç
           setTimeout(openModal, 600);
@@ -339,7 +377,7 @@ const jsonLd = JSON.stringify({
 
         if (closeBtn) {
           closeBtn.addEventListener('click', function () {
-            localStorage.setItem(STORAGE_KEY_SEEN, 'true');
+            safeStorage.setItem(STORAGE_KEY_SEEN, 'true');
             closeModal();
           });
         }
@@ -348,7 +386,7 @@ const jsonLd = JSON.stringify({
         if (modal) {
           modal.addEventListener('click', function (e) {
             if (e.target === modal) {
-              localStorage.setItem(STORAGE_KEY_SEEN, 'true');
+              safeStorage.setItem(STORAGE_KEY_SEEN, 'true');
               closeModal();
             }
           });
@@ -385,8 +423,8 @@ const jsonLd = JSON.stringify({
         // Onboarding Onay Butonu (Keşfet)
         if (submitBtn) {
           submitBtn.addEventListener('click', function () {
-            localStorage.setItem(STORAGE_KEY_SEEN, 'true');
-            localStorage.setItem(STORAGE_KEY_AGE, modalSelectedAge);
+            safeStorage.setItem(STORAGE_KEY_SEEN, 'true');
+            safeStorage.setItem(STORAGE_KEY_AGE, modalSelectedAge);
             applyAgeFilter(modalSelectedAge);
             closeModal();
 
@@ -436,7 +474,7 @@ const jsonLd = JSON.stringify({
         }
 
         // Kaydedilmiş header durumunu uygula
-        const isCollapsedSaved = localStorage.getItem(STORAGE_KEY_HEADER_COLLAPSED) === 'true';
+        const isCollapsedSaved = safeStorage.getItem(STORAGE_KEY_HEADER_COLLAPSED) === 'true';
         if (isCollapsedSaved) {
           setHeaderCollapsed(true);
         }
@@ -444,7 +482,7 @@ const jsonLd = JSON.stringify({
         if (headerToggleBtn) {
           headerToggleBtn.addEventListener('click', function () {
             const willCollapse = !header.classList.contains('is-collapsed');
-            localStorage.setItem(STORAGE_KEY_HEADER_COLLAPSED, willCollapse ? 'true' : 'false');
+            safeStorage.setItem(STORAGE_KEY_HEADER_COLLAPSED, willCollapse ? 'true' : 'false');
             setHeaderCollapsed(willCollapse);
           });
         }
